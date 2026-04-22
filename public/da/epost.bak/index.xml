@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>E-Post :: Frea-X 2.0</title>
+    <title>E-Post :: Frea-X 2.0 v0.0.42</title>
     <link>http://localhost:1313/frea-x.com/da/epost.bak/index.html</link>
     <description>📬 E-Post Din sikre digitale postkasse fra det offentlige.&#xA;Hurtig adgang 📥 Gå til indbakke 📤 Gå til sendt post 📝 Gå til kladder 🗑️ Gå til papirkurv</description>
     <generator>Hugo</generator>

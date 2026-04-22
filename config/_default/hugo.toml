@@ -1,5 +1,5 @@
 baseURL = "https://geektheviking.github.io/frea-x.com/"
-title = "Frea-X 2.0"
+title = "Frea-X 2.0 v0.0.42"
 ignoreLogs = ['warning-goldmark-raw-html']
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

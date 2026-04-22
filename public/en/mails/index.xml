@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mails :: Postbox.eu</title>
+    <link>http://localhost:1313/en/mails/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/mails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inbox</title>
+      <link>http://localhost:1313/en/mails/inbox/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/inbox/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sent</title>
+      <link>http://localhost:1313/en/mails/sent/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/sent/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drafts</title>
+      <link>http://localhost:1313/en/mails/drafts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/drafts/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spam</title>
+      <link>http://localhost:1313/en/mails/spam/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/spam/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trash</title>
+      <link>http://localhost:1313/en/mails/trash/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/trash/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/en/mails/archive/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/archive/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secure Mail</title>
+      <link>http://localhost:1313/en/mails/secure/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/secure/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

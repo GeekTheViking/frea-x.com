@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postbox.eu</title>
+    <link>http://localhost:1313/en/index.html</link>
+    <description>Welsome to Postbox.eu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dashboard</title>
+      <link>http://localhost:1313/en/dashboard/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/dashboard/index.html</guid>
+      <description>weight: 100&#xA;Welcome, Jan Monday, March 16, 2026</description>
+    </item>
+    <item>
+      <title>E-Post</title>
+      <link>http://localhost:1313/en/epost.bak/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/epost.bak/index.html</guid>
+      <description>📬 E-Post Your secure digital mailbox from the public sector.</description>
+    </item>
+    <item>
+      <title>Mails</title>
+      <link>http://localhost:1313/en/mails/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/mails/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Calendar</title>
+      <link>http://localhost:1313/en/calendar/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/calendar/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contacts</title>
+      <link>http://localhost:1313/en/contacts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/contacts/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/en/search/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/search/index.html</guid>
+      <description>weight: 500&#xA;🔍 Search Search functionality coming soon.</description>
+    </item>
+    <item>
+      <title>Your Files</title>
+      <link>http://localhost:1313/en/files/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/files/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EU AI Assistant</title>
+      <link>http://localhost:1313/en/ai/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/ai/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Secure Chat</title>
+      <link>http://localhost:1313/en/chat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/chat/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/en/privacy/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/privacy/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Settings</title>
+      <link>http://localhost:1313/en/settings/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/settings/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

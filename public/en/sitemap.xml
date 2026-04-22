@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/en/dashboard/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/dashboard/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/dashboard/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/dashboard/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/dashboard/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/epost.bak/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/epost.bak/inbox/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/inbox/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/inbox/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/inbox/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/inbox/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/epost.bak/sent/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/sent/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/sent/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/sent/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/sent/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/epost.bak/drafts/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/drafts/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/drafts/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/drafts/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/drafts/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/epost.bak/archive/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/archive/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/epost.bak/trash/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/trash/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/trash/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/trash/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/trash/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/mails/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/mails/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/mails/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/mails/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/inbox/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/sent/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/drafts/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/spam/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/mails/spam/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/mails/spam/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/mails/spam/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/mails/spam/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/trash/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/archive/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/en/mails/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/mails/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/mails/archive/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/mails/secure/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/calendar/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/calendar/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/calendar/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/calendar/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/contacts/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/contacts/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/contacts/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/contacts/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/contacts/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/search/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/search/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/search/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/search/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/search/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/files/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/files/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/files/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/files/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/ai/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/ai/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/ai/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/ai/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/ai/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/chat/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/chat/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/chat/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/chat/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/chat/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/privacy/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/privacy/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/privacy/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/privacy/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/settings/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/settings/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/settings/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/settings/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/categories/index.html" />
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/tags/index.html" />
+  </url>
+</urlset>

@@ -1,0 +1,123 @@
+# Dashboard
+[[main]]
+  name = "Dashboard"
+  pageRef = "/"
+  weight = 10
+
+# E-POST
+[[main]]
+  name = "E-POST"
+  identifier = "epost"
+  pageRef = "/da/epost"
+  weight = 100
+
+[[main]]
+  name = "Indbakke"
+  parent = "epost"
+  pageRef = "/da/epost/inbox"
+  weight = 101
+
+[[main]]
+  name = "Sendt"
+  parent = "epost"
+  pageRef = "/da/epost/sent"
+  weight = 102
+
+[[main]]
+  name = "Kladder"
+  parent = "epost"
+  pageRef = "/da/epost/drafts"
+  weight = 103
+
+[[main]]
+  name = "Arkiv"
+  parent = "epost"
+  pageRef = "/da/epost/archive"
+  weight = 104
+
+[[main]]
+  name = "Papirkurv"
+  parent = "epost"
+  pageRef = "/da/epost/trash"
+  weight = 105
+
+# MAILS
+[[main]]
+  name = "MAILS"
+  identifier = "mails"
+  pageRef = "/da/mails"
+  weight = 200
+
+[[main]]
+  name = "Indbakke"
+  parent = "mails"
+  pageRef = "/da/mails/indbakke"
+  weight = 201
+
+[[main]]
+  name = "Sendt"
+  parent = "mails"
+  pageRef = "/da/mails/sendt"
+  weight = 202
+
+[[main]]
+  name = "Kladder"
+  parent = "mails"
+  pageRef = "/da/mails/kladder"
+  weight = 203
+
+[[main]]
+  name = "Spam"
+  parent = "mails"
+  pageRef = "/da/mails/spam"
+  weight = 204
+
+[[main]]
+  name = "Papirkurv"
+  parent = "mails"
+  pageRef = "/da/mails/papirkurv"
+  weight = 205
+
+# SELVSTÆNDIGE
+[[main]]
+  name = "Kalender"
+  pageRef = "/da/calendar"
+  weight = 300
+
+[[main]]
+  name = "Kontakter"
+  pageRef = "/da/contacts"
+  weight = 301
+
+[[main]]
+  name = "Dine Filer"
+  pageRef = "/da/files"
+  weight = 302
+
+[[main]]
+  name = "EU AI Assistent"
+  pageRef = "/da/ai"
+  weight = 303
+
+# ORGANISER
+[[main]]
+  name = "ORGANISER"
+  identifier = "organiser"
+  weight = 400
+
+[[main]]
+  name = "Privatliv"
+  parent = "organiser"
+  pageRef = "/da/privacy"
+  weight = 401
+
+[[main]]
+  name = "Indstillinger"
+  parent = "organiser"
+  pageRef = "/da/settings"
+  weight = 402
+
+[[main]]
+  name = "Søg"
+  pageRef = "/da/search"
+  weight = 500   

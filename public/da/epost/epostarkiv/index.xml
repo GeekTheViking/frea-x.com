@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arkiv :: Postbox.eu</title>
+    <link>http://localhost:1313/da/epost/epostarkiv/index.html</link>
+    <description>📦 Arkiv Afsender Emne Dato Kommunen Tilladelse til byggeri 1. februar 2026 Skattestyrelsen Årsopgørelse 2024 15. marts 2025</description>
+    <generator>Hugo</generator>
+    <language>da</language>
+    <atom:link href="http://localhost:1313/da/epost/epostarkiv/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

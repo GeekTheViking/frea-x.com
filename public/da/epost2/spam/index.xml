@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spam :: Postbox.eu</title>
+    <link>http://localhost:1313/da/epost2/spam/index.html</link>
+    <description>⚠️ Spam Ingen spam i din indbakke lige nu.</description>
+    <generator>Hugo</generator>
+    <language>da</language>
+    <atom:link href="http://localhost:1313/da/epost2/spam/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

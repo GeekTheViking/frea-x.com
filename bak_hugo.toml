@@ -1,0 +1,37 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+title = "Postbox.eu"
+[module]
+  [[module.imports]]
+    path = 'github.com/McShelby/hugo-theme-relearn'
+defaultContentLanguage = "en"
+
+[languages] 
+  [languages.da]
+    languageName = "Dansk"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
+[params]
+  themeVariant = "auto"
+  showVisitedLinks = true
+  collapsibleMenu = true
+  customCSS = ["css/custom.css"]
+
+[[languages.en.menus.main]]
+  name = "Mails"
+  url = "/mails"
+  weight = 10
+
+[[languages.en.menus.main]]
+  name = "Filer"
+  url = "/filer"
+  weight = 20
+
+[[languages.en.menus.main]]
+  name = "AI"
+  url = "/ai"
+  weight = 30
+

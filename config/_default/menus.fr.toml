@@ -1,0 +1,123 @@
+# Tableau de bord
+[[main]]
+  name = "Tableau de bord"
+  pageRef = "/"
+  weight = 10
+
+# E-POST
+[[main]]
+  name = "E-POST"
+  identifier = "epost"
+  pageRef = "/fr/epost"
+  weight = 100
+
+[[main]]
+  name = "Boîte de réception"
+  parent = "epost"
+  pageRef = "/fr/epost/inbox"
+  weight = 101
+
+[[main]]
+  name = "Envoyé"
+  parent = "epost"
+  pageRef = "/fr/epost/sent"
+  weight = 102
+
+[[main]]
+  name = "Brouillons"
+  parent = "epost"
+  pageRef = "/fr/epost/drafts"
+  weight = 103
+
+[[main]]
+  name = "Archives"
+  parent = "epost"
+  pageRef = "/fr/epost/archive"
+  weight = 104
+
+[[main]]
+  name = "Corbeille"
+  parent = "epost"
+  pageRef = "/fr/epost/trash"
+  weight = 105
+
+# MAILS
+[[main]]
+  name = "MAILS"
+  identifier = "mails"
+  pageRef = "/fr/mails"
+  weight = 200
+
+[[main]]
+  name = "Boîte de réception"
+  parent = "mails"
+  pageRef = "/fr/mails/inbox"
+  weight = 201
+
+[[main]]
+  name = "Envoyé"
+  parent = "mails"
+  pageRef = "/fr/mails/sent"
+  weight = 202
+
+[[main]]
+  name = "Brouillons"
+  parent = "mails"
+  pageRef = "/fr/mails/drafts"
+  weight = 203
+
+[[main]]
+  name = "Spam"
+  parent = "mails"
+  pageRef = "/fr/mails/spam"
+  weight = 204
+
+[[main]]
+  name = "Corbeille"
+  parent = "mails"
+  pageRef = "/fr/mails/trash"
+  weight = 205
+
+# INDÉPENDANTS
+[[main]]
+  name = "Calendrier"
+  pageRef = "/fr/calendrier"
+  weight = 300
+
+[[main]]
+  name = "Contacts"
+  pageRef = "/fr/contacts"
+  weight = 301
+
+[[main]]
+  name = "Vos fichiers"
+  pageRef = "/fr/fichiers"
+  weight = 302
+
+[[main]]
+  name = "Assistant IA UE"
+  pageRef = "/fr/ai"
+  weight = 303
+
+# ORGANISER
+[[main]]
+  name = "ORGANISER"
+  identifier = "organiser"
+  weight = 400
+
+[[main]]
+  name = "Confidentialité"
+  parent = "organiser"
+  pageRef = "/fr/confidentialite"
+  weight = 401
+
+[[main]]
+  name = "Paramètres"
+  parent = "organiser"
+  pageRef = "/fr/parametres"
+  weight = 402
+
+[[main]]
+  name = "Recherche"
+  pageRef = "/fr/search"
+  weight = 500

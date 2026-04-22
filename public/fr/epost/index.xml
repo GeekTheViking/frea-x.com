@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E-Post :: Postbox.eu</title>
+    <link>http://localhost:1313/fr/epost/index.html</link>
+    <description>📬 E-Post Votre boîte aux lettres numérique sécurisée du secteur public.</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="http://localhost:1313/fr/epost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Réception</title>
+      <link>http://localhost:1313/fr/epost/inbox/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/epost/inbox/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Envoyé</title>
+      <link>http://localhost:1313/fr/epost/sent/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/epost/sent/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brouillons</title>
+      <link>http://localhost:1313/fr/epost/drafts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/epost/drafts/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Archive</title>
+      <link>http://localhost:1313/fr/epost/archive/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/epost/archive/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Corbeille</title>
+      <link>http://localhost:1313/fr/epost/trash/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/epost/trash/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

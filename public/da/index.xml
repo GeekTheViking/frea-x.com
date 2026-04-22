@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postbox.eu</title>
+    <link>http://localhost:1313/da/index.html</link>
+    <description>Velkommen, Jan Mandag, 16. marts 2026&#xA;ULFESTE BESKEDER 5 2 nye siden i går DAGENS AFTALER 3 Næste: Demo kl. 14:00 KONTAKTER 142 3 nye denne uge LAGERPLADS 4.2 GB af 25 GB brugt Seneste mails EU Digital Services&#xA;Velkommen til Postbox.eu Datatilsynet&#xA;GDPR opdatering — Marts 2026 Anders Nielsen&#xA;Meld dig til digital serveren Se alle mails → I dag — 16. marts 09:00 Morgenmøde 14:00 Demo præsentation Se kalender → Dine Filer 📄 Præsentation.pdf 2.1 MB Åbn Dine Filer →</description>
+    <generator>Hugo</generator>
+    <language>da</language>
+    <atom:link href="http://localhost:1313/da/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dashboard</title>
+      <link>http://localhost:1313/da/dashboard/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/dashboard/index.html</guid>
+      <description>weight: 100&#xA;Velkommen, Jan Mandag, 16. marts 2026</description>
+    </item>
+    <item>
+      <title>E-Post</title>
+      <link>http://localhost:1313/da/epost.bak/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/epost.bak/index.html</guid>
+      <description>📬 E-Post Din sikre digitale postkasse fra det offentlige.&#xA;Hurtig adgang 📥 Gå til indbakke 📤 Gå til sendt post 📝 Gå til kladder 🗑️ Gå til papirkurv</description>
+    </item>
+    <item>
+      <title>E-POST</title>
+      <link>http://localhost:1313/da/epost/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/epost/index.html</guid>
+      <description>📬 E-POST Din sikre digitale postkasse.</description>
+    </item>
+    <item>
+      <title>Mails</title>
+      <link>http://localhost:1313/da/epost2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/epost2/index.html</guid>
+      <description>📧 Mails Din email-kommunikation – som Gmail, men med fokus på privatliv.&#xA;Hurtig adgang 📥 Gå til indbakke 📤 Gå til sendte mails 📝 Gå til kladder ⚠️ Gå til spam 🗑️ Gå til papirkurv Dine emails er krypteret og forbliver på EU-servere.</description>
+    </item>
+    <item>
+      <title>Mails</title>
+      <link>http://localhost:1313/da/mails/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/mails/index.html</guid>
+      <description>📧 Mails Din email-kommunikation – som Gmail, men med fokus på privatliv.&#xA;Hurtig adgang 📥 Gå til indbakke 📤 Gå til sendte mails 📝 Gå til kladder ⚠️ Gå til spam 🗑️ Gå til papirkurv Dine emails er krypteret og forbliver på EU-servere.</description>
+    </item>
+    <item>
+      <title>Kalender</title>
+      <link>http://localhost:1313/da/calendar/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/calendar/index.html</guid>
+      <description>📅 Kalender Kommer snart...</description>
+    </item>
+    <item>
+      <title>Kontakter</title>
+      <link>http://localhost:1313/da/contacts/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/contacts/index.html</guid>
+      <description>📇 Kontakter Kommer snart...</description>
+    </item>
+    <item>
+      <title>Søg</title>
+      <link>http://localhost:1313/da/search/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/search/index.html</guid>
+      <description>weight: 500&#xA;🔍 Søg Søgefunktion kommer her.</description>
+    </item>
+    <item>
+      <title>Dine Filer</title>
+      <link>http://localhost:1313/da/files/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/files/index.html</guid>
+      <description>Dine Filer Kommer snart...</description>
+    </item>
+    <item>
+      <title>EU AI Assistent</title>
+      <link>http://localhost:1313/da/ai/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/ai/index.html</guid>
+      <description>🤖 EU AI Assistent Kommer snart...</description>
+    </item>
+    <item>
+      <title>Sikker Chat</title>
+      <link>http://localhost:1313/da/chat/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/chat/index.html</guid>
+      <description>🤖 Sikker Chat Kommer snart...</description>
+    </item>
+    <item>
+      <title>Privatlivspolitik</title>
+      <link>http://localhost:1313/da/privacy/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/privacy/index.html</guid>
+      <description>Privatlivspolitik Kommer snart...</description>
+    </item>
+    <item>
+      <title>Indstillinger</title>
+      <link>http://localhost:1313/da/settings/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/da/settings/index.html</guid>
+      <description>⚙️ Indstillinger Kommer snart...</description>
+    </item>
+  </channel>
+</rss>

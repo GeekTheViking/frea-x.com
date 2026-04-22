@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mails :: Frea-X 2.0</title>
-    <link>http://localhost:1313/fr/mails/index.html</link>
+    <link>http://localhost:1313/frea-x.com/fr/mails/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>fr</language>
-    <atom:link href="http://localhost:1313/fr/mails/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/frea-x.com/fr/mails/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Réception</title>
-      <link>http://localhost:1313/fr/mails/reception/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/reception/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/reception/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/reception/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Envoyé</title>
-      <link>http://localhost:1313/fr/mails/envoye/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/envoye/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/envoye/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/envoye/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Brouillons</title>
-      <link>http://localhost:1313/fr/mails/brouillons/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/brouillons/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/brouillons/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/brouillons/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Spam</title>
-      <link>http://localhost:1313/fr/mails/spam/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/spam/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/spam/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/spam/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Corbeille</title>
-      <link>http://localhost:1313/fr/mails/corbeille/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/corbeille/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/corbeille/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/corbeille/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Archive</title>
-      <link>http://localhost:1313/fr/mails/archive/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/archive/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/archive/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/archive/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Mail Sécurisé</title>
-      <link>http://localhost:1313/fr/mails/securise/index.html</link>
+      <link>http://localhost:1313/frea-x.com/fr/mails/securise/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/fr/mails/securise/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/fr/mails/securise/index.html</guid>
       <description></description>
     </item>
   </channel>

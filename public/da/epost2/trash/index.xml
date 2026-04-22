@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Papirkurv :: Frea-X 2.0</title>
-    <link>http://localhost:1313/da/epost2/trash/index.html</link>
+    <link>http://localhost:1313/frea-x.com/da/epost2/trash/index.html</link>
     <description>🗑️ Papirkurv Slettede emails slettes permanent efter 30 dage.&#xA;Fra Emne Slettet Newsletter Gammelt tilbud 1. marts 2026</description>
     <generator>Hugo</generator>
     <language>da</language>
-    <atom:link href="http://localhost:1313/da/epost2/trash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/frea-x.com/da/epost2/trash/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

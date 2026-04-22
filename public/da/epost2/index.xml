@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mails :: Frea-X 2.0</title>
-    <link>http://localhost:1313/da/epost2/index.html</link>
+    <link>http://localhost:1313/frea-x.com/da/epost2/index.html</link>
     <description>📧 Mails Din email-kommunikation – som Gmail, men med fokus på privatliv.&#xA;Hurtig adgang 📥 Gå til indbakke 📤 Gå til sendte mails 📝 Gå til kladder ⚠️ Gå til spam 🗑️ Gå til papirkurv Dine emails er krypteret og forbliver på EU-servere.</description>
     <generator>Hugo</generator>
     <language>da</language>
-    <atom:link href="http://localhost:1313/da/epost2/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/frea-x.com/da/epost2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Indbakke</title>
-      <link>http://localhost:1313/da/epost2/inbox/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/inbox/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/inbox/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/inbox/index.html</guid>
       <description>📥 Indbakke Fra Emne Dato EU Digital Services Velkommen til Postbox.eu 16. marts Datatilsynet GDPR opdatering 15. marts Anders Nielsen Meld dig til digital serveren 14. marts Mette Christensen Re: Projekt Postbox 13. marts European Commission Digital Europe Programme 12. marts</description>
     </item>
     <item>
       <title>Sendt</title>
-      <link>http://localhost:1313/da/epost2/sent/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/sent/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/sent/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/sent/index.html</guid>
       <description>📤 Sendte mails Til Emne Dato Anders Nielsen Invitation til møde 15. marts Mette Christensen Vedr. Postbox projektet 14. marts</description>
     </item>
     <item>
       <title>Kladder</title>
-      <link>http://localhost:1313/da/epost2/drafts/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/drafts/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/drafts/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/drafts/index.html</guid>
       <description>📝 Kladder (udkast) Kladde til svar til EU Digital Services Kladde til nyhedsbrev</description>
     </item>
     <item>
       <title>Spam</title>
-      <link>http://localhost:1313/da/epost2/spam/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/spam/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/spam/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/spam/index.html</guid>
       <description>⚠️ Spam Ingen spam i din indbakke lige nu.</description>
     </item>
     <item>
       <title>Papirkurv</title>
-      <link>http://localhost:1313/da/epost2/trash/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/trash/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/trash/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/trash/index.html</guid>
       <description>🗑️ Papirkurv Slettede emails slettes permanent efter 30 dage.&#xA;Fra Emne Slettet Newsletter Gammelt tilbud 1. marts 2026</description>
     </item>
     <item>
       <title>Arkiv</title>
-      <link>http://localhost:1313/da/epost2/archive/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/archive/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/archive/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/archive/index.html</guid>
       <description>📥 Arkiv Noget arkiv</description>
     </item>
     <item>
       <title>Sikker Mail</title>
-      <link>http://localhost:1313/da/epost2/secure/index.html</link>
+      <link>http://localhost:1313/frea-x.com/da/epost2/secure/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/da/epost2/secure/index.html</guid>
+      <guid>http://localhost:1313/frea-x.com/da/epost2/secure/index.html</guid>
       <description>📤 Sikker mails Til Emne Dato Anders Nielsen Invitation til møde 15. marts Mette Christensen Vedr. Postbox projektet 14. marts</description>
     </item>
   </channel>

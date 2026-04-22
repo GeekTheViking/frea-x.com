@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arkiv :: Frea-X 2.0</title>
-    <link>http://localhost:1313/da/epost.bak/archive/index.html</link>
+    <link>http://localhost:1313/frea-x.com/da/epost.bak/archive/index.html</link>
     <description>📝 Kladder (udkast) Udklat til svar til Skattestyrelsen (15. marts) Kladde til ansøgning (10. marts)</description>
     <generator>Hugo</generator>
     <language>da</language>
-    <atom:link href="http://localhost:1313/da/epost.bak/archive/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/frea-x.com/da/epost.bak/archive/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

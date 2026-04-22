@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Søg :: Frea-X 2.0</title>
-    <link>http://localhost:1313/da/search/index.html</link>
+    <link>http://localhost:1313/frea-x.com/da/search/index.html</link>
     <description>weight: 500&#xA;🔍 Søg Søgefunktion kommer her.</description>
     <generator>Hugo</generator>
     <language>da</language>
-    <atom:link href="http://localhost:1313/da/search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/frea-x.com/da/search/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

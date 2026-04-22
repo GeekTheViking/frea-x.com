@@ -1,4 +1,4 @@
-baseURL = "https://frea-x.com"
+baseURL = "https://geektheviking.github.io/frea-x.com/"
 title = "Frea-X 2.0"
 ignoreLogs = ['warning-goldmark-raw-html']
 defaultContentLanguage = "en"

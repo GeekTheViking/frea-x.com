@@ -1,198 +1,198 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/da/epost.bak/inbox/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/inbox/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/inbox/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/inbox/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/inbox/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/epost.bak/inbox/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/epost.bak/inbox/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/epost.bak/inbox/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/epost.bak/inbox/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/epost.bak/inbox/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost.bak/sent/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/sent/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/sent/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/sent/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/sent/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/epost.bak/sent/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/epost.bak/sent/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/epost.bak/sent/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/epost.bak/sent/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/epost.bak/sent/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost.bak/drafts/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/drafts/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/drafts/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/drafts/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/drafts/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/epost.bak/drafts/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/epost.bak/drafts/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/epost.bak/drafts/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/epost.bak/drafts/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/epost.bak/drafts/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost.bak/trash/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/trash/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/trash/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/trash/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/trash/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/epost.bak/trash/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/epost.bak/trash/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/epost.bak/trash/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/epost.bak/trash/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/epost.bak/trash/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/dashboard/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/dashboard/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/dashboard/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/dashboard/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/dashboard/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/dashboard/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/dashboard/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/dashboard/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/dashboard/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/dashboard/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost.bak/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/epost.bak/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/epost.bak/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/epost.bak/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/epost.bak/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/epost.bak/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost.bak/archive/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/epost.bak/archive/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/epost.bak/archive/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/epost.bak/archive/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/epost.bak/archive/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/epost.bak/archive/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/epost.bak/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/epost.bak/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/epost.bak/archive/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/epost.bak/archive/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/mails/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/mails/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/mails/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/mails/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/mails/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/mails/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/mails/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/mails/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/mails/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/inbox/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/inbox/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/inbox/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/inbox/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/indbakke/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/mails/indbakke/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/sent/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/sent/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/sent/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/sent/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/sendt/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/mails/sendt/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/drafts/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/drafts/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/drafts/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/drafts/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/kladder/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/mails/kladder/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/spam/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/spam/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/spam/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/spam/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/spam/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/mails/spam/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/mails/spam/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/mails/spam/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/mails/spam/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/mails/spam/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/mails/spam/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/mails/spam/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/mails/spam/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/mails/spam/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/trash/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/trash/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/trash/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/trash/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/papirkurv/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/mails/papirkurv/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/archive/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/archive/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/archive/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/archive/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/arkiv/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/mails/arkiv/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost/sikker/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost/sikker/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/epost2/secure/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/epost2/secure/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/mails/sikker/index.html</loc>
+    <loc>http://localhost:1313/frea-x.com/da/mails/sikker/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/da/calendar/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/calendar/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/calendar/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/calendar/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/calendar/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/calendar/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/calendar/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/calendar/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/contacts/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/contacts/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/contacts/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/contacts/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/contacts/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/contacts/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/contacts/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/contacts/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/contacts/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/contacts/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/search/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/search/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/search/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/search/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/search/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/search/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/search/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/search/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/search/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/search/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/files/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/files/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/files/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/files/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/files/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/files/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/files/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/files/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/ai/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/ai/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/ai/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/ai/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/ai/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/ai/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/ai/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/ai/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/ai/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/ai/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/chat/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/chat/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/chat/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/chat/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/chat/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/chat/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/chat/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/chat/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/chat/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/chat/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/privacy/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/privacy/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/privacy/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/privacy/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/privacy/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/privacy/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/privacy/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/privacy/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/settings/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/settings/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/settings/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/settings/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/settings/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/settings/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/settings/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/settings/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/categories/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/categories/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/categories/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/categories/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/categories/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/categories/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/categories/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/categories/index.html" />
   </url>
   <url>
-    <loc>http://localhost:1313/da/tags/index.html</loc>
-    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/da/tags/index.html" />
-    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/da/tags/index.html" />
-    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/tags/index.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/tags/index.html" />
+    <loc>http://localhost:1313/frea-x.com/da/tags/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:1313/frea-x.com/da/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="da" href="http://localhost:1313/frea-x.com/da/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/frea-x.com/en/tags/index.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="http://localhost:1313/frea-x.com/fr/tags/index.html" />
   </url>
 </urlset>

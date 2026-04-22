@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313/"
-title = "Postbox.eu"
+baseURL = "https://frea-x.com"
+title = "Frea-X 2.0"
 ignoreLogs = ['warning-goldmark-raw-html']
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

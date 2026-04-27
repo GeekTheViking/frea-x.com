@@ -138,6 +138,28 @@ body {
   margin-bottom: 2rem;
 }
 
+.fx-main h2.fx-compass-title {
+  font-size: 1.1rem;
+  letter-spacing: 6px;
+  margin-bottom: 0.4rem;
+}
+
+/* ── Compass ── */
+.fx-compass-title {
+  font-size: 2.1rem;
+  letter-spacing: 6px;
+  color: var(--fx-cyan);
+  margin-bottom: 1.1rem;
+}
+
+.fx-compass-tagline {
+  font-size: 0.95rem;
+  color: var(--fx-white-dim);
+  font-style: italic;
+  letter-spacing: 2px;
+  margin-bottom: 1.0rem;
+}
+
 /* ── Project Cards ── */
 .fx-cards {
   display: flex;

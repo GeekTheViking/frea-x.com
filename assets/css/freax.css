@@ -1,0 +1,271 @@
+/* ============================================
+   FREA-X TERMINAL THEME
+   v.0.0.42 | License to Exploit
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: #00ff00;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ASCII HEADER */
+.ascii-header {
+  color: #00cc00;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #003300;
+}
+
+/* FREA-X TITLE BLOCK */
+.freax-title {
+  text-align: center;
+  padding: 30px 0 20px 0;
+}
+
+.ascii-logo {
+  color: #00ff00;
+  font-size: 11px;
+  line-height: 13px;
+  display: inline-block;
+}
+
+.tagline {
+  color: #00cc00;
+  font-size: 1.1em;
+  letter-spacing: 4px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.version {
+  color: #007700;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+  margin-top: 8px;
+}
+
+/* NAVIGATION MENU */
+.freax-menu {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px dashed #003300;
+  border-bottom: 1px dashed #003300;
+  margin: 10px 0;
+}
+
+.freax-menu a {
+  color: #00ff00;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: color 0.2s;
+}
+
+.freax-menu a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #00ff00;
+}
+
+/* DIVIDER */
+.freax-divider {
+  border: none;
+  border-top: 1px solid #003300;
+  margin: 30px 0;
+}
+
+/* SECTIONS */
+.freax-section {
+  padding: 20px 0;
+}
+
+.freax-section h2 {
+  color: #00ff00;
+  font-size: 1em;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #003300;
+  padding-bottom: 8px;
+}
+
+.freax-section pre {
+  color: #00cc00;
+  font-size: 0.95em;
+  line-height: 2;
+  padding-left: 20px;
+}
+
+.freax-section p {
+  color: #00cc00;
+  padding-left: 20px;
+  margin: 8px 0;
+}
+
+/* GTV SECTION */
+.gtv-section {
+  text-align: center;
+}
+
+.ascii-gtv {
+  color: #00ff00;
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.gtv-section p {
+  text-align: center;
+  padding: 0;
+  color: #00cc00;
+}
+
+.gtv-section em {
+  color: #00ff00;
+  font-style: normal;
+}
+
+/* WARNING TEXT */
+.warning-text {
+  color: #ff0000 !important;
+  font-size: 1.2em;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* BUTTONS */
+.danger-button {
+  background: #000000;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  padding: 12px 30px;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+  animation: pulse-red 2s infinite;
+}
+
+.danger-button:hover {
+  background: #1a0000;
+  box-shadow: 0 0 20px #ff0000;
+  color: #ffffff;
+}
+
+/* BUTTONS - fortsat */
+.back-button {
+  background: #000000;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 12px 30px;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-button:hover {
+  background: #001a00;
+  box-shadow: 0 0 20px #00ff00;
+  color: #ffffff;
+}
+
+/* PULSE ANIMATIONS */
+@keyframes pulse-red {
+  0%, 100% { box-shadow: 0 0 5px #ff0000; }
+  50% { box-shadow: 0 0 20px #ff0000; }
+}
+
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 5px #00ff00; }
+  50% { box-shadow: 0 0 20px #00ff00; }
+}
+
+/* NOT-A-PAGE */
+.not-a-page {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.not-a-page pre {
+  color: #ff0000;
+  font-size: 12px;
+  line-height: 14px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.not-a-page h1 {
+  color: #ff0000;
+  font-size: 2em;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+
+.not-a-page p {
+  color: #cc0000;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin: 8px 0;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff00;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #33ff33;
+}
+
+/* SELECTION */
+::selection {
+  background: #00ff00;
+  color: #000000;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #003300;
+  text-align: center;
+  color: #003300;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+}
+
+/* ============================================
+   END OF FREA-X TERMINAL THEME
+   v.0.0.42 | License to Exploit
+   ============================================ */

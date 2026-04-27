@@ -1,44 +1,13 @@
 baseURL = "https://geektheviking.github.io/frea-x.com/"
-title = "Frea-X 2.0 v0.0.42"
-ignoreLogs = ['warning-goldmark-raw-html']
+title = "Frea-X 2.0"
+languageCode = "en"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-
-[module] 
-  [[module.imports]]
-    path = 'github.com/McShelby/hugo-theme-relearn'
-
-[languages] 
-  [languages.da]
-    contentDir = "content/da"
-    languageName = "Dansk"
-    weight = 1
-  [languages.en]
-    contentDir = "content/en"
-    languageName = "English"
-    weight = 2
-  [languages.fr]
-    contentDir = "content/fr"
-    languageName = "Français"
-    weight = 3
 
 [params]
-  themeVariant = "relearn-light"
-  showVisitedLinks = true
-  collapsibleMenu = true
-  customCSS = ["css/custom.css"]
-  disableLandingPageButton = true
-  search = false
-  disableRootBreadcrumb = true
-  disableTermBreadcrumbs = true
-  disableLanguageSwitchingButton = false
-
-  [[params.sidebarmenus]]
-    identifier = "main"
-    type = "menu"
-    main = true
+  description = "Nothing, Something, Everything"
+  version = "v0.0.42"
 
 [markup] 
-  [markup.goldmark] 
-    [markup.goldmark.renderer]
+[markup.goldmark] 
+[markup.goldmark.renderer]
       unsafe = true

@@ -1,50 +1,314 @@
+/* ============================================
+   Frea-X 2.0 v0.0.42 | freax.css
+   Nothing, Something, Everything
+   ============================================ */
+
+:root {
+  --fx-purple:     #4a1862;
+  --fx-purple-dark:#3a1050;
+  --fx-purple-mid: #5c2278;
+  --fx-cyan:       #00ffcc;
+  --fx-cyan-dim:   #00ccaa;
+  --fx-white:      #ffffff;
+  --fx-white-dim:  rgba(255,255,255,0.6);
+  --fx-white-faint:rgba(255,255,255,0.08);
+  --fx-font:       'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #4a1862;
-    color: white;
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    padding: 20px;
-    overflow-x: hidden;
+  background-color: var(--fx-purple);
+  color: var(--fx-white);
+  font-family: var(--fx-font);
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-.brand-name {
-    font-size: clamp(3rem, 10vw, 5.5rem);
-    font-weight: 800;
-    letter-spacing: -1px;
-    margin-bottom: 5px;
-    text-transform: uppercase;
+/* ── Navigation ── */
+.fx-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--fx-purple-dark);
+  border-bottom: 1px solid rgba(0,255,204,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
-.brand-name span {
-    opacity: 0.6;
-    font-weight: 400;
+.fx-nav-logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: var(--fx-cyan);
 }
 
-.logo {
-    max-width: 150px;
-    height: auto;
-    margin-bottom: 0px;
-    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
+.fx-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.fx-nav-links a {
+  color: var(--fx-white-dim);
+  text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.fx-nav-links a:hover {
+  color: var(--fx-cyan);
+}
+
+/* ── Main ── */
+.fx-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+/* ── Hero ── */
+.fx-hero {
+  margin-bottom: 3rem;
+}
+
+.fx-tagline {
+  font-size: 0.9rem;
+  letter-spacing: 4px;
+  color: var(--fx-white-dim);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.fx-brand {
+  font-size: clamp(3rem, 10vw, 5.5rem);
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.fx-brand span {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.fx-version {
+  font-size: 0.85rem;
+  color: var(--fx-cyan);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.fx-quote {
+  font-size: 1rem;
+  color: var(--fx-white-dim);
+  font-style: italic;
+}
+
+/* ── Divider ── */
+.fx-hr {
+  border: none;
+  border-top: 1px solid rgba(0,255,204,0.2);
+  margin: 3rem auto;
+  width: 40%;
+}
+
+/* ── Section headings ── */
+.fx-main h2 {
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--fx-cyan);
+  margin-bottom: 2rem;
+}
+
+/* ── Project Cards ── */
+.fx-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fx-card {
+  background: var(--fx-white-faint);
+  border: 1px solid rgba(0,255,204,0.15);
+  border-radius: 8px;
+  padding: 2rem;
+  width: 280px;
+  text-align: left;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.fx-card:hover {
+  border-color: rgba(0,255,204,0.4);
+  transform: translateY(-3px);
+}
+
+.fx-card h3 {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: var(--fx-cyan);
+  margin-bottom: 0.75rem;
+}
+
+.fx-card p {
+  font-size: 0.9rem;
+  color: var(--fx-white-dim);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.fx-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  background: transparent;
+  border: 1px solid var(--fx-cyan);
+  color: var(--fx-cyan);
+  text-decoration: none;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.fx-btn:hover {
+  background: var(--fx-cyan);
+  color: var(--fx-purple);
+}
+
+/* ── Principles Tags ── */
+.fx-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.fx-tags span {
+  background: var(--fx-white-faint);
+  border: 1px solid rgba(0,255,204,0.15);
+  color: var(--fx-white-dim);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+/* ── The Gap section ── */
+.fx-gap p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--fx-white-dim);
+  margin-bottom: 1rem;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fx-gap strong {
+  color: var(--fx-cyan);
+}
+
+.fx-gap em {
+  color: var(--fx-white);
+}
+
+/* ── Control Tag ── */
+.fx-control-tag {
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: var(--fx-cyan);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+/* ── Mascot ── */
+.fx-mascot {
+  margin: 1rem auto 3rem;
+}
+
+.fx-logo {
+  max-width: 140px;
+  height: auto;
+  filter: drop-shadow(0 0 15px rgba(0,255,204,0.3));
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.logo:hover {
-    transform: rotate(-3deg) scale(1.1);
+.fx-logo:hover {
+  transform: rotate(-3deg) scale(1.1);
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 14px 28px;
-    background-color: #00ffcc;
-    color: #4a1862;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6
+/* ── Footer ── */
+.fx-footer {
+  background-color: var(--fx-purple-dark);
+  border-top: 1px solid rgba(0,255,204,0.15);
+  text-align: center;
+  padding: 2.5rem 2rem;
+  font-size: 0.8rem;
+  color: var(--fx-white-dim);
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.fx-footer a {
+  color: var(--fx-cyan-dim);
+  text-decoration: none;
+}
+
+.fx-footer a:hover {
+  color: var(--fx-cyan);
+}
+
+.fx-easter {
+  margin-top: 1rem;
+  font-size: 0.7rem;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+.fx-easter:hover {
+  opacity: 1;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .fx-nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .fx-nav-links {
+    gap: 0.8rem;
+    justify-content: center;
+  }
+
+  .fx-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fx-card {
+    width: 100%;
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,51 @@
+<script>
+// Liste af quotes (kan udvides med data fra Data-Varder)
+const quotes = [
+  "No code is perfect. Only code that works is good enough.",
+  "To infinity... and beyond, CyberSpace.",
+  "Don't be evil, but do be efficient.",
+  "The best way to predict the future is to invent it.",
+  "License to Exploit: v0.0.42",
+  "Intet er perfekt, men alt kan forbedres.",
+  "Code is poetry written in logic.",
+  "The only constant in CyberSpace is change."
+];
+
+function triggerEasterEgg() {
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  document.getElementById('randomQuoteText').innerText = `"${randomQuote}"`;
+  document.getElementById('easterEggModal').style.display = 'flex';
+}
+
+function closeEasterEgg() {
+  document.getElementById('easterEggModal').style.display = 'none';
+}
+
+// Tilføj event listener til knappen
+document.getElementById('dontPushBtn').addEventListener('click', triggerEasterEgg);
+</script>
+
+// Hent data fra Hugo genereret JSON
+fetch('/data/all-vards.json')
+  .then(response => response.json())
+  .then(data => {
+    // Bland alle vards sammen
+    const allVards = [...data.ekkoer, ...data.artefakter];
+    
+    // Tilføj til en global variabel (eller gem det i localStorage for hurtigere adgang)
+    window.gtvVards = allVards;
+    
+    // Tilføj event listener nu, når data er klar
+    document.getElementById('dontPushBtn').addEventListener('click', () => {
+      if (!window.gtvVards || window.gtvVards.length === 0) {
+        alert("Ingen skatte fundet i lageret endnu!");
+        return;
+      }
+      
+      const randomVard = window.gtvVards[Math.floor(Math.random() * window.gtvVards.length)];
+      document.getElementById('randomQuoteText').innerHTML = 
+        `<strong>${randomVard.title}:</strong><br><em>"${randomVard.content}"</em>`;
+      document.getElementById('easterEggModal').style.display = 'flex';
+    });
+  })
+  .catch(err => console.error("Kunne ikke hente Data-Varder:", err));

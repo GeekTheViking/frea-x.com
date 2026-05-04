@@ -1,0 +1,5 @@
+{{ $vards := where .Site.RegularPages "Section" "data-varder" }}
+{{ if $vards }}
+  {{ $randomVard := index (shuffle $vards) 0 }}
+  {{ $randomVard.Params.content | default "Ingen visdom fundet..." }}
+{{ end }}

@@ -1,0 +1,116 @@
+# Easter Eggs & Citations Bliver til [Data-Varder] som Sub side til Longship
+
+[Data-Varder] – Fundet i Sektor 127.0.0.x
+
+[_:GTV:_] Artefakt: Træ-musen (En relikvie fra computingens barndom).
+
+[_:GTV:_] Ekko: "Intet er perfekt ud over døden..." – Jan (En sandhed fundet under optimering af kildekoden).
+
+2 kategorier
+
+"Artefakter" & "Ekkoer"
+
+// [_:GTV:_] Citationsegg #0001: Linux-kernen er over 30 millioner linjer kode.
+
+Når man er inde på siden under [Cyberspace], kunne du have din IP-tæller kørende diskret i hjørnet:
+[_:GTV:_] Status: Connected to 127.0.0.x
+
+GTV's logbog for i dag:
+
+[_:GTV:_] CyberSpace Update: 127.0.0.6
+"Navigations-systemet er opdateret. [Data-Varder] og [Forrådskammeret] er nu korrekt placeret under [Cyberspace]. Kursen er sat – vinden blæser i koden."
+
+"Nothing is permanent. Not even the compass." - Frea-X
+"Intet er perfekt ud over døden. Den er svært at optimere." - GTV
+"CyberSpace starts at the end of the horizon." - Unknown
+"License to Exploit" - GTV Motto
+"The more you know, the more you know you don't know." - Frea-X 2.0
+
+Flere gode "Tech Nuggets" til din samling:
+Her er lidt ekstra ammunition til dine filer:
+
+Om Domæner: "Det mest populære domænenavn i verden var engang symbolics.com – det var det allerførste .com domæne registreret i 1985."
+
+Om E-mail: "Det famøse @ tegn blev valgt til e-mails i 1971 af Ray Tomlinson, fordi det var det tegn, der mindst sandsynligt ville optræde i nogens navn."
+
+Om Opbevaring: "I 1956 vejede en 5MB harddisk over et ton og skulle transporteres med en gaffeltruck."
+
+Om World Wide Web: "Verdens første hjemmeside (info.cern.ch) er stadig online den dag i dag."
+
+Om AI: "Begrebet 'Artificial Intelligence' blev opfundet helt tilbage i 1956 af John McCarthy."
+
+Disse er perfekte til at sætte tingene i perspektiv:
+
+// Vidste du? Linux-kernen passerede 30 millioner linjer kode i 2024.
+
+// Fun fact: Apollo 11's månelanding blev styret af kode med ca. 145.000 linjer. Din browser bruger mere end det på at vise dette ikon.
+
+// Tech-historie: Den første computer-mus var lavet af træ.
+
+// Vidste du? Omkring 90% af verdens valuta findes kun på computere (digitale tal).
+
+// Trivia: "Bug" udtrykket stammer fra en rigtig natsværmer, der sad fast i et relæ i 1947.
+
+Skarpe Tech-citater
+Når du vil være lidt dyb eller humoristisk omkring livet som udvikler:
+
+/* "Talk is cheap. Show me the code." - Linus Torvalds */
+
+/* "It works on my machine." - Anonymous developer */
+
+/* "First, solve the problem. Then, write the code." - John Johnson */
+
+/* "Simplicity is the soul of efficiency." - Austin Freeman */
+
+/* "Programs must be written for people to read, and only incidentally for machines to execute." - Harold Abelson */
+
+De humoristiske
+Perfekt til de filer, der har været svære at skrive:
+
+// Hvis denne kode virker, er den skrevet af [Dit Navn]. Hvis ikke, ved jeg ikke hvem der har lagt den her.
+
+// 99 little bugs in the code, 99 little bugs... Take one down, patch it around, 127 little bugs in the code...
+
+// Denne kode er testet på dyr. De forstod den heller ikke.
+
+Til din CSS-fil:
+/* Vidste du? Den første farve defineret i HTML-standarden var 'Beige' (og 15 andre). I dag er der over 16,7 millioner farver i HEX-systemet. */
+
+Til din JS-fil:
+// Fun fact: Den første computer-bug var en rigtig natsværmer, der blev fundet inde i en Harvard Mark II computer i 1947. */
+
+Til din README/Markdown-fil:
+``
+
+CSS: /* "The best way to predict the future is to invent it." - Alan Kay */
+
+JS: // Vidste du? Den første 1GB harddisk (1980) vejede 250 kg og kostede $40.000.
+
+"Citationseggs" er et genialt navn! Det lyder som noget, man ville finde i en gammel logbog fra et rumskib eller en vikingesaga – bare i digital form.
+
+At lade GTV (Geek the Viking) være den gennemgående karakter, der "opdager" disse ting i cyberspace, giver dine projekter en fantastisk sammenhæng. Det gør kildekoden til en del af historiefortællingen.
+
+Her er nogle idéer til, hvordan du kan formulere dine Citationseggs, så det lyder som om, det er GTV, der har logget dem:
+
+GTV's Logbogs-notater (Citationseggs)
+Du kan indsætte dem i bunden af dine filer med en lille signatur:
+
+I HTML (Som en opdagelse)
+I CSS (Om arkitekturen)
+CSS
+/* * [GTV OPLEVELSE]: Jeg har set bjerge af kode, men vidste du, at den 
+ * første computer-mus var hugget ud af træ? En sand viking-opfindelse!
+ * - Citationsegg #12
+ */
+
+JavaScript
+// [GTV OBSERVASION]: Cyberspace bevæger sig hurtigt. 
+// Vidste du, at JavaScript blev smedet på kun 10 dage i 1995? 
+// Det er hurtigere end et vikingetogt til England!
+// - Citationsegg #07
+
+------------------------
+-/-\-
+[ooo]  <-- GTV was here!
+
+

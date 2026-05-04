@@ -1,0 +1,24 @@
+{{ $ekkoer := where .Site.RegularPages "Section" "ekkoer" }}
+{{ $artefakter := where .Site.RegularPages "Section" "artefakter" }}
+{
+  "ekkoer": [
+    {{ range $i, $ekko := $ekkoer }}
+      {{ if $i }},{{ end }}
+      {
+        "title": "{{ $ekko.Params.title }}",
+        "content": "{{ $ekko.Params.content | plainify | replaceRE "\\n" " " }}",
+        "type": "ekko"
+      }
+    {{ end }}
+  ],
+  "artefakter": [
+    {{ range $i, $art := $artefakter }}
+      {{ if $i }},{{ end }}
+      {
+        "title": "{{ $art.Params.title }}",
+        "content": "{{ $art.Params.content | plainify | replaceRE "\\n" " " }}",
+        "type": "artefakt"
+      }
+    {{ end }}
+  ]
+}

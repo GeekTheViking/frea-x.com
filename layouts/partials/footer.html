@@ -1,6 +1,69 @@
+<script>
+function triggerEasterEgg() {
+  // Her skal vi hente en tilfældig quote fra Data-Varder
+  // Vi bruger en simpel liste for nu, eller API kald hvis det er komplekst
+  const quotes = [
+    "No code is perfect. Only code that works is good enough.",
+    "To infinity... and beyond, CyberSpace.",
+    "Don't be evil, but do be efficient.",
+    "The best way to predict the future is to invent it.",
+    "License to Exploit: v0.0.42"
+  ];
+  
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  
+  document.getElementById('randomQuoteText').innerText = randomQuote;
+  document.getElementById('easterEggModal').style.display = 'block';
+}
+
+function closeEasterEgg() {
+  document.getElementById('easterEggModal').style.display = 'none';
+}
+</script>
+
 <footer class="footer">
     <div class="footer-content">
         <p>🌍 Bygget af borgere, for borgere. Open Source · Data på europæiske servere · Drevet af gennemført hardware inden for EU</p>
         <p>© 2024 Postbox.eu — <a href="/privatliv">Privatlivspolitik</a> · <a href="/vilkår">Vilkår</a> · <a href="/open-source">Open Source</a></p>
     </div>
+
+<div class="gtv-footer">
+  <p>_._/_o_0_o_\_._ &lt;-- [_:GTV:_] was here first.</p>
+  <!-- Her kan vi også tilføje den tilfældige quote fra Data-Varder -->
+  <div class="random-vard">
+    {{ $vards := where .Site.RegularPages "Type" "data-varder" }}
+    {{ if $vards }}
+      {{ $randomVard := index (shuffle $vards) 0 }}
+      <em>"{{ $randomVard.Params.content }}" - {{ $randomVard.Params.author }}</em>
+    {{ end }}
+  </div>
+</div>
 </footer>
+
+<div class="gtv-footer-container">
+  <div class="footer-cell footer-left">
+    <!-- Celle 1: Tom (eller GTV logo) -->
+    <span class="gtv-logo-small">🏴‍☠️</span> <!-- Valgfrit -->
+  </div>
+  
+  <div class="footer-cell footer-center">
+    <!-- Celle 2: Signatur -->
+    <p>_._/_o_0_o_\_._ &lt;-- [_:GTV:_] was here first.</p>
+  </div>
+  
+  <div class="footer-cell footer-right">
+    <!-- Celle 3: Knappen -->
+    <button id="dontPushBtn" class="gtv-push-btn">
+      ⚠️ DONT PUSH THIS BUTTON ⚠️
+    </button>
+  </div>
+</div>
+
+<!-- Modal (Popup) -->
+<div id="easterEggModal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeEasterEgg()">&times;</span>
+    <h2>Tak for din nysgerrighed! 🏴‍☠️</h2>
+    <p id="randomQuoteText">Laster en visdom fra Data-Varder...</p>
+  </div>
+</div>

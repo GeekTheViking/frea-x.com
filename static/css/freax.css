@@ -54,8 +54,6 @@ body {
   font-weight: 800;
   letter-spacing: 3px;
   color: var(--fx-cyan);
-  flex: 1; /* Gør den til at fylde pladsen */
-  justify-content: center; /* Centrerer alt i midten */
 }
 
 .fx-nav-logo img {
@@ -294,6 +292,19 @@ body {
 
 .fx-logo:hover {
   transform: rotate(-3deg) scale(1.1);
+}
+
+.fx-version-mascot {
+  width: 20px;
+  height: 20px;
+  margin: 0 2px 8px 2px;
+  vertical-align: bottom;
+  filter: drop-shadow(0 0 3px rgba(0,255,204,0.5));
+  transition: transform 0.3s;
+}
+
+.fx-version-mascot:hover {
+  transform: rotate(15deg) scale(1.2);
 }
 
 /* ── Footer ── */

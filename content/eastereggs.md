@@ -8,6 +8,24 @@ title: "Easter Eggs & Citations"
 
 ---
 
+## The Hidden Layer
+
+Every page on Frea-X carries a hidden layer — invisible in the browser, but visible to those who look.
+
+**Three places to look:**
+
+`F12 → Console` — Open DevTools and check the console. A random egg appears on every page load. Different every time.
+
+`F12 → Elements` or `View Source` — Scroll to the very bottom of any page's HTML. All eggs are there: quotes, personality facts from the Long Hall, artifacts from the Store House.
+
+The eggs are seeded from the **GeekTheViking Data-Coffer** — the Long Hall of CyberSpace personalities, the Store House Artifacts, and the Echoes. Frea-X collects them and hides them in the code as a small reward for the curious.
+
+*"The best features are the ones you have to earn."*
+
+---
+
+---
+
 > "Jo mere man ved, jo mere ved man, at man ikke ved."
 > — Frea-X 2.0
 

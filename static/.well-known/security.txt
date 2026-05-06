@@ -1,0 +1,62 @@
+# security.txt — frea-x.com
+# RFC 9116 — https://securitytxt.org/
+# FREA-X 2.0 — v0.0.42 | License to Exploit
+
+Contact: mailto:geektheviking@gmail.com
+Expires: 2027-05-05T00:00:00.000Z
+Preferred-Languages: da, en, fr
+
+# ═══════════════════════════════════════════════════════════════
+# F R E A - X   E A S T E R   E G G   Z O N E
+#
+# Hello, security researcher. You found security.txt.
+# If you found a real vulnerability: please report it above.
+# If you found an easter egg: congratulations. You earned it.
+# If you found both: you are the target audience of Frea-X.
+#
+# ── SECURITY PHILOSOPHY ─────────────────────────────────────────
+#
+# "Root access is not a privilege. It is a responsibility."
+# — Frea-X Approved
+#
+# "If privacy is outlawed, only outlaws will have privacy."
+# — Phil Zimmermann, on releasing PGP, 1991
+#
+# "Security without privacy is an oxymoron."
+# — The R&D Lab
+#
+# ── FROM THE LONG HALL ──────────────────────────────────────────
+#
+# [ Phil Zimmermann ]
+# Released PGP on the internet in 1991.
+# The US government opened a criminal investigation for exporting
+# cryptography without a license.
+# The case lasted 3 years. Then they dropped it.
+# PGP became the world's most widely used email encryption standard.
+# Lesson: build the tool anyway.
+#
+# [ Kevin Mitnick ]
+# FBI's most wanted hacker in the 1990s.
+# His most powerful attack vector was never a computer.
+# It was a phone call. A convincing voice. A plausible story.
+# Social engineering defeats every firewall.
+# Know your human vulnerabilities.
+#
+# [ Alan Turing ]
+# Built the Bombe machine that cracked Nazi Enigma ciphers in WWII.
+# Historians estimate it shortened the war by 2 years.
+# Saved millions of lives. Was prosecuted for who he loved.
+# The debt to him has not been repaid.
+#
+# ── ARTIFACT ────────────────────────────────────────────────────
+#
+# [ The First Computer Virus, 1971 ]
+# Creeper — ran on ARPANET. Displayed: "I'M THE CREEPER, CATCH ME IF YOU CAN!"
+# The first antivirus (Reaper) was created specifically to delete it.
+# Security and attack have been in arms race ever since.
+#
+# ═══════════════════════════════════════════════════════════════
+# FREA-X 2.0 — v0.0.42 | Exploited by Geek The Viking
+# Open Source · Sovereign Data · Human Centric
+# "To infinity... and beyond, CyberSpace"
+# ═══════════════════════════════════════════════════════════════

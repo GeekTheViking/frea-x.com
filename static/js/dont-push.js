@@ -23,3 +23,40 @@ btn.addEventListener('click', async () => {
   await bluetoothChaos(audio);
 
 });
+
+/* ============================================================
+   F R E A - X   E A S T E R   E G G   Z O N E
+   Hello, JS reader. You found dont-push.js.
+   You were warned. Now you're reading the source. Good.
+   ============================================================
+
+   "The best features are the ones you have to earn."
+   — Frea-X 2.0
+
+   "Root access is not a privilege. It is a responsibility."
+   — Frea-X Approved
+
+   "In Cyberspace, nobody can hear you segfault."
+   — Frankenstein AI
+
+   [ Kevin Mitnick ]
+   The FBI's most wanted hacker in the 1990s.
+   His most powerful tool was never a computer.
+   It was a phone and a convincing voice.
+   Social engineering beats every firewall.
+
+   [ Aaron Swartz ]
+   Co-authored RSS 1.0 at age 13.
+   Believed information should be free.
+   He was right.
+
+   [ Bitcoin Genesis Block, 2009 ]
+   Block 0. January 3, 2009.
+   Embedded in the coinbase:
+   "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks."
+   A timestamp. And a manifesto.
+
+   ============================================================
+   FREA-X 2.0 — v0.0.42 | License to Exploit
+   "To infinity... and beyond, CyberSpace"
+   ============================================================ */

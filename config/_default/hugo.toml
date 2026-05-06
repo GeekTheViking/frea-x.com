@@ -1,3 +1,42 @@
+# =================================================================
+# FILE:               config/_default/hugo.toml
+# PROJECT:            Frea-X 2.0
+# PURPOSE:            Main Hugo configuration
+# VERSION:            1.0
+# STATUS:             ● Production (Phase 6/7)
+# TAGS:               hugo, config, frea-x
+# =================================================================
+# :::: Frea-X 2.0 — v0.0.42 | License to Exploit ::::
+# ═══════════════════════════════════════════════════════════════
+# F R E A - X   E A S T E R   E G G   Z O N E
+# Hello, repo explorer. You found the Hugo config.
+# Most people never look here. You are not most people.
+#
+# "The best code is the code you didn't have to write."
+# — Unknown, found in the Junkyard Cluster
+#
+# "Documentation is a love letter to your future self."
+# — The R&D Lab
+#
+# "Stay hungry. Stay foolish."
+# — Stewart Brand, The Whole Earth Catalog, 1974
+#   (quoted by Steve Jobs at Stanford, 2005)
+#
+# [ Brian Kernighan ]
+# Co-authored The C Programming Language (K&R) with Dennis Ritchie, 1978.
+# One of the most influential programming books ever written.
+# Also wrote the first "Hello, World!" in 1972.
+# And created AWK — still in daily use by sysadmins everywhere.
+#
+# [ Linus Torvalds, 1991 ]
+# "I'm doing a (free) operating system (just a hobby,
+#  won't be big and professional like gnu)."
+# The kernel now runs 97% of the world's top servers.
+#
+# FREA-X 2.0 — v0.0.42 | Exploited by Geek The Viking
+# "To infinity... and beyond, CyberSpace"
+# ═══════════════════════════════════════════════════════════════
+
 baseURL = "https://frea-x.com/"
 title = "Frea-X 2.0"
 languageCode = "en"

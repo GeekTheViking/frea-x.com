@@ -1,0 +1,86 @@
+/* humanstxt.org — frea-x.com */
+/* FREA-X 2.0 — v0.0.42 | License to Exploit */
+
+/* ═══════════════════════════════════════════════════════════════
+   F R E A - X   E A S T E R   E G G   Z O N E
+   Hello, human. You found humans.txt.
+   Most files on the web are for machines.
+   This one is for you.
+   ═══════════════════════════════════════════════════════════════ */
+
+
+/* TEAM */
+
+  Name:       Jan Omel Nielsen
+  Handle:     Geek The Viking
+  Role:       CyberSpace Explorer · R&D Lab · License to Exploit
+  Location:   Grenoble, France & Faxe, Denmark
+  Contact:    geektheviking [at] gmail [dot] com
+  GitHub:     github.com/GeekTheViking
+
+  Assistant:  Claude Code (Anthropic)
+  Role:       Jarvis — proaktiv, kontekstopmærksom, husker alt
+
+
+/* THE LONG HALL — THOSE WE OWE */
+
+  Ada Lovelace       — for writing the first algorithm, 100 years early
+  Alan Turing        — for cracking Enigma and imagining the machine
+  Grace Hopper       — for finding the first bug, and asking forgiveness instead of permission
+  Claude Shannon     — for inventing information itself
+  Douglas Engelbart  — for the mouse, the hyperlink, and the demo
+  Dennis Ritchie     — for C and Unix, the foundation under everything
+  Ken Thompson       — for Unix and the culture it carried
+  Linus Torvalds     — for Linux and for not keeping it to himself
+  Richard Stallman   — for GNU and for meaning it
+  Tim Berners-Lee    — for the web, given freely
+  Vint Cerf          — for TCP/IP and keeping it open
+  Aaron Swartz       — for believing information should be free
+  John Perry Barlow  — for declaring Cyberspace independent
+  Phil Zimmermann    — for PGP and the right to whisper
+  Brian Kernighan    — for Hello World and K&R C
+  John McCarthy      — for naming Artificial Intelligence
+  Kevin Mitnick      — for showing what curiosity looks like at the edge
+  Margaret Hamilton  — for software engineering as a discipline
+  Grace Hopper       — for the compiler, for the moth, for everything
+
+
+/* PHILOSOPHY */
+
+  "Nothing is perfect, except death. Because it's hard to optimize."
+  — Jan Omel Nielsen, 2026
+
+  "To infinity... and beyond, CyberSpace."
+  — Frea-X 2.0
+
+  "We have barely scratched the surface of the first 0.042%."
+  — Frea-X 2.0
+
+  "Documentation is a love letter to your future self."
+  — The R&D Lab
+
+  "Root access is not a privilege. It is a responsibility."
+  — Frea-X Approved
+
+
+/* SITE */
+
+  Built with:   Hugo (extended) — gohugo.io
+  Deployed to:  GitHub Pages
+  CSS:          Hand-written terminal theme (black, green, monospace)
+  JavaScript:   Vanilla — no frameworks, no tracking, no ads
+  Standards:    HTML5, CSS3
+  Privacy:      No analytics. No cookies. No surveillance.
+  License:      License to Exploit — Frea-X 2.0
+
+  Last update:  2026-05-05
+  Version:      v0.0.42
+
+
+/* FREA-X */
+
+  Open Source · Green IT · Sovereign Data · Data Freedom
+  Human Centric · AI & IT under Human Control
+  From People to Individuals — Human to Human
+
+  "To infinity... and beyond, CyberSpace"

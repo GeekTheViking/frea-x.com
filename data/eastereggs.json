@@ -1,0 +1,180 @@
+{
+  "_metadata": {
+    "project": "Frea-X 2.0",
+    "purpose": "Easter egg data pool — seeded from GeekTheViking Data-Coffer (Long Hall, Artifacts, Echoes)",
+    "version": "1.0",
+    "status": "Production (Phase 6/7)"
+  },
+  "echoes": [
+    {
+      "quote": "Cyberspace does not lie within your borders.",
+      "source": "John Perry Barlow",
+      "context": "A Declaration of the Independence of Cyberspace, 1996"
+    },
+    {
+      "quote": "Given enough eyeballs, all bugs are shallow.",
+      "source": "Eric S. Raymond",
+      "context": "Linus's Law — The Cathedral and the Bazaar, 1997"
+    },
+    {
+      "quote": "We shape our tools, and thereafter our tools shape us.",
+      "source": "Marshall McLuhan (attributed)",
+      "context": "1964"
+    },
+    {
+      "quote": "Software is getting slower more rapidly than hardware becomes faster.",
+      "source": "Niklaus Wirth",
+      "context": "Wirth's Law — A Plea for Lean Software, 1995"
+    },
+    {
+      "quote": "Free as in freedom, not free as in beer.",
+      "source": "Richard Stallman",
+      "context": "The GNU Project"
+    },
+    {
+      "quote": "If privacy is outlawed, only outlaws will have privacy.",
+      "source": "Phil Zimmermann",
+      "context": "On the release of PGP, 1991"
+    },
+    {
+      "quote": "The net interprets censorship as damage and routes around it.",
+      "source": "John Gilmore",
+      "context": "Time Magazine, 1993"
+    },
+    {
+      "quote": "Information wants to be free.",
+      "source": "Stewart Brand",
+      "context": "Hackers Conference, 1984"
+    },
+    {
+      "quote": "Stay hungry. Stay foolish.",
+      "source": "Stewart Brand",
+      "context": "The Whole Earth Catalog, 1974 — quoted by Steve Jobs at Stanford, 2005"
+    },
+    {
+      "quote": "Ask forgiveness, not permission.",
+      "source": "Grace Hopper",
+      "context": "On innovation and bureaucracy"
+    },
+    {
+      "quote": "The future is already here — it is just not evenly distributed.",
+      "source": "William Gibson",
+      "context": "NPR, 1993"
+    },
+    {
+      "quote": "In Cyberspace, the First Amendment is a local ordinance.",
+      "source": "John Perry Barlow",
+      "context": "On digital rights and jurisdiction"
+    },
+    {
+      "quote": "Increasingly, people seem to misinterpret complexity as sophistication.",
+      "source": "Niklaus Wirth",
+      "context": "A Plea for Lean Software, 1995"
+    },
+    {
+      "quote": "Any sufficiently advanced technology is indistinguishable from magic.",
+      "source": "Arthur C. Clarke",
+      "context": "Clarke's Third Law, 1973"
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Grace Hopper",
+      "fact": "Found the first actual computer bug in 1947. It was a moth. Taped into her logbook. Entry: 'First actual case of bug being found.'"
+    },
+    {
+      "name": "Linus Torvalds",
+      "fact": "Created Linux at 21, in a university dorm room in Helsinki. First release: 10,239 lines of code. Now: 30+ million."
+    },
+    {
+      "name": "Aaron Swartz",
+      "fact": "Co-authored the RSS 1.0 specification at age 13."
+    },
+    {
+      "name": "Ada Lovelace",
+      "fact": "Wrote the first algorithm intended for a machine that didn't exist yet — Charles Babbage's Analytical Engine, 1843."
+    },
+    {
+      "name": "Alan Turing",
+      "fact": "Built the Bombe machine that cracked Nazi Enigma ciphers in WWII. Historians estimate it shortened the war by 2 years."
+    },
+    {
+      "name": "Brian Kernighan",
+      "fact": "Wrote 'Hello, World!' in 1972. Every programmer since has started there. He probably didn't know."
+    },
+    {
+      "name": "Phil Zimmermann",
+      "fact": "Released PGP on the internet in 1991. The US government opened a criminal investigation. Three years later, they dropped the case."
+    },
+    {
+      "name": "John Perry Barlow",
+      "fact": "Was a Grateful Dead lyricist for 20+ years AND co-founded the Electronic Frontier Foundation. Not a contradiction."
+    },
+    {
+      "name": "John McCarthy",
+      "fact": "Coined the term 'Artificial Intelligence' in 1955. Also invented LISP in 1958. LISP is still used today."
+    },
+    {
+      "name": "Kevin Mitnick",
+      "fact": "The FBI's most wanted hacker in the 1990s. His most powerful tool was never a computer — it was a phone and a convincing voice."
+    },
+    {
+      "name": "Douglas Engelbart",
+      "fact": "Invented the computer mouse in 1964. Also invented hypertext, video conferencing, and collaborative real-time editing — all in the same decade."
+    },
+    {
+      "name": "Vint Cerf",
+      "fact": "Co-designed TCP/IP with Bob Kahn in 1974. The protocol was built to survive nuclear war. It's still running."
+    },
+    {
+      "name": "Tim Berners-Lee",
+      "fact": "Invented the World Wide Web in 1989 and gave it away for free. No patent. No company. Just a gift to the world."
+    },
+    {
+      "name": "Richard Stallman",
+      "fact": "Started GNU in 1983. His goal: a completely free operating system. He is still working on it."
+    },
+    {
+      "name": "Claude Shannon",
+      "fact": "Invented information theory in 1948. Proved that any message can be transmitted with arbitrarily low error. Every byte you send owes him."
+    }
+  ],
+  "artifacts": [
+    {
+      "name": "ARPANET First Message, 1969",
+      "fact": "The first message ever sent over the internet was 'LO'. It was supposed to be 'LOGIN'. The system crashed after two characters."
+    },
+    {
+      "name": "The First Bug, 1947",
+      "fact": "A moth found in a Harvard Mark II relay by Grace Hopper's team. Taped into the logbook. The origin of 'debugging'."
+    },
+    {
+      "name": "Linux 0.01, 1991",
+      "fact": "Linus Torvalds posted: 'I'm doing a (free) operating system (just a hobby, won't be big and professional like gnu).' The kernel now runs 97% of the world's top servers."
+    },
+    {
+      "name": "TCP/IP Protocol, 1974",
+      "fact": "Designed to survive nuclear war by routing around damage. It became the language of the entire internet."
+    },
+    {
+      "name": "PGP — Pretty Good Privacy, 1991",
+      "fact": "Phil Zimmermann uploaded it for free. The US government called it munitions export. The case lasted 3 years. PGP won."
+    },
+    {
+      "name": "SSH Protocol, 1995",
+      "fact": "Created in 3 months after Tatu Ylönen's university network was sniffed. 20,000 users in 50 countries within months of release."
+    },
+    {
+      "name": "Raspberry Pi, 2012",
+      "fact": "$35. 5 watts. Credit-card sized. 50 million units sold. Green IT made tangible."
+    },
+    {
+      "name": "GNU Manifesto, 1985",
+      "fact": "Stallman: 'I consider that the Golden Rule requires that if I like a program I must share it with other people who like it.' The document that started the open source world."
+    },
+    {
+      "name": "Bitcoin Genesis Block, 2009",
+      "fact": "Block 0. January 3, 2009. Embedded in the coinbase: 'The Times 03/Jan/2009 Chancellor on brink of second bailout for banks.' A timestamp and a manifesto."
+    }
+  ]
+}

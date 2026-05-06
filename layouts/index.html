@@ -15,12 +15,11 @@
     <div class="fx-nav-logo"><img src="/images/geektheviking-32px.png" alt="GTV"> FREA-X ~ CyberSpace ACADEMY</div>   
     <ul class="fx-nav-links">
       <li><a href="{{ "workflow/" | relURL }}">Workflow</a></li>
-      <li><a href="{{ "archaeology/" | relURL }}">Archaeology</a></li>
-      <li><a href="{{ "gtv/" | relURL }}">Geek The Viking</a></li>
-      <li><a href="{{ "approved/" | relURL }}">Approved By Frea-X</a></li>
-      <li><a href="{{ "ai-quality/" | relURL }}">AI & IT Quality</a></li>
-      <li><a href="{{ "cyberspace/" | relURL }}">Cyberspace</a></li>
-      <li><a href="{{ "eastereggs/" | relURL }}">Easter Eggs & Citations</a></li>
+      <li><a href="{{ "seal-of-freax/" | relURL }}">Seal of Frea-X</a></li>
+      <li><a href="{{ "frankenstein/" | relURL }}">Frankenstein</a></li>
+      <li><a href="{{ "ai-quality/" | relURL }}">AI &amp; IT</a></li>
+      <li><a href="{{ "cyberspace/" | relURL }}">CyberSpace</a></li>
+      <li><a href="{{ "eastereggs/" | relURL }}">Easter Eggs</a></li>
     </ul>
   </nav>
 
@@ -28,7 +27,7 @@
 
     <div class="fx-hero">
       <p class="fx-tagline">Nothing · Something · Everything</p>
-      <h1 class="fx-brand">FREA-X<span>2</span><img src="/images/geektheviking-20px.png" alt="GTV" class="fx-version-mascot">0</span></h1>
+      <h1 class="fx-brand">FREA-X <span>2</span><img src="/images/geektheviking-20px.png" alt="GTV" class="fx-version-mascot">0</span></h1>
       <p class="fx-version">·&nbsp; v0.0.42 &nbsp;·</p>
       <p class="fx-quote">"The more you know, the more you know you don't know."</p>
     </div>
@@ -113,5 +112,7 @@
     </p>
   </footer>
 
+  <script src="{{ "js/console-egg.js" | relURL }}"></script>
+  {{ partial "easteregg-comment.html" . }}
 </body>
 </html>

@@ -1,0 +1,51 @@
+# robots.txt — frea-x.com
+# FREA-X 2.0 — v0.0.42 | License to Exploit
+
+User-agent: *
+Allow: /
+
+Sitemap: https://frea-x.com/sitemap.xml
+
+# ═══════════════════════════════════════════════════════════════
+# F R E A - X   E A S T E R   E G G   Z O N E
+#
+# Hello, crawler — or human reading a robots.txt file.
+# If you are a bot: you are allowed everywhere. Nothing to hide.
+# If you are a human: you found an easter egg. Welcome.
+#
+# "The net interprets censorship as damage and routes around it."
+# — John Gilmore, Time Magazine, 1993
+#
+# "Cyberspace does not lie within your borders."
+# — John Perry Barlow, A Declaration of the Independence of Cyberspace, 1996
+#
+# "Information wants to be free."
+# — Stewart Brand, Hackers Conference, 1984
+#
+# ── FROM THE LONG HALL ──────────────────────────────────────────
+#
+# [ John Perry Barlow ]
+# Co-founded the Electronic Frontier Foundation in 1990.
+# Wrote A Declaration of the Independence of Cyberspace from Davos
+# while the world's most powerful people were in the room next door.
+#
+# [ Tim Berners-Lee ]
+# Invented the World Wide Web in 1989.
+# His boss wrote on his proposal: "Vague but exciting."
+# He gave it to the world anyway. No patent. No fee.
+#
+# ── ARTIFACT ────────────────────────────────────────────────────
+#
+# [ The First Website, 1991 ]
+# http://info.cern.ch/hypertext/WWW/TheProject.html
+# Still online. Still accessible. Never taken down.
+# The original page about "a wide-area hypermedia information
+# retrieval initiative aiming to give universal access to a
+# large universe of documents."
+# That's the web. That's all it was. Look at it now.
+#
+# ═══════════════════════════════════════════════════════════════
+# FREA-X 2.0 — v0.0.42 | Exploited by Geek The Viking
+# "To infinity... and beyond, CyberSpace"
+# Nothing · Something · Everything
+# ═══════════════════════════════════════════════════════════════

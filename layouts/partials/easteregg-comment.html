@@ -1,0 +1,47 @@
+{{- /*
+    Frea-X Easter Egg Zone — Source Code Injector
+    Injects hidden content from the GeekTheViking Data-Coffer.
+    Visible in: View Source / F12 → Elements (look for <script id="frea-x-easter-eggs">)
+    Data source: /data/eastereggs.json
+    Note: Hugo strips HTML comments from partial output — using <script type="text/plain"> instead.
+*/ -}}
+{{- $eggs := hugo.Data.eastereggs -}}
+<script type="text/plain" id="frea-x-easter-eggs">
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   F R E A - X   E A S T E R   E G G   Z O N E                              ║
+║                                                                              ║
+║   Hello, curious one. You found the source.                                 ║
+║   These eggs are seeded from the GeekTheViking Data-Coffer:                 ║
+║   Long Hall · Store House Artifacts · Store House Echoes                    ║
+║                                                                              ║
+║   "The best code is the code you didn't have to write."                     ║
+║   — Unknown, found in the Junkyard Cluster                                  ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+
+:: ECHOES FROM THE DATA-COFFER ::
+{{ range $eggs.echoes }}
+   "{{ .quote }}"
+   — {{ .source }}{{ if .context }}  |  {{ .context }}{{ end }}
+{{ end }}
+
+:: FROM THE LONG HALL — FACTS THAT SURVIVED ::
+{{ range $eggs.personalities }}
+   [ {{ .name }} ]
+   {{ .fact }}
+{{ end }}
+
+:: ARTIFACTS — THINGS THAT CHANGED EVERYTHING ::
+{{ range $eggs.artifacts }}
+   [ {{ .name }} ]
+   {{ .fact }}
+{{ end }}
+
+══════════════════════════════════════════════════════════════════════════════
+   FREA-X 2.0 — v0.0.42 | Exploited by Geek The Viking
+   "To infinity... and beyond, CyberSpace"
+   License to Exploit — Nothing · Something · Everything
+══════════════════════════════════════════════════════════════════════════════
+</script>

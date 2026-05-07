@@ -11,17 +11,18 @@
     <style>
         /* ---- SINGLE PAGE CONTENT STYLES ---- */
         .fx-content {
-            padding: 40px 0;
+            padding: 20px 0 60px;
         }
 
         .fx-content h1 {
-            color: var(--fx-cyan);
-            font-size: 1.4em;
-            letter-spacing: 3px;
+            color: var(--fx-white);
+            font-size: 2em;
+            letter-spacing: 5px;
             text-transform: uppercase;
-            border-bottom: 1px solid rgba(0,255,204,0.25);
-            padding-bottom: 10px;
-            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 1px solid rgba(0,255,204,0.3);
+            padding-bottom: 15px;
+            margin-bottom: 40px;
         }
 
         .fx-content h2 {
@@ -176,21 +177,26 @@
         </a>
         <ul class="fx-nav-links">
             <li><a href="{{ "workflow/" | relURL }}">Workflow</a></li>
+            <li class="fx-nav-sep">|</li>
             <li><a href="{{ "seal-of-freax/" | relURL }}">Seal of Frea-X</a></li>
-            <li><a href="{{ "frankenstein/" | relURL }}">Frankenstein</a></li>
+            <li class="fx-nav-sep">|</li>
+            <li><a href="{{ "frankenstein/" | relURL }}">Frankenstein AI</a></li>
+            <li class="fx-nav-sep">|</li>
             <li><a href="{{ "ai-quality/" | relURL }}">AI &amp; IT</a></li>
+            <li class="fx-nav-sep">|</li>
+            <li><a href="{{ "ai-campus/" | relURL }}">AI Campus</a></li>
+            <li class="fx-nav-sep">|</li>
             <li><a href="{{ "cyberspace/" | relURL }}">CyberSpace</a></li>
+            <li class="fx-nav-sep">|</li>
             <li><a href="{{ "eastereggs/" | relURL }}">Easter Eggs</a></li>
         </ul>
     </nav>
 
-    <p class="fx-breadcrumb">
-        <a href="{{ "/" | relURL }}">[HOME]</a> &nbsp;/&nbsp; {{ .Title }}
-    </p>
-
-    <main class="fx-content">
-        {{ .Content }}
-    </main>
+    <div class="fx-subpage-content">
+        <main class="fx-content">
+            {{ .Content }}
+        </main>
+    </div>
 
     <footer class="fx-footer">
         <p>The R&amp;D Lab · Exploited by Geek The Viking</p>

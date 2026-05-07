@@ -1,8 +1,10 @@
 ---
-title: "FRANKENSTEIN"
+title: "FRANKENSTEIN AI"
 description: "A CyberSpace campus for hardware. The foundation."
 draft: false
 ---
+
+# FRANKENSTEIN AI
 
 > *It was ugly. It was assembled from parts.*
 > *But it lived.*

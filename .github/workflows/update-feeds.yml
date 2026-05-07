@@ -1,0 +1,33 @@
+name: Cyberspace Feed Update
+
+on:
+  schedule:
+    - cron: '42 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch RSS feeds
+        working-directory: ./cyberspace
+        run: python fetch-feeds.py
+
+      - name: Commit og push feed-cache
+        run: |
+          git config user.name  "Frea-X Cyberspace Bot"
+          git config user.email "cyberspace@frea-x.com"
+          git add static/data/feed-cache.json
+          git diff --staged --quiet || git commit -m "🛰 Feed update $(date +'%H:%M %d-%m-%Y')"
+          git push

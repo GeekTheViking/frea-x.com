@@ -4,6 +4,8 @@ description: "The philosophy. The principles. The trust."
 draft: false
 ---
 
+# Seal of Frea-X
+
 > *What a wonderful Space this is.*
 > *A CyberSpace.*
 > *Only for you. Only for us.*

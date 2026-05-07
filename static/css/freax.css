@@ -75,17 +75,56 @@ body {
   flex-wrap: wrap;
 }
 
+.fx-nav-sep {
+  color: rgba(255,255,255,0.4);
+  font-size: 0.75rem;
+  user-select: none;
+}
+
 .fx-nav-links a {
-  color: var(--fx-white-dim);
+  color: var(--fx-white);
   text-decoration: none;
   font-size: 0.85rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  transition: color 0.2s;
+  transition: color 0.2s, text-shadow 0.2s;
 }
 
 .fx-nav-links a:hover {
   color: var(--fx-cyan);
+  text-shadow: 0 0 8px rgba(0,255,204,0.5);
+}
+
+/* ── Mantra / Featured Text ── */
+.fx-mantra {
+  text-align: center;
+  color: var(--fx-cyan);
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+/* ── Subpage Brand Header ── */
+.fx-subpage-header {
+  text-align: center;
+  padding: 2.5rem 2rem 0;
+}
+
+.fx-brand-mini {
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: var(--fx-white);
+  line-height: 1;
+}
+
+.fx-subpage-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 /* ── Main ── */

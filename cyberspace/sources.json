@@ -1,0 +1,192 @@
+{
+  "version": "2.0",
+  "updated": "2026-05-07",
+  "schedule": "42 * * * *",
+  "categories": [
+    {
+      "id": "ai",
+      "label": "AI & Machine Learning",
+      "icon": "🤖",
+      "color": "#00cfff",
+      "feeds": [
+        { "name": "MIT Technology Review", "url": "https://www.technologyreview.com/feed/", "lang": "en", "active": true },
+        { "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "lang": "en", "active": true },
+        { "name": "ArXiv cs.AI", "url": "https://rss.arxiv.org/rss/cs.AI", "lang": "en", "active": true },
+        { "name": "The Batch (deeplearning.ai)", "url": "https://www.deeplearning.ai/the-batch/feed/", "lang": "en", "active": true },
+        { "name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "lang": "en", "active": true },
+        { "name": "MarkTechPost", "url": "https://www.marktechpost.com/feed/", "lang": "en", "active": true }
+      ]
+    },
+    {
+      "id": "dev",
+      "label": "Developer Community",
+      "icon": "💬",
+      "color": "#ff6b9d",
+      "feeds": [
+        { "name": "Hacker News", "url": "https://news.ycombinator.com/rss", "lang": "en", "active": true },
+        { "name": "Lobsters", "url": "https://lobste.rs/rss", "lang": "en", "active": true },
+        { "name": "The Pragmatic Engineer", "url": "https://blog.pragmaticengineer.com/rss/", "lang": "en", "active": true },
+        { "name": "DEV Community", "url": "https://dev.to/feed", "lang": "en", "active": true },
+        { "name": "Stack Overflow Blog", "url": "https://stackoverflow.blog/feed/", "lang": "en", "active": true },
+        { "name": "Qiita", "url": "https://qiita.com/popular-items/feed", "lang": "ja", "active": true },
+        { "name": "Zenn Tech", "url": "https://zenn.dev/feed", "lang": "ja", "active": true }
+      ]
+    },
+    {
+      "id": "oss",
+      "label": "Open Source & Infrastructure",
+      "icon": "🖥️",
+      "color": "#00ff88",
+      "feeds": [
+        { "name": "GitHub Security Advisories", "url": "https://github.com/security-advisories.atom", "lang": "en", "active": true },
+        { "name": "FOSS Post", "url": "https://fosspost.org/feed", "lang": "en", "active": true },
+        { "name": "CNCF Blog", "url": "https://www.cncf.io/feed/", "lang": "en", "active": true },
+        { "name": "GitLab Blog", "url": "https://about.gitlab.com/atom.xml", "lang": "en", "active": true },
+        { "name": "Hackaday", "url": "https://hackaday.com/blog/feed/", "lang": "en", "active": true },
+        { "name": "The Register", "url": "https://www.theregister.com/headlines.atom", "lang": "en", "active": true },
+        { "name": "Linux Foundation Blog", "url": "https://www.linuxfoundation.org/blog/feed", "lang": "en", "active": true }
+      ]
+    },
+    {
+      "id": "hackspace",
+      "label": "HackSpace, LUG & Community",
+      "icon": "🛸",
+      "color": "#ff9944",
+      "feeds": [
+        { "name": "CCC News", "url": "https://www.ccc.de/en/feeds/news.xml", "lang": "en", "active": true },
+        { "name": "CCC Events", "url": "https://www.ccc.de/en/feeds/calendar.xml", "lang": "en", "active": true },
+        { "name": "FSFE News", "url": "https://fsfe.org/news/news.en.rss", "lang": "en", "active": true },
+        { "name": "Software Freedom Conservancy", "url": "https://sfconservancy.org/feeds/omnibus/", "lang": "en", "active": true },
+        { "name": "Libre Planet (FSF)", "url": "https://libreplanet.org/feed/", "lang": "en", "active": true },
+        { "name": "Hackaday.io Projects", "url": "https://hackaday.io/projects/feed", "lang": "en", "active": true },
+        { "name": "Framasoft Blog", "url": "https://framablog.org/feed/", "lang": "fr", "active": true },
+        { "name": "April.org", "url": "https://www.april.org/flux/feed/", "lang": "fr", "active": true },
+        { "name": "LinuxFr.org", "url": "https://linuxfr.org/news.atom", "lang": "fr", "active": true },
+        { "name": "La Quadrature du Net", "url": "https://www.laquadrature.net/feed/", "lang": "fr", "active": true }
+      ]
+    },
+    {
+      "id": "selfhost",
+      "label": "Selfhosting",
+      "icon": "🏠",
+      "color": "#b388ff",
+      "feeds": [
+        { "name": "selfh.st Weekly", "url": "https://selfh.st/rss/", "lang": "en", "active": true },
+        { "name": "r/selfhosted", "url": "https://www.reddit.com/r/selfhosted.rss", "lang": "en", "active": true },
+        { "name": "r/homelab", "url": "https://www.reddit.com/r/homelab.rss", "lang": "en", "active": true },
+        { "name": "awesome-selfhosted commits", "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/commits/master.atom", "lang": "en", "active": true },
+        { "name": "Self-Hosted Podcast", "url": "https://feeds.fireside.fm/selfhosted/rss", "lang": "en", "active": true },
+        { "name": "Lobsters / self_hosting", "url": "https://lobste.rs/t/self_hosting.rss", "lang": "en", "active": true }
+      ]
+    },
+    {
+      "id": "laptop",
+      "label": "The Geek Laptop",
+      "icon": "💻",
+      "color": "#ffcc44",
+      "feeds": [
+        { "name": "It's FOSS", "url": "https://itsfoss.com/feed/", "lang": "en", "active": true },
+        { "name": "Phoronix", "url": "https://www.phoronix.com/rss.php", "lang": "en", "active": true },
+        { "name": "LWN.net", "url": "https://lwn.net/headlines/rss", "lang": "en", "active": true },
+        { "name": "How-To Geek", "url": "https://www.howtogeek.com/feed/", "lang": "en", "active": true },
+        { "name": "Linux Today", "url": "https://www.linuxtoday.com/feed/", "lang": "en", "active": true },
+        { "name": "CNX Software", "url": "https://www.cnx-software.com/feed/", "lang": "en", "active": true }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "Security & Vulnerabilities",
+      "icon": "🔐",
+      "color": "#ff4444",
+      "feeds": [
+        { "name": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "lang": "en", "active": true },
+        { "name": "Schneier on Security", "url": "https://www.schneier.com/feed/atom/", "lang": "en", "active": true },
+        { "name": "The Hacker News", "url": "https://feeds.feedburner.com/TheHackersNews", "lang": "en", "active": true },
+        { "name": "CISA Advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "lang": "en", "active": true },
+        { "name": "Darknet Diaries", "url": "https://feeds.megaphone.fm/darknetdiaries", "lang": "en", "active": true }
+      ]
+    },
+    {
+      "id": "eu",
+      "label": "EU & Policy",
+      "icon": "🇪🇺",
+      "color": "#ffd600",
+      "feeds": [
+        { "name": "Open Source Initiative", "url": "https://opensource.org/feed", "lang": "en", "active": true },
+        { "name": "EDRi (European Digital Rights)", "url": "https://edri.org/feed/", "lang": "en", "active": true },
+        { "name": "NOYB", "url": "https://noyb.eu/en/rss.xml", "lang": "en", "active": true },
+        { "name": "EU Digital Strategy", "url": "https://digital-strategy.ec.europa.eu/en/rss.xml", "lang": "en", "active": true },
+        { "name": "ENISA", "url": "https://www.enisa.europa.eu/media/news-items/news-wires/RSS", "lang": "en", "active": true }
+      ]
+    },
+    {
+      "id": "global",
+      "label": "Global — Africa · Asia · LatAm",
+      "icon": "🌍",
+      "color": "#69f0ae",
+      "feeds": [
+        { "name": "Rest of World", "url": "https://restofworld.org/feed/latest/", "lang": "en", "active": true },
+        { "name": "Global Voices", "url": "https://globalvoices.org/feed/", "lang": "en", "active": true },
+        { "name": "Techpoint Africa", "url": "https://techpoint.africa/feed/", "lang": "en", "active": true },
+        { "name": "TechCabal", "url": "https://techcabal.com/feed/", "lang": "en", "active": true },
+        { "name": "IT News Africa", "url": "https://www.itnewsafrica.com/feed/", "lang": "en", "active": true },
+        { "name": "Tech in Asia", "url": "https://www.techinasia.com/feed", "lang": "en", "active": true },
+        { "name": "MediaNama", "url": "https://www.medianama.com/feed/", "lang": "en", "active": true },
+        { "name": "Access Now", "url": "https://www.accessnow.org/feed/", "lang": "en", "active": true },
+        { "name": "Tecnoblog", "url": "https://tecnoblog.net/feed/", "lang": "pt", "active": true },
+        { "name": "Hipertextual", "url": "https://hipertextual.com/feed", "lang": "es", "active": true }
+      ]
+    },
+    {
+      "id": "dansk",
+      "label": "Dansk & Nordisk IT",
+      "icon": "🇩🇰",
+      "color": "#ff9800",
+      "feeds": [
+        { "name": "Version2", "url": "https://www.version2.dk/it/rss", "lang": "da", "active": true },
+        { "name": "Computerworld DK", "url": "https://www.computerworld.dk/rss/all", "lang": "da", "active": true },
+        { "name": "Ingeniøren", "url": "https://ing.dk/rss", "lang": "da", "active": true }
+      ]
+    },
+    {
+      "id": "europa",
+      "label": "Europa — DE · FR · IT · ES",
+      "icon": "🗺️",
+      "color": "#ce93d8",
+      "feeds": [
+        { "name": "Heise Online", "url": "https://www.heise.de/rss/heise-atom.xml", "lang": "de", "active": true },
+        { "name": "Golem.de", "url": "https://rss.golem.de/rss.php?feed=ATOM1.0", "lang": "de", "active": true },
+        { "name": "Linux Magazin DE", "url": "https://www.linux-magazin.de/feed/", "lang": "de", "active": true },
+        { "name": "Framablog (FR)", "url": "https://framablog.org/feed/", "lang": "fr", "active": true },
+        { "name": "LinuxFr.org", "url": "https://linuxfr.org/news.atom", "lang": "fr", "active": true },
+        { "name": "Punto Informatico (IT)", "url": "https://punto-informatico.it/feed/", "lang": "it", "active": true },
+        { "name": "Hipertextual (ES)", "url": "https://hipertextual.com/feed", "lang": "es", "active": true }
+      ]
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "icon": "⎔",
+      "color": "#e8e8e8",
+      "feeds": [
+        { "name": "GitHub Trending (all)", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml", "lang": "en", "active": true },
+        { "name": "GitHub Trending (Python)", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml", "lang": "en", "active": true },
+        { "name": "GitHub Trending (Rust)", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/rust.xml", "lang": "en", "active": true },
+        { "name": "GitHub Trending (Japanese)", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/japanese.xml", "lang": "ja", "active": true }
+      ]
+    },
+    {
+      "id": "frihed",
+      "label": "Digital Frihed & Åbent Internet",
+      "icon": "🧅",
+      "color": "#40c4ff",
+      "feeds": [
+        { "name": "Tor Project Blog", "url": "https://blog.torproject.org/rss.xml", "lang": "en", "active": true },
+        { "name": "EFF Deeplinks", "url": "https://www.eff.org/rss/updates.xml", "lang": "en", "active": true },
+        { "name": "404 Media", "url": "https://www.404media.co/rss", "lang": "en", "active": true },
+        { "name": "CTFtime", "url": "https://ctftime.org/event/list/upcoming/rss/", "lang": "en", "active": true },
+        { "name": "Article 19", "url": "https://www.article19.org/feed/", "lang": "en", "active": true }
+      ]
+    }
+  ]
+}

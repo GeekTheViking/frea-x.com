@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!-- Frea-X 2.0 v0.0.42 | CyberSpace — License to Exploit -->
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSpace — FREA-X 2.0</title>
+    <meta name="description" content="Et frit, åbent og kurateret vindue til tech- og IT-verdenen. Ingen klik-jagt. Bare signal.">
+    <link rel="stylesheet" href="{{ "css/freax.css" | relURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ "images/favicon.ico" | relURL }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@300;400;500&display=swap">
+    <style>
+    /* ── CYBERSPACE DESIGN TOKENS ── */
+    :root {
+      --cs-bg:       #4a1862;
+      --cs-surface:  #5c2278;
+      --cs-deep:     #3a1050;
+      --cs-border:   #6a3090;
+      --cs-border-l: #7a40a8;
+      --cs-accent:   #00cfff;
+      --cs-text:     #ffffff;
+      --cs-dim:      #c090d8;
+      --cs-muted:    #8a6aaa;
+
+      --col-ai:        #00cfff;
+      --col-dev:       #ff6b9d;
+      --col-oss:       #00e676;
+      --col-hackspace: #ff9944;
+      --col-selfhost:  #ce93d8;
+      --col-laptop:    #ffd740;
+      --col-security:  #ff5252;
+      --col-eu:        #ffd600;
+      --col-global:    #69f0ae;
+      --col-europa:    #ce93d8;
+      --col-dansk:     #ff9800;
+      --col-frihed:    #40c4ff;
+      --col-github:    #e0e0e0;
+    }
+
+    /* Override body background for CyberSpace */
+    body {
+      background: var(--cs-bg);
+      font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    }
+
+    /* ── PAGE HERO ── */
+    .cs-hero {
+      text-align: center;
+      padding: 20px 20px 16px;
+    }
+    .cs-title {
+      font-size: 2em;
+      font-weight: 800;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: #ffffff;
+      border-bottom: 1px solid rgba(0,255,204,0.3);
+      padding-bottom: 15px;
+      margin-bottom: 12px;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+    }
+    .cs-tagline-main {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-style: italic;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--cs-accent);
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+    }
+    .cs-tagline-sub {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-style: italic;
+      font-size: 12px;
+      color: var(--cs-dim);
+      letter-spacing: 1px;
+    }
+
+    /* ── TICKER ── */
+    .ticker-wrap {
+      background: #0088aa;
+      color: #ffffff;
+      padding: 4px 0;
+      overflow: hidden;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .ticker-inner {
+      display: inline-flex;
+      white-space: nowrap;
+      animation: ticker 60s linear infinite;
+    }
+    .ticker-inner span { margin-right: 60px; }
+    @keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+    /* ── SUBHEADER ── */
+    .cs-subheader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 24px;
+      background: var(--cs-deep);
+      border-bottom: 1px solid var(--cs-border);
+      font-size: 10px;
+      color: var(--cs-muted);
+      letter-spacing: 1px;
+    }
+    .cs-subheader-left { display:flex; gap:20px; align-items:center; }
+    .cs-clock { color: var(--cs-dim); }
+    .cs-next-upd { color: var(--cs-muted); }
+    .live-dot { width:6px; height:6px; border-radius:50%; background:var(--cs-accent); animation:blink 1.4s infinite; display:inline-block; margin-right:5px; }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.2} }
+    .live-label { color:var(--cs-accent); }
+
+    /* ── FILTER BAR ── */
+    .cs-filters {
+      display: flex;
+      padding: 8px 24px;
+      gap: 0;
+      overflow-x: auto;
+      background: var(--cs-deep);
+      border-bottom: 1px solid var(--cs-border);
+      scrollbar-width: none;
+    }
+    .cs-filters::-webkit-scrollbar { display:none; }
+    .filter-btn {
+      background: none;
+      border: 1px solid var(--cs-border);
+      color: #ffffff;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 9px;
+      padding: 4px 11px;
+      cursor: pointer;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: all 0.15s;
+      white-space: nowrap;
+      margin-right: -1px;
+    }
+    .filter-btn:hover {
+      background: var(--cs-surface);
+      color: var(--cs-text);
+      border-color: var(--cs-border-l);
+      z-index: 1;
+    }
+    .filter-btn.active { z-index:2; color:#000; }
+    .filter-btn.active.f-all       { background:var(--cs-accent);      border-color:var(--cs-accent); }
+    .filter-btn.active.f-ai        { background:var(--col-ai);         border-color:var(--col-ai); }
+    .filter-btn.active.f-dev       { background:var(--col-dev);        border-color:var(--col-dev); }
+    .filter-btn.active.f-oss       { background:var(--col-oss);        border-color:var(--col-oss); }
+    .filter-btn.active.f-hackspace { background:var(--col-hackspace);  border-color:var(--col-hackspace); }
+    .filter-btn.active.f-selfhost  { background:var(--col-selfhost);   border-color:var(--col-selfhost); }
+    .filter-btn.active.f-laptop    { background:var(--col-laptop);     border-color:var(--col-laptop); }
+    .filter-btn.active.f-security  { background:var(--col-security);   border-color:var(--col-security); color:#fff; }
+    .filter-btn.active.f-eu        { background:var(--col-eu);         border-color:var(--col-eu); }
+    .filter-btn.active.f-global    { background:var(--col-global);     border-color:var(--col-global); }
+    .filter-btn.active.f-europa    { background:var(--col-europa);     border-color:var(--col-europa); }
+    .filter-btn.active.f-dansk     { background:var(--col-dansk);      border-color:var(--col-dansk); }
+    .filter-btn.active.f-frihed    { background:var(--col-frihed);     border-color:var(--col-frihed); }
+    .filter-btn.active.f-github    { background:var(--col-github);     border-color:var(--col-github); }
+
+    /* ── MAIN LAYOUT ── */
+    .cs-layout {
+      display: grid;
+      grid-template-columns: 1fr 260px;
+      min-height: calc(100vh - 300px);
+    }
+
+    /* ── FEED ── */
+    .cs-feed {
+      border-right: 1px solid var(--cs-border);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-content: start;
+    }
+    .section-label {
+      grid-column: 1 / -1;
+      font-size: 9px;
+      letter-spacing: 3px;
+      color: var(--cs-muted);
+      text-transform: uppercase;
+      padding: 7px 22px 5px;
+      background: var(--cs-deep);
+      border-bottom: 1px solid var(--cs-border);
+    }
+    .news-item {
+      display: grid;
+      grid-template-columns: 36px 1fr;
+      border-bottom: 1px solid var(--cs-border);
+      cursor: pointer;
+      transition: background 0.12s;
+      animation: fadeIn 0.25s ease forwards;
+      opacity: 0;
+      text-decoration: none;
+    }
+    .news-item:hover { background: rgba(255,255,255,0.04); }
+    @keyframes fadeIn { to{opacity:1} }
+    .line-num {
+      font-size: 10px;
+      color: var(--cs-muted);
+      padding: 11px 8px 9px 14px;
+      border-right: 1px solid var(--cs-border);
+      text-align: right;
+      user-select: none;
+    }
+    .item-body { padding: 8px 16px; }
+    .item-meta {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 4px;
+      flex-wrap: wrap;
+    }
+    .source-tag {
+      font-size: 8px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 1px 6px;
+      font-weight: 700;
+      white-space: nowrap;
+      border-radius: 2px;
+    }
+    .src-ai        { color:#000; background:var(--col-ai); }
+    .src-github    { color:#000; background:var(--col-github); }
+    .src-eu        { color:#000; background:var(--col-eu); }
+    .src-version2  { color:#fff; background:#e63946; }
+    .src-oss       { color:#000; background:var(--col-oss); }
+    .src-hackspace { color:#000; background:var(--col-hackspace); }
+    .src-security  { color:#fff; background:var(--col-security); }
+    .src-dansk     { color:#000; background:var(--col-dansk); }
+    .src-selfhost  { color:#000; background:var(--col-selfhost); }
+    .src-laptop    { color:#000; background:var(--col-laptop); }
+    .src-frihed    { color:#000; background:var(--col-frihed); }
+    .src-dev       { color:#000; background:var(--col-dev); }
+    .src-global    { color:#000; background:var(--col-global); }
+    .src-europa    { color:#000; background:var(--col-europa); }
+
+    .lang-badge {
+      font-size: 7px;
+      padding: 1px 5px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 2px;
+      color: var(--cs-dim);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .item-time { font-size: 9px; color: var(--cs-muted); }
+    .item-title {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--cs-text);
+      line-height: 1.45;
+      margin-bottom: 3px;
+    }
+    .news-item:hover .item-title { color: var(--cs-accent); }
+    .item-sub { font-size: 10px; color: var(--cs-dim); }
+
+    /* ── SIDEBAR ── */
+    .cs-sidebar { background: var(--cs-deep); }
+    .sidebar-block {
+      border-bottom: 1px solid var(--cs-border);
+      padding: 10px 14px;
+    }
+    .sidebar-title {
+      font-size: 9px;
+      letter-spacing: 2px;
+      color: var(--cs-accent);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .trend-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 3px 0;
+      font-size: 10px;
+      border-bottom: 1px solid var(--cs-border);
+    }
+    .trend-item:last-of-type { border-bottom: none; }
+    .trend-name { color: var(--cs-text); }
+    .trend-count { color: var(--cs-muted); }
+    .trend-bar { height: 1px; background: var(--cs-accent); margin-bottom: 3px; opacity: 0.3; }
+    .source-list { list-style: none; }
+    .source-list li {
+      padding: 3px 0;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--cs-dim);
+      border-bottom: 1px solid var(--cs-border);
+    }
+    .source-list li:last-child { border-bottom: none; }
+    .src-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+    .stats-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      padding: 3px 0;
+      color: var(--cs-muted);
+      border-bottom: 1px solid var(--cs-border);
+    }
+    .stats-row:last-child { border-bottom: none; }
+    .stats-val { color: var(--cs-text); }
+    .stats-val.accent { color: var(--cs-accent); }
+    .gtv-hint {
+      font-size: 9px;
+      color: var(--cs-muted);
+      line-height: 1.8;
+      font-style: italic;
+    }
+    .gtv-hint span { color: var(--cs-accent); font-style: normal; }
+
+    /* ── EMPTY STATE ── */
+    .cs-empty {
+      padding: 48px 24px;
+      color: var(--cs-muted);
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .cs-feed { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 660px) {
+      .cs-layout { grid-template-columns: 1fr; }
+      .cs-sidebar { display: none; }
+      .cs-title { font-size: 18px; letter-spacing: 5px; }
+      .cs-filters { padding: 8px 12px; }
+    }
+    </style>
+</head>
+<body>
+
+<nav class="fx-nav">
+    <a href="{{ "/" | relURL }}" class="fx-nav-logo">
+        <img src="{{ "images/geektheviking-32px.png" | relURL }}" alt="GTV"> FREA-X ~ CyberSpace ACADEMY
+    </a>
+    <ul class="fx-nav-links">
+        <li><a href="{{ "workflow/" | relURL }}">Workflow</a></li>
+        <li class="fx-nav-sep">|</li>
+        <li><a href="{{ "seal-of-freax/" | relURL }}">Seal of Frea-X</a></li>
+        <li class="fx-nav-sep">|</li>
+        <li><a href="{{ "frankenstein/" | relURL }}">Frankenstein AI</a></li>
+        <li class="fx-nav-sep">|</li>
+        <li><a href="{{ "ai-quality/" | relURL }}">AI &amp; IT</a></li>
+        <li class="fx-nav-sep">|</li>
+        <li><a href="{{ "ai-campus/" | relURL }}">AI Campus</a></li>
+        <li class="fx-nav-sep">|</li>
+        <li><a href="{{ "cyberspace/" | relURL }}">CyberSpace</a></li>
+        <li class="fx-nav-sep">|</li>
+        <li><a href="{{ "eastereggs/" | relURL }}">Easter Eggs</a></li>
+    </ul>
+</nav>
+
+<div class="cs-hero">
+    <h1 class="cs-title">CYBERSPACE</h1>
+    <p class="cs-tagline-main">The 42 News!</p>
+    <p class="cs-tagline-sub">Open Source · GPL · Digital Sovereignty — the values that shape Frea-X</p>
+</div>
+
+<div class="ticker-wrap">
+    <div class="ticker-inner" id="tickerInner">
+        <span>▸ Henter seneste nyheder fra CyberSpace...</span>
+        <span>▸ 56 RSS-kilder · 10 kategorier · opdateres kl. :42</span>
+        <span>▸ Open Source · Green IT · Sovereign Stack · Digital Justice</span>
+        <span>▸ White Hat og etisk hacking er velkomne i Frea-X flokken</span>
+        <span>▸ Henter seneste nyheder fra CyberSpace...</span>
+        <span>▸ 56 RSS-kilder · 10 kategorier · opdateres kl. :42</span>
+        <span>▸ Open Source · Green IT · Sovereign Stack · Digital Justice</span>
+        <span>▸ White Hat og etisk hacking er velkomne i Frea-X flokken</span>
+    </div>
+</div>
+
+<div class="cs-subheader">
+    <div class="cs-subheader-left">
+        <span class="cs-clock" id="csClock">--:--:--</span>
+        <span class="cs-next-upd" id="csNextUpd">NÆSTE OPD. --:42</span>
+    </div>
+    <div>
+        <span class="live-dot"></span>
+        <span class="live-label" id="liveLabel">LIVE FEED · HENTER DATA...</span>
+    </div>
+</div>
+
+<div class="cs-filters">
+    <button class="filter-btn active f-all"       onclick="filter('all',this)">⬡ Alle</button>
+    <button class="filter-btn f-ai"               onclick="filter('ai',this)">🤖 AI</button>
+    <button class="filter-btn f-dev"              onclick="filter('dev',this)">💬 Dev</button>
+    <button class="filter-btn f-oss"              onclick="filter('oss',this)">🖥 Open Source</button>
+    <button class="filter-btn f-hackspace"        onclick="filter('hackspace',this)">🛸 HackSpace</button>
+    <button class="filter-btn f-selfhost"         onclick="filter('selfhost',this)">🏠 Selfhost</button>
+    <button class="filter-btn f-laptop"           onclick="filter('laptop',this)">💻 Geek Laptop</button>
+    <button class="filter-btn f-security"         onclick="filter('security',this)">🔐 Security</button>
+    <button class="filter-btn f-eu"               onclick="filter('eu',this)">🇪🇺 EU</button>
+    <button class="filter-btn f-global"           onclick="filter('global',this)">🌍 Global</button>
+    <button class="filter-btn f-europa"           onclick="filter('europa',this)">🗺️ Europa</button>
+    <button class="filter-btn f-dansk"            onclick="filter('dansk',this)">🇩🇰 Dansk</button>
+    <button class="filter-btn f-frihed"           onclick="filter('frihed',this)">🧅 Digital Frihed</button>
+    <button class="filter-btn f-github"           onclick="filter('github',this)">⎔ GitHub</button>
+</div>
+
+<div class="cs-layout">
+    <div class="cs-feed" id="csFeed">
+        <div class="cs-empty">▸ HENTER NYHEDER...</div>
+    </div>
+
+    <div class="cs-sidebar">
+        <div class="sidebar-block">
+            <div class="sidebar-title">▸ Kategorier</div>
+            <ul class="source-list">
+                <li><div class="src-dot" style="background:var(--col-ai)"></div>AI &amp; ML</li>
+                <li><div class="src-dot" style="background:var(--col-dev)"></div>Dev Community</li>
+                <li><div class="src-dot" style="background:var(--col-oss)"></div>Open Source</li>
+                <li><div class="src-dot" style="background:var(--col-hackspace)"></div>HackSpace &amp; LUG</li>
+                <li><div class="src-dot" style="background:var(--col-selfhost)"></div>Selfhosting</li>
+                <li><div class="src-dot" style="background:var(--col-laptop)"></div>Geek Laptop</li>
+                <li><div class="src-dot" style="background:var(--col-security)"></div>Security</li>
+                <li><div class="src-dot" style="background:var(--col-eu)"></div>EU / Policy</li>
+                <li><div class="src-dot" style="background:var(--col-global)"></div>Global 🌍</li>
+                <li><div class="src-dot" style="background:var(--col-europa)"></div>Europa 🗺️</li>
+                <li><div class="src-dot" style="background:var(--col-dansk)"></div>Dansk IT</li>
+                <li><div class="src-dot" style="background:var(--col-frihed)"></div>Digital Frihed</li>
+                <li><div class="src-dot" style="background:var(--col-github)"></div>GitHub</li>
+            </ul>
+        </div>
+
+        <div class="sidebar-block">
+            <div class="sidebar-title">▸ Feed Status</div>
+            <div class="stats-row"><span>Nyheder</span><span class="stats-val accent" id="statItems">—</span></div>
+            <div class="stats-row"><span>Tidsvindue</span><span class="stats-val accent">42 timer</span></div>
+            <div class="stats-row"><span>Opdateres</span><span class="stats-val">:42 / time</span></div>
+            <div class="stats-row"><span>Kategorier</span><span class="stats-val">10</span></div>
+            <div class="stats-row"><span>Data i EU</span><span class="stats-val accent">✓</span></div>
+            <div class="stats-row"><span>Sidst opdateret</span><span class="stats-val" id="statGenerated">—</span></div>
+        </div>
+
+        <div class="sidebar-block">
+            <div class="sidebar-title">▸ Geek The Viking siger</div>
+            <div class="gtv-hint">
+                "Jeg har sejlet The Lost Packet<br>
+                gennem hele CyberSpace<br>
+                og bragt nyheder hjem.<br>
+                <span>White Hat velkomne.</span><br>
+                Resten kan finde andre steder."
+            </div>
+        </div>
+
+        <div class="sidebar-block">
+            <div class="sidebar-title">▸ Find din lokale gruppe 🗺</div>
+            <ul class="source-list">
+                <li><a href="https://hackerspaces.org" target="_blank" rel="noopener" style="color:var(--cs-accent);text-decoration:none;">🛸 hackerspaces.org</a></li>
+                <li><a href="https://wiki.hackerspaces.org/List_of_Hacker_Spaces" target="_blank" rel="noopener" style="color:var(--cs-accent);text-decoration:none;">📍 Verdenskort over HackSpaces</a></li>
+                <li><a href="https://spaceapi.io" target="_blank" rel="noopener" style="color:var(--cs-accent);text-decoration:none;">📡 SpaceAPI — åben/lukket nu</a></li>
+                <li><a href="https://linux.org/groups" target="_blank" rel="noopener" style="color:var(--cs-accent);text-decoration:none;">🐧 Linux User Groups (LUG)</a></li>
+                <li><a href="https://fsfe.org/fellowshipgroups.en.html" target="_blank" rel="noopener" style="color:var(--cs-accent);text-decoration:none;">🇪🇺 FSFE Fellowship-grupper</a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-block">
+            <div class="sidebar-title">▸ Om CyberSpace</div>
+            <div class="gtv-hint">
+                Et frit, åbent og kurateret<br>
+                vindue til tech-verdenen.<br><br>
+                <span>Ingen klik-jagt.</span><br>
+                Ingen reklamer.<br>
+                Bare signal.
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="fx-footer">
+    <p>This is not the News — This is the 42 Minutes News from CyberSpace</p>
+    <p>The R&amp;D Lab · Exploited by Geek The Viking</p>
+    <p>Frea-X Agent v0.0.42 · License to Exploit · To infinity... and beyond, CyberSpace!</p>
+    <p><a href="https://github.com/GeekTheViking/frea-x.com" target="_blank">Live Documentation via GitHub</a></p>
+</footer>
+
+<script src="{{ "js/console-egg.js" | relURL }}"></script>
+{{ partial "easteregg-comment.html" . }}
+
+<script>
+// ── DEMO DATA (vises når feed-cache.json er tom eller ikke tilgængelig) ──
+const DEMO = [
+  { src:'ai',       tag:'AI',          cls:'src-ai',       time:'08:42', title:'Claude Sonnet 4.6 — hvad er nyt og hvad det betyder for udviklere', sub:'anthropic.com', link:'#' },
+  { src:'frihed',   tag:'TOR',         cls:'src-frihed',   time:'08:38', title:'Tor community samles i Danmark — ny fokus på censurresistent infrastruktur', sub:'blog.torproject.org', link:'#' },
+  { src:'github',   tag:'GITHUB',      cls:'src-github',   time:'08:31', title:'llm.c topper GitHub Trending — Karpathy\'s C-implementation af LLM træning', sub:'github.com/karpathy · 4.2k ★', link:'#' },
+  { src:'selfhost', tag:'SELFHOST',    cls:'src-selfhost', time:'08:42', title:'Immich 1.102 udgivet — ny ML face clustering og forbedret mobile upload', sub:'selfh.st/releases', link:'#' },
+  { src:'eu',       tag:'EU',          cls:'src-eu',       time:'07:42', title:'EU Cyber Resilience Act: Hvad softwareudviklere skal vide inden Q3 2025', sub:'digital-strategy.ec.europa.eu', link:'#' },
+  { src:'dansk',    tag:'VERSION2',    cls:'src-version2', time:'07:30', title:'Dansk AI-strategi: Folketing debatterer regulering af store sprogmodeller', sub:'version2.dk', link:'#' },
+  { src:'oss',      tag:'OSS',         cls:'src-oss',      time:'07:15', title:'Linux kernel 6.9 — forbedret ARM64, ny I/O scheduler og RISC-V patches', sub:'kernel.org', link:'#' },
+  { src:'security', tag:'SECURITY',    cls:'src-security', time:'06:42', title:'CVE-2024-4577: PHP-sårbarhed aktivt udnyttet — patch nu hvis du kører Windows', sub:'CERT · Kritisk', link:'#' },
+  { src:'ai',       tag:'AI',          cls:'src-ai',       time:'06:30', title:'Ollama 0.2 — multi-model API og GPU-deling, kør flere modeller simultant', sub:'ollama.ai', link:'#' },
+  { src:'frihed',   tag:'EFF',         cls:'src-frihed',   time:'06:15', title:'EFF: Ny EU-lovgivning truer end-to-end kryptering for millioner af brugere', sub:'eff.org/deeplinks', link:'#' },
+  { src:'selfhost', tag:'SELFHOST',    cls:'src-selfhost', time:'05:42', title:'r/selfhosted: Halo-10F mini PC — community tester ARM-baseret hjemmeserver', sub:'reddit.com/r/selfhosted · 847 kommentarer', link:'#' },
+  { src:'laptop',   tag:'GEEK LAPTOP', cls:'src-laptop',   time:'05:30', title:'Ghostty 1.0 stable — Rust-skrevet terminal emulator der udfordrer Alacritty', sub:'ghostty.org', link:'#' },
+  { src:'oss',      tag:'OSS',         cls:'src-oss',      time:'05:15', title:'Zed editor åbner sin kildekode — samarbejdsfunktioner og Rust under motorhjelmen', sub:'zed.dev', link:'#' },
+  { src:'dev',      tag:'HN',          cls:'src-dev',      time:'04:42', title:'Ask HN: Hvad er jeres foretrukne self-hosted alternativer til Google Workspace?', sub:'news.ycombinator.com · 312 point', link:'#' },
+  { src:'security', tag:'SECURITY',    cls:'src-security', time:'03:42', title:'Supply chain-angreb rammer npm: 3 pakker inficeret med stealer-kode', sub:'socket.dev · Analyse', link:'#' },
+];
+
+let items = DEMO;
+let currentFilter = 'all';
+
+// Konverter live feed-item til visningsformat
+function toDisplay(item) {
+  const tag = item.source ? item.source.substring(0, 14).toUpperCase() : item.category.toUpperCase();
+  const cls = 'src-' + item.category;
+  let timeStr = '--:--';
+  try {
+    timeStr = new Date(item.fetched || item.pub).toLocaleTimeString('da-DK', {hour:'2-digit', minute:'2-digit'});
+  } catch(e) {}
+  return {
+    src:   item.category,
+    tag:   tag,
+    cls:   cls,
+    time:  timeStr,
+    title: item.title || '(ingen titel)',
+    sub:   item.source || '',
+    link:  item.link || '#'
+  };
+}
+
+async function loadFeed() {
+  try {
+    const resp = await fetch('/data/feed-cache.json?v=' + Date.now());
+    if (!resp.ok) throw new Error('not found');
+    const cache = await resp.json();
+    if (cache.items && cache.items.length > 0) {
+      items = cache.items.map(toDisplay);
+
+      // Opdater sidebar stats
+      const el = document.getElementById('statItems');
+      if (el) el.textContent = cache.total_items || '—';
+      const gen = document.getElementById('statGenerated');
+      if (gen && cache.generated) {
+        try {
+          gen.textContent = new Date(cache.generated).toLocaleTimeString('da-DK', {hour:'2-digit', minute:'2-digit'});
+        } catch(e) {}
+      }
+
+      // Opdater ticker med rigtige titler
+      updateTicker(items.slice(0, 8));
+
+      // Opdater live-label
+      const ll = document.getElementById('liveLabel');
+      if (ll) ll.textContent = `LIVE FEED · ${cache.total_items || 0} NYHEDER · SENESTE 42 TIMER`;
+    }
+  } catch(e) {
+    // Brug demo data — opdater label
+    const ll = document.getElementById('liveLabel');
+    if (ll) ll.textContent = 'DEMO DATA · LIVE FEEDS AKTIVERES VIA GITHUB ACTIONS';
+    const el = document.getElementById('statFeeds');
+    if (el) el.textContent = 'demo';
+  }
+  renderFeed();
+}
+
+function updateTicker(tickerItems) {
+  const inner = document.getElementById('tickerInner');
+  if (!inner || tickerItems.length === 0) return;
+  const spans = tickerItems.map(i => `<span>▸ ${i.title}</span>`).join('');
+  inner.innerHTML = spans + spans; // dobbelt for seamless loop
+}
+
+function filter(cat, btn) {
+  currentFilter = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderFeed();
+}
+
+function renderFeed() {
+  const feed = document.getElementById('csFeed');
+  const filtered = currentFilter === 'all' ? items : items.filter(i => i.src === currentFilter);
+  const top  = filtered.slice(0, 3);
+  const rest = filtered.slice(3);
+  let html = '';
+
+  if (top.length) {
+    html += '<div class="section-label">▸ TOP HISTORIER</div>';
+    top.forEach((item, i) => {
+      const href = item.link && item.link !== '#' ? ` href="${item.link}" target="_blank" rel="noopener"` : '';
+      const lang = item.lang && item.lang !== 'en' ? `<span class="lang-badge">${item.lang}</span>` : '';
+      html += `<a class="news-item"${href} style="animation-delay:${i*0.06}s">
+        <div class="line-num">${String(i+1).padStart(2,'0')}</div>
+        <div class="item-body">
+          <div class="item-meta">
+            <span class="source-tag ${item.cls}">${item.tag}</span>
+            ${lang}
+            <span class="item-time">${item.time}</span>
+          </div>
+          <div class="item-title">${item.title}</div>
+          <div class="item-sub">${item.sub}</div>
+        </div></a>`;
+    });
+  }
+
+  if (rest.length) {
+    html += '<div class="section-label">▸ SENESTE</div>';
+    rest.forEach((item, i) => {
+      const href = item.link && item.link !== '#' ? ` href="${item.link}" target="_blank" rel="noopener"` : '';
+      const lang = item.lang && item.lang !== 'en' ? `<span class="lang-badge">${item.lang}</span>` : '';
+      html += `<a class="news-item"${href} style="animation-delay:${(i+3)*0.04}s">
+        <div class="line-num">${String(i+4).padStart(2,'0')}</div>
+        <div class="item-body">
+          <div class="item-meta">
+            <span class="source-tag ${item.cls}">${item.tag}</span>
+            ${lang}
+            <span class="item-time">${item.time}</span>
+          </div>
+          <div class="item-title">${item.title}</div>
+          <div class="item-sub">${item.sub}</div>
+        </div></a>`;
+    });
+  }
+
+  if (!filtered.length) {
+    html = '<div class="cs-empty">— INGEN HISTORIER I DENNE KATEGORI —</div>';
+  }
+
+  feed.innerHTML = html;
+}
+
+// Ur + næste :42
+function updateClock() {
+  const now  = new Date();
+  const next = new Date(now);
+  next.setMinutes(42, 0, 0);
+  if (now.getMinutes() >= 42) next.setHours(next.getHours() + 1);
+  const diff = Math.round((next - now) / 60000);
+  const clock = document.getElementById('csClock');
+  const upd   = document.getElementById('csNextUpd');
+  if (clock) clock.textContent = now.toLocaleTimeString('da-DK');
+  if (upd)   upd.textContent   = `NÆSTE OPD. ${String(next.getHours()).padStart(2,'0')}:42 · ${diff} MIN`;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+loadFeed();
+</script>
+
+</body>
+</html>

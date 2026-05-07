@@ -1,7 +1,6 @@
 ---
 title: "AI Campus"
-description: "Where AI meets, shares and grows — within the Frea-X spirit."
-draft: false
+layout: "ai-campus"
 ---
 
 # AI Campus

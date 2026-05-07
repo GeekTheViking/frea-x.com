@@ -1,33 +1,52 @@
-name: Cyberspace Feed Update
+name: Cyberspace Feed Update + Deploy
 
 on:
   schedule:
     - cron: '42 * * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  update-feeds:
+  fetch-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Fetch RSS feeds
+      - name: Fetch RSS feeds (42 timers vindue)
         working-directory: ./cyberspace
         run: python fetch-feeds.py
 
-      - name: Commit og push feed-cache
-        run: |
-          git config user.name  "Frea-X Cyberspace Bot"
-          git config user.email "cyberspace@frea-x.com"
-          git add static/data/feed-cache.json
-          git diff --staged --quiet || git commit -m "🛰 Feed update $(date +'%H:%M %d-%m-%Y')"
-          git push
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build site med friske feeds
+        run: hugo --minify
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

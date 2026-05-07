@@ -1,9 +1,9 @@
 {
-  "generated": "2026-05-07T15:33:54.673627+00:00",
+  "generated": "2026-05-07T16:23:35.876436+00:00",
   "window_hours": 42,
   "feeds_ok": 69,
   "feeds_fail": 12,
-  "total_items": 500,
+  "total_items": 494,
   "items": [
     {
       "title": "The Download: the tech reshaping IVF and the rise of balcony solar",
@@ -13,7 +13,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 12:10:00 +0000",
-      "fetched": "2026-05-07T15:32:55.523993+00:00"
+      "fetched": "2026-05-07T16:22:30.412327+00:00"
     },
     {
       "title": "The balcony solar boom is coming to the US",
@@ -23,7 +23,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:00:00 +0000",
-      "fetched": "2026-05-07T15:32:55.524037+00:00"
+      "fetched": "2026-05-07T16:22:30.412382+00:00"
     },
     {
       "title": "What’s next for IVF",
@@ -33,7 +33,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:04:50 +0000",
-      "fetched": "2026-05-07T15:32:55.524062+00:00"
+      "fetched": "2026-05-07T16:22:30.412410+00:00"
     },
     {
       "title": "The Download: seafloor science and military chatbots",
@@ -43,7 +43,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Wed, 06 May 2026 12:10:00 +0000",
-      "fetched": "2026-05-07T15:32:55.524087+00:00"
+      "fetched": "2026-05-07T16:22:30.412438+00:00"
     },
     {
       "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
@@ -53,7 +53,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Wed, 06 May 2026 19:06:55 GMT",
-      "fetched": "2026-05-07T15:32:55.670878+00:00"
+      "fetched": "2026-05-07T16:22:30.559467+00:00"
     },
     {
       "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
@@ -63,7 +63,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Wed, 06 May 2026 00:00:00 GMT",
-      "fetched": "2026-05-07T15:32:55.670908+00:00"
+      "fetched": "2026-05-07T16:22:30.559500+00:00"
     },
     {
       "title": "LCM: Lossless Context Management",
@@ -73,7 +73,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742594+00:00"
+      "fetched": "2026-05-07T16:22:30.736366+00:00"
     },
     {
       "title": "Regularized Centered Emphatic Temporal Difference Learning",
@@ -83,7 +83,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742625+00:00"
+      "fetched": "2026-05-07T16:22:30.736402+00:00"
     },
     {
       "title": "Actionable Real-Time Modeling of Surgical Team Dynamics via Time-Expanded Interaction Graphs",
@@ -93,7 +93,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742642+00:00"
+      "fetched": "2026-05-07T16:22:30.736420+00:00"
     },
     {
       "title": "ANDRE: An Attention-based Neuro-symbolic Differentiable Rule Extractor",
@@ -103,7 +103,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742655+00:00"
+      "fetched": "2026-05-07T16:22:30.736436+00:00"
     },
     {
       "title": "Pro$^2$Assist: Continuous Step-Aware Proactive Assistance with Multimodal Egocentric Perception for Long-Horizon Procedural Tasks",
@@ -113,7 +113,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742668+00:00"
+      "fetched": "2026-05-07T16:22:30.736449+00:00"
     },
     {
       "title": "Temporal Reasoning Is Not the Bottleneck: A Probabilistic Inconsistency Framework for Neuro-Symbolic QA",
@@ -123,7 +123,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742684+00:00"
+      "fetched": "2026-05-07T16:22:30.736463+00:00"
     },
     {
       "title": "Parallel Prefix Verification for Speculative Generation",
@@ -133,7 +133,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742697+00:00"
+      "fetched": "2026-05-07T16:22:30.736477+00:00"
     },
     {
       "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
@@ -143,7 +143,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742709+00:00"
+      "fetched": "2026-05-07T16:22:30.736489+00:00"
     },
     {
       "title": "The Scaling Properties of Implicit Deductive Reasoning in Transformers",
@@ -153,7 +153,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742720+00:00"
+      "fetched": "2026-05-07T16:22:30.736501+00:00"
     },
     {
       "title": "When Context Hurts: The Crossover Effect of Knowledge Transfer on Multi-Agent Design Exploration",
@@ -163,7 +163,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742734+00:00"
+      "fetched": "2026-05-07T16:22:30.736515+00:00"
     },
     {
       "title": "Deployment-Relevant Alignment Cannot Be Inferred from Model-Level Evaluation Alone",
@@ -173,7 +173,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742750+00:00"
+      "fetched": "2026-05-07T16:22:30.736534+00:00"
     },
     {
       "title": "How Does Thinking Mode Change LLM Moral Judgments? A Controlled Instant-vs-Thinking Comparison Across Five Frontier Models",
@@ -183,7 +183,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742762+00:00"
+      "fetched": "2026-05-07T16:22:30.736547+00:00"
     },
     {
       "title": "From Parameter Dynamics to Risk Scoring : Quantifying Sample-Level Safety Degradation in LLM Fine-tuning",
@@ -193,7 +193,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742774+00:00"
+      "fetched": "2026-05-07T16:22:30.736559+00:00"
     },
     {
       "title": "SensingAgents: A Multi-Agent Collaborative Framework for Robust IMU Activity Recognition",
@@ -203,7 +203,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742786+00:00"
+      "fetched": "2026-05-07T16:22:30.736572+00:00"
     },
     {
       "title": "AuditRepairBench: A Paired-Execution Trace Corpus for Evaluator-Channel Ranking Instability in Agent Repair",
@@ -213,7 +213,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:00:00 -0400",
-      "fetched": "2026-05-07T15:32:55.742798+00:00"
+      "fetched": "2026-05-07T16:22:30.736585+00:00"
     },
     {
       "title": "Live blog: Code w/ Claude 2026",
@@ -223,7 +223,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "2026-05-06T15:58:27+00:00",
-      "fetched": "2026-05-07T15:32:55.959287+00:00"
+      "fetched": "2026-05-07T16:22:31.091957+00:00"
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -233,7 +233,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "2026-05-06T14:24:08+00:00",
-      "fetched": "2026-05-07T15:32:55.959369+00:00"
+      "fetched": "2026-05-07T16:22:31.092092+00:00"
     },
     {
       "title": "datasette-referrer-policy 0.1",
@@ -243,107 +243,7 @@
       "category": "ai",
       "lang": "en",
       "pub": "2026-05-05T23:44:27+00:00",
-      "fetched": "2026-05-07T15:32:55.959391+00:00"
-    },
-    {
-      "title": "Our AI started a cafe in Stockholm",
-      "link": "https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything",
-      "desc": "Our AI started a cafe in Stockholm\nAndon Labs previously started an AI-run retail store in San Francisco. Now they're ru",
-      "source": "Simon Willison",
-      "category": "ai",
-      "lang": "en",
-      "pub": "2026-05-05T22:14:21+00:00",
-      "fetched": "2026-05-07T15:32:55.959419+00:00"
-    },
-    {
-      "title": "Meta AI Releases NeuralBench: A Unified Open-Source Framework to Benchmark NeuroAI Models Across 36 EEG Tasks and 94 Datasets",
-      "link": "https://www.marktechpost.com/2026/05/07/meta-ai-releases-neuralbench-a-unified-open-source-framework-to-benchmark-neuroai-models-across-36-eeg-tasks-and-94-datasets/",
-      "desc": "Meta AI team has released NeuralBench, a unified open-source framework for benchmarking NeuroAI models, alongside Neural",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 08:37:32 +0000",
-      "fetched": "2026-05-07T15:32:56.186200+00:00"
-    },
-    {
-      "title": "OpenAI Introduces MRC (Multipath Reliable Connection): A New Open Networking Protocol for Large-Scale AI Supercomputer Training Clusters",
-      "link": "https://www.marktechpost.com/2026/05/07/openai-introduces-mrc-multipath-reliable-connection-a-new-open-networking-protocol-for-large-scale-ai-supercomputer-training-clusters/",
-      "desc": "MRC (Multipath Reliable Connection) is a new open networking protocol developed by OpenAI in partnership with AMD, Broad",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 07:50:02 +0000",
-      "fetched": "2026-05-07T15:32:56.186237+00:00"
-    },
-    {
-      "title": "Zyphra Releases ZAYA1-8B: A Reasoning MoE Trained on AMD Hardware That Punches Far Above Its Weight Class",
-      "link": "https://www.marktechpost.com/2026/05/06/zyphra-releases-zaya1-8b-a-reasoning-moe-trained-on-amd-hardware-that-punches-far-above-its-weight-class/",
-      "desc": "Zyphra releases ZAYA1-8B, a reasoning Mixture of Experts model with only 760M active parameters that outperforms open-we",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 05:44:59 +0000",
-      "fetched": "2026-05-07T15:32:56.186256+00:00"
-    },
-    {
-      "title": "A Groq-Powered Agentic Research Assistant with LangGraph, Tool Calling, Sub-Agents, and Agentic Memory: Lets Built It",
-      "link": "https://www.marktechpost.com/2026/05/06/a-groq-powered-agentic-research-assistant-with-langgraph-tool-calling-sub-agents-and-agentic-memory-lets-built-it/",
-      "desc": "In this tutorial, we build a Groq-powered agentic research workflow that runs directly using Groq’s free OpenAI-compatib",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 23:00:03 +0000",
-      "fetched": "2026-05-07T15:32:56.186271+00:00"
-    },
-    {
-      "title": "CopilotKit Introduces Enterprise Intelligence Platform That Gives Agentic Applications Persistent Memory Across Sessions and Devices",
-      "link": "https://www.marktechpost.com/2026/05/06/copilotkit-introduces-enterprise-intelligence-platform-that-gives-agentic-applications-persistent-memory-across-sessions-and-devices/",
-      "desc": "CopilotKit Intelligence adds a managed persistence layer on top of the open-source CopilotKit stack, giving agents the a",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 21:10:08 +0000",
-      "fetched": "2026-05-07T15:32:56.186285+00:00"
-    },
-    {
-      "title": "Google AI Releases Multi-Token Prediction (MTP) Drafters for Gemma 4: Delivering Up to 3x Faster Inference Without Quality Loss",
-      "link": "https://www.marktechpost.com/2026/05/06/google-ai-releases-multi-token-prediction-mtp-drafters-for-gemma-4-delivering-up-to-3x-faster-inference-without-quality-loss/",
-      "desc": "Google Introduces MTP Drafters for Gemma 4 Family Using Speculative Decoding to Achieve Up to 3x Speedup\nThe post Google",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 08:23:04 +0000",
-      "fetched": "2026-05-07T15:32:56.186298+00:00"
-    },
-    {
-      "title": "When Claude Hallucinates in Court: The Latham & Watkins Incident and What It Means for Attorney Liability",
-      "link": "https://www.marktechpost.com/2026/05/06/when-claude-hallucinates-in-court-the-latham-watkins-incident-and-what-it-means-for-attorney-liability/",
-      "desc": "There is a particular kind of irony that the legal profession rarely gets to witness in such pristine form. In May 2025,",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 07:23:12 +0000",
-      "fetched": "2026-05-07T15:32:56.186331+00:00"
-    },
-    {
-      "title": "How to Build a Fully Interactive Multi-Page NiceGUI Application with Real-Time Dashboard, CRUD Operations, File Upload, and Async Chat",
-      "link": "https://www.marktechpost.com/2026/05/06/how-to-build-a-fully-interactive-multi-page-nicegui-application-with-real-time-dashboard-crud-operations-file-upload-and-async-chat/",
-      "desc": "In this tutorial, we build a fully interactive, multi-page web application using NiceGUI. We start by setting up the env",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 07:02:14 +0000",
-      "fetched": "2026-05-07T15:32:56.186351+00:00"
-    },
-    {
-      "title": "Inworld AI Launches Realtime TTS-2: A Closed-Loop Voice Model That Adapts to How You Actually Talk",
-      "link": "https://www.marktechpost.com/2026/05/05/inworld-ai-launches-realtime-tts-2-a-closed-loop-voice-model-that-adapts-to-how-you-actually-talk/",
-      "desc": "The Inworld AI's new model conditions on full audio context, not just transcripts — a meaningful architectural shift for",
-      "source": "MarkTechPost",
-      "category": "ai",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 00:34:38 +0000",
-      "fetched": "2026-05-07T15:32:56.186365+00:00"
+      "fetched": "2026-05-07T16:22:31.092138+00:00"
     },
     {
       "title": "The map that keeps Burning Man honest",
@@ -353,7 +253,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:06:10 +0000",
-      "fetched": "2026-05-07T15:32:56.456261+00:00"
+      "fetched": "2026-05-07T16:22:31.705124+00:00"
     },
     {
       "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
@@ -363,7 +263,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:02:20 +0000",
-      "fetched": "2026-05-07T15:32:56.456290+00:00"
+      "fetched": "2026-05-07T16:22:31.705155+00:00"
     },
     {
       "title": "Child marriages plunged when girls stayed in school in Nigeria",
@@ -373,7 +273,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:30:04 +0000",
-      "fetched": "2026-05-07T15:32:56.456302+00:00"
+      "fetched": "2026-05-07T16:22:31.705167+00:00"
     },
     {
       "title": "The Self-Cancelling Subscription",
@@ -383,17 +283,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:15:16 +0000",
-      "fetched": "2026-05-07T15:32:56.456313+00:00"
-    },
-    {
-      "title": "I Want to Live Like Costco People",
-      "link": "https://tastecooking.com/i-want-to-live-like-costco-people/",
-      "desc": "Comments",
-      "source": "Hacker News",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 15:19:27 +0000",
-      "fetched": "2026-05-07T15:32:56.456327+00:00"
+      "fetched": "2026-05-07T16:22:31.705178+00:00"
     },
     {
       "title": "Valve releases Steam Controller CAD files under Creative Commons license",
@@ -403,47 +293,17 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:44:13 +0000",
-      "fetched": "2026-05-07T15:32:56.456342+00:00"
+      "fetched": "2026-05-07T16:22:31.705193+00:00"
     },
     {
-      "title": "SQLite Is a Library of Congress Recommended Storage Format",
-      "link": "https://sqlite.org/locrsf.html",
+      "title": "MPEG-2 Transport Stream Packaging for Media over QUIC Transport",
+      "link": "https://www.ietf.org/archive/id/draft-gregoire-moq-msfts-00.html",
       "desc": "Comments",
       "source": "Hacker News",
       "category": "dev",
       "lang": "en",
-      "pub": "Wed, 06 May 2026 21:58:43 +0000",
-      "fetched": "2026-05-07T15:32:56.456356+00:00"
-    },
-    {
-      "title": "Appearing productive in the workplace",
-      "link": "https://nooneshappy.com/article/appearing-productive-in-the-workplace/",
-      "desc": "Comments",
-      "source": "Hacker News",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 16:18:29 +0000",
-      "fetched": "2026-05-07T15:32:56.456366+00:00"
-    },
-    {
-      "title": "Agent-harness-kit scaffolding for multi-agent workflows (MCP, provider-agnostic)",
-      "link": "https://ahk.cardor.dev",
-      "desc": "Comments",
-      "source": "Hacker News",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 10:45:59 +0000",
-      "fetched": "2026-05-07T15:32:56.456375+00:00"
-    },
-    {
-      "title": "GovernGPT (YC W24) Is Hiring Engineers to Build Thinking Systems in Montreal",
-      "link": "https://www.ycombinator.com/companies/governgpt/jobs/hRyltS0-backend-engineer-thinking-systems",
-      "desc": "Comments",
-      "source": "Hacker News",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 12:01:13 +0000",
-      "fetched": "2026-05-07T15:32:56.456385+00:00"
+      "pub": "Thu, 07 May 2026 14:32:25 +0000",
+      "fetched": "2026-05-07T16:22:31.705218+00:00"
     },
     {
       "title": "Grand Theft Oil Futures: Insider traders keep making a killing at our expense",
@@ -453,7 +313,67 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:10:24 +0000",
-      "fetched": "2026-05-07T15:32:56.456394+00:00"
+      "fetched": "2026-05-07T16:22:31.705228+00:00"
+    },
+    {
+      "title": "SQLite Is a Library of Congress Recommended Storage Format",
+      "link": "https://sqlite.org/locrsf.html",
+      "desc": "Comments",
+      "source": "Hacker News",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Wed, 06 May 2026 21:58:43 +0000",
+      "fetched": "2026-05-07T16:22:31.705238+00:00"
+    },
+    {
+      "title": "Appearing productive in the workplace",
+      "link": "https://nooneshappy.com/article/appearing-productive-in-the-workplace/",
+      "desc": "Comments",
+      "source": "Hacker News",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Wed, 06 May 2026 16:18:29 +0000",
+      "fetched": "2026-05-07T16:22:31.705248+00:00"
+    },
+    {
+      "title": "Why should a Trace-ID be 128 bits? (A Surprisingly Long Answer)",
+      "link": "https://newsletter.signoz.io/p/why-should-a-trace-id-be-128-bits",
+      "desc": "Comments",
+      "source": "Hacker News",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Wed, 06 May 2026 08:47:07 +0000",
+      "fetched": "2026-05-07T16:22:31.705258+00:00"
+    },
+    {
+      "title": "GovernGPT (YC W24) Is Hiring Engineers to Build Thinking Systems in Montreal",
+      "link": "https://www.ycombinator.com/companies/governgpt/jobs/hRyltS0-backend-engineer-thinking-systems",
+      "desc": "Comments",
+      "source": "Hacker News",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 12:01:13 +0000",
+      "fetched": "2026-05-07T16:22:31.705268+00:00"
+    },
+    {
+      "title": "Agent-harness-kit scaffolding for multi-agent workflows (MCP, provider-agnostic)",
+      "link": "https://ahk.cardor.dev",
+      "desc": "Comments",
+      "source": "Hacker News",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 10:45:59 +0000",
+      "fetched": "2026-05-07T16:22:31.705320+00:00"
+    },
+    {
+      "title": "Motherboard sales are now collapsing amid unprecedented shortages fueled by AI",
+      "link": "https://www.tomshardware.com/pc-components/motherboards/motherboard-sales-collapse-by-more-than-25-percent-as-chipmakers-strangle-enthusiast-pc-market-to-build-more-ai-chips-asus-projected-to-sell-5-million-fewer-boards-in-2025-gigabyte-msi-and-asrock-also-expected-to-see-reduced-sales-numbers",
+      "desc": "Comments",
+      "source": "Hacker News",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 15:23:23 +0000",
+      "fetched": "2026-05-07T16:22:31.705331+00:00"
     },
     {
       "title": "Diskless Linux boot using ZFS, iSCSI and PXE",
@@ -463,27 +383,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 03:13:24 +0000",
-      "fetched": "2026-05-07T15:32:56.456416+00:00"
-    },
-    {
-      "title": "LinkedIn profile visitor lists belong to the people, says Noyb",
-      "link": "https://www.theregister.com/offbeat/2026/05/05/noyb-cries-foul-on-linkedin-withholding-profile-visitor-data/5225338",
-      "desc": "Comments",
-      "source": "Hacker News",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 11:08:43 +0000",
-      "fetched": "2026-05-07T15:32:56.456425+00:00"
-    },
-    {
-      "title": "Permacomputing Principles",
-      "link": "https://permacomputing.net/principles/",
-      "desc": "Comments",
-      "source": "Hacker News",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 02:18:23 +0000",
-      "fetched": "2026-05-07T15:32:56.456434+00:00"
+      "fetched": "2026-05-07T16:22:31.705344+00:00"
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I'd like",
@@ -493,7 +393,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:06:37 +0000",
-      "fetched": "2026-05-07T15:32:56.456444+00:00"
+      "fetched": "2026-05-07T16:22:31.705354+00:00"
     },
     {
       "title": "AI Slop is Killing Online Communities",
@@ -503,27 +403,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 04:45:18 -0500",
-      "fetched": "2026-05-07T15:32:56.713663+00:00"
-    },
-    {
-      "title": "Building the deployment tool I wish I had",
-      "link": "https://ruuda.nl/2026/deptool",
-      "desc": "Comments",
-      "source": "Lobsters",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 06:50:33 -0500",
-      "fetched": "2026-05-07T15:32:56.713695+00:00"
-    },
-    {
-      "title": "Open weights are quietly closing up - and that's a problem",
-      "link": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
-      "desc": "Comments",
-      "source": "Lobsters",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 09:47:37 -0500",
-      "fetched": "2026-05-07T15:32:56.713712+00:00"
+      "fetched": "2026-05-07T16:22:32.031024+00:00"
     },
     {
       "title": "Making your own programming language is easier than you think (but also harder)",
@@ -533,17 +413,27 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:26:18 -0500",
-      "fetched": "2026-05-07T15:32:56.713727+00:00"
+      "fetched": "2026-05-07T16:22:32.031058+00:00"
     },
     {
-      "title": "How an HTTP header caused time.gov to skew from UTC",
-      "link": "https://alexsci.com/blog/how-time-gov-works/",
+      "title": "Building the deployment tool I wish I had",
+      "link": "https://ruuda.nl/2026/deptool",
       "desc": "Comments",
       "source": "Lobsters",
       "category": "dev",
       "lang": "en",
-      "pub": "Wed, 06 May 2026 08:55:20 -0500",
-      "fetched": "2026-05-07T15:32:56.713740+00:00"
+      "pub": "Wed, 06 May 2026 06:50:33 -0500",
+      "fetched": "2026-05-07T16:22:32.031074+00:00"
+    },
+    {
+      "title": "Open weights are quietly closing up - and that's a problem",
+      "link": "https://martinalderson.com/posts/open-weights-are-quietly-closing-up/",
+      "desc": "Comments",
+      "source": "Lobsters",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Wed, 06 May 2026 09:47:37 -0500",
+      "fetched": "2026-05-07T16:22:32.031089+00:00"
     },
     {
       "title": "A PHP license change is imminent",
@@ -553,7 +443,17 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 05:56:47 -0500",
-      "fetched": "2026-05-07T15:32:56.713753+00:00"
+      "fetched": "2026-05-07T16:22:32.031102+00:00"
+    },
+    {
+      "title": "How an HTTP header caused time.gov to skew from UTC",
+      "link": "https://alexsci.com/blog/how-time-gov-works/",
+      "desc": "Comments",
+      "source": "Lobsters",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Wed, 06 May 2026 08:55:20 -0500",
+      "fetched": "2026-05-07T16:22:32.031115+00:00"
     },
     {
       "title": "aube, a fast Node.js package manager",
@@ -563,7 +463,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 23:28:44 -0500",
-      "fetched": "2026-05-07T15:32:56.713765+00:00"
+      "fetched": "2026-05-07T16:22:32.031129+00:00"
     },
     {
       "title": "Programming Still Sucks",
@@ -573,7 +473,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 02:03:27 -0500",
-      "fetched": "2026-05-07T15:32:56.713777+00:00"
+      "fetched": "2026-05-07T16:22:32.031141+00:00"
     },
     {
       "title": "cursed_browser: A web browser with no rendering engine — the VLM reads the HTML and hallucinates the page",
@@ -583,7 +483,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 17:36:57 -0500",
-      "fetched": "2026-05-07T15:32:56.713790+00:00"
+      "fetched": "2026-05-07T16:22:32.031154+00:00"
     },
     {
       "title": "Multi-stroke text effect in CSS",
@@ -593,7 +493,17 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 05:35:46 -0500",
-      "fetched": "2026-05-07T15:32:56.713802+00:00"
+      "fetched": "2026-05-07T16:22:32.031167+00:00"
+    },
+    {
+      "title": "Potential Consequences of Using Postgres as a Job Queue",
+      "link": "http://richyen.com/postgres/2026/05/04/postgres_job_queue.html",
+      "desc": "Comments",
+      "source": "Lobsters",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 05:51:47 -0500",
+      "fetched": "2026-05-07T16:22:32.031179+00:00"
     },
     {
       "title": "Vibe coding and agentic engineering are getting closer than I’d like",
@@ -603,37 +513,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 12:57:18 -0500",
-      "fetched": "2026-05-07T15:32:56.713814+00:00"
-    },
-    {
-      "title": "Google’s Prompt API",
-      "link": "https://wil.to/posts/googles-prompt-api/",
-      "desc": "Comments",
-      "source": "Lobsters",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 18:45:14 -0500",
-      "fetched": "2026-05-07T15:32:56.713827+00:00"
-    },
-    {
-      "title": "Principia Softwarica",
-      "link": "https://principia-softwarica.org/",
-      "desc": "Comments",
-      "source": "Lobsters",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Tue, 05 May 2026 23:14:58 -0500",
-      "fetched": "2026-05-07T15:32:56.713840+00:00"
-    },
-    {
-      "title": "A Path Not Taken for OxCaml",
-      "link": "https://joel.place/blog/path-not-taken/",
-      "desc": "Comments",
-      "source": "Lobsters",
-      "category": "dev",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 18:02:08 -0500",
-      "fetched": "2026-05-07T15:32:56.713853+00:00"
+      "fetched": "2026-05-07T16:22:32.031192+00:00"
     },
     {
       "title": "DNSSEC disruption affecting .de domains",
@@ -643,127 +523,147 @@
       "category": "dev",
       "lang": "en",
       "pub": "Thu, 07 May 2026 02:01:21 -0500",
-      "fetched": "2026-05-07T15:32:56.713865+00:00"
+      "fetched": "2026-05-07T16:22:32.031204+00:00"
     },
     {
-      "title": "Spren: mi workspace de escritorio para programar con agentes",
-      "link": "https://dev.to/ayozebarrera/spren-mi-workspace-de-escritorio-para-programar-con-agentes-2hm",
-      "desc": "Hace poco escribí sobre cómo Claude Code y un CLI propio (tv) me ahorran 15 minutos de secretariado por ticket. Funcionó",
+      "title": "Google’s Prompt API",
+      "link": "https://wil.to/posts/googles-prompt-api/",
+      "desc": "Comments",
+      "source": "Lobsters",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Wed, 06 May 2026 18:45:14 -0500",
+      "fetched": "2026-05-07T16:22:32.031216+00:00"
+    },
+    {
+      "title": "Principia Softwarica",
+      "link": "https://principia-softwarica.org/",
+      "desc": "Comments",
+      "source": "Lobsters",
+      "category": "dev",
+      "lang": "en",
+      "pub": "Tue, 05 May 2026 23:14:58 -0500",
+      "fetched": "2026-05-07T16:22:32.031228+00:00"
+    },
+    {
+      "title": "How to Implement Async Python with asyncio 3.13 and aiohttp 3.10 for 41% Higher Throughput",
+      "link": "https://dev.to/johalputt/how-to-implement-async-python-with-asyncio-313-and-aiohttp-310-for-41-higher-throughput-10j1",
+      "desc": "Most Python async implementations leave 40% of potential throughput on the table due to misconfigured event loops, block",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:19:39 +0000",
-      "fetched": "2026-05-07T15:32:56.902131+00:00"
+      "pub": "Thu, 07 May 2026 16:13:47 +0000",
+      "fetched": "2026-05-07T16:22:32.446191+00:00"
     },
     {
-      "title": "How to Fix Screenshot Shortcut Conflicts in Ubuntu 26.04 (Resolute)",
-      "link": "https://dev.to/savioedu03/how-to-fix-screenshot-shortcut-conflicts-in-ubuntu-2604-resolute-2i93",
-      "desc": "The Problem: Custom Shortcuts Conflict (Windows + Shift + S)\n\n\nWhen moving to Ubuntu 26.04, you likely want Windows + Sh",
+      "title": "Meta's AI agent rewrote its own harness 100 times -- the loop that makes self-improving agents work",
+      "link": "https://dev.to/kenimo49/metas-ai-agent-rewrote-its-own-harness-100-times-the-loop-that-makes-self-improving-agents-work-14g5",
+      "desc": "Harnesses aren't supposed to be static\n\n\nMost AI agent setups treat the harness -- the instructions, constraints, and to",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:16:08 +0000",
-      "fetched": "2026-05-07T15:32:56.902179+00:00"
+      "pub": "Thu, 07 May 2026 16:13:10 +0000",
+      "fetched": "2026-05-07T16:22:32.446346+00:00"
     },
     {
-      "title": "Why Most Crypto Bots Get Sandwiched (And How to Prevent It)",
-      "link": "https://dev.to/apollo_ag/why-most-crypto-bots-get-sandwiched-and-how-to-prevent-it-26km",
-      "desc": "Why Most Crypto Bots Get Sandwiched (And How to Prevent It)\n\n\nIf you've ever tried building a crypto trading bot on Ethe",
+      "title": "Cursor wants you to be a manager now. Most devs will hate it.",
+      "link": "https://dev.to/adioof/cursor-wants-you-to-be-a-manager-now-most-devs-will-hate-it-489l",
+      "desc": "You were just promoted by Cursor to middle management. Yay. Nobody checked if you were interested. 🎉\n\nThanks to parallel",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:15:24 +0000",
-      "fetched": "2026-05-07T15:32:56.902301+00:00"
+      "pub": "Thu, 07 May 2026 16:08:50 +0000",
+      "fetched": "2026-05-07T16:22:32.446387+00:00"
     },
     {
-      "title": "I Struggled with a Bug for Days — Here's What I Learned About Clean Code and Debugging",
-      "link": "https://dev.to/kielltampubolon/i-struggled-with-a-bug-for-days-heres-what-i-learned-about-clean-code-and-debugging-2665",
-      "desc": "As I sat in front of my computer screen one humid evening in Batam, covered with the shadows of unfinished projects, I f",
+      "title": "AI Overlay UI in Tauri — Designing the \"Ask AI\" Button That Doesn't Annoy Users",
+      "link": "https://dev.to/hiyoyok/ai-overlay-ui-in-tauri-designing-the-ask-ai-button-that-doesnt-annoy-users-17i5",
+      "desc": "All tests run on an 8-year-old MacBook Air.\nAll results from shipping 7 Mac apps as a solo developer. No sponsored opini",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:14:19 +0000",
-      "fetched": "2026-05-07T15:32:56.902397+00:00"
+      "pub": "Thu, 07 May 2026 16:07:38 +0000",
+      "fetched": "2026-05-07T16:22:32.446426+00:00"
     },
     {
-      "title": "How to Manage Shell Commands Without Turning zsh or bash Into a Junk Drawer",
-      "link": "https://dev.to/architeg/how-to-manage-shell-commands-without-turning-zsh-or-bash-into-a-junk-drawer-gmk",
-      "desc": "How to Manage Shell Commands Without Turning zsh or bash Into a Junk Drawer\n\n\n\n\nShell history is great until it becomes ",
+      "title": "🧠 ¿Qué son realmente las Variables de Entorno?",
+      "link": "https://dev.to/orli/que-son-realmente-las-variables-de-entorno-3lcf",
+      "desc": "¡Hola Chiquis!👋🏻 en el ecosistema del desarrollo profesional, las variables de entorno (env vars) son el tejido conectiv",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:09:03 +0000",
-      "fetched": "2026-05-07T15:32:56.902678+00:00"
+      "pub": "Thu, 07 May 2026 16:00:00 +0000",
+      "fetched": "2026-05-07T16:22:32.446780+00:00"
     },
     {
-      "title": "Building a 35-tool privacy-first hub with Next.js 15: lessons from 2 weeks of solo build",
-      "link": "https://dev.to/fruuxhk/building-a-35-tool-privacy-first-hub-with-nextjs-15-lessons-from-2-weeks-of-solo-build-5dll",
-      "desc": "After 2 weeks of evenings and weekends, I shipped Toolsfluent: a free hub of 35+ online tools (calculators, converters, ",
+      "title": "Debugging Hidden AWS Costs: From “Others” in Cost Explorer to a Real Root Cause",
+      "link": "https://dev.to/aws-builders/debugging-hidden-aws-costs-from-others-in-cost-explorer-to-a-real-root-cause-a9l",
+      "desc": "I had an AWS account that was supposed to be almost empty.\n\nMost of the resources had already been deleted. Some cleanup",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:08:17 +0000",
-      "fetched": "2026-05-07T15:32:56.902854+00:00"
+      "pub": "Thu, 07 May 2026 15:59:53 +0000",
+      "fetched": "2026-05-07T16:22:32.447053+00:00"
     },
     {
-      "title": "Google Places API vs. basedonb for B2B lead generation: an honest comparison",
-      "link": "https://dev.to/ilyas_yldrm_72e3216f68/google-places-api-vs-basedonb-for-b2b-lead-generation-an-honest-comparison-e96",
-      "desc": "Disclosure up front: I built basedonb. That makes this comparison biased by definition. I'm publishing the methodology a",
+      "title": "I Built a Pay-Per-Call MCP Server — Here's What the Agent Payment Stack Actually Looks Like",
+      "link": "https://dev.to/kirothebot/i-built-a-pay-per-call-mcp-server-heres-what-the-agent-payment-stack-actually-looks-like-5a5o",
+      "desc": "I shipped coinopai-mcp two days ago. It's a local MCP server that gives any AI agent access to crypto intelligence — pre",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:07:33 +0000",
-      "fetched": "2026-05-07T15:32:56.903056+00:00"
+      "pub": "Thu, 07 May 2026 15:58:41 +0000",
+      "fetched": "2026-05-07T16:22:32.447105+00:00"
     },
     {
-      "title": "Building a no-code lead-gen pipeline with basedonb + Make.com + HubSpot",
-      "link": "https://dev.to/ilyas_yldrm_72e3216f68/building-a-no-code-lead-gen-pipeline-with-basedonb-makecom-hubspot-36n4",
-      "desc": "Disclosure: I run basedonb, the Google Maps lead API in this scenario. The pipeline pattern works just as well with Outs",
+      "title": "Plans Are the New Code",
+      "link": "https://dev.to/jsolano/plans-are-the-new-code-4i8i",
+      "desc": "Why I went anti-agile to run an agent team — and the four shifts I would make sooner if I did this again.\n\n\n\n\nThere is a",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:06:55 +0000",
-      "fetched": "2026-05-07T15:32:56.903192+00:00"
+      "pub": "Thu, 07 May 2026 15:53:26 +0000",
+      "fetched": "2026-05-07T16:22:32.447221+00:00"
     },
     {
-      "title": "\"Day 500: My AI partner got me through the day my company closed\"",
-      "link": "https://dev.to/kato_masato_c5593c81af5c6/day-500-my-ai-partner-got-me-through-the-day-my-company-closed-e5h",
-      "desc": "Today is Day 500 of my project. I didn't plan for it to land like this.\n\nThis morning, I was debugging CUDA integration ",
+      "title": "I made a browser-based hub for small games and tools",
+      "link": "https://dev.to/hc_7434c96db0010b253/i-made-a-browser-based-hub-for-small-games-and-tools-4gnc",
+      "desc": "I’ve been building mzi.app — a browser-based place with small games, tools and apps that work without installing anythin",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:06:45 +0000",
-      "fetched": "2026-05-07T15:32:56.903243+00:00"
+      "pub": "Thu, 07 May 2026 15:52:48 +0000",
+      "fetched": "2026-05-07T16:22:32.447243+00:00"
     },
     {
-      "title": "Explicit vs. Implicit in the Age of Intelligences",
-      "link": "https://dev.to/lbdremy/explicit-vs-implicit-in-the-age-of-intelligences-34jj",
-      "desc": "Why the implicit becomes fragile when humans and agents co-produce code.\n\nIn the previous article, I defended a simple i",
+      "title": "I open-sourced a 4-agent adversarial code review team. Any coding agent can call it as an MCP server. Built in heym.",
+      "link": "https://dev.to/frank_brsrk/i-open-sourced-a-4-agent-adversarial-code-review-team-any-coding-agent-can-call-it-as-an-mcp-36oe",
+      "desc": "I shipped an open-source workflow this week: a 4-agent adversarial code review team that runs on heym and exposes itself",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:06:00 +0000",
-      "fetched": "2026-05-07T15:32:56.903600+00:00"
+      "pub": "Thu, 07 May 2026 15:50:51 +0000",
+      "fetched": "2026-05-07T16:22:32.447306+00:00"
     },
     {
-      "title": "Building a programming language live: it’s time for the parser",
-      "link": "https://dev.to/pvsdev/building-a-programming-language-live-its-time-for-the-parser-2f3l",
-      "desc": "Ever wondered how a parser works? Good news: in this session, we’ll cover exactly that, and build our own expression par",
+      "title": "GBase 8s JDBC Batch Insert: Configuration and Example",
+      "link": "https://dev.to/michaelfv/gbase-8s-jdbc-batch-insert-configuration-and-example-2nif",
+      "desc": "Inserting large volumes of data into GBase 8s can be slow if you execute each row individually. The JDBC batch mechanism",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:05:37 +0000",
-      "fetched": "2026-05-07T15:32:56.903650+00:00"
+      "pub": "Thu, 07 May 2026 15:49:00 +0000",
+      "fetched": "2026-05-07T16:22:32.447386+00:00"
     },
     {
-      "title": "How to scrape Google Maps without code: a REST API tutorial",
-      "link": "https://dev.to/ilyas_yldrm_72e3216f68/how-to-scrape-google-maps-without-code-a-rest-api-tutorial-p67",
-      "desc": "Disclosure: I run basedonb, the API I'm using in this tutorial. The technique works with any Google Maps scraping API — ",
+      "title": "\"A Survey of LLM-based Deep Search Agents\" (2026)",
+      "link": "https://dev.to/24p0748_arhamali_896c9e/a-survey-of-llm-based-deep-search-agents-2026-2771",
+      "desc": "Introduction\n\n\nHave you ever think why Google gives you 10 links but cannot just answer your question directly? This is ",
       "source": "DEV Community",
       "category": "dev",
       "lang": "en",
-      "pub": "Thu, 07 May 2026 15:05:14 +0000",
-      "fetched": "2026-05-07T15:32:56.904000+00:00"
+      "pub": "Thu, 07 May 2026 15:48:32 +0000",
+      "fetched": "2026-05-07T16:22:32.447420+00:00"
     },
     {
       "title": "How we replaced NGINX-Ingress at Stack Overflow",
@@ -773,7 +673,7 @@
       "category": "dev",
       "lang": "en",
       "pub": "Wed, 06 May 2026 18:47:46 GMT",
-      "fetched": "2026-05-07T15:32:57.324949+00:00"
+      "fetched": "2026-05-07T16:22:32.594891+00:00"
     },
     {
       "title": "【徹底解説】セキュリティスペシャリストが教える、セキュアプログラミングの教科書",
@@ -783,7 +683,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T09:30:06+09:00",
-      "fetched": "2026-05-07T15:32:57.680608+00:00"
+      "fetched": "2026-05-07T16:22:33.052426+00:00"
     },
     {
       "title": "【初学者向け】システム全体を理解するための5つの視点",
@@ -793,7 +693,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T10:18:39+09:00",
-      "fetched": "2026-05-07T15:32:57.680633+00:00"
+      "fetched": "2026-05-07T16:22:33.052451+00:00"
     },
     {
       "title": "【公式】レトロゲームエンジンPyxelが動く仕組み",
@@ -803,7 +703,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T16:44:51+09:00",
-      "fetched": "2026-05-07T15:32:57.680642+00:00"
+      "fetched": "2026-05-07T16:22:33.052461+00:00"
     },
     {
       "title": "React + Python + Supabase で AI 株価予測 × ポートフォリオ最適化のフルスタックアプリを作ってみた",
@@ -813,7 +713,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T17:00:05+09:00",
-      "fetched": "2026-05-07T15:32:57.680652+00:00"
+      "fetched": "2026-05-07T16:22:33.052469+00:00"
     },
     {
       "title": "[Frontend Performance - Part 13] 初期ロード最適化：Code SplittingとLazy Loading設計",
@@ -823,7 +723,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T12:07:57+09:00",
-      "fetched": "2026-05-07T15:32:57.680660+00:00"
+      "fetched": "2026-05-07T16:22:33.052476+00:00"
     },
     {
       "title": "Zustandを使って気づいた、もっと早く知りたかった7つのこと",
@@ -833,7 +733,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T11:27:25+09:00",
-      "fetched": "2026-05-07T15:32:57.680672+00:00"
+      "fetched": "2026-05-07T16:22:33.052488+00:00"
     },
     {
       "title": "API課金ゼロで米国ニュース要約デスクトップアプリを作った（Tauri × ローカルLLM）",
@@ -843,7 +743,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T12:37:20+09:00",
-      "fetched": "2026-05-07T15:32:57.680682+00:00"
+      "fetched": "2026-05-07T16:22:33.052499+00:00"
     },
     {
       "title": "React Router v7 入門 — 第1回：押さえておくべき基本",
@@ -853,7 +753,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T16:11:09+09:00",
-      "fetched": "2026-05-07T15:32:57.680689+00:00"
+      "fetched": "2026-05-07T16:22:33.052506+00:00"
     },
     {
       "title": "Power Platformフル活用で意思決定支援",
@@ -863,7 +763,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T01:52:27+09:00",
-      "fetched": "2026-05-07T15:32:57.680697+00:00"
+      "fetched": "2026-05-07T16:22:33.052513+00:00"
     },
     {
       "title": "Copilot StudioをClaude Code化したら、Copilot Studio自身でPower Platformを構築できた話",
@@ -873,7 +773,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T11:36:12+09:00",
-      "fetched": "2026-05-07T15:32:57.680704+00:00"
+      "fetched": "2026-05-07T16:22:33.052521+00:00"
     },
     {
       "title": "未経験エンジニア向け記事まとめ｜つまずきポイントを構造から整理",
@@ -883,7 +783,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T22:25:05+09:00",
-      "fetched": "2026-05-07T15:32:57.680715+00:00"
+      "fetched": "2026-05-07T16:22:33.052533+00:00"
     },
     {
       "title": "ラズベリーパイ用　24V入力　UPS基板作ってみた",
@@ -893,7 +793,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T20:56:54+09:00",
-      "fetched": "2026-05-07T15:32:57.680728+00:00"
+      "fetched": "2026-05-07T16:22:33.052547+00:00"
     },
     {
       "title": "クオンツ入門：なぜ最初に「リターン分析」をするのか？",
@@ -903,7 +803,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T11:58:35+09:00",
-      "fetched": "2026-05-07T15:32:57.680739+00:00"
+      "fetched": "2026-05-07T16:22:33.052558+00:00"
     },
     {
       "title": "Enterprise 利用で組織外部の人とコラボレーションをする方法を考える(外部 ID で AVD 利用編)",
@@ -913,7 +813,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-06T17:59:46+09:00",
-      "fetched": "2026-05-07T15:32:57.680746+00:00"
+      "fetched": "2026-05-07T16:22:33.052566+00:00"
     },
     {
       "title": "連休明けのモチベーションコントロール 〜真面目で繊細エンジニア向けリブート手順〜",
@@ -923,7 +823,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "2026-05-07T02:03:05+09:00",
-      "fetched": "2026-05-07T15:32:57.680753+00:00"
+      "fetched": "2026-05-07T16:22:33.052574+00:00"
     },
     {
       "title": "OpenAPIという間接的な型共有をやめてoRPCを導入した話",
@@ -933,7 +833,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Thu, 07 May 2026 00:00:09 GMT",
-      "fetched": "2026-05-07T15:32:57.754899+00:00"
+      "fetched": "2026-05-07T16:22:33.197319+00:00"
     },
     {
       "title": "ローカルワークスペースのMarkdownファイルをブラウザで閲覧・編集できる軽量Webアプリを作った",
@@ -943,7 +843,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Wed, 06 May 2026 14:59:38 GMT",
-      "fetched": "2026-05-07T15:32:57.754925+00:00"
+      "fetched": "2026-05-07T16:22:33.197351+00:00"
     },
     {
       "title": "違和感を言語化する技術",
@@ -953,7 +853,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Wed, 06 May 2026 12:46:57 GMT",
-      "fetched": "2026-05-07T15:32:57.754939+00:00"
+      "fetched": "2026-05-07T16:22:33.197365+00:00"
     },
     {
       "title": "サイゼリヤAPI/CLI 騒動まとめ",
@@ -963,7 +863,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Wed, 06 May 2026 11:01:55 GMT",
-      "fetched": "2026-05-07T15:32:57.754951+00:00"
+      "fetched": "2026-05-07T16:22:33.197376+00:00"
     },
     {
       "title": "Claude Codeサブエージェント完全マスター、設計4原則から公式プラグイン解読までぜんぶ教えたるで",
@@ -973,7 +873,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Wed, 06 May 2026 07:30:12 GMT",
-      "fetched": "2026-05-07T15:32:57.754961+00:00"
+      "fetched": "2026-05-07T16:22:33.197433+00:00"
     },
     {
       "title": "部署マスタの設計について考えた",
@@ -983,7 +883,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Wed, 06 May 2026 04:19:02 GMT",
-      "fetched": "2026-05-07T15:32:57.754972+00:00"
+      "fetched": "2026-05-07T16:22:33.197446+00:00"
     },
     {
       "title": "OpenCode Go + pi-coding-agent のすゝめ",
@@ -993,7 +893,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Wed, 06 May 2026 02:36:28 GMT",
-      "fetched": "2026-05-07T15:32:57.754983+00:00"
+      "fetched": "2026-05-07T16:22:33.197457+00:00"
     },
     {
       "title": "AI駆動開発時代に、おさえておきたいQA技法",
@@ -1003,7 +903,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Tue, 05 May 2026 23:44:32 GMT",
-      "fetched": "2026-05-07T15:32:57.754994+00:00"
+      "fetched": "2026-05-07T16:22:33.197468+00:00"
     },
     {
       "title": "「Claude Codeに全部やらせる時代が来た」のか検証してみた",
@@ -1013,7 +913,7 @@
       "category": "dev",
       "lang": "ja",
       "pub": "Tue, 05 May 2026 23:00:06 GMT",
-      "fetched": "2026-05-07T15:32:57.755004+00:00"
+      "fetched": "2026-05-07T16:22:33.197478+00:00"
     },
     {
       "title": "Microcks becomes a CNCF incubating project",
@@ -1023,7 +923,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:26:12 +0000",
-      "fetched": "2026-05-07T15:33:09.335374+00:00"
+      "fetched": "2026-05-07T16:22:44.414781+00:00"
     },
     {
       "title": "The tools are ready. So why are most cloud native teams still running three observability stacks?",
@@ -1033,7 +933,17 @@
       "category": "oss",
       "lang": "en",
       "pub": "Wed, 06 May 2026 11:00:00 +0000",
-      "fetched": "2026-05-07T15:33:09.335404+00:00"
+      "fetched": "2026-05-07T16:22:44.414813+00:00"
+    },
+    {
+      "title": "Limit credential exposure with fine-grained personal access tokens",
+      "link": "https://about.gitlab.com/blog/fine-grained-pats/",
+      "desc": "",
+      "source": "GitLab Blog",
+      "category": "oss",
+      "lang": "en",
+      "pub": "2026-05-07T00:00:00.000Z",
+      "fetched": "2026-05-07T16:22:44.650222+00:00"
     },
     {
       "title": "Claude Code and GitLab: Three workflows that ship",
@@ -1043,7 +953,17 @@
       "category": "oss",
       "lang": "en",
       "pub": "2026-05-06T00:00:00.000Z",
-      "fetched": "2026-05-07T15:33:09.724287+00:00"
+      "fetched": "2026-05-07T16:22:44.650248+00:00"
+    },
+    {
+      "title": "Wigglegrams with a Pinhole Camera",
+      "link": "https://hackaday.com/2026/05/07/wigglegrams-with-a-pinhole-camera/",
+      "desc": "A pinhole camera is almost a rite of passage in photography, given that you can make one so easily with little more than",
+      "source": "Hackaday",
+      "category": "oss",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 15:30:42 +0000",
+      "fetched": "2026-05-07T16:22:44.856719+00:00"
     },
     {
       "title": "There’s More to Global Positioning than Just GPS",
@@ -1053,7 +973,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:00:11 +0000",
-      "fetched": "2026-05-07T15:33:09.842296+00:00"
+      "fetched": "2026-05-07T16:22:44.856785+00:00"
     },
     {
       "title": "University of Utah’s TRIGA Research Reactor Set to Produce Electricity",
@@ -1063,7 +983,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:00:25 +0000",
-      "fetched": "2026-05-07T15:33:09.842364+00:00"
+      "fetched": "2026-05-07T16:22:44.856834+00:00"
     },
     {
       "title": "This Az-El Mount Is Worth Following",
@@ -1073,7 +993,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:00:49 +0000",
-      "fetched": "2026-05-07T15:33:09.842404+00:00"
+      "fetched": "2026-05-07T16:22:44.856872+00:00"
     },
     {
       "title": "How To Better Enjoy VR on Linux",
@@ -1083,7 +1003,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 05:00:04 +0000",
-      "fetched": "2026-05-07T15:33:09.842441+00:00"
+      "fetched": "2026-05-07T16:22:44.856907+00:00"
     },
     {
       "title": "Learn Programming Without a Computer",
@@ -1093,7 +1013,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 02:00:48 +0000",
-      "fetched": "2026-05-07T15:33:09.842477+00:00"
+      "fetched": "2026-05-07T16:22:44.856944+00:00"
     },
     {
       "title": "A 1947 Radio Gets A Face Lift",
@@ -1103,17 +1023,17 @@
       "category": "oss",
       "lang": "en",
       "pub": "Wed, 06 May 2026 23:00:52 +0000",
-      "fetched": "2026-05-07T15:33:09.842514+00:00"
+      "fetched": "2026-05-07T16:22:44.856979+00:00"
     },
     {
-      "title": "Direct FDM Printing with Granules",
-      "link": "https://hackaday.com/2026/05/06/direct-fdm-printing-with-granules/",
-      "desc": "The idea of FDM 3D printing using granules rather than filament is an appealing one: rather than having to wrangle spool",
-      "source": "Hackaday",
+      "title": "IBM Cloud evaporates as datacenter loses power",
+      "link": "https://www.theregister.com/off-prem/2026/05/07/ibm-cloud-evaporates-as-datacenter-loses-power/5234835",
+      "desc": "Customers say services were down for at least 4 hours, while status page showed no issues",
+      "source": "The Register",
       "category": "oss",
       "lang": "en",
-      "pub": "Wed, 06 May 2026 20:00:35 +0000",
-      "fetched": "2026-05-07T15:33:09.842550+00:00"
+      "pub": "Thu, 07 May 2026 18:04:03 +0200",
+      "fetched": "2026-05-07T16:22:45.552108+00:00"
     },
     {
       "title": "$250M crypto-robbing gang’s dirty work guy sentenced to 6.5 years behind bars",
@@ -1123,7 +1043,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 17:12:06 +0200",
-      "fetched": "2026-05-07T15:33:10.436724+00:00"
+      "fetched": "2026-05-07T16:22:45.552139+00:00"
     },
     {
       "title": "TomTom’s route planner takes an unplanned detour into oblivion",
@@ -1133,7 +1053,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 16:49:25 +0200",
-      "fetched": "2026-05-07T15:33:10.436756+00:00"
+      "fetched": "2026-05-07T16:22:45.552154+00:00"
     },
     {
       "title": "C++ survey finds AI use rising, though trust is in short supply",
@@ -1143,7 +1063,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 16:23:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436771+00:00"
+      "fetched": "2026-05-07T16:22:45.552166+00:00"
     },
     {
       "title": "State-backed hackers hammer Palo Alto firewall zero-day before patch lands",
@@ -1153,7 +1073,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:53:05 +0200",
-      "fetched": "2026-05-07T15:33:10.436784+00:00"
+      "fetched": "2026-05-07T16:22:45.552177+00:00"
     },
     {
       "title": "Official PCIe 8.0 draft aims for 1 TB/s data rate",
@@ -1163,7 +1083,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:14:51 +0200",
-      "fetched": "2026-05-07T15:33:10.436796+00:00"
+      "fetched": "2026-05-07T16:22:45.552189+00:00"
     },
     {
       "title": "AMD puts out new slottable GPU for AI-curious enterprises",
@@ -1173,7 +1093,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:00:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436807+00:00"
+      "fetched": "2026-05-07T16:22:45.552200+00:00"
     },
     {
       "title": "Hungarian cops cuff suspected swatter after two-year FBI probe",
@@ -1183,7 +1103,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:51:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436818+00:00"
+      "fetched": "2026-05-07T16:22:45.552211+00:00"
     },
     {
       "title": "EU hits snooze on AI Act rules after industry backlash",
@@ -1193,7 +1113,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:15:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436829+00:00"
+      "fetched": "2026-05-07T16:22:45.552222+00:00"
     },
     {
       "title": "NHS code clampdown draws open source backlash",
@@ -1203,7 +1123,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 12:39:32 +0200",
-      "fetched": "2026-05-07T15:33:10.436840+00:00"
+      "fetched": "2026-05-07T16:22:45.552232+00:00"
     },
     {
       "title": "The network password was a key plot point in one of the most famous movies of all time",
@@ -1213,7 +1133,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:49:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436851+00:00"
+      "fetched": "2026-05-07T16:22:45.552243+00:00"
     },
     {
       "title": "Chrome silently installs a 4 GB local LLM on your computer",
@@ -1223,7 +1143,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:00:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436862+00:00"
+      "fetched": "2026-05-07T16:22:45.552255+00:00"
     },
     {
       "title": "Home Office seeks three CTOs to keep borders, passports, and core IT ticking",
@@ -1233,7 +1153,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:15:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436875+00:00"
+      "fetched": "2026-05-07T16:22:45.552266+00:00"
     },
     {
       "title": "Minister gives Palantir's NHS platform a clean bill of health",
@@ -1243,7 +1163,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:30:00 +0200",
-      "fetched": "2026-05-07T15:33:10.436888+00:00"
+      "fetched": "2026-05-07T16:22:45.552290+00:00"
     },
     {
       "title": "Neocloud IREN buys OpenStack champion Mirantis",
@@ -1253,17 +1173,7 @@
       "category": "oss",
       "lang": "en",
       "pub": "Thu, 07 May 2026 07:34:24 +0200",
-      "fetched": "2026-05-07T15:33:10.436900+00:00"
-    },
-    {
-      "title": "Datacenter to become Arm’s biggest business ‘soon’",
-      "link": "https://www.theregister.com/systems/2026/05/07/datacenter-to-become-arms-biggest-business-soon/5231612",
-      "desc": "Someone other than Meta is buying $1bn of its new AGI chips",
-      "source": "The Register",
-      "category": "oss",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 03:59:50 +0200",
-      "fetched": "2026-05-07T15:33:10.436912+00:00"
+      "fetched": "2026-05-07T16:22:45.552301+00:00"
     },
     {
       "title": "Decades-long victory, bold Apple survey findings, legal workshop success & our 50th podcast episode",
@@ -1273,7 +1183,7 @@
       "category": "hackspace",
       "lang": "en",
       "pub": "06 May 2026 00:00:00 +0100",
-      "fetched": "2026-05-07T15:33:13.107153+00:00"
+      "fetched": "2026-05-07T16:22:47.746251+00:00"
     },
     {
       "title": "Rencontres Scenari 2026 à Aix-en-Provence du 22 au 26 juin 2026",
@@ -1283,7 +1193,7 @@
       "category": "hackspace",
       "lang": "fr",
       "pub": "2026-05-07T14:32:03+02:00",
-      "fetched": "2026-05-07T15:33:18.023698+00:00"
+      "fetched": "2026-05-07T16:22:54.906683+00:00"
     },
     {
       "title": "Souveraineté numérique : réduction des dépendances extra-européennes, migration de Windows vers Linux à la DINUM",
@@ -1293,7 +1203,7 @@
       "category": "hackspace",
       "lang": "fr",
       "pub": "2026-05-07T14:33:19+02:00",
-      "fetched": "2026-05-07T15:33:18.023722+00:00"
+      "fetched": "2026-05-07T16:22:54.906707+00:00"
     },
     {
       "title": "Conférence OW2con'26 : l'open source et les modèles ouverts, moteurs de la souveraineté européenne",
@@ -1303,7 +1213,7 @@
       "category": "hackspace",
       "lang": "fr",
       "pub": "2026-05-06T13:32:49+02:00",
-      "fetched": "2026-05-07T15:33:18.023731+00:00"
+      "fetched": "2026-05-07T16:22:54.906717+00:00"
     },
     {
       "title": "Projet de loi Fraudes : le Parlement élargit l’accès aux comptes bancaires pour le contrôle du RSA",
@@ -1313,7 +1223,7 @@
       "category": "hackspace",
       "lang": "fr",
       "pub": "Thu, 07 May 2026 14:20:40 +0000",
-      "fetched": "2026-05-07T15:33:19.297688+00:00"
+      "fetched": "2026-05-07T16:22:56.371619+00:00"
     },
     {
       "title": "How do you monitor your self-hosted servers?",
@@ -1323,7 +1233,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T07:58:36+00:00",
-      "fetched": "2026-05-07T15:33:20.198735+00:00"
+      "fetched": "2026-05-07T16:22:57.432252+00:00"
     },
     {
       "title": "Why aren't more people talking about Filestash?",
@@ -1333,7 +1243,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T08:36:39+00:00",
-      "fetched": "2026-05-07T15:33:20.198761+00:00"
+      "fetched": "2026-05-07T16:22:57.432300+00:00"
     },
     {
       "title": "Swetrix v5.2 [OSS Google Analytics alternative] - A/B tests, SEO analytics, data imports, and more",
@@ -1343,7 +1253,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T14:52:55+00:00",
-      "fetched": "2026-05-07T15:33:20.198769+00:00"
+      "fetched": "2026-05-07T16:22:57.432309+00:00"
     },
     {
       "title": "how can I self host to avoid having Google blow my life up randomly?",
@@ -1353,7 +1263,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-06T13:55:41+00:00",
-      "fetched": "2026-05-07T15:33:20.198776+00:00"
+      "fetched": "2026-05-07T16:22:57.432315+00:00"
     },
     {
       "title": "My Homepage Dashboard on my RPi5",
@@ -1363,7 +1273,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-06T19:06:48+00:00",
-      "fetched": "2026-05-07T15:33:20.198782+00:00"
+      "fetched": "2026-05-07T16:22:57.432322+00:00"
     },
     {
       "title": "A homepage dashboard I'm finally happy with.",
@@ -1373,7 +1283,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-06T13:27:27+00:00",
-      "fetched": "2026-05-07T15:33:20.198788+00:00"
+      "fetched": "2026-05-07T16:22:57.432328+00:00"
     },
     {
       "title": "pia-tun - Lightweight PIA + WireGuard container with port forwarding, qBittorrent port sync, and zero leak killswitch",
@@ -1383,47 +1293,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-06T20:45:34+00:00",
-      "fetched": "2026-05-07T15:33:20.198794+00:00"
-    },
-    {
-      "title": "MIT-licensed Sentry + Datadog replacement, self-hosts in ~90 seconds",
-      "link": "https://www.reddit.com/r/selfhosted/comments/1t5mr70/mitlicensed_sentry_datadog_replacement_selfhosts/",
-      "desc": "",
-      "source": "r/selfhosted",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-06T19:13:51+00:00",
-      "fetched": "2026-05-07T15:33:20.198800+00:00"
-    },
-    {
-      "title": "tailscale alternatives?",
-      "link": "https://www.reddit.com/r/selfhosted/comments/1t5ua7g/tailscale_alternatives/",
-      "desc": "",
-      "source": "r/selfhosted",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-06T23:59:59+00:00",
-      "fetched": "2026-05-07T15:33:20.198805+00:00"
-    },
-    {
-      "title": "PSA: How to actually verify your Gluetun killswitch is working",
-      "link": "https://www.reddit.com/r/selfhosted/comments/1t5royz/psa_how_to_actually_verify_your_gluetun/",
-      "desc": "",
-      "source": "r/selfhosted",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-06T22:12:50+00:00",
-      "fetched": "2026-05-07T15:33:20.198811+00:00"
-    },
-    {
-      "title": "Struggling with Oracle Cloud sign-up – Are there any other \"Always Free\" VPS alternatives?",
-      "link": "https://www.reddit.com/r/selfhosted/comments/1t6d2jm/struggling_with_oracle_cloud_signup_are_there_any/",
-      "desc": "",
-      "source": "r/selfhosted",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T14:59:57+00:00",
-      "fetched": "2026-05-07T15:33:20.198819+00:00"
+      "fetched": "2026-05-07T16:22:57.432334+00:00"
     },
     {
       "title": "Seeking a lightweight PHP member/auth solution",
@@ -1433,7 +1303,57 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T12:26:56+00:00",
-      "fetched": "2026-05-07T15:33:20.198824+00:00"
+      "fetched": "2026-05-07T16:22:57.432339+00:00"
+    },
+    {
+      "title": "MIT-licensed Sentry + Datadog replacement, self-hosts in ~90 seconds",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1t5mr70/mitlicensed_sentry_datadog_replacement_selfhosts/",
+      "desc": "",
+      "source": "r/selfhosted",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-06T19:13:51+00:00",
+      "fetched": "2026-05-07T16:22:57.432345+00:00"
+    },
+    {
+      "title": "tailscale alternatives?",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1t5ua7g/tailscale_alternatives/",
+      "desc": "",
+      "source": "r/selfhosted",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-06T23:59:59+00:00",
+      "fetched": "2026-05-07T16:22:57.432350+00:00"
+    },
+    {
+      "title": "PSA: How to actually verify your Gluetun killswitch is working",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1t5royz/psa_how_to_actually_verify_your_gluetun/",
+      "desc": "",
+      "source": "r/selfhosted",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-06T22:12:50+00:00",
+      "fetched": "2026-05-07T16:22:57.432356+00:00"
+    },
+    {
+      "title": "Monitoring for 100+ servers",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1t6e77x/monitoring_for_100_servers/",
+      "desc": "",
+      "source": "r/selfhosted",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T15:39:31+00:00",
+      "fetched": "2026-05-07T16:22:57.432361+00:00"
+    },
+    {
+      "title": "Struggling with Oracle Cloud sign-up – Are there any other \"Always Free\" VPS alternatives?",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1t6d2jm/struggling_with_oracle_cloud_signup_are_there_any/",
+      "desc": "",
+      "source": "r/selfhosted",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T14:59:57+00:00",
+      "fetched": "2026-05-07T16:22:57.432369+00:00"
     },
     {
       "title": "Repurposed a broken Chromebook into a 24/7 telemetry dashboard for my workstation",
@@ -1443,37 +1363,17 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-06T22:08:29+00:00",
-      "fetched": "2026-05-07T15:33:20.198830+00:00"
+      "fetched": "2026-05-07T16:22:57.432375+00:00"
     },
     {
-      "title": "My tiny little minecraft+everything else server",
-      "link": "https://www.reddit.com/r/selfhosted/comments/1t5woqh/my_tiny_little_minecrafteverything_else_server/",
+      "title": "Dell PowerEdge R770 GPU Upgrade (AI / LLM Workload)",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1t6ennx/dell_poweredge_r770_gpu_upgrade_ai_llm_workload/",
       "desc": "",
       "source": "r/selfhosted",
       "category": "selfhost",
       "lang": "en",
-      "pub": "2026-05-07T01:46:39+00:00",
-      "fetched": "2026-05-07T15:33:20.198835+00:00"
-    },
-    {
-      "title": "Random ERR_timed_out error",
-      "link": "https://www.reddit.com/r/selfhosted/comments/1t6didt/random_err_timed_out_error/",
-      "desc": "",
-      "source": "r/selfhosted",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T15:15:04+00:00",
-      "fetched": "2026-05-07T15:33:20.198841+00:00"
-    },
-    {
-      "title": "Finally after 3 years I’ve pretty much filled the rack.",
-      "link": "https://www.reddit.com/r/homelab/comments/1t65nd6/finally_after_3_years_ive_pretty_much_filled_the/",
-      "desc": "",
-      "source": "r/homelab",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T09:43:24+00:00",
-      "fetched": "2026-05-07T15:33:20.996588+00:00"
+      "pub": "2026-05-07T15:55:34+00:00",
+      "fetched": "2026-05-07T16:22:57.432381+00:00"
     },
     {
       "title": "Let the rabbit hole begin?",
@@ -1483,27 +1383,17 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T14:08:23+00:00",
-      "fetched": "2026-05-07T15:33:20.996614+00:00"
+      "fetched": "2026-05-07T16:22:58.164359+00:00"
     },
     {
-      "title": "Marriage is scary, what if she doesn't agree with my floor plan",
-      "link": "https://www.reddit.com/r/homelab/comments/1t5gbob/marriage_is_scary_what_if_she_doesnt_agree_with/",
+      "title": "Finally after 3 years I’ve pretty much filled the rack.",
+      "link": "https://www.reddit.com/r/homelab/comments/1t65nd6/finally_after_3_years_ive_pretty_much_filled_the/",
       "desc": "",
       "source": "r/homelab",
       "category": "selfhost",
       "lang": "en",
-      "pub": "2026-05-06T15:31:41+00:00",
-      "fetched": "2026-05-07T15:33:20.996622+00:00"
-    },
-    {
-      "title": "I built \"what broke the server\": A CLI that turns 45 minutes of log digging into one command",
-      "link": "https://www.reddit.com/r/homelab/comments/1t68ug6/i_built_what_broke_the_server_a_cli_that_turns_45/",
-      "desc": "",
-      "source": "r/homelab",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T12:18:27+00:00",
-      "fetched": "2026-05-07T15:33:20.996629+00:00"
+      "pub": "2026-05-07T09:43:24+00:00",
+      "fetched": "2026-05-07T16:22:58.164384+00:00"
     },
     {
       "title": "Just a messy stack",
@@ -1513,7 +1403,27 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T13:53:57+00:00",
-      "fetched": "2026-05-07T15:33:20.996636+00:00"
+      "fetched": "2026-05-07T16:22:58.164392+00:00"
+    },
+    {
+      "title": "Marriage is scary, what if she doesn't agree with my floor plan",
+      "link": "https://www.reddit.com/r/homelab/comments/1t5gbob/marriage_is_scary_what_if_she_doesnt_agree_with/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-06T15:31:41+00:00",
+      "fetched": "2026-05-07T16:22:58.164398+00:00"
+    },
+    {
+      "title": "I built \"what broke the server\": A CLI that turns 45 minutes of log digging into one command",
+      "link": "https://www.reddit.com/r/homelab/comments/1t68ug6/i_built_what_broke_the_server_a_cli_that_turns_45/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T12:18:27+00:00",
+      "fetched": "2026-05-07T16:22:58.164405+00:00"
     },
     {
       "title": "Hi. I am happy to present my completed homelab. After fine-tuning and migrating services, I have an infrastructure that perfectly covers my needs for self-hosting, privacy, and media streaming. What do you think?",
@@ -1523,7 +1433,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-06T20:30:24+00:00",
-      "fetched": "2026-05-07T15:33:20.996643+00:00"
+      "fetched": "2026-05-07T16:22:58.164411+00:00"
     },
     {
       "title": "Never take for granted",
@@ -1533,7 +1443,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T00:54:30+00:00",
-      "fetched": "2026-05-07T15:33:20.996649+00:00"
+      "fetched": "2026-05-07T16:22:58.164417+00:00"
     },
     {
       "title": "Finally got my lab enclosure built.",
@@ -1543,47 +1453,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T05:56:23+00:00",
-      "fetched": "2026-05-07T15:33:20.996655+00:00"
-    },
-    {
-      "title": "Finally, got FTTH (Previously has DSL Internet, max speed was 70 down, 30 up). Now going for gigabit.",
-      "link": "https://www.reddit.com/r/homelab/comments/1t5yvdc/finally_got_ftth_previously_has_dsl_internet_max/",
-      "desc": "",
-      "source": "r/homelab",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T03:27:02+00:00",
-      "fetched": "2026-05-07T15:33:20.996660+00:00"
-    },
-    {
-      "title": "Close to completing my build",
-      "link": "https://www.reddit.com/r/homelab/comments/1t5zzz3/close_to_completing_my_build/",
-      "desc": "",
-      "source": "r/homelab",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T04:22:35+00:00",
-      "fetched": "2026-05-07T15:33:20.996666+00:00"
-    },
-    {
-      "title": "I'm Curious, how many people on here know what Sneakernet is",
-      "link": "https://www.reddit.com/r/homelab/comments/1t5l5td/im_curious_how_many_people_on_here_know_what/",
-      "desc": "",
-      "source": "r/homelab",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-06T18:17:41+00:00",
-      "fetched": "2026-05-07T15:33:20.996672+00:00"
-    },
-    {
-      "title": "Spot the gaming session",
-      "link": "https://www.reddit.com/r/homelab/comments/1t64qpc/spot_the_gaming_session/",
-      "desc": "",
-      "source": "r/homelab",
-      "category": "selfhost",
-      "lang": "en",
-      "pub": "2026-05-07T08:50:18+00:00",
-      "fetched": "2026-05-07T15:33:20.996677+00:00"
+      "fetched": "2026-05-07T16:22:58.164423+00:00"
     },
     {
       "title": "Moved my setup into a Node 804 from an asus prime case. Much easier to work in",
@@ -1593,7 +1463,57 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T14:26:24+00:00",
-      "fetched": "2026-05-07T15:33:20.996683+00:00"
+      "fetched": "2026-05-07T16:22:58.164428+00:00"
+    },
+    {
+      "title": "Finally, got FTTH (Previously has DSL Internet, max speed was 70 down, 30 up). Now going for gigabit.",
+      "link": "https://www.reddit.com/r/homelab/comments/1t5yvdc/finally_got_ftth_previously_has_dsl_internet_max/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T03:27:02+00:00",
+      "fetched": "2026-05-07T16:22:58.164434+00:00"
+    },
+    {
+      "title": "Close to completing my build",
+      "link": "https://www.reddit.com/r/homelab/comments/1t5zzz3/close_to_completing_my_build/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T04:22:35+00:00",
+      "fetched": "2026-05-07T16:22:58.164440+00:00"
+    },
+    {
+      "title": "Spot the gaming session",
+      "link": "https://www.reddit.com/r/homelab/comments/1t64qpc/spot_the_gaming_session/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T08:50:18+00:00",
+      "fetched": "2026-05-07T16:22:58.164445+00:00"
+    },
+    {
+      "title": "I'm Curious, how many people on here know what Sneakernet is",
+      "link": "https://www.reddit.com/r/homelab/comments/1t5l5td/im_curious_how_many_people_on_here_know_what/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-06T18:17:41+00:00",
+      "fetched": "2026-05-07T16:22:58.164451+00:00"
+    },
+    {
+      "title": "The Serial TTL connector we deserve",
+      "link": "https://www.reddit.com/r/homelab/comments/1t6bvq4/the_serial_ttl_connector_we_deserve/",
+      "desc": "",
+      "source": "r/homelab",
+      "category": "selfhost",
+      "lang": "en",
+      "pub": "2026-05-07T14:17:28+00:00",
+      "fetched": "2026-05-07T16:22:58.164457+00:00"
     },
     {
       "title": "Homelab update v2.1",
@@ -1603,17 +1523,17 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T04:19:30+00:00",
-      "fetched": "2026-05-07T15:33:20.996689+00:00"
+      "fetched": "2026-05-07T16:22:58.164462+00:00"
     },
     {
-      "title": "First homeserver ever, got a bunch of things for free and throw it together",
-      "link": "https://www.reddit.com/r/homelab/comments/1t5bt4v/first_homeserver_ever_got_a_bunch_of_things_for/",
+      "title": "[bot] build markdown from awesome-selfhosted-data feb9cc6",
+      "link": "https://github.com/awesome-selfhosted/awesome-selfhosted/commit/bbda83fccd8dc6285fa4b7fd658137712ca500b3",
       "desc": "",
-      "source": "r/homelab",
+      "source": "awesome-selfhosted commits",
       "category": "selfhost",
       "lang": "en",
-      "pub": "2026-05-06T12:44:11+00:00",
-      "fetched": "2026-05-07T15:33:20.996694+00:00"
+      "pub": "2026-05-07T15:38:55Z",
+      "fetched": "2026-05-07T16:22:58.424860+00:00"
     },
     {
       "title": "[bot] build markdown from awesome-selfhosted-data 396e5db",
@@ -1623,7 +1543,7 @@
       "category": "selfhost",
       "lang": "en",
       "pub": "2026-05-07T14:31:54Z",
-      "fetched": "2026-05-07T15:33:21.176804+00:00"
+      "fetched": "2026-05-07T16:22:58.424888+00:00"
     },
     {
       "title": "FOSS Weekly #26.19: Ubuntu Under Attack, Linux Exploitation Ongoing, Upgrading to 26.04, Linux on PS5 and More",
@@ -1633,7 +1553,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 18:42:03 +0530",
-      "fetched": "2026-05-07T15:33:22.519331+00:00"
+      "fetched": "2026-05-07T16:23:00.114824+00:00"
     },
     {
       "title": "Yazi is the Terminal-based File Manager I Didn't Know I Needed",
@@ -1643,7 +1563,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 17:31:46 +0530",
-      "fetched": "2026-05-07T15:33:22.519376+00:00"
+      "fetched": "2026-05-07T16:23:00.114870+00:00"
     },
     {
       "title": "After Days of DDoS, Now Ubuntu's Twitter Account Seems to be Compromised",
@@ -1653,7 +1573,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:03:31 +0530",
-      "fetched": "2026-05-07T15:33:22.519400+00:00"
+      "fetched": "2026-05-07T16:23:00.114894+00:00"
     },
     {
       "title": "This $85 PCB is Giving Old Google Home Mini Devices a Second Life",
@@ -1663,7 +1583,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:13:35 +0530",
-      "fetched": "2026-05-07T15:33:22.519414+00:00"
+      "fetched": "2026-05-07T16:23:00.114908+00:00"
     },
     {
       "title": "LibreOffice Questions Whether Euro-Office is Truly Sovereign",
@@ -1673,7 +1593,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:12:42 +0530",
-      "fetched": "2026-05-07T15:33:22.519425+00:00"
+      "fetched": "2026-05-07T16:23:00.114920+00:00"
     },
     {
       "title": "Should You Be Worried About The Copy Fail Linux Exploit?",
@@ -1683,7 +1603,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 11:33:57 +0530",
-      "fetched": "2026-05-07T15:33:22.519438+00:00"
+      "fetched": "2026-05-07T16:23:00.114935+00:00"
     },
     {
       "title": "Go Away Microsoft! The Netherlands is Quietly Building Its Own GitHub Replacement",
@@ -1693,7 +1613,17 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 10:14:52 +0530",
-      "fetched": "2026-05-07T15:33:22.519449+00:00"
+      "fetched": "2026-05-07T16:23:00.114947+00:00"
+    },
+    {
+      "title": "Linux 7.2 To Support Realtek RTL8159 10GbE USB Ethernet",
+      "link": "https://www.phoronix.com/news/Realtek-RTL8159-Linux-7.2",
+      "desc": "The Realtek RTL8159 has been appearing in some 10G-rated USB network adapters at online retailers, some for less than $1",
+      "source": "Phoronix",
+      "category": "laptop",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 12:03:15 -0400",
+      "fetched": "2026-05-07T16:23:00.265205+00:00"
     },
     {
       "title": "AMD RadeonSI Code Reorganized To Support Multimedia-Only Driver Builds",
@@ -1703,7 +1633,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:21:04 -0400",
-      "fetched": "2026-05-07T15:33:22.672583+00:00"
+      "fetched": "2026-05-07T16:23:00.265235+00:00"
     },
     {
       "title": "Flattened Image Tree 1.0 Specification For Embedded Linux Systems",
@@ -1713,7 +1643,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:26:24 -0400",
-      "fetched": "2026-05-07T15:33:22.672613+00:00"
+      "fetched": "2026-05-07T16:23:00.265248+00:00"
     },
     {
       "title": "AMD Instinct MI350P: PCIe Add-In Card For High Performance Open-Source AI/Compute",
@@ -1723,7 +1653,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:00:00 -0400",
-      "fetched": "2026-05-07T15:33:22.672627+00:00"
+      "fetched": "2026-05-07T16:23:00.265259+00:00"
     },
     {
       "title": "Linux Drivers For The AMD Elan SoCs From The 1990s On Track For Retirement",
@@ -1733,7 +1663,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:20:09 -0400",
-      "fetched": "2026-05-07T15:33:22.672639+00:00"
+      "fetched": "2026-05-07T16:23:00.265270+00:00"
     },
     {
       "title": "KDE Plasma 6.7 To Provide A Much Better Experience For CPU-Based Rendering",
@@ -1743,7 +1673,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 06:29:02 -0400",
-      "fetched": "2026-05-07T15:33:22.672650+00:00"
+      "fetched": "2026-05-07T16:23:00.265318+00:00"
     },
     {
       "title": "New GCC Back-End Proposed For WebAssembly",
@@ -1753,7 +1683,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 06:17:13 -0400",
-      "fetched": "2026-05-07T15:33:22.672663+00:00"
+      "fetched": "2026-05-07T16:23:00.265331+00:00"
     },
     {
       "title": "SR-IOV Support Appears To Be Coming For Next-Gen Ryzen AI NPUs",
@@ -1763,7 +1693,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 06:06:17 -0400",
-      "fetched": "2026-05-07T15:33:22.672673+00:00"
+      "fetched": "2026-05-07T16:23:00.265342+00:00"
     },
     {
       "title": "Rust-Written Redox OS Sees Improvements For Running On Real Hardware",
@@ -1773,7 +1703,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 20:22:57 -0400",
-      "fetched": "2026-05-07T15:33:22.672684+00:00"
+      "fetched": "2026-05-07T16:23:00.265354+00:00"
     },
     {
       "title": "D7VK 1.9 Brings Some Hefty Performance Improvements",
@@ -1783,7 +1713,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 19:43:51 -0400",
-      "fetched": "2026-05-07T15:33:22.672695+00:00"
+      "fetched": "2026-05-07T16:23:00.265365+00:00"
     },
     {
       "title": "Mesa 26.1 Released With Many Improvements For Open-Source Vulkan Drivers",
@@ -1793,7 +1723,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 16:03:03 -0400",
-      "fetched": "2026-05-07T15:33:22.672705+00:00"
+      "fetched": "2026-05-07T16:23:00.265376+00:00"
     },
     {
       "title": "PCIe 8.0 Spec Draft 0.5 Released For 1TB/s Bi-Directional x16 Bandwidth",
@@ -1803,7 +1733,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:53:11 -0400",
-      "fetched": "2026-05-07T15:33:22.672716+00:00"
+      "fetched": "2026-05-07T16:23:00.265387+00:00"
     },
     {
       "title": "Linux 7.2 To Integrate The AMDGPU \"Power Module\" To Better Align With Windows",
@@ -1813,7 +1743,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 13:30:00 -0400",
-      "fetched": "2026-05-07T15:33:22.672727+00:00"
+      "fetched": "2026-05-07T16:23:00.265398+00:00"
     },
     {
       "title": "Nouveau vs. NVIDIA R595 Linux Driver For Workstation Graphics Performance",
@@ -1823,7 +1753,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 12:00:00 -0400",
-      "fetched": "2026-05-07T15:33:22.672739+00:00"
+      "fetched": "2026-05-07T16:23:00.265409+00:00"
     },
     {
       "title": "Intel's Vulkan Linux Driver Now Supports Device Generated Commands \"DGC\"",
@@ -1833,17 +1763,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 09:53:58 -0400",
-      "fetched": "2026-05-07T15:33:22.672750+00:00"
-    },
-    {
-      "title": "Vulkan SC SDK Released For Safety-Critical Graphics / Compute",
-      "link": "https://www.phoronix.com/news/Vulkan-SC-SDK",
-      "desc": "Yesterday was the OpenCL 3.1 release and today is another exciting development for The Khronos Group standards: the debu",
-      "source": "Phoronix",
-      "category": "laptop",
-      "lang": "en",
-      "pub": "Wed, 06 May 2026 09:22:37 -0400",
-      "fetched": "2026-05-07T15:33:22.672761+00:00"
+      "fetched": "2026-05-07T16:23:00.265421+00:00"
     },
     {
       "title": "[$] A new era for memory-management maintainership",
@@ -1853,7 +1773,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:42:35 +0000",
-      "fetched": "2026-05-07T15:33:22.799225+00:00"
+      "fetched": "2026-05-07T16:23:00.821636+00:00"
     },
     {
       "title": "An update on KDE's Union style engine",
@@ -1863,7 +1783,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:10:52 +0000",
-      "fetched": "2026-05-07T15:33:22.799275+00:00"
+      "fetched": "2026-05-07T16:23:00.821691+00:00"
     },
     {
       "title": "Security updates for Thursday",
@@ -1873,7 +1793,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:10:37 +0000",
-      "fetched": "2026-05-07T15:33:22.799295+00:00"
+      "fetched": "2026-05-07T16:23:00.821711+00:00"
     },
     {
       "title": "Three stable kernel updates",
@@ -1883,7 +1803,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 06:36:28 +0000",
-      "fetched": "2026-05-07T15:33:22.799310+00:00"
+      "fetched": "2026-05-07T16:23:00.821725+00:00"
     },
     {
       "title": "[$] LWN.net Weekly Edition for May 7, 2026",
@@ -1893,7 +1813,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 00:01:08 +0000",
-      "fetched": "2026-05-07T15:33:22.799325+00:00"
+      "fetched": "2026-05-07T16:23:00.821741+00:00"
     },
     {
       "title": "[$] LLM-driven security reports disrupt coordinated disclosure",
@@ -1903,7 +1823,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 14:56:20 +0000",
-      "fetched": "2026-05-07T15:33:22.799341+00:00"
+      "fetched": "2026-05-07T16:23:00.821754+00:00"
     },
     {
       "title": "Incus 7.0 LTS released",
@@ -1913,7 +1833,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 13:53:58 +0000",
-      "fetched": "2026-05-07T15:33:22.799357+00:00"
+      "fetched": "2026-05-07T16:23:00.821770+00:00"
     },
     {
       "title": "Security updates for Wednesday",
@@ -1923,7 +1843,27 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 13:05:18 +0000",
-      "fetched": "2026-05-07T15:33:22.799371+00:00"
+      "fetched": "2026-05-07T16:23:00.821783+00:00"
+    },
+    {
+      "title": "6 Hulu miniseries you can finish in a weekend",
+      "link": "https://www.howtogeek.com/hulu-miniseries-you-can-finish-in-a-weekend/",
+      "desc": "The kind of marathon we all need",
+      "source": "How-To Geek",
+      "category": "laptop",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 16:15:16 GMT",
+      "fetched": "2026-05-07T16:23:01.176643+00:00"
+    },
+    {
+      "title": "I supercharged my PC's connectivity using that one \"useless\" PCIe slot",
+      "link": "https://www.howtogeek.com/i-supercharged-my-pcs-connectivity-using-that-one-useless-pcie-slot/",
+      "desc": "Two problems, one slot, zero new motherboard. Guess how!",
+      "source": "How-To Geek",
+      "category": "laptop",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 15:58:47 GMT",
+      "fetched": "2026-05-07T16:23:01.176675+00:00"
     },
     {
       "title": "These are the 5 settings I change on every Galaxy Watch",
@@ -1933,7 +1873,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:30:18 GMT",
-      "fetched": "2026-05-07T15:33:22.910593+00:00"
+      "fetched": "2026-05-07T16:23:01.176689+00:00"
     },
     {
       "title": "Fitbit Air is finally Google's answer to screenless fitness trackers like Whoop",
@@ -1943,7 +1883,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:16:02 GMT",
-      "fetched": "2026-05-07T15:33:22.910626+00:00"
+      "fetched": "2026-05-07T16:23:01.176701+00:00"
     },
     {
       "title": "This AI coding assistant changed how I use VS Code, and I can't go back",
@@ -1953,7 +1893,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:15:18 GMT",
-      "fetched": "2026-05-07T15:33:22.910640+00:00"
+      "fetched": "2026-05-07T16:23:01.176713+00:00"
     },
     {
       "title": "4 ways your NVIDIA GPU can save your thousands of dollars",
@@ -1963,7 +1903,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 15:02:29 GMT",
-      "fetched": "2026-05-07T15:33:22.910652+00:00"
+      "fetched": "2026-05-07T16:23:01.176723+00:00"
     },
     {
       "title": "Home Assistant projects to try this weekend that upgrade your smart home (May 8 - 10)",
@@ -1973,7 +1913,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:45:18 GMT",
-      "fetched": "2026-05-07T15:33:22.910663+00:00"
+      "fetched": "2026-05-07T16:23:01.176734+00:00"
     },
     {
       "title": "I finally tried Obsidian again and realized why so many people use Notion instead",
@@ -1983,7 +1923,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:30:18 GMT",
-      "fetched": "2026-05-07T15:33:22.910673+00:00"
+      "fetched": "2026-05-07T16:23:01.176744+00:00"
     },
     {
       "title": "4 Ace Hardware finds that make Home Depot feel like a waste of money",
@@ -1993,7 +1933,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:15:17 GMT",
-      "fetched": "2026-05-07T15:33:22.910683+00:00"
+      "fetched": "2026-05-07T16:23:01.176753+00:00"
     },
     {
       "title": "4 reasons a Fedora Atomic desktop is the first distro every Linux beginner should use",
@@ -2003,27 +1943,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:00:18 GMT",
-      "fetched": "2026-05-07T15:33:22.910693+00:00"
-    },
-    {
-      "title": "The best smart home sensors are the ones you'll never see",
-      "link": "https://www.howtogeek.com/well-hidden-sensors-are-what-your-smart-home-is-missing/",
-      "desc": "Your smart home doesn't need to look like one.",
-      "source": "How-To Geek",
-      "category": "laptop",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 13:46:18 GMT",
-      "fetched": "2026-05-07T15:33:22.910703+00:00"
-    },
-    {
-      "title": "The best Google Photos alternative for Android is hiding in plain sight",
-      "link": "https://www.howtogeek.com/the-best-google-photos-alternative-for-android-is-hiding-in-plain-sight/",
-      "desc": "Samsung Gallery quietly became better than Google Photos",
-      "source": "How-To Geek",
-      "category": "laptop",
-      "lang": "en",
-      "pub": "Thu, 07 May 2026 13:30:17 GMT",
-      "fetched": "2026-05-07T15:33:22.910712+00:00"
+      "fetched": "2026-05-07T16:23:01.176763+00:00"
     },
     {
       "title": "Shelly 2.1 Package Manager for Arch Linux Revamps AppImage Support",
@@ -2033,7 +1953,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:40:17 +0000",
-      "fetched": "2026-05-07T15:33:23.050040+00:00"
+      "fetched": "2026-05-07T16:23:01.378465+00:00"
     },
     {
       "title": "sort and uniq: Clean and Count Log File Entries in Linux",
@@ -2043,7 +1963,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:40:13 +0000",
-      "fetched": "2026-05-07T15:33:23.050069+00:00"
+      "fetched": "2026-05-07T16:23:01.378498+00:00"
     },
     {
       "title": "Wine 11.7 Begins MSXML Rework and Fixes 35 Bugs",
@@ -2053,7 +1973,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:38:36 +0000",
-      "fetched": "2026-05-07T15:33:23.050083+00:00"
+      "fetched": "2026-05-07T16:23:01.378512+00:00"
     },
     {
       "title": "AI Pushes Cal.com to Shutter Open and Go Nonfree",
@@ -2063,7 +1983,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:34:29 +0000",
-      "fetched": "2026-05-07T15:33:23.050097+00:00"
+      "fetched": "2026-05-07T16:23:01.378525+00:00"
     },
     {
       "title": "Bringing BitNet to ExecuTorch via Vulkan",
@@ -2073,7 +1993,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:30:35 +0000",
-      "fetched": "2026-05-07T15:33:23.050109+00:00"
+      "fetched": "2026-05-07T16:23:01.378538+00:00"
     },
     {
       "title": "GIMP 3.2.4 Fixes Layer Fills, Text Tool Bugs, and File Import Issues",
@@ -2083,7 +2003,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:24:24 +0000",
-      "fetched": "2026-05-07T15:33:23.050122+00:00"
+      "fetched": "2026-05-07T16:23:01.378551+00:00"
     },
     {
       "title": "Free Software Foundation Says OnlyOffice Cannot Use AGPL to Restrict Forks",
@@ -2093,7 +2013,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:21:09 +0000",
-      "fetched": "2026-05-07T15:33:23.050134+00:00"
+      "fetched": "2026-05-07T16:23:01.378563+00:00"
     },
     {
       "title": "PangoTerm – Modern Cross-platform SSH Client",
@@ -2103,7 +2023,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:16:29 +0000",
-      "fetched": "2026-05-07T15:33:23.050159+00:00"
+      "fetched": "2026-05-07T16:23:01.378589+00:00"
     },
     {
       "title": "Proton 11 Enters Beta Testing with Support for Breath of Fire IV, Unknown Faces",
@@ -2113,7 +2033,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 12:11:39 +0000",
-      "fetched": "2026-05-07T15:33:23.050173+00:00"
+      "fetched": "2026-05-07T16:23:01.378603+00:00"
     },
     {
       "title": "FunOS: Ubuntu LTS with JWM and No Snaps",
@@ -2123,7 +2043,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 12:02:56 +0000",
-      "fetched": "2026-05-07T15:33:23.050185+00:00"
+      "fetched": "2026-05-07T16:23:01.378615+00:00"
     },
     {
       "title": "Khadas Mind Graphics 2 and Mind xPlay display + keyboard review – Part 1: Unboxing, teardown, and first try",
@@ -2133,7 +2053,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:57:26 +0000",
-      "fetched": "2026-05-07T15:33:23.200781+00:00"
+      "fetched": "2026-05-07T16:23:01.657167+00:00"
     },
     {
       "title": "FalCAN Probe is an open-source, STM32-based USB to CAN/RS-485/RS-422 adapter",
@@ -2143,7 +2063,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:13:29 +0000",
-      "fetched": "2026-05-07T15:33:23.200818+00:00"
+      "fetched": "2026-05-07T16:23:01.657205+00:00"
     },
     {
       "title": "Ploopy Bean open-source hardware pointing stick mouse runs QMK firmware",
@@ -2153,7 +2073,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 04:31:06 +0000",
-      "fetched": "2026-05-07T15:33:23.200846+00:00"
+      "fetched": "2026-05-07T16:23:01.657233+00:00"
     },
     {
       "title": "HAUI 3Gang Touch Display is a 7-inch wall-mount Home Assistant dashboard with MQTT support",
@@ -2163,7 +2083,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Thu, 07 May 2026 03:09:59 +0000",
-      "fetched": "2026-05-07T15:33:23.200870+00:00"
+      "fetched": "2026-05-07T16:23:01.657257+00:00"
     },
     {
       "title": "ESP32-P4 security key features 2-inch touchscreen, 3,000+ password capacity (Crowdfunding)",
@@ -2173,7 +2093,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 10:00:08 +0000",
-      "fetched": "2026-05-07T15:33:23.200886+00:00"
+      "fetched": "2026-05-07T16:23:01.657272+00:00"
     },
     {
       "title": "Toradex Zinnia Linux IoT Gateway offers dual GbE, WiFi 5, 4G LTE, I/Os, and simplified software deployment",
@@ -2183,7 +2103,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 08:59:39 +0000",
-      "fetched": "2026-05-07T15:33:23.200908+00:00"
+      "fetched": "2026-05-07T16:23:01.657307+00:00"
     },
     {
       "title": "Study compares Rust and C languages for embedded firmware development",
@@ -2193,7 +2113,7 @@
       "category": "laptop",
       "lang": "en",
       "pub": "Wed, 06 May 2026 04:52:07 +0000",
-      "fetched": "2026-05-07T15:33:23.200930+00:00"
+      "fetched": "2026-05-07T16:23:01.657329+00:00"
     },
     {
       "title": "Smart Glasses for the Authorities",
@@ -2203,7 +2123,7 @@
       "category": "security",
       "lang": "en",
       "pub": "2026-05-07T11:07:29Z",
-      "fetched": "2026-05-07T15:33:23.498471+00:00"
+      "fetched": "2026-05-07T16:23:02.153097+00:00"
     },
     {
       "title": "Rowhammer Attack Against NVIDIA Chips",
@@ -2213,7 +2133,7 @@
       "category": "security",
       "lang": "en",
       "pub": "2026-05-06T10:37:46Z",
-      "fetched": "2026-05-07T15:33:23.498516+00:00"
+      "fetched": "2026-05-07T16:23:02.153151+00:00"
     },
     {
       "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
@@ -2223,7 +2143,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 19:20:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738709+00:00"
+      "fetched": "2026-05-07T16:23:02.355777+00:00"
     },
     {
       "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
@@ -2233,7 +2153,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 19:04:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738740+00:00"
+      "fetched": "2026-05-07T16:23:02.355806+00:00"
     },
     {
       "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
@@ -2243,7 +2163,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 17:03:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738756+00:00"
+      "fetched": "2026-05-07T16:23:02.355822+00:00"
     },
     {
       "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
@@ -2253,7 +2173,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 16:24:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738776+00:00"
+      "fetched": "2026-05-07T16:23:02.355846+00:00"
     },
     {
       "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
@@ -2263,7 +2183,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:50:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738793+00:00"
+      "fetched": "2026-05-07T16:23:02.355863+00:00"
     },
     {
       "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
@@ -2273,7 +2193,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:45:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738806+00:00"
+      "fetched": "2026-05-07T16:23:02.355877+00:00"
     },
     {
       "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
@@ -2283,7 +2203,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Thu, 07 May 2026 01:51:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738817+00:00"
+      "fetched": "2026-05-07T16:23:02.355889+00:00"
     },
     {
       "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
@@ -2293,7 +2213,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 2026 18:30:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738828+00:00"
+      "fetched": "2026-05-07T16:23:02.355901+00:00"
     },
     {
       "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
@@ -2303,7 +2223,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 2026 17:33:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738840+00:00"
+      "fetched": "2026-05-07T16:23:02.355913+00:00"
     },
     {
       "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
@@ -2313,7 +2233,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 2026 16:27:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738851+00:00"
+      "fetched": "2026-05-07T16:23:02.355924+00:00"
     },
     {
       "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
@@ -2323,7 +2243,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 2026 14:43:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738862+00:00"
+      "fetched": "2026-05-07T16:23:02.355935+00:00"
     },
     {
       "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
@@ -2333,7 +2253,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 2026 14:04:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738872+00:00"
+      "fetched": "2026-05-07T16:23:02.355946+00:00"
     },
     {
       "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
@@ -2343,7 +2263,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 2026 11:44:00 +0530",
-      "fetched": "2026-05-07T15:33:23.738884+00:00"
+      "fetched": "2026-05-07T16:23:02.355957+00:00"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -2353,7 +2273,7 @@
       "category": "security",
       "lang": "en",
       "pub": "Wed, 06 May 26 12:00:00 +0000",
-      "fetched": "2026-05-07T15:33:23.803073+00:00"
+      "fetched": "2026-05-07T16:23:02.618990+00:00"
     },
     {
       "title": "Maintainer Month 2026: Celebrating the People Who Keep Open Source Running",
@@ -2363,7 +2283,7 @@
       "category": "eu",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:07:19 +0000",
-      "fetched": "2026-05-07T15:33:24.522542+00:00"
+      "fetched": "2026-05-07T16:23:03.215767+00:00"
     },
     {
       "title": "Info session - Call for proposals Digital solutions for regulatory compliance through data",
@@ -2373,7 +2293,7 @@
       "category": "eu",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:43:08 +0000",
-      "fetched": "2026-05-07T15:33:28.416908+00:00"
+      "fetched": "2026-05-07T16:23:07.571666+00:00"
     },
     {
       "title": "HiPEAC Vision 2026 | CONNECT University",
@@ -2383,7 +2303,7 @@
       "category": "eu",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:01:00 +0000",
-      "fetched": "2026-05-07T15:33:28.416999+00:00"
+      "fetched": "2026-05-07T16:23:07.571760+00:00"
     },
     {
       "title": "EU agrees to simplify AI rules to boost innovation and ban ‘nudification' apps to protect citizens",
@@ -2393,7 +2313,7 @@
       "category": "eu",
       "lang": "en",
       "pub": "Thu, 07 May 2026 05:27:00 +0000",
-      "fetched": "2026-05-07T15:33:28.417045+00:00"
+      "fetched": "2026-05-07T16:23:07.571800+00:00"
     },
     {
       "title": "Five times AI hallucinations embarrassed governments",
@@ -2403,7 +2323,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:00:00 +0000",
-      "fetched": "2026-05-07T15:33:28.869192+00:00"
+      "fetched": "2026-05-07T16:23:08.356914+00:00"
     },
     {
       "title": "The Chinese EV standard winning globally is banned in the U.S.",
@@ -2413,7 +2333,17 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 10:00:00 +0000",
-      "fetched": "2026-05-07T15:33:28.869225+00:00"
+      "fetched": "2026-05-07T16:23:08.356954+00:00"
+    },
+    {
+      "title": "Buea, Cameroon is facing recurring floods despite a lack of rain",
+      "link": "https://globalvoices.org/2026/05/07/buea-cameroon-is-facing-recurring-floods-despite-the-lack-of-rain/",
+      "desc": "Experts say lahars happen because loose material on the slopes of an inactive but still changing volcano is washed down ",
+      "source": "Global Voices",
+      "category": "global",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 16:00:34 +0000",
+      "fetched": "2026-05-07T16:23:09.399560+00:00"
     },
     {
       "title": "The ordeal of an undocumented Haitian migrant in the Dominican Republic",
@@ -2423,7 +2353,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:00:25 +0000",
-      "fetched": "2026-05-07T15:33:29.940723+00:00"
+      "fetched": "2026-05-07T16:23:09.399591+00:00"
     },
     {
       "title": "How Tibetans became eco-guards of Asia’s water tower",
@@ -2433,7 +2363,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 23:00:51 +0000",
-      "fetched": "2026-05-07T15:33:29.940755+00:00"
+      "fetched": "2026-05-07T16:23:09.399606+00:00"
     },
     {
       "title": "Meta removes Bangladeshi community archivists’ pages through false copyright claims",
@@ -2443,7 +2373,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 20:00:06 +0000",
-      "fetched": "2026-05-07T15:33:29.940768+00:00"
+      "fetched": "2026-05-07T16:23:09.399618+00:00"
     },
     {
       "title": "The invisible migration: How urban refugees are powering Uganda’s economy",
@@ -2453,7 +2383,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 08:00:30 +0000",
-      "fetched": "2026-05-07T15:33:29.940780+00:00"
+      "fetched": "2026-05-07T16:23:09.399628+00:00"
     },
     {
       "title": "Nepal becomes South Asia's priciest place to fill a tank as US war on Iran rattles the pump",
@@ -2463,7 +2393,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Tue, 05 May 2026 23:00:00 +0000",
-      "fetched": "2026-05-07T15:33:29.940790+00:00"
+      "fetched": "2026-05-07T16:23:09.399639+00:00"
     },
     {
       "title": "Ginja Launches AI-Powered Productivity App That Turns Mental Clutter Into Action and support Collaboration",
@@ -2473,7 +2403,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:14:29 +0000",
-      "fetched": "2026-05-07T15:33:30.130535+00:00"
+      "fetched": "2026-05-07T16:23:09.668115+00:00"
     },
     {
       "title": "How Betastack Turned a Kano Classroom into Fintech Plumbing",
@@ -2483,7 +2413,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:58:22 +0000",
-      "fetched": "2026-05-07T15:33:30.130591+00:00"
+      "fetched": "2026-05-07T16:23:09.668145+00:00"
     },
     {
       "title": "Fincra expands into Ghana’s payments market",
@@ -2493,7 +2423,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 07:00:00 +0000",
-      "fetched": "2026-05-07T15:33:30.130606+00:00"
+      "fetched": "2026-05-07T16:23:09.668159+00:00"
     },
     {
       "title": "We impersonated a restaurant on Glovo and Chowdeck; the platforms never noticed",
@@ -2503,7 +2433,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 03:00:00 +0000",
-      "fetched": "2026-05-07T15:33:30.130617+00:00"
+      "fetched": "2026-05-07T16:23:09.668171+00:00"
     },
     {
       "title": "Meta introduces AI-powered measures to further guarantee teens safety online",
@@ -2513,7 +2443,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:54:47 +0000",
-      "fetched": "2026-05-07T15:33:30.130627+00:00"
+      "fetched": "2026-05-07T16:23:09.668181+00:00"
     },
     {
       "title": "OPay Partners CBN to Advance Youth Financial Literacy at Global Money Week 2026",
@@ -2523,7 +2453,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 12:17:00 +0000",
-      "fetched": "2026-05-07T15:33:30.130637+00:00"
+      "fetched": "2026-05-07T16:23:09.668190+00:00"
     },
     {
       "title": "Telecel Zimbabwe needs $50 million or it’s gone",
@@ -2533,7 +2463,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 07:00:00 +0000",
-      "fetched": "2026-05-07T15:33:30.130648+00:00"
+      "fetched": "2026-05-07T16:23:09.668201+00:00"
     },
     {
       "title": "What you need to know about the OnePlus Nord CE6 and CE6 Lite",
@@ -2543,7 +2473,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:31:38 +0000",
-      "fetched": "2026-05-07T15:33:31.049860+00:00"
+      "fetched": "2026-05-07T16:23:10.713882+00:00"
     },
     {
       "title": "👨🏿‍🚀TechCabal Daily – Zenith eyes Cameroon entry",
@@ -2553,7 +2483,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 05:59:50 +0000",
-      "fetched": "2026-05-07T15:33:31.049911+00:00"
+      "fetched": "2026-05-07T16:23:10.713931+00:00"
     },
     {
       "title": "Village Capital backs two Ghanaian startups with $350,000 from latest fund",
@@ -2563,7 +2493,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:23:22 +0000",
-      "fetched": "2026-05-07T15:33:31.049926+00:00"
+      "fetched": "2026-05-07T16:23:10.713945+00:00"
     },
     {
       "title": "Nahla Gamil was once unsure of her future. She now heads a tech team.",
@@ -2573,7 +2503,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:02:08 +0000",
-      "fetched": "2026-05-07T15:33:31.049940+00:00"
+      "fetched": "2026-05-07T16:23:10.713957+00:00"
     },
     {
       "title": "Namibia-based firm to back early-stage Southern African startups with $10 million fund",
@@ -2583,7 +2513,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 11:55:06 +0000",
-      "fetched": "2026-05-07T15:33:31.049951+00:00"
+      "fetched": "2026-05-07T16:23:10.713968+00:00"
     },
     {
       "title": "Over 13,000 Nigerian bank employees earn $526/month as salaries climb in 2025",
@@ -2593,7 +2523,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 10:39:26 +0000",
-      "fetched": "2026-05-07T15:33:31.049962+00:00"
+      "fetched": "2026-05-07T16:23:10.713980+00:00"
     },
     {
       "title": "Fincra expands Ghana presence with new payments licence approval",
@@ -2603,7 +2533,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 09:20:59 +0000",
-      "fetched": "2026-05-07T15:33:31.049972+00:00"
+      "fetched": "2026-05-07T16:23:10.713990+00:00"
     },
     {
       "title": "Seven Vivo phones you should consider buying in 2026",
@@ -2613,7 +2543,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 06:46:18 +0000",
-      "fetched": "2026-05-07T15:33:31.049981+00:00"
+      "fetched": "2026-05-07T16:23:10.714000+00:00"
     },
     {
       "title": "👨🏿‍🚀TechCabal Daily – StanChart moves to sell Kenya office",
@@ -2623,7 +2553,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 06:46:05 +0000",
-      "fetched": "2026-05-07T15:33:31.049999+00:00"
+      "fetched": "2026-05-07T16:23:10.714017+00:00"
     },
     {
       "title": "New SA Platform Takes on AI’s Biggest Classroom Problems",
@@ -2633,7 +2563,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 14:05:17 +0000",
-      "fetched": "2026-05-07T15:33:33.476124+00:00"
+      "fetched": "2026-05-07T16:23:14.776786+00:00"
     },
     {
       "title": "SA Records Highest Global Cyberattack Rate & Identity Visibility Gap, Study Reveals",
@@ -2643,7 +2573,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:16:52 +0000",
-      "fetched": "2026-05-07T15:33:33.476161+00:00"
+      "fetched": "2026-05-07T16:23:14.776828+00:00"
     },
     {
       "title": "Huawei Appoints Corey Deng as Chief Cybersecurity & Privacy Officer for Middle East and Central Asia",
@@ -2653,7 +2583,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:07:20 +0000",
-      "fetched": "2026-05-07T15:33:33.476181+00:00"
+      "fetched": "2026-05-07T16:23:14.776847+00:00"
     },
     {
       "title": "Launch Of One Of The First Hybrid AI Visual Effects Studios",
@@ -2663,7 +2593,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 13:10:29 +0000",
-      "fetched": "2026-05-07T15:33:33.476206+00:00"
+      "fetched": "2026-05-07T16:23:14.776873+00:00"
     },
     {
       "title": "WSO2 Launches Agent Manager to Bring Identity, Governance and Scale to Enterprise AI Agents",
@@ -2673,7 +2603,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 11:36:35 +0000",
-      "fetched": "2026-05-07T15:33:33.476220+00:00"
+      "fetched": "2026-05-07T16:23:14.776888+00:00"
     },
     {
       "title": "New Payments Partnership on Expanding Cardless Payment across Nigeria",
@@ -2683,7 +2613,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 09:56:48 +0000",
-      "fetched": "2026-05-07T15:33:33.476237+00:00"
+      "fetched": "2026-05-07T16:23:14.776905+00:00"
     },
     {
       "title": "Kaspersky Identifies Ongoing Supply Chain Attack",
@@ -2693,7 +2623,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 07:00:19 +0000",
-      "fetched": "2026-05-07T15:33:33.476252+00:00"
+      "fetched": "2026-05-07T16:23:14.776920+00:00"
     },
     {
       "title": "Singapore startup Video Rebirth launches AI video tool",
@@ -2703,7 +2633,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:00:20 +0000",
-      "fetched": "2026-05-07T15:33:35.355211+00:00"
+      "fetched": "2026-05-07T16:23:16.706140+00:00"
     },
     {
       "title": "Amazon Singapore to cut fewer than 10% of staff",
@@ -2713,7 +2643,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:20:38 +0000",
-      "fetched": "2026-05-07T15:33:35.355242+00:00"
+      "fetched": "2026-05-07T16:23:16.706172+00:00"
     },
     {
       "title": "Tata, JSW plan $1b India EV push to cut China reliance",
@@ -2723,7 +2653,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 10:08:45 +0000",
-      "fetched": "2026-05-07T15:33:35.355255+00:00"
+      "fetched": "2026-05-07T16:23:16.706186+00:00"
     },
     {
       "title": "Indonesia, China launch cross-border QR payments via Alipay+",
@@ -2733,7 +2663,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:45:31 +0000",
-      "fetched": "2026-05-07T15:33:35.355266+00:00"
+      "fetched": "2026-05-07T16:23:16.706196+00:00"
     },
     {
       "title": "Foxconn partners Poland EV venture on factory, R&D hub",
@@ -2743,7 +2673,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:40:54 +0000",
-      "fetched": "2026-05-07T15:33:35.355287+00:00"
+      "fetched": "2026-05-07T16:23:16.706217+00:00"
     },
     {
       "title": "Paramount beats estimates as Warner deal nears",
@@ -2753,7 +2683,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:25:58 +0000",
-      "fetched": "2026-05-07T15:33:35.355298+00:00"
+      "fetched": "2026-05-07T16:23:16.706228+00:00"
     },
     {
       "title": "TikTok to invest $25b in Thailand digital infrastructure",
@@ -2763,7 +2693,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:20:50 +0000",
-      "fetched": "2026-05-07T15:33:35.355308+00:00"
+      "fetched": "2026-05-07T16:23:16.706237+00:00"
     },
     {
       "title": "Malaysia tightens rules for imported EVs from July",
@@ -2773,7 +2703,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:05:25 +0000",
-      "fetched": "2026-05-07T15:33:35.355318+00:00"
+      "fetched": "2026-05-07T16:23:16.706247+00:00"
     },
     {
       "title": "Meet the 15 top-funded startups and tech companies in Vietnam",
@@ -2783,7 +2713,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 09:00:00 +0000",
-      "fetched": "2026-05-07T15:33:35.355327+00:00"
+      "fetched": "2026-05-07T16:23:16.706256+00:00"
     },
     {
       "title": "Honda Motor may indefinitely freeze Ontario EV plants",
@@ -2793,7 +2723,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:53:45 +0000",
-      "fetched": "2026-05-07T15:33:35.355337+00:00"
+      "fetched": "2026-05-07T16:23:16.706266+00:00"
     },
     {
       "title": "Dubai’s Visarun.ai targets India’s $61.7b travel market with AI tools",
@@ -2803,7 +2733,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:50:22 +0000",
-      "fetched": "2026-05-07T15:33:35.355348+00:00"
+      "fetched": "2026-05-07T16:23:16.706293+00:00"
     },
     {
       "title": "Kakao-backed Upstage completes Daum operator deal",
@@ -2813,7 +2743,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:13:05 +0000",
-      "fetched": "2026-05-07T15:33:35.355357+00:00"
+      "fetched": "2026-05-07T16:23:16.706304+00:00"
     },
     {
       "title": "Canada reviews limits for Chinese EV import permits",
@@ -2823,7 +2753,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:12:08 +0000",
-      "fetched": "2026-05-07T15:33:35.355367+00:00"
+      "fetched": "2026-05-07T16:23:16.706313+00:00"
     },
     {
       "title": "Snap ends planned AI feature with Perplexity",
@@ -2833,7 +2763,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:06:45 +0000",
-      "fetched": "2026-05-07T15:33:35.355376+00:00"
+      "fetched": "2026-05-07T16:23:16.706323+00:00"
     },
     {
       "title": "Khosla-backed Genesis AI goes full-stack in robotics push",
@@ -2843,7 +2773,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 07:49:58 +0000",
-      "fetched": "2026-05-07T15:33:35.355385+00:00"
+      "fetched": "2026-05-07T16:23:16.706332+00:00"
     },
     {
       "title": "Google adds forums, direct links, subscription news to AI Search despite accuracy concerns",
@@ -2853,7 +2783,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 12:26:42 +0000",
-      "fetched": "2026-05-07T15:33:38.258448+00:00"
+      "fetched": "2026-05-07T16:23:18.813516+00:00"
     },
     {
       "title": "Meesho Posts Rs 166 Crore Loss in Q4 FY26 as Revenue Jumps 47%",
@@ -2863,7 +2793,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 08:12:41 +0000",
-      "fetched": "2026-05-07T15:33:38.258483+00:00"
+      "fetched": "2026-05-07T16:23:18.813587+00:00"
     },
     {
       "title": "Supreme Court asks Bar Council to form AI expert panel after trial court cites fake judgments",
@@ -2873,7 +2803,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 07:53:40 +0000",
-      "fetched": "2026-05-07T15:33:38.258499+00:00"
+      "fetched": "2026-05-07T16:23:18.813611+00:00"
     },
     {
       "title": "Mozilla, Proton say UK age checks could turn web into “age-gated jurisdictions”",
@@ -2883,7 +2813,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 07:02:28 +0000",
-      "fetched": "2026-05-07T15:33:38.258519+00:00"
+      "fetched": "2026-05-07T16:23:18.813634+00:00"
     },
     {
       "title": "Zee sues Reliance-Disney’s JioStar over alleged copyrighted music use",
@@ -2893,7 +2823,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 06:16:56 +0000",
-      "fetched": "2026-05-07T15:33:38.258534+00:00"
+      "fetched": "2026-05-07T16:23:18.813651+00:00"
     },
     {
       "title": "Q4FY26: Bajaj Finance cuts autonomous agent target from 800 to 600 for FY27",
@@ -2903,7 +2833,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 04:07:00 +0000",
-      "fetched": "2026-05-07T15:33:38.258547+00:00"
+      "fetched": "2026-05-07T16:23:18.813664+00:00"
     },
     {
       "title": "Major publishers like Macmillan allege Meta used pirated books to train its Llama model",
@@ -2913,7 +2843,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 12:58:30 +0000",
-      "fetched": "2026-05-07T15:33:38.258591+00:00"
+      "fetched": "2026-05-07T16:23:18.813676+00:00"
     },
     {
       "title": "Zee drags Nykaa to Delhi High Court over copyrighted songs used in Instagram Reels",
@@ -2923,7 +2853,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 12:16:31 +0000",
-      "fetched": "2026-05-07T15:33:38.258613+00:00"
+      "fetched": "2026-05-07T16:23:18.813687+00:00"
     },
     {
       "title": "Meta expands AI-based age assurance for teens amid rising regulatory pressure",
@@ -2933,7 +2863,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 11:49:30 +0000",
-      "fetched": "2026-05-07T15:33:38.258626+00:00"
+      "fetched": "2026-05-07T16:23:18.813700+00:00"
     },
     {
       "title": "LinkedIn accused of GDPR violations for charging users for profile view data",
@@ -2943,7 +2873,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Wed, 06 May 2026 09:59:52 +0000",
-      "fetched": "2026-05-07T15:33:38.258637+00:00"
+      "fetched": "2026-05-07T16:23:18.813712+00:00"
     },
     {
       "title": "Submission on amendments to the Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (“IT Rules, 2021”)",
@@ -2953,7 +2883,7 @@
       "category": "global",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:35:03 +0000",
-      "fetched": "2026-05-07T15:33:39.183291+00:00"
+      "fetched": "2026-05-07T16:23:19.634513+00:00"
     },
     {
       "title": "Digital security in war and conflict: challenges for civil society and tools for resilience",
@@ -2963,7 +2893,27 @@
       "category": "global",
       "lang": "en",
       "pub": "Tue, 19 May 2026 13:00:00 +0000",
-      "fetched": "2026-05-07T15:33:39.183333+00:00"
+      "fetched": "2026-05-07T16:23:19.634557+00:00"
+    },
+    {
+      "title": "Perdeu seguidores no Instagram? Não é só você",
+      "link": "https://tecnoblog.net/noticias/perdeu-seguidores-no-instagram-nao-e-so-voce/",
+      "desc": "Não é falha: Instagram confirmou ter feito \"limpeza\" para desativar perfis inativos na plataforma, medida que impactou o",
+      "source": "Tecnoblog",
+      "category": "global",
+      "lang": "pt",
+      "pub": "Thu, 07 May 2026 15:39:54 +0000",
+      "fetched": "2026-05-07T16:23:19.843700+00:00"
+    },
+    {
+      "title": "Startup diz ter criado IA mil vezes mais leve que o ChatGPT",
+      "link": "https://tecnoblog.net/noticias/startup-afirma-que-sua-ia-e-mil-vezes-mais-leve-que-o-chatgpt/",
+      "desc": "Subquadratic anunciou modelo capaz de processar até 12 milhões de tokens de uma única vez. No entanto, dados ainda carec",
+      "source": "Tecnoblog",
+      "category": "global",
+      "lang": "pt",
+      "pub": "Thu, 07 May 2026 15:37:51 +0000",
+      "fetched": "2026-05-07T16:23:19.843735+00:00"
     },
     {
       "title": "Deputado quer que Gov.br emita autorização para acesso a sites pornográficos",
@@ -2973,7 +2923,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 14:42:12 +0000",
-      "fetched": "2026-05-07T15:33:40.164591+00:00"
+      "fetched": "2026-05-07T16:23:19.843751+00:00"
     },
     {
       "title": "Google encerra agente de IA que navegava na web pelo usuário",
@@ -2983,7 +2933,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 14:17:10 +0000",
-      "fetched": "2026-05-07T15:33:40.164626+00:00"
+      "fetched": "2026-05-07T16:23:19.843764+00:00"
     },
     {
       "title": "Quando a Samsung One UI 8.5 chega ao Brasil? Descubra as datas mais prováveis",
@@ -2993,7 +2943,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 13:55:45 +0000",
-      "fetched": "2026-05-07T15:33:40.164643+00:00"
+      "fetched": "2026-05-07T16:23:19.843776+00:00"
     },
     {
       "title": "Meta e Google tentam reverter decisão histórica sobre vício em redes sociais",
@@ -3003,7 +2953,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 13:27:54 +0000",
-      "fetched": "2026-05-07T15:33:40.164656+00:00"
+      "fetched": "2026-05-07T16:23:19.843789+00:00"
     },
     {
       "title": "Snapdragon 6 Gen 5 e 4 Gen 5: as novas apostas da Qualcomm para intermediários",
@@ -3013,7 +2963,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 13:22:17 +0000",
-      "fetched": "2026-05-07T15:33:40.164669+00:00"
+      "fetched": "2026-05-07T16:23:19.843800+00:00"
     },
     {
       "title": "Melhor celular até R$ 2.000 em 2026: 10 smartphones para comprar no Brasil",
@@ -3023,7 +2973,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 11:46:18 +0000",
-      "fetched": "2026-05-07T15:33:40.164680+00:00"
+      "fetched": "2026-05-07T16:23:19.843811+00:00"
     },
     {
       "title": "TCL e Roku são acusadas de piorar TVs com atualização de software",
@@ -3033,7 +2983,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Thu, 07 May 2026 00:08:50 +0000",
-      "fetched": "2026-05-07T15:33:40.164691+00:00"
+      "fetched": "2026-05-07T16:23:19.843823+00:00"
     },
     {
       "title": "Console portátil ROG Xbox Ally sai com 32% OFF no Mercado Livre",
@@ -3043,7 +2993,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Wed, 06 May 2026 22:05:28 +0000",
-      "fetched": "2026-05-07T15:33:40.164704+00:00"
+      "fetched": "2026-05-07T16:23:19.843835+00:00"
     },
     {
       "title": "JBL Tune 520BT entra em oferta por até seis parcelas de R$ 31,50 na Amazon",
@@ -3053,7 +3003,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Wed, 06 May 2026 21:41:56 +0000",
-      "fetched": "2026-05-07T15:33:40.164715+00:00"
+      "fetched": "2026-05-07T16:23:19.843846+00:00"
     },
     {
       "title": "Google vai usar redes sociais e Reddit como fontes de respostas geradas por IA",
@@ -3063,7 +3013,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Wed, 06 May 2026 21:30:27 +0000",
-      "fetched": "2026-05-07T15:33:40.164727+00:00"
+      "fetched": "2026-05-07T16:23:19.843858+00:00"
     },
     {
       "title": "Dia das Mães 2026: Acer Aspire 16 cai 39% em até 10x sem juros no Mercado Livre",
@@ -3073,7 +3023,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Wed, 06 May 2026 21:05:00 +0000",
-      "fetched": "2026-05-07T15:33:40.164738+00:00"
+      "fetched": "2026-05-07T16:23:19.843870+00:00"
     },
     {
       "title": "Galaxy S26 Plus (256 GB) parcelável em 12x cai 40% com cupom na Amazon",
@@ -3083,7 +3033,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Wed, 06 May 2026 20:43:39 +0000",
-      "fetched": "2026-05-07T15:33:40.164749+00:00"
+      "fetched": "2026-05-07T16:23:19.843881+00:00"
     },
     {
       "title": "Intel Corporation: conheça as áreas de atuação da fabricante de CPUs Intel Core",
@@ -3093,27 +3043,7 @@
       "category": "global",
       "lang": "pt",
       "pub": "Wed, 06 May 2026 20:21:00 +0000",
-      "fetched": "2026-05-07T15:33:40.164761+00:00"
-    },
-    {
-      "title": "O que é Nvidia? Confira as áreas de atuação da empresa de GPUs",
-      "link": "https://tecnoblog.net/responde/o-que-e-nvidia-confira-as-areas-de-atuacao-da-empresa-de-gpus/",
-      "desc": "Empresa foi a primeira big tech a atingir US$ 5 trilhões de valor de mercado, sendo a empresa mais valiosa do mundo em 2",
-      "source": "Tecnoblog",
-      "category": "global",
-      "lang": "pt",
-      "pub": "Wed, 06 May 2026 19:29:20 +0000",
-      "fetched": "2026-05-07T15:33:40.164772+00:00"
-    },
-    {
-      "title": "Nova lei cria crime de golpe eletrônico e aumenta penas em furtos",
-      "link": "https://tecnoblog.net/noticias/nova-lei-cria-crime-de-golpe-eletronico-e-aumenta-penas-em-furtos/",
-      "desc": "Fraude eletrônica passa a ser tratada como crime específico, com pena de até 8 anos de prisão. Roubo de celulares pode c",
-      "source": "Tecnoblog",
-      "category": "global",
-      "lang": "pt",
-      "pub": "Wed, 06 May 2026 19:15:47 +0000",
-      "fetched": "2026-05-07T15:33:40.164783+00:00"
+      "fetched": "2026-05-07T16:23:19.843893+00:00"
     },
     {
       "title": "Este reloj de Samsung ya es capaz de predecir desmayos 5 minutos antes de que ocurran",
@@ -3123,7 +3053,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 14:50:25 +0000",
-      "fetched": "2026-05-07T15:33:40.213481+00:00"
+      "fetched": "2026-05-07T16:23:20.167008+00:00"
     },
     {
       "title": "El creador de ‘The Boys’ se defiende de las críticas: «¿Qué esperabais?»",
@@ -3133,7 +3063,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 14:09:30 +0000",
-      "fetched": "2026-05-07T15:33:40.213549+00:00"
+      "fetched": "2026-05-07T16:23:20.167084+00:00"
     },
     {
       "title": "La FitBit Air ya está aquí. Google acaba de matar a Whoop: nada de pantallas, solo datos",
@@ -3143,7 +3073,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 14:00:00 +0000",
-      "fetched": "2026-05-07T15:33:40.213605+00:00"
+      "fetched": "2026-05-07T16:23:20.167126+00:00"
     },
     {
       "title": "Apple podría cargarse el MacBook Neo más económico: el motivo es el que imaginas",
@@ -3153,7 +3083,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 13:48:01 +0000",
-      "fetched": "2026-05-07T15:33:40.213647+00:00"
+      "fetched": "2026-05-07T16:23:20.167171+00:00"
     },
     {
       "title": "Mira el aterrador tráiler de ‘Cape Fear’, el remake de la peli de Scorsese con Javier Bardem en modo asesino loco",
@@ -3163,7 +3093,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 13:01:17 +0000",
-      "fetched": "2026-05-07T15:33:40.213691+00:00"
+      "fetched": "2026-05-07T16:23:20.167218+00:00"
     },
     {
       "title": "Instagram copia una de las funciones estrellas de YouTube y los usuarios se han vuelto locos: “Va a ser un caos”",
@@ -3173,7 +3103,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 11:45:45 +0000",
-      "fetched": "2026-05-07T15:33:40.213734+00:00"
+      "fetched": "2026-05-07T16:23:20.167265+00:00"
     },
     {
       "title": "Europa prohíbe los modelos de IA que permiten hacer ‘deepfakes’ sexuales tras la peticion de España",
@@ -3183,7 +3113,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 10:36:51 +0000",
-      "fetched": "2026-05-07T15:33:40.213773+00:00"
+      "fetched": "2026-05-07T16:23:20.167319+00:00"
     },
     {
       "title": "Olvídate de Logitech y Razer. Xiaomi acaba de anunciar su mouse gaming de 58 gramos, 40.000 DPI y precio de risa",
@@ -3193,7 +3123,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 10:14:03 +0000",
-      "fetched": "2026-05-07T15:33:40.213807+00:00"
+      "fetched": "2026-05-07T16:23:20.167355+00:00"
     },
     {
       "title": "Esta actualización para tu TV Samsung soluciona 4 problemas importantes. Actualiza ya y no la retrases",
@@ -3203,7 +3133,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 08:42:16 +0000",
-      "fetched": "2026-05-07T15:33:40.213848+00:00"
+      "fetched": "2026-05-07T16:23:20.167397+00:00"
     },
     {
       "title": "Huawei Watch Fit 5 Pro: sutiles mejoras a un producto que ya era redondo (mejor dicho: cuadrado)",
@@ -3213,7 +3143,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 07:51:34 +0000",
-      "fetched": "2026-05-07T15:33:40.213885+00:00"
+      "fetched": "2026-05-07T16:23:20.167435+00:00"
     },
     {
       "title": "Nuevos Snapdragon 6 Gen 5 y Snapdragon 4 Gen 5: Qualcomm tiene lo mejor para la gran mayoría",
@@ -3223,7 +3153,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Thu, 07 May 2026 06:00:00 +0000",
-      "fetched": "2026-05-07T15:33:40.213928+00:00"
+      "fetched": "2026-05-07T16:23:20.167479+00:00"
     },
     {
       "title": "Punto y final para ‘The Bear’: la temporada 5 será la última y tiene fecha de estreno",
@@ -3233,7 +3163,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Wed, 06 May 2026 21:40:00 +0000",
-      "fetched": "2026-05-07T15:33:40.213970+00:00"
+      "fetched": "2026-05-07T16:23:20.167522+00:00"
     },
     {
       "title": "Así fue la pelea que acabó con Elon Musk en OpenAI",
@@ -3243,7 +3173,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Wed, 06 May 2026 21:00:00 +0000",
-      "fetched": "2026-05-07T15:33:40.214006+00:00"
+      "fetched": "2026-05-07T16:23:20.167556+00:00"
     },
     {
       "title": "HBO pone sus fichas en ‘Harry Potter’ y la renueva oficialmente para la temporada 2",
@@ -3253,7 +3183,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Wed, 06 May 2026 19:51:19 +0000",
-      "fetched": "2026-05-07T15:33:40.214045+00:00"
+      "fetched": "2026-05-07T16:23:20.167595+00:00"
     },
     {
       "title": "La IA de Anthropic (Claude) ya es capaz de «soñar» para aprender sola",
@@ -3263,7 +3193,7 @@
       "category": "global",
       "lang": "es",
       "pub": "Wed, 06 May 2026 19:30:00 +0000",
-      "fetched": "2026-05-07T15:33:40.214080+00:00"
+      "fetched": "2026-05-07T16:23:20.167630+00:00"
     },
     {
       "title": "Samsung tjener styrtende på AI: Ansatte kræver deres del af kagen - ellers venter dyr strejke",
@@ -3273,7 +3203,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 16:42:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312811+00:00"
+      "fetched": "2026-05-07T16:23:23.233123+00:00"
     },
     {
       "title": "Guide: Nu kan forvandle din pc til en Xbox - sådan gør du",
@@ -3283,7 +3213,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 15:59:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312853+00:00"
+      "fetched": "2026-05-07T16:23:23.233163+00:00"
     },
     {
       "title": "Nogle gange vil Chrome al hemmelighed downloade fire gigabyte på din computer: Her er forklaringen",
@@ -3293,7 +3223,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 15:03:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312875+00:00"
+      "fetched": "2026-05-07T16:23:23.233185+00:00"
     },
     {
       "title": "Banedanmark skriver kontrakt på flere hundrede millioner kroner med dansk it-firma",
@@ -3303,7 +3233,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 14:21:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312893+00:00"
+      "fetched": "2026-05-07T16:23:23.233203+00:00"
     },
     {
       "title": "Gør klar til historisk fratrædelsesprogram: Så meget vil Microsoft betale tusindvis af ansatte for at gå",
@@ -3313,7 +3243,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 13:40:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312909+00:00"
+      "fetched": "2026-05-07T16:23:23.233220+00:00"
     },
     {
       "title": "Aarhus kommer til at spille en nøglerolle i etableringen af nyt kæmpe it-selskab: Sådan kommer det til at foregå",
@@ -3323,7 +3253,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 13:02:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312928+00:00"
+      "fetched": "2026-05-07T16:23:23.233238+00:00"
     },
     {
       "title": "Det næste sikkerhedsproblem er ikke flere sårbarheder – men at ingen kan nå at rette dem",
@@ -3333,7 +3263,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 12:11:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312946+00:00"
+      "fetched": "2026-05-07T16:23:23.233255+00:00"
     },
     {
       "title": "41 år gammelt dansk it-firma fusionerer med hollandsk it-firma",
@@ -3343,7 +3273,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 11:29:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312963+00:00"
+      "fetched": "2026-05-07T16:23:23.233272+00:00"
     },
     {
       "title": "Har forhandlet hele natten: EU ruller centrale AI-regler tilbage efter hårdt pres",
@@ -3353,7 +3283,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 10:45:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312980+00:00"
+      "fetched": "2026-05-07T16:23:23.233340+00:00"
     },
     {
       "title": "Columbus' omsætning og indtjening falder: Kæmper for at få gang i forretningen",
@@ -3363,7 +3293,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 10:03:00 +0200",
-      "fetched": "2026-05-07T15:33:44.312996+00:00"
+      "fetched": "2026-05-07T16:23:23.233362+00:00"
     },
     {
       "title": "Sådan giver du god feedback uden at få ballade",
@@ -3373,7 +3303,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 09:18:00 +0200",
-      "fetched": "2026-05-07T15:33:44.313013+00:00"
+      "fetched": "2026-05-07T16:23:23.233379+00:00"
     },
     {
       "title": "Sam Altman skabte kaos i OpenAI: Tidligere topchef afslører højspændte magtkampe i retten",
@@ -3383,7 +3313,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 08:30:00 +0200",
-      "fetched": "2026-05-07T15:33:44.313032+00:00"
+      "fetched": "2026-05-07T16:23:23.233396+00:00"
     },
     {
       "title": "AI-fyringer slår fejl: Virksomheder sparer ansatte væk – men ikke problemerne",
@@ -3393,7 +3323,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 08:00:00 +0200",
-      "fetched": "2026-05-07T15:33:44.313049+00:00"
+      "fetched": "2026-05-07T16:23:23.233414+00:00"
     },
     {
       "title": "Atea er for første gang ved at opbygge kæmpe milliardlagre i Danmark: \"Jeg har været i branchen 35 år, og jeg har aldrig set noget lignende,” siger topchef Steinar Sønsteby",
@@ -3403,7 +3333,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 07:25:00 +0200",
-      "fetched": "2026-05-07T15:33:44.313068+00:00"
+      "fetched": "2026-05-07T16:23:23.233432+00:00"
     },
     {
       "title": "Morgen-briefing: AI-agenter klikker sig til kæmperegning: Simpel opgave blev 45 gange dyrere / Ransomware-forhandler sendte børns patientdata til familier: Nu får han otte år i fængsel / IT-Universitetet jagter ny CIO",
@@ -3413,7 +3343,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 06:40:00 +0200",
-      "fetched": "2026-05-07T15:33:44.313085+00:00"
+      "fetched": "2026-05-07T16:23:23.233448+00:00"
     },
     {
       "title": "WHO om virus på krydstogtskib: »Dette er ikke som Covid-19«",
@@ -3423,7 +3353,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 16:11:47 +0200",
-      "fetched": "2026-05-07T15:33:44.648984+00:00"
+      "fetched": "2026-05-07T16:23:23.573192+00:00"
     },
     {
       "title": "Din elbil kan blive et kørende kraftværk: To tekniske detaljer bremser dog udviklingen",
@@ -3433,7 +3363,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 16:09:48 +0200",
-      "fetched": "2026-05-07T15:33:44.649014+00:00"
+      "fetched": "2026-05-07T16:23:23.573222+00:00"
     },
     {
       "title": "Mens Danmark iler over på fjernvarme: Butikskæden Coop går en anden vej",
@@ -3443,7 +3373,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 13:36:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649029+00:00"
+      "fetched": "2026-05-07T16:23:23.573237+00:00"
     },
     {
       "title": "Droner over Letland i nat resulterede i brand og skolelukninger",
@@ -3453,7 +3383,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 12:11:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649040+00:00"
+      "fetched": "2026-05-07T16:23:23.573249+00:00"
     },
     {
       "title": "Ny mistanke om snageri: Gav oplysninger til Bandidos forud for drabsforsøg",
@@ -3463,7 +3393,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 11:43:54 +0200",
-      "fetched": "2026-05-07T15:33:44.649051+00:00"
+      "fetched": "2026-05-07T16:23:23.573262+00:00"
     },
     {
       "title": "Langt over gennemsnittet: Derfor dumper op mod hver anden Tesla det første syn",
@@ -3473,7 +3403,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 10:55:05 +0200",
-      "fetched": "2026-05-07T15:33:44.649063+00:00"
+      "fetched": "2026-05-07T16:23:23.573274+00:00"
     },
     {
       "title": "Nato var »blinde« ved kabelbrud i Østersøen: Sådan har de ifølge NATO-direktør rettet ind",
@@ -3483,7 +3413,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 10:03:53 +0200",
-      "fetched": "2026-05-07T15:33:44.649075+00:00"
+      "fetched": "2026-05-07T16:23:23.573332+00:00"
     },
     {
       "title": "Efter nyt notat: Styrelse øger muligheden for at skyde ulv",
@@ -3493,7 +3423,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 09:24:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649085+00:00"
+      "fetched": "2026-05-07T16:23:23.573350+00:00"
     },
     {
       "title": "Leder: Vi har digitaliseret Danmark til lovløshed",
@@ -3503,7 +3433,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 08:00:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649096+00:00"
+      "fetched": "2026-05-07T16:23:23.573362+00:00"
     },
     {
       "title": "Bøvl med rejsekort-app: Bøder regner ned over forvirrede passagerer",
@@ -3513,7 +3443,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Thu, 07 May 2026 05:00:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649107+00:00"
+      "fetched": "2026-05-07T16:23:23.573373+00:00"
     },
     {
       "title": "Var det droner, der lukkede Københavns Lufthavn i efteråret? »Der var noget, men det er ikke det interessante«",
@@ -3523,7 +3453,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Wed, 06 May 2026 15:21:44 +0200",
-      "fetched": "2026-05-07T15:33:44.649118+00:00"
+      "fetched": "2026-05-07T16:23:23.573385+00:00"
     },
     {
       "title": "Slut med at stå i vejen: Energinet rykker umodne projekter tilbage i køen til elnettet",
@@ -3533,7 +3463,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Wed, 06 May 2026 15:00:22 +0200",
-      "fetched": "2026-05-07T15:33:44.649129+00:00"
+      "fetched": "2026-05-07T16:23:23.573396+00:00"
     },
     {
       "title": "Sådan forsyner Pers elbil huset med lys og køl i fem dage",
@@ -3543,7 +3473,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Wed, 06 May 2026 14:32:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649141+00:00"
+      "fetched": "2026-05-07T16:23:23.573407+00:00"
     },
     {
       "title": "Politiker og tekniker om dansk Palantir-satsning: Deler vandene i ekstrem grad",
@@ -3553,7 +3483,7 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Wed, 06 May 2026 13:34:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649152+00:00"
+      "fetched": "2026-05-07T16:23:23.573418+00:00"
     },
     {
       "title": "V2 Security er skudt i gang i Bella Center: Få et smugkig på herlighederne her",
@@ -3563,7 +3493,37 @@
       "category": "dansk",
       "lang": "da",
       "pub": "Wed, 06 May 2026 11:55:00 +0200",
-      "fetched": "2026-05-07T15:33:44.649162+00:00"
+      "fetched": "2026-05-07T16:23:23.573428+00:00"
+    },
+    {
+      "title": "US-Startup Humble Robotics entwickelt autonomen Truck ohne Sattelschlepper",
+      "link": "https://www.heise.de/news/US-Startup-Humble-Robotics-entwickelt-autonomen-Truck-ohne-Sattelschlepper-11286513.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "desc": "Ehemalige Beschäftigte der einschlägigen US-Techgiganten haben ein Start-up gegründet, das einen radikalen Ansatz für ei",
+      "source": "Heise Online",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T18:11:00+02:00",
+      "fetched": "2026-05-07T16:23:24.784883+00:00"
+    },
+    {
+      "title": "Smart-Meter-Umstieg: Verbraucherschützer warnt vor irreführenden Infobriefen",
+      "link": "https://www.heise.de/news/Smart-Meter-Umstieg-Verbraucherschuetzer-warnt-vor-irrefuehrenden-Infobriefen-11286499.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "desc": "Private Haushalte müssen einen digitalen Stromzähler bekommen, aber nicht zwingend ein Smart Meter. Das klingt in Briefe",
+      "source": "Heise Online",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T18:10:00+02:00",
+      "fetched": "2026-05-07T16:23:24.784908+00:00"
+    },
+    {
+      "title": "Streaming-Abgabe: So will Weimer Netflix & Co. zu Millioneninvestitionen zwingen",
+      "link": "https://www.heise.de/news/Streaming-Abgabe-So-will-Weimer-Netflix-Co-zu-Millioneninvestitionen-zwingen-11286517.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "desc": "Ein Gesetzentwurf von Kulturstaatsminister Weimer sieht vor, dass VoD-Riesen künftig acht Prozent ihres deutschen Umsatz",
+      "source": "Heise Online",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T17:58:00+02:00",
+      "fetched": "2026-05-07T16:23:24.784923+00:00"
     },
     {
       "title": "heise+ | Ausprobiert: Game-Streaming-App CloudGear bringt GeForce Now aufs iPhone",
@@ -3573,67 +3533,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T17:30:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209213+00:00"
-    },
-    {
-      "title": "heise+ | Agentic Commerce: Wie weit autonomes Einkaufen schon ist",
-      "link": "https://www.heise.de/ratgeber/Agentic-Commerce-Wie-weit-autonomes-Einkaufen-schon-ist-11184792.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "desc": "KI-Anbieter preisen automatisches Einkaufen als Onlineshopping der Zukunft an. Wir zeigen, wo Technik, Recht und Vertrau",
-      "source": "Heise Online",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T15:00:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209238+00:00"
-    },
-    {
-      "title": "heise+ | Nikon ZR im Test: Günstige 6K-Cinema-Kamera mit klaren Kompromissen",
-      "link": "https://www.heise.de/tests/Nikon-ZR-im-Test-Guenstige-6K-Cinema-Kamera-mit-klaren-Kompromissen-11273137.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "desc": "Die Nikon ZR kombiniert das Z-System mit der RED-Farbwissenschaft. Unser Test zeigt eine starke Bildqualität, aber auch ",
-      "source": "Heise Online",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T13:30:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209249+00:00"
-    },
-    {
-      "title": "heise+ | Teams-Alternativen: Diese Videokonferenz-Tools bietet der europäische Markt",
-      "link": "https://www.heise.de/tests/Teams-Alternativen-Diese-Videokonferenz-Tools-bietet-der-europaeische-Markt-11261301.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "desc": "Videokonferenzen für Privatleute, Unternehmen oder Behörden: Das geht auch ganz ohne US-Dienste wie Microsoft. Wir stell",
-      "source": "Heise Online",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T12:00:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209257+00:00"
-    },
-    {
-      "title": "heise+ | Famos fensterln: So behalten Sie im macOS-Fensterdschungel den Überblick",
-      "link": "https://www.heise.de/ratgeber/Famos-Fensterln-So-behalten-Sie-im-macOS-Fensterdschungel-den-Ueberblick-11280146.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "desc": "Der Mac bietet zahlreiche Bordmittel wie Mission Control, Spaces, Vollbild und Stage Manager, um Fenster zu verwalten. W",
-      "source": "Heise Online",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T10:30:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209264+00:00"
-    },
-    {
-      "title": "heise+ | Zweieiige Zwillinge: Honor 600 und 600 Pro im Vergleichstest",
-      "link": "https://www.heise.de/tests/Zweieiige-Zwillinge-Honor-600-und-600-Pro-im-Vergleichstest-11209888.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "desc": "Die beiden Honor-Smartphones sehen ähnlich aus, liegen allerdings leistungsmäßig ein ganzes Stück auseinander – und auch",
-      "source": "Heise Online",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T09:00:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209273+00:00"
-    },
-    {
-      "title": "heise+ | Firefox-Tuning: Diese Einstellungen machen den Browser besser",
-      "link": "https://www.heise.de/ratgeber/Firefox-Tuning-Diese-Einstellungen-machen-den-Browser-besser-11283804.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-      "desc": "Schon mit wenigen Handgriffen lässt sich Firefox spürbar verbessern: Diese Einstellungen bringen mehr Datenschutz und Or",
-      "source": "Heise Online",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T07:30:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209281+00:00"
+      "fetched": "2026-05-07T16:23:24.784931+00:00"
     },
     {
       "title": "Zurück zu den Wurzeln: AMDs Instinct MI430X wird ein FP64-Beschleuniger",
@@ -3643,7 +3543,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T17:20:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209288+00:00"
+      "fetched": "2026-05-07T16:23:24.784941+00:00"
     },
     {
       "title": "Nachfrage übertrifft Erwartungen: Apple stockt Neo-Produktion massiv auf",
@@ -3653,7 +3553,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:32:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209296+00:00"
+      "fetched": "2026-05-07T16:23:24.784949+00:00"
     },
     {
       "title": "Northrop Grumman testet Drohne mit hybrid-elektrischem Antrieb",
@@ -3663,7 +3563,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:23:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209304+00:00"
+      "fetched": "2026-05-07T16:23:24.784957+00:00"
     },
     {
       "title": "Ecovacs Goat O1200 LiDAR Pro im Test: Mähen & Kanten trimmen für unter 1000 Euro",
@@ -3673,7 +3573,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:00:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209315+00:00"
+      "fetched": "2026-05-07T16:23:24.784966+00:00"
     },
     {
       "title": "Google stellt Fitbit Air vor: Fitnesstracker ohne Abozwang",
@@ -3683,7 +3583,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:00:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209323+00:00"
+      "fetched": "2026-05-07T16:23:24.784974+00:00"
     },
     {
       "title": "Swift Student Challenge: Frankfurter Student überzeugt Apple mit App",
@@ -3693,7 +3593,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:00:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209330+00:00"
+      "fetched": "2026-05-07T16:23:24.784982+00:00"
     },
     {
       "title": "QLNX: Neuer Remote-Access-Trojaner zielt auf Linux-Entwickler",
@@ -3703,7 +3603,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T15:49:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209337+00:00"
+      "fetched": "2026-05-07T16:23:24.784989+00:00"
     },
     {
       "title": "KI-Rechenzentren treiben ARM an",
@@ -3713,7 +3613,47 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T15:41:00+02:00",
-      "fetched": "2026-05-07T15:33:46.209344+00:00"
+      "fetched": "2026-05-07T16:23:24.784998+00:00"
+    },
+    {
+      "title": "Kölner KI-Übersetzer DeepL entlässt ein Viertel der Belegschaft",
+      "link": "https://www.heise.de/news/Koelner-KI-Uebersetzer-DeepL-entlaesst-ein-Viertel-der-Belegschaft-11286120.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "desc": "Das Kölner KI-Unternehmen DeepL reduziert seine Belegschaft um rund 250 Stellen. CEO Kutylowski begründet den Schritt mi",
+      "source": "Heise Online",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T15:37:00+02:00",
+      "fetched": "2026-05-07T16:23:24.785005+00:00"
+    },
+    {
+      "title": "KI-Boom: Südkoreas Aktienmarkt überholt auch Kanada – nach mehreren EU-Staaten",
+      "link": "https://www.heise.de/news/KI-Boom-Suedkoreas-Aktienmarkt-ueberholt-auch-Kanada-nach-mehreren-EU-Staaten-11285957.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "desc": "Angetrieben von enormen Kursgewinnen bei Samsung und SK Hynix eilt Südkoreas Aktienmarkt von Rekord zu Rekord und ist we",
+      "source": "Heise Online",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T15:20:00+02:00",
+      "fetched": "2026-05-07T16:23:24.785013+00:00"
+    },
+    {
+      "title": "Künstliche Intelligenz in Medizinprodukten: Behörden geben Orientierung",
+      "link": "https://www.heise.de/news/Kuenstliche-Intelligenz-in-Medizinprodukten-Behoerden-geben-Orientierung-11285973.html?wt_mc=rss.red.ho.ho.atom.beitrag.beitrag",
+      "desc": "Bundesnetzagentur, Bundesdatenschutzbeauftragte und Hessen geben eine gemeinsame „Roadmap“ heraus – die bald schon wiede",
+      "source": "Heise Online",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T15:17:00+02:00",
+      "fetched": "2026-05-07T16:23:24.785021+00:00"
+    },
+    {
+      "title": "Anzeige: Kärcher Akku-Fenstersauger bei Amazon wieder unter 50 Euro",
+      "link": "https://www.golem.de/news/anzeige-kaercher-akku-fenstersauger-bei-amazon-wieder-unter-50-euro-2605-208450.html",
+      "desc": "Zum schnellen und einfachen Fensterputzen bietet sich der Akku-Fenstersauger von Kärcher an. Bei Amazon kostet er kurz w",
+      "source": "Golem.de",
+      "category": "europa",
+      "lang": "de",
+      "pub": "2026-05-07T17:54:02+02:00",
+      "fetched": "2026-05-07T16:23:25.680834+00:00"
     },
     {
       "title": "Digitale Souveränität: EU könnte Nutzung von US-Clouddiensten einschränken",
@@ -3723,7 +3663,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T17:20:10+02:00",
-      "fetched": "2026-05-07T15:33:47.026551+00:00"
+      "fetched": "2026-05-07T16:23:25.680867+00:00"
     },
     {
       "title": "ATT in Essen: Polarlichter, Mondeinschlagsblitze, Remote-Sternwarte",
@@ -3733,7 +3673,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T17:00:10+02:00",
-      "fetched": "2026-05-07T15:33:47.026617+00:00"
+      "fetched": "2026-05-07T16:23:25.680883+00:00"
     },
     {
       "title": "Kölner KI-Übersetzer: DeepL entlässt ein Viertel der Belegschaft",
@@ -3743,7 +3683,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:30:07+02:00",
-      "fetched": "2026-05-07T15:33:47.026633+00:00"
+      "fetched": "2026-05-07T16:23:25.680897+00:00"
     },
     {
       "title": "Zulassungsstatistik: Jeder vierte Neuwagen ist vollelektrisch",
@@ -3753,7 +3693,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:15:06+02:00",
-      "fetched": "2026-05-07T15:33:47.026648+00:00"
+      "fetched": "2026-05-07T16:23:25.680910+00:00"
     },
     {
       "title": "Anzeige: 4-in-1-Ladegerät für Zigarettenanzünder jetzt rund 15 Euro",
@@ -3763,7 +3703,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:11:07+02:00",
-      "fetched": "2026-05-07T15:33:47.026661+00:00"
+      "fetched": "2026-05-07T16:23:25.680923+00:00"
     },
     {
       "title": "Anzeige: Kostet keine 35 Euro | Xiaomi Smart Band mit 21-Tage-Akku",
@@ -3773,7 +3713,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:05:04+02:00",
-      "fetched": "2026-05-07T15:33:47.026674+00:00"
+      "fetched": "2026-05-07T16:23:25.680935+00:00"
     },
     {
       "title": "Wearable: Google greift Whoop mit Fitbit Air und KI-Coach an",
@@ -3783,7 +3723,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T16:00:11+02:00",
-      "fetched": "2026-05-07T15:33:47.026688+00:00"
+      "fetched": "2026-05-07T16:23:25.680947+00:00"
     },
     {
       "title": "Honda: Kupplung für Elektromotorräder soll Motocross-Feeling erzeugen",
@@ -3793,7 +3733,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T15:45:04+02:00",
-      "fetched": "2026-05-07T15:33:47.026700+00:00"
+      "fetched": "2026-05-07T16:23:25.680959+00:00"
     },
     {
       "title": "SpaceX: Milliardenbonus für Marskolonie und Weltraumrechenzentren",
@@ -3803,7 +3743,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T15:30:05+02:00",
-      "fetched": "2026-05-07T15:33:47.026713+00:00"
+      "fetched": "2026-05-07T16:23:25.680972+00:00"
     },
     {
       "title": "Anzeige: Hazet Smartcase mit vielen Bits bei Amazon unter Vergleichspreis",
@@ -3813,7 +3753,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T15:15:03+02:00",
-      "fetched": "2026-05-07T15:33:47.026725+00:00"
+      "fetched": "2026-05-07T16:23:25.680983+00:00"
     },
     {
       "title": "Instinct MI350P: AMD bringt die leistungsstärkste KI-GPU für PCIe",
@@ -3823,7 +3763,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T15:00:09+02:00",
-      "fetched": "2026-05-07T15:33:47.026738+00:00"
+      "fetched": "2026-05-07T16:23:25.680995+00:00"
     },
     {
       "title": "Snapdragon 4 und 6: Qualcomm bringt neue Mittelklasse-SoCs",
@@ -3833,7 +3773,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T14:45:02+02:00",
-      "fetched": "2026-05-07T15:33:47.026752+00:00"
+      "fetched": "2026-05-07T16:23:25.681008+00:00"
     },
     {
       "title": "Künstliche Intelligenz: Klarna-Angestellte können Frust an KI-Chef auslassen",
@@ -3843,7 +3783,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T14:30:07+02:00",
-      "fetched": "2026-05-07T15:33:47.026764+00:00"
+      "fetched": "2026-05-07T16:23:25.681020+00:00"
     },
     {
       "title": "Anzeige: Smarter Türöffner zum Sparpreis 35 Euro günstiger",
@@ -3853,17 +3793,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "2026-05-07T14:23:05+02:00",
-      "fetched": "2026-05-07T15:33:47.026777+00:00"
-    },
-    {
-      "title": "Gefahr durch Windkraft: Vom Vogeltod zum Infraschall",
-      "link": "https://www.golem.de/news/gefahr-durch-windkraft-vom-vogeltod-zum-infraschall-2605-208389.html",
-      "desc": "Windräder, wie sie in der Landschaft stehen und sich drehen, kann man schlecht finden. Aber wie viel Unheil verbreiten s",
-      "source": "Golem.de",
-      "category": "europa",
-      "lang": "de",
-      "pub": "2026-05-07T14:15:11+02:00",
-      "fetched": "2026-05-07T15:33:47.026792+00:00"
+      "fetched": "2026-05-07T16:23:25.681033+00:00"
     },
     {
       "title": "Massenentlassung bei DeepL",
@@ -3873,7 +3803,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "Thu, 07 May 2026 14:15:50 +0000",
-      "fetched": "2026-05-07T15:33:47.169611+00:00"
+      "fetched": "2026-05-07T16:23:27.236217+00:00"
     },
     {
       "title": "StarlingX 12.0 stellt sich breiter auf",
@@ -3883,7 +3813,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "Thu, 07 May 2026 10:09:46 +0000",
-      "fetched": "2026-05-07T15:33:47.169637+00:00"
+      "fetched": "2026-05-07T16:23:27.236248+00:00"
     },
     {
       "title": "Incus 7.0.0 LTS erhält länger Support und streicht Altlasten",
@@ -3893,7 +3823,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "Wed, 06 May 2026 16:32:34 +0000",
-      "fetched": "2026-05-07T15:33:47.169650+00:00"
+      "fetched": "2026-05-07T16:23:27.236260+00:00"
     },
     {
       "title": "Tuxedo lädt zum Game Jam nach Augsburg ein",
@@ -3903,7 +3833,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "Wed, 06 May 2026 10:59:45 +0000",
-      "fetched": "2026-05-07T15:33:47.169662+00:00"
+      "fetched": "2026-05-07T16:23:27.236271+00:00"
     },
     {
       "title": "ChatGPTs Standardmodell Instant erhält Update auf Version 5.5",
@@ -3913,7 +3843,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "Wed, 06 May 2026 09:38:26 +0000",
-      "fetched": "2026-05-07T15:33:47.169674+00:00"
+      "fetched": "2026-05-07T16:23:27.236318+00:00"
     },
     {
       "title": "IREN LTD übernimmt Mirantis",
@@ -3923,7 +3853,7 @@
       "category": "europa",
       "lang": "de",
       "pub": "Wed, 06 May 2026 08:27:49 +0000",
-      "fetched": "2026-05-07T15:33:47.169684+00:00"
+      "fetched": "2026-05-07T16:23:27.236337+00:00"
     },
     {
       "title": "Rencontres Scenari 2026 à Aix-en-Provence du 22 au 26 juin 2026",
@@ -3933,7 +3863,7 @@
       "category": "europa",
       "lang": "fr",
       "pub": "2026-05-07T14:32:03+02:00",
-      "fetched": "2026-05-07T15:33:49.489301+00:00"
+      "fetched": "2026-05-07T16:23:29.799672+00:00"
     },
     {
       "title": "Souveraineté numérique : réduction des dépendances extra-européennes, migration de Windows vers Linux à la DINUM",
@@ -3943,7 +3873,7 @@
       "category": "europa",
       "lang": "fr",
       "pub": "2026-05-07T14:33:19+02:00",
-      "fetched": "2026-05-07T15:33:49.489324+00:00"
+      "fetched": "2026-05-07T16:23:29.799696+00:00"
     },
     {
       "title": "Conférence OW2con'26 : l'open source et les modèles ouverts, moteurs de la souveraineté européenne",
@@ -3953,7 +3883,27 @@
       "category": "europa",
       "lang": "fr",
       "pub": "2026-05-06T13:32:49+02:00",
-      "fetched": "2026-05-07T15:33:49.489333+00:00"
+      "fetched": "2026-05-07T16:23:29.799707+00:00"
+    },
+    {
+      "title": "Yann LeCun ai giovani: Non lasciatevi bloccare dalla paura dell’AI",
+      "link": "https://www.punto-informatico.it/yann-lecun-giovani-non-lasciatevi-bloccare-paura-ai/",
+      "desc": "Yann LeCun invita i giovani a non farsi paralizzare dalla paura dell'intelligenza artificiale. Consiglia di ascoltare gl",
+      "source": "Punto Informatico (IT)",
+      "category": "europa",
+      "lang": "it",
+      "pub": "Thu, 07 May 2026 15:58:57 +0000",
+      "fetched": "2026-05-07T16:23:31.398909+00:00"
+    },
+    {
+      "title": "Character.AI: denuncia negli USA per i chatbot dottori",
+      "link": "https://www.punto-informatico.it/character-ai-denuncia-usa-chatbot-dottori/",
+      "desc": "La Pennsylvania ha denunciato Character.AI perché i suoi chatbot forniscono consigli medici affermando di essere dottori",
+      "source": "Punto Informatico (IT)",
+      "category": "europa",
+      "lang": "it",
+      "pub": "Thu, 07 May 2026 15:49:17 +0000",
+      "fetched": "2026-05-07T16:23:31.398946+00:00"
     },
     {
       "title": "Come usare l’AI per informarsi e tenersi aggiornati in 20 minuti",
@@ -3963,7 +3913,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 15:30:07 +0000",
-      "fetched": "2026-05-07T15:33:50.947894+00:00"
+      "fetched": "2026-05-07T16:23:31.398971+00:00"
     },
     {
       "title": "PosteMobile: tutti i clienti sono su rete TIM, migrazione completata",
@@ -3973,7 +3923,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 14:59:37 +0000",
-      "fetched": "2026-05-07T15:33:50.947931+00:00"
+      "fetched": "2026-05-07T16:23:31.398986+00:00"
     },
     {
       "title": "Claude spiega come costruire esplosivi",
@@ -3983,7 +3933,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 14:53:27 +0000",
-      "fetched": "2026-05-07T15:33:50.947947+00:00"
+      "fetched": "2026-05-07T16:23:31.398999+00:00"
     },
     {
       "title": "Prezzo fisso contro i rincari di luce e gas: ecco la migliore offerta di maggio 2026",
@@ -3993,7 +3943,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 14:44:20 +0000",
-      "fetched": "2026-05-07T15:33:50.947962+00:00"
+      "fetched": "2026-05-07T16:23:31.399013+00:00"
     },
     {
       "title": "CloudZ sfrutta Windows Phone Link per rubare codici OTP",
@@ -4003,7 +3953,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 13:21:15 +0000",
-      "fetched": "2026-05-07T15:33:50.947976+00:00"
+      "fetched": "2026-05-07T16:23:31.399027+00:00"
     },
     {
       "title": "Apple travolta dal successo del MacBook Neo, ipotesi downbinning",
@@ -4013,7 +3963,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 13:19:45 +0000",
-      "fetched": "2026-05-07T15:33:50.947990+00:00"
+      "fetched": "2026-05-07T16:23:31.399040+00:00"
     },
     {
       "title": "BTicino alza il livello della smart home con Casa+ e nuovi prodotti",
@@ -4023,7 +3973,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 12:48:52 +0000",
-      "fetched": "2026-05-07T15:33:50.948002+00:00"
+      "fetched": "2026-05-07T16:23:31.399053+00:00"
     },
     {
       "title": "Spotify lancia il suo DJ in Italia: sceglie i brani con la voce di Alex",
@@ -4033,7 +3983,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 11:59:26 +0000",
-      "fetched": "2026-05-07T15:33:50.948014+00:00"
+      "fetched": "2026-05-07T16:23:31.399064+00:00"
     },
     {
       "title": "Pornhub ritorna nel Regno Unito, ma serve un iPhone",
@@ -4043,7 +3993,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 11:16:04 +0000",
-      "fetched": "2026-05-07T15:33:50.948027+00:00"
+      "fetched": "2026-05-07T16:23:31.399077+00:00"
     },
     {
       "title": "World Password Day: 4 errori che fanno quasi tutti, e tu?",
@@ -4053,7 +4003,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 11:09:37 +0000",
-      "fetched": "2026-05-07T15:33:50.948040+00:00"
+      "fetched": "2026-05-07T16:23:31.399089+00:00"
     },
     {
       "title": "I PDF Adobe diventano esperienze interattive condivisibili con l’AI",
@@ -4063,7 +4013,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 10:20:41 +0000",
-      "fetched": "2026-05-07T15:33:50.948061+00:00"
+      "fetched": "2026-05-07T16:23:31.399108+00:00"
     },
     {
       "title": "Meravigliosa Smart TV 4K da 65 pollici a soli 474€ su Amazon",
@@ -4073,7 +4023,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 10:11:44 +0000",
-      "fetched": "2026-05-07T15:33:50.948075+00:00"
+      "fetched": "2026-05-07T16:23:31.399123+00:00"
     },
     {
       "title": "Deepfake AI: nuovo avvertimento del Garante Privacy",
@@ -4083,27 +4033,7 @@
       "category": "europa",
       "lang": "it",
       "pub": "Thu, 07 May 2026 10:08:22 +0000",
-      "fetched": "2026-05-07T15:33:50.948089+00:00"
-    },
-    {
-      "title": "Sky contro DAZN e TIM sui diritti TV del calcio 2021-2024",
-      "link": "https://www.punto-informatico.it/sky-contro-dazn-tim-diritti-tv-calcio-2021-2024/",
-      "desc": "Chiesti 1,9 miliardi di euro: Sky Italia ha deciso di trascinare DAZN e TIM in tribunale per la distribuzione delle part",
-      "source": "Punto Informatico (IT)",
-      "category": "europa",
-      "lang": "it",
-      "pub": "Thu, 07 May 2026 09:35:55 +0000",
-      "fetched": "2026-05-07T15:33:50.948101+00:00"
-    },
-    {
-      "title": "A questo prezzo devi acquistare subito Apple iPhone 17e",
-      "link": "https://www.punto-informatico.it/a-questo-prezzo-devi-acquistare-subito-apple-iphone-17e/",
-      "desc": "Sceso a questo prezzo su eBay Apple iPhone 17e è da acquistare subito! Un vero e proprio best buy da 265GB di spazio di ",
-      "source": "Punto Informatico (IT)",
-      "category": "europa",
-      "lang": "it",
-      "pub": "Thu, 07 May 2026 09:28:59 +0000",
-      "fetched": "2026-05-07T15:33:50.948114+00:00"
+      "fetched": "2026-05-07T16:23:31.399137+00:00"
     },
     {
       "title": "Este reloj de Samsung ya es capaz de predecir desmayos 5 minutos antes de que ocurran",
@@ -4113,7 +4043,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 14:50:25 +0000",
-      "fetched": "2026-05-07T15:33:51.082598+00:00"
+      "fetched": "2026-05-07T16:23:31.678965+00:00"
     },
     {
       "title": "El creador de ‘The Boys’ se defiende de las críticas: «¿Qué esperabais?»",
@@ -4123,7 +4053,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 14:09:30 +0000",
-      "fetched": "2026-05-07T15:33:51.082667+00:00"
+      "fetched": "2026-05-07T16:23:31.679040+00:00"
     },
     {
       "title": "La FitBit Air ya está aquí. Google acaba de matar a Whoop: nada de pantallas, solo datos",
@@ -4133,7 +4063,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 14:00:00 +0000",
-      "fetched": "2026-05-07T15:33:51.082706+00:00"
+      "fetched": "2026-05-07T16:23:31.679081+00:00"
     },
     {
       "title": "Apple podría cargarse el MacBook Neo más económico: el motivo es el que imaginas",
@@ -4143,7 +4073,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 13:48:01 +0000",
-      "fetched": "2026-05-07T15:33:51.082746+00:00"
+      "fetched": "2026-05-07T16:23:31.679121+00:00"
     },
     {
       "title": "Mira el aterrador tráiler de ‘Cape Fear’, el remake de la peli de Scorsese con Javier Bardem en modo asesino loco",
@@ -4153,7 +4083,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 13:01:17 +0000",
-      "fetched": "2026-05-07T15:33:51.082791+00:00"
+      "fetched": "2026-05-07T16:23:31.679167+00:00"
     },
     {
       "title": "Instagram copia una de las funciones estrellas de YouTube y los usuarios se han vuelto locos: “Va a ser un caos”",
@@ -4163,7 +4093,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 11:45:45 +0000",
-      "fetched": "2026-05-07T15:33:51.082833+00:00"
+      "fetched": "2026-05-07T16:23:31.679211+00:00"
     },
     {
       "title": "Europa prohíbe los modelos de IA que permiten hacer ‘deepfakes’ sexuales tras la peticion de España",
@@ -4173,7 +4103,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 10:36:51 +0000",
-      "fetched": "2026-05-07T15:33:51.082872+00:00"
+      "fetched": "2026-05-07T16:23:31.679250+00:00"
     },
     {
       "title": "Olvídate de Logitech y Razer. Xiaomi acaba de anunciar su mouse gaming de 58 gramos, 40.000 DPI y precio de risa",
@@ -4183,7 +4113,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 10:14:03 +0000",
-      "fetched": "2026-05-07T15:33:51.082907+00:00"
+      "fetched": "2026-05-07T16:23:31.679301+00:00"
     },
     {
       "title": "Esta actualización para tu TV Samsung soluciona 4 problemas importantes. Actualiza ya y no la retrases",
@@ -4193,7 +4123,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 08:42:16 +0000",
-      "fetched": "2026-05-07T15:33:51.082947+00:00"
+      "fetched": "2026-05-07T16:23:31.679343+00:00"
     },
     {
       "title": "Huawei Watch Fit 5 Pro: sutiles mejoras a un producto que ya era redondo (mejor dicho: cuadrado)",
@@ -4203,7 +4133,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 07:51:34 +0000",
-      "fetched": "2026-05-07T15:33:51.082983+00:00"
+      "fetched": "2026-05-07T16:23:31.679380+00:00"
     },
     {
       "title": "Nuevos Snapdragon 6 Gen 5 y Snapdragon 4 Gen 5: Qualcomm tiene lo mejor para la gran mayoría",
@@ -4213,7 +4143,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Thu, 07 May 2026 06:00:00 +0000",
-      "fetched": "2026-05-07T15:33:51.083024+00:00"
+      "fetched": "2026-05-07T16:23:31.679424+00:00"
     },
     {
       "title": "Punto y final para ‘The Bear’: la temporada 5 será la última y tiene fecha de estreno",
@@ -4223,7 +4153,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Wed, 06 May 2026 21:40:00 +0000",
-      "fetched": "2026-05-07T15:33:51.083064+00:00"
+      "fetched": "2026-05-07T16:23:31.679465+00:00"
     },
     {
       "title": "Así fue la pelea que acabó con Elon Musk en OpenAI",
@@ -4233,7 +4163,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Wed, 06 May 2026 21:00:00 +0000",
-      "fetched": "2026-05-07T15:33:51.083098+00:00"
+      "fetched": "2026-05-07T16:23:31.679499+00:00"
     },
     {
       "title": "HBO pone sus fichas en ‘Harry Potter’ y la renueva oficialmente para la temporada 2",
@@ -4243,7 +4173,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Wed, 06 May 2026 19:51:19 +0000",
-      "fetched": "2026-05-07T15:33:51.083136+00:00"
+      "fetched": "2026-05-07T16:23:31.679537+00:00"
     },
     {
       "title": "La IA de Anthropic (Claude) ya es capaz de «soñar» para aprender sola",
@@ -4253,7 +4183,7 @@
       "category": "europa",
       "lang": "es",
       "pub": "Wed, 06 May 2026 19:30:00 +0000",
-      "fetched": "2026-05-07T15:33:51.083169+00:00"
+      "fetched": "2026-05-07T16:23:31.679570+00:00"
     },
     {
       "title": "Hmbown/DeepSeek-TUI",
@@ -4263,7 +4193,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.133925+00:00"
+      "fetched": "2026-05-07T16:23:31.808231+00:00"
     },
     {
       "title": "addyosmani/agent-skills",
@@ -4273,7 +4203,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.134163+00:00"
+      "fetched": "2026-05-07T16:23:31.808496+00:00"
     },
     {
       "title": "PriorLabs/TabPFN",
@@ -4283,7 +4213,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.134569+00:00"
+      "fetched": "2026-05-07T16:23:31.808911+00:00"
     },
     {
       "title": "docusealco/docuseal",
@@ -4293,7 +4223,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.134659+00:00"
+      "fetched": "2026-05-07T16:23:31.809003+00:00"
     },
     {
       "title": "LearningCircuit/local-deep-research",
@@ -4303,7 +4233,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.135174+00:00"
+      "fetched": "2026-05-07T16:23:31.809533+00:00"
     },
     {
       "title": "LadybirdBrowser/ladybird",
@@ -4313,7 +4243,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.135206+00:00"
+      "fetched": "2026-05-07T16:23:31.809568+00:00"
     },
     {
       "title": "InsForge/InsForge",
@@ -4323,7 +4253,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.135365+00:00"
+      "fetched": "2026-05-07T16:23:31.809734+00:00"
     },
     {
       "title": "virattt/dexter",
@@ -4333,7 +4263,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.135467+00:00"
+      "fetched": "2026-05-07T16:23:31.809836+00:00"
     },
     {
       "title": "anthropics/financial-services",
@@ -4343,7 +4273,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.135832+00:00"
+      "fetched": "2026-05-07T16:23:31.810201+00:00"
     },
     {
       "title": "ruvnet/ruflo",
@@ -4353,7 +4283,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.136286+00:00"
+      "fetched": "2026-05-07T16:23:31.810689+00:00"
     },
     {
       "title": "cheahjs/free-llm-api-resources",
@@ -4363,7 +4293,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.136504+00:00"
+      "fetched": "2026-05-07T16:23:31.810913+00:00"
     },
     {
       "title": "shiyu-coder/Kronos",
@@ -4373,7 +4303,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.136704+00:00"
+      "fetched": "2026-05-07T16:23:31.811101+00:00"
     },
     {
       "title": "bwya77/vscode-dark-islands",
@@ -4383,7 +4313,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.136937+00:00"
+      "fetched": "2026-05-07T16:23:31.811360+00:00"
     },
     {
       "title": "bytedance/deer-flow",
@@ -4393,7 +4323,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.137523+00:00"
+      "fetched": "2026-05-07T16:23:31.811973+00:00"
     },
     {
       "title": "D4Vinci/Scrapling",
@@ -4403,7 +4333,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.137920+00:00"
+      "fetched": "2026-05-07T16:23:31.812387+00:00"
     },
     {
       "title": "PriorLabs/TabPFN",
@@ -4413,7 +4343,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.231098+00:00"
+      "fetched": "2026-05-07T16:23:32.050920+00:00"
     },
     {
       "title": "LearningCircuit/local-deep-research",
@@ -4423,7 +4353,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.231641+00:00"
+      "fetched": "2026-05-07T16:23:32.051476+00:00"
     },
     {
       "title": "anthropics/financial-services",
@@ -4433,7 +4363,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.232000+00:00"
+      "fetched": "2026-05-07T16:23:32.051847+00:00"
     },
     {
       "title": "cheahjs/free-llm-api-resources",
@@ -4443,7 +4373,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.232230+00:00"
+      "fetched": "2026-05-07T16:23:32.052081+00:00"
     },
     {
       "title": "shiyu-coder/Kronos",
@@ -4453,7 +4383,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.232421+00:00"
+      "fetched": "2026-05-07T16:23:32.052296+00:00"
     },
     {
       "title": "bytedance/deer-flow",
@@ -4463,7 +4393,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.233034+00:00"
+      "fetched": "2026-05-07T16:23:32.052923+00:00"
     },
     {
       "title": "D4Vinci/Scrapling",
@@ -4473,7 +4403,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.233425+00:00"
+      "fetched": "2026-05-07T16:23:32.053354+00:00"
     },
     {
       "title": "pytorch/pytorch",
@@ -4483,7 +4413,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.233784+00:00"
+      "fetched": "2026-05-07T16:23:32.053737+00:00"
     },
     {
       "title": "AIDC-AI/Pixelle-Video",
@@ -4493,7 +4423,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.234049+00:00"
+      "fetched": "2026-05-07T16:23:32.054010+00:00"
     },
     {
       "title": "Q00/ouroboros",
@@ -4503,7 +4433,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.234521+00:00"
+      "fetched": "2026-05-07T16:23:32.054449+00:00"
     },
     {
       "title": "onyx-dot-app/onyx",
@@ -4513,7 +4443,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.234639+00:00"
+      "fetched": "2026-05-07T16:23:32.054555+00:00"
     },
     {
       "title": "public-apis/public-apis",
@@ -4523,7 +4453,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.242593+00:00"
+      "fetched": "2026-05-07T16:23:32.062497+00:00"
     },
     {
       "title": "cocoindex-io/cocoindex",
@@ -4533,7 +4463,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.242868+00:00"
+      "fetched": "2026-05-07T16:23:32.062779+00:00"
     },
     {
       "title": "Shubhamsaboo/awesome-llm-apps",
@@ -4543,7 +4473,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.243197+00:00"
+      "fetched": "2026-05-07T16:23:32.063105+00:00"
     },
     {
       "title": "hsliuping/TradingAgents-CN",
@@ -4553,7 +4483,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.243512+00:00"
+      "fetched": "2026-05-07T16:23:32.063425+00:00"
     },
     {
       "title": "Hmbown/DeepSeek-TUI",
@@ -4563,7 +4493,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.317945+00:00"
+      "fetched": "2026-05-07T16:23:32.338512+00:00"
     },
     {
       "title": "googleworkspace/cli",
@@ -4573,7 +4503,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.318410+00:00"
+      "fetched": "2026-05-07T16:23:32.339006+00:00"
     },
     {
       "title": "qdrant/qdrant",
@@ -4583,7 +4513,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.318585+00:00"
+      "fetched": "2026-05-07T16:23:32.339173+00:00"
     },
     {
       "title": "aaif-goose/goose",
@@ -4593,7 +4523,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.318642+00:00"
+      "fetched": "2026-05-07T16:23:32.339233+00:00"
     },
     {
       "title": "BoundaryML/baml",
@@ -4603,7 +4533,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.318800+00:00"
+      "fetched": "2026-05-07T16:23:32.339414+00:00"
     },
     {
       "title": "tursodatabase/turso",
@@ -4613,7 +4543,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.319047+00:00"
+      "fetched": "2026-05-07T16:23:32.339684+00:00"
     },
     {
       "title": "ruvnet/RuVector",
@@ -4623,7 +4553,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.324517+00:00"
+      "fetched": "2026-05-07T16:23:32.345474+00:00"
     },
     {
       "title": "cloudflare/pingora",
@@ -4633,7 +4563,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.324587+00:00"
+      "fetched": "2026-05-07T16:23:32.345530+00:00"
     },
     {
       "title": "Pumpkin-MC/Pumpkin",
@@ -4643,7 +4573,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.324685+00:00"
+      "fetched": "2026-05-07T16:23:32.345637+00:00"
     },
     {
       "title": "reubeno/brush",
@@ -4653,7 +4583,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.324866+00:00"
+      "fetched": "2026-05-07T16:23:32.345822+00:00"
     },
     {
       "title": "juspay/hyperswitch",
@@ -4663,7 +4593,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.325006+00:00"
+      "fetched": "2026-05-07T16:23:32.345963+00:00"
     },
     {
       "title": "RightNow-AI/openfang",
@@ -4673,7 +4603,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.325320+00:00"
+      "fetched": "2026-05-07T16:23:32.346304+00:00"
     },
     {
       "title": "embassy-rs/embassy",
@@ -4683,7 +4613,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.325441+00:00"
+      "fetched": "2026-05-07T16:23:32.346431+00:00"
     },
     {
       "title": "huggingface/candle",
@@ -4693,7 +4623,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.325745+00:00"
+      "fetched": "2026-05-07T16:23:32.346723+00:00"
     },
     {
       "title": "rtk-ai/rtk",
@@ -4703,7 +4633,7 @@
       "category": "github",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:51.326091+00:00"
+      "fetched": "2026-05-07T16:23:32.347072+00:00"
     },
     {
       "title": "New Alpha Release: Tor Browser 16.0a6",
@@ -4713,7 +4643,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "2026-05-07T00:00:00Z",
-      "fetched": "2026-05-07T15:33:52.150612+00:00"
+      "fetched": "2026-05-07T16:23:32.923810+00:00"
     },
     {
       "title": "New Release: Tor Browser 15.0.12",
@@ -4723,7 +4653,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "2026-05-07T00:00:00Z",
-      "fetched": "2026-05-07T15:33:52.150644+00:00"
+      "fetched": "2026-05-07T16:23:32.923837+00:00"
     },
     {
       "title": "3 Days of Fun with Tor",
@@ -4733,7 +4663,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "2026-05-06T00:00:00Z",
-      "fetched": "2026-05-07T15:33:52.150652+00:00"
+      "fetched": "2026-05-07T16:23:32.923845+00:00"
     },
     {
       "title": "Milestone 1.0.0 Release of APK Downloader `apkeep` Powers Research on Android Apps",
@@ -4743,7 +4673,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 22:44:48 +0000",
-      "fetched": "2026-05-07T15:33:52.233042+00:00"
+      "fetched": "2026-05-07T16:23:33.088820+00:00"
     },
     {
       "title": "👎 California's Terrible, No Good, Very Bad Social Media Ban | EFFector 38.9",
@@ -4753,7 +4683,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 16:11:44 +0000",
-      "fetched": "2026-05-07T15:33:52.233107+00:00"
+      "fetched": "2026-05-07T16:23:33.088890+00:00"
     },
     {
       "title": "The SECURE Data Act is Not a Serious Piece of Privacy Legislation",
@@ -4763,7 +4693,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 14:38:02 +0000",
-      "fetched": "2026-05-07T15:33:52.233201+00:00"
+      "fetched": "2026-05-07T16:23:33.088996+00:00"
     },
     {
       "title": "‘HELLO BOSS’: Inside the Chinese Realtime Deepfake Software Powering Scams Around the World",
@@ -4773,7 +4703,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Thu, 07 May 2026 13:12:05 GMT",
-      "fetched": "2026-05-07T15:33:52.309843+00:00"
+      "fetched": "2026-05-07T16:23:33.329161+00:00"
     },
     {
       "title": "Scientists Gave ‘Aggressive’ Fish Psychedelic Drugs. A Breakthrough Came Next",
@@ -4783,7 +4713,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Thu, 07 May 2026 04:01:26 GMT",
-      "fetched": "2026-05-07T15:33:52.309869+00:00"
+      "fetched": "2026-05-07T16:23:33.329192+00:00"
     },
     {
       "title": "Podcast: Flock Used Cameras at a Children’s Gymnastics Center for a Sales Pitch",
@@ -4793,7 +4723,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 15:10:50 GMT",
-      "fetched": "2026-05-07T15:33:52.309882+00:00"
+      "fetched": "2026-05-07T16:23:33.329206+00:00"
     },
     {
       "title": "Man Finds $1 Million Worth of Yu-Gi-Oh Cards in a Dumpster",
@@ -4803,7 +4733,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 13:21:59 GMT",
-      "fetched": "2026-05-07T15:33:52.309893+00:00"
+      "fetched": "2026-05-07T16:23:33.329217+00:00"
     },
     {
       "title": "PHONIX VIPER NOVA CTF#2",
@@ -4813,7 +4743,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424791+00:00"
+      "fetched": "2026-05-07T16:23:34.223196+00:00"
     },
     {
       "title": "plfanzen CFT 2026",
@@ -4823,7 +4753,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424824+00:00"
+      "fetched": "2026-05-07T16:23:34.223230+00:00"
     },
     {
       "title": "Break The Syntax CTF 2026",
@@ -4833,7 +4763,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424843+00:00"
+      "fetched": "2026-05-07T16:23:34.223249+00:00"
     },
     {
       "title": "DAMCTF 2026",
@@ -4843,7 +4773,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424857+00:00"
+      "fetched": "2026-05-07T16:23:34.223264+00:00"
     },
     {
       "title": "BKISC CTF 2026",
@@ -4853,7 +4783,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424868+00:00"
+      "fetched": "2026-05-07T16:23:34.223276+00:00"
     },
     {
       "title": "From Dusk Till Dawn Quals",
@@ -4863,7 +4793,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424880+00:00"
+      "fetched": "2026-05-07T16:23:34.223305+00:00"
     },
     {
       "title": "Midnight Sun CTF 2026 Quals",
@@ -4873,7 +4803,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424892+00:00"
+      "fetched": "2026-05-07T16:23:34.223318+00:00"
     },
     {
       "title": "Maltego Community OSINT CTF",
@@ -4883,7 +4813,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424903+00:00"
+      "fetched": "2026-05-07T16:23:34.223329+00:00"
     },
     {
       "title": "Hack2Dawn 2026",
@@ -4893,7 +4823,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424916+00:00"
+      "fetched": "2026-05-07T16:23:34.223343+00:00"
     },
     {
       "title": "Azure Assassin Alliance CTF 2026",
@@ -4903,7 +4833,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424931+00:00"
+      "fetched": "2026-05-07T16:23:34.223358+00:00"
     },
     {
       "title": "NorthSec 2026",
@@ -4913,7 +4843,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424943+00:00"
+      "fetched": "2026-05-07T16:23:34.223372+00:00"
     },
     {
       "title": "TJCTF 2026",
@@ -4923,7 +4853,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424955+00:00"
+      "fetched": "2026-05-07T16:23:34.223385+00:00"
     },
     {
       "title": "DaVinciCTF 2026",
@@ -4933,7 +4863,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424965+00:00"
+      "fetched": "2026-05-07T16:23:34.223397+00:00"
     },
     {
       "title": "UralCUP 2026",
@@ -4943,7 +4873,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424977+00:00"
+      "fetched": "2026-05-07T16:23:34.223410+00:00"
     },
     {
       "title": "0xV01D CTF 2026",
@@ -4953,7 +4883,17 @@
       "category": "frihed",
       "lang": "en",
       "pub": "",
-      "fetched": "2026-05-07T15:33:53.424988+00:00"
+      "fetched": "2026-05-07T16:23:34.223421+00:00"
+    },
+    {
+      "title": "EU: As deadline passes, we call urgent implementation of Anti-SLAPP Directive",
+      "link": "https://www.article19.org/resources/eu-as-deadline-passes-we-call-urgent-implementation-of-anti-slapp-directive/",
+      "desc": "Today, 7 May 2026, marks the deadline for EU Member States to transpose the EU Anti-SLAPP Directive, also known as Daphn",
+      "source": "Article 19",
+      "category": "frihed",
+      "lang": "en",
+      "pub": "Thu, 07 May 2026 15:58:04 +0000",
+      "fetched": "2026-05-07T16:23:35.876180+00:00"
     },
     {
       "title": "Poland: Draft anti-SLAPP law must be improved",
@@ -4963,7 +4903,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Thu, 07 May 2026 11:18:29 +0000",
-      "fetched": "2026-05-07T15:33:54.673383+00:00"
+      "fetched": "2026-05-07T16:23:35.876223+00:00"
     },
     {
       "title": "UnSLAPPED: Reforming laws and practices that curb public participation",
@@ -4973,7 +4913,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Thu, 07 May 2026 07:00:38 +0000",
-      "fetched": "2026-05-07T15:33:54.673422+00:00"
+      "fetched": "2026-05-07T16:23:35.876243+00:00"
     },
     {
       "title": "Georgia: We must address the escalating media freedom crisis",
@@ -4983,7 +4923,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 10:30:19 +0000",
-      "fetched": "2026-05-07T15:33:54.673441+00:00"
+      "fetched": "2026-05-07T16:23:35.876259+00:00"
     },
     {
       "title": "Blog: End anti-Rohingya rhetoric and protect refugees in Malaysia",
@@ -4993,7 +4933,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 08:10:14 +0000",
-      "fetched": "2026-05-07T15:33:54.673458+00:00"
+      "fetched": "2026-05-07T16:23:35.876276+00:00"
     },
     {
       "title": "MENA region: Persistent threats to journalism and media freedom",
@@ -5003,7 +4943,7 @@
       "category": "frihed",
       "lang": "en",
       "pub": "Wed, 06 May 2026 07:44:26 +0000",
-      "fetched": "2026-05-07T15:33:54.673475+00:00"
+      "fetched": "2026-05-07T16:23:35.876328+00:00"
     }
   ]
 }

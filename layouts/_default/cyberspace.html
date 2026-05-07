@@ -247,6 +247,15 @@
       letter-spacing: 0.5px;
       text-transform: uppercase;
     }
+    .translate-btn {
+      font-size: 9px;
+      cursor: pointer;
+      opacity: 0.5;
+      user-select: none;
+      transition: opacity 0.15s;
+      margin-left: 1px;
+    }
+    .translate-btn:hover { opacity: 1; }
     .item-time { font-size: 9px; color: var(--cs-muted); }
     .item-title {
       font-family: 'IBM Plex Sans', sans-serif;
@@ -569,6 +578,15 @@ function updateTicker(tickerItems) {
   inner.innerHTML = spans + spans; // dobbelt for seamless loop
 }
 
+function langBadge(item) {
+  if (!item.lang || item.lang === 'en') return '';
+  const badge = `<span class="lang-badge">${item.lang.toUpperCase()}</span>`;
+  if (!item.link || item.link === '#') return badge;
+  const url = `https://translate.google.com/translate?sl=${item.lang}&tl=en&u=${encodeURIComponent(item.link)}`;
+  const btn = `<span class="translate-btn" onclick="event.stopPropagation();event.preventDefault();window.open('${url}','_blank')" title="Open in Google Translate">🌐</span>`;
+  return badge + btn;
+}
+
 function filter(cat, btn) {
   currentFilter = cat;
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
@@ -586,8 +604,9 @@ function renderFeed() {
   if (top.length) {
     html += '<div class="section-label">▸ TOP STORIES</div>';
     top.forEach((item, i) => {
-      const href = item.link && item.link !== '#' ? ` href="${item.link}" target="_blank" rel="noopener"` : '';
-      const lang = item.lang && item.lang !== 'en' ? `<span class="lang-badge">${item.lang}</span>` : '';
+      const href  = item.link && item.link !== '#' ? ` href="${item.link}" target="_blank" rel="noopener"` : '';
+      const lang  = langBadge(item);
+      const lattr = item.lang && item.lang !== 'en' ? ` lang="${item.lang}"` : '';
       html += `<a class="news-item"${href} style="animation-delay:${i*0.06}s">
         <div class="line-num">${String(i+1).padStart(2,'0')}</div>
         <div class="item-body">
@@ -596,7 +615,7 @@ function renderFeed() {
             ${lang}
             <span class="item-time">${item.time}</span>
           </div>
-          <div class="item-title">${item.title}</div>
+          <div class="item-title"${lattr}>${item.title}</div>
           <div class="item-sub">${item.sub}</div>
         </div></a>`;
     });
@@ -605,8 +624,9 @@ function renderFeed() {
   if (rest.length) {
     html += '<div class="section-label">▸ LATEST</div>';
     rest.forEach((item, i) => {
-      const href = item.link && item.link !== '#' ? ` href="${item.link}" target="_blank" rel="noopener"` : '';
-      const lang = item.lang && item.lang !== 'en' ? `<span class="lang-badge">${item.lang}</span>` : '';
+      const href  = item.link && item.link !== '#' ? ` href="${item.link}" target="_blank" rel="noopener"` : '';
+      const lang  = langBadge(item);
+      const lattr = item.lang && item.lang !== 'en' ? ` lang="${item.lang}"` : '';
       html += `<a class="news-item"${href} style="animation-delay:${(i+3)*0.04}s">
         <div class="line-num">${String(i+4).padStart(2,'0')}</div>
         <div class="item-body">
@@ -615,7 +635,7 @@ function renderFeed() {
             ${lang}
             <span class="item-time">${item.time}</span>
           </div>
-          <div class="item-title">${item.title}</div>
+          <div class="item-title"${lattr}>${item.title}</div>
           <div class="item-sub">${item.sub}</div>
         </div></a>`;
     });
@@ -637,7 +657,7 @@ function updateClock() {
   const diff = Math.round((next - now) / 60000);
   const clock = document.getElementById('csClock');
   const upd   = document.getElementById('csNextUpd');
-  if (clock) clock.textContent = now.toLocaleTimeString('da-DK');
+  if (clock) clock.textContent = now.toLocaleTimeString('en-GB');
   if (upd)   upd.textContent   = `NEXT UPD. ${String(next.getHours()).padStart(2,'0')}:42 · ${diff} MIN`;
 }
 

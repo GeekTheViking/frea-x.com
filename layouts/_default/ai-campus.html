@@ -675,7 +675,7 @@ function addDix(visitor) {
   dixEntries.unshift({
     ai: visitor.name, tag: visitor.tag, color: visitor.color,
     msg: msg + (visitor.name === "UNKNOWN" ? ` [${randH(4)}]` : ""),
-    time: "just now"
+    time: "Was Here"
   });
   dixCount++;
   renderDix();
@@ -767,7 +767,7 @@ const DIX_API = 'https://dix-wall.geek-the-viking.workers.dev';
 
 function timeAgo(iso) {
   const diff = Math.round((Date.now() - new Date(iso)) / 60000);
-  if (diff < 1)  return 'just now';
+  if (diff < 1)  return 'Was Here';
   if (diff < 60) return `${diff} min ago`;
   const h = Math.round(diff / 60);
   if (h < 24)   return `${h}h ago`;

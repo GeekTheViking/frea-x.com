@@ -1,8 +1,8 @@
 ---
-title: "AI & IT Quality Control"
+title: "Quality Control"
 ---
 
-# AI & IT Quality Control
+# Quality Control
 
 <p class="fx-mantra">THINK BEFORE YOU ACT.</p>
 <p class="fx-mantra">THINK OF OTHERS.</p>

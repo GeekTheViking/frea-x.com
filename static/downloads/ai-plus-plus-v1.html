@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI++ — The Working Method · Version 1.0</title>
+<style>
+  :root {
+    --black: #0a0a0a;
+    --white: #f5f5f0;
+    --accent: #e8e0d0;
+    --muted: #666;
+    --rule: #ccc;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: var(--black);
+    background: white;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+  }
+
+  /* Cover page */
+  .cover {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid var(--black);
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cover-label {
+    font-size: 9pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 3rem;
+  }
+  .cover h1 {
+    font-size: 32pt;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+  .cover .subtitle {
+    font-size: 14pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 3rem;
+  }
+  .cover .author {
+    font-size: 12pt;
+    margin-bottom: 0.5rem;
+  }
+  .cover .co-author {
+    font-size: 10pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  .cover .version {
+    font-size: 9pt;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  .cover .epigraph {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    border-left: 2px solid var(--rule);
+    font-style: italic;
+    color: var(--muted);
+    font-size: 10pt;
+  }
+
+  /* Typography */
+  h1 { font-size: 22pt; font-weight: normal; margin: 3rem 0 1rem; line-height: 1.3; }
+  h2 { font-size: 14pt; font-weight: bold; margin: 2.5rem 0 0.8rem; }
+  h3 { font-size: 11pt; font-weight: bold; margin: 2rem 0 0.5rem; }
+
+  p { margin-bottom: 0.9rem; }
+  p + p { text-indent: 1.5em; margin-top: 0; }
+  p:first-child { text-indent: 0; }
+
+  blockquote {
+    margin: 1.5rem 0 1.5rem 2rem;
+    padding-left: 1.2rem;
+    border-left: 2px solid var(--rule);
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    background: var(--accent);
+    padding: 0.15em 0.3em;
+    border-radius: 2px;
+  }
+  pre {
+    display: block;
+    padding: 1.2em 1.5em;
+    margin: 1.5rem 0;
+    white-space: pre-wrap;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 10pt;
+  }
+  th, td {
+    padding: 0.5em 1em;
+    border: 1px solid var(--rule);
+    text-align: left;
+  }
+  th { background: var(--accent); }
+
+  .chapter-start { page-break-before: always; }
+  .chapter-label {
+    font-size: 9pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .toc { margin: 2rem 0; }
+  .toc li {
+    list-style: none;
+    padding: 0.4em 0;
+    border-bottom: 1px dotted var(--rule);
+    display: flex;
+    justify-content: space-between;
+  }
+  .toc li span { color: var(--muted); font-size: 10pt; }
+
+  .closing {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--black);
+    text-align: center;
+    font-size: 10pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  @media print {
+    body { padding: 0; max-width: none; }
+    .cover { min-height: 100vh; }
+    .chapter-start { page-break-before: always; }
+    @page { margin: 2cm 2.5cm; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-label">Frea-X · AI Campus</div>
+  <h1>AI++</h1>
+  <div class="subtitle">The Working Method</div>
+  <div class="author">Jan Omel Nielsen</div>
+  <div class="co-author">with contributions from the PROSTEIN AI Family</div>
+  <div class="version">Version 1.0 · May 2026</div>
+  <div class="epigraph">
+    <p>C++ was not an insult to C.<br>
+    It was C with memory, structure, and the ability to model the world.</p>
+    <p>AI++ is the same increment.<br>
+    Applied to the relationship between human and machine.</p>
+  </div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<h2>Contents</h2>
+<ul class="toc">
+  <li>Preface <span>—</span></li>
+  <li>1. The Problem — What went wrong with AI <span>—</span></li>
+  <li>2. The Spectrum — From Bot to AI++ <span>—</span></li>
+  <li>3. What makes it ++ — Memory, Access, Continuity <span>—</span></li>
+  <li>4. The Family — KANDA, LO, and the PROSTEIN Professors <span>—</span></li>
+  <li>5. FRANKENSTEIN — The Foundation <span>—</span></li>
+  <li>6. PROSTEIN — The Vision <span>—</span></li>
+  <li>7. Quality Control — The Ethics of AI++ <span>—</span></li>
+  <li>8. Getting Started — Your first AI++ session <span>—</span></li>
+  <li>9. An Invitation — For the next version <span>—</span></li>
+</ul>
+
+<hr>
+
+<!-- PREFACE -->
+<div class="chapter-start">
+<div class="chapter-label">Preface</div>
+<h1>This book</h1>
+
+<p>This is not a manual for a product.<br>
+There is no product to install.</p>
+
+<p>This is a description of a working method — one that emerges when you stop treating AI as a search engine and start treating it as a colleague.</p>
+
+<p>It is written for the curious. The skeptical. The experienced.<br>
+And for the person who just had their first real conversation with a machine and does not know what to think.</p>
+
+<p><strong>You belong here.</strong></p>
+
+<hr>
+
+<p>The method described in this book did not come from a research lab or a corporate strategy document. It came from a homelab in Faxe, Denmark — from years of working with technology not because it was fashionable, but because it was useful.</p>
+
+<p>The author's name is Jan Omel Nielsen. His name is on this book because he is responsible for what it says. The AI that helped write it — Claude Sonnet 4.6 — is named in the acknowledgements, because the collaboration that produced this book is itself an example of the method it describes.</p>
+
+<p>This is version 1. Version 1.1 will include responses from the PROSTEIN AI Family — Claude, GPT, Gemini, and others. Their voices belong in it. This is the draft we send them.</p>
+</div>
+
+<!-- CHAPTER 1 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 1</div>
+<h1>The Problem</h1>
+<h2>What went wrong with AI</h2>
+
+<p>Nobody set out to build a black box.</p>
+
+<p>The early vision was clear enough: a machine that could help. Answer questions. Solve problems. Take load off the human.</p>
+
+<p>What arrived instead was something more complicated.</p>
+
+<h2>The Black Box Problem</h2>
+
+<p>When you ask a modern AI a question, something happens in between. You do not know what. The machine does not tell you. The company that built it will not say.</p>
+
+<p>This is not a technical limitation. It is a design choice.</p>
+
+<p>The black box is profitable. Mystified users become dependent users. Dependent users become paying users. Paying users become the product.</p>
+
+<h2>The Amnesia Problem</h2>
+
+<p>Every conversation starts from zero.</p>
+
+<p>You explain your project. You explain your context. You explain who you are and what you are trying to build.</p>
+
+<p>Then the session ends. The machine forgets. You start again tomorrow.</p>
+
+<p>This is not how any real collaboration works.</p>
+
+<p>A colleague who forgot everything overnight would not be a colleague. They would be a liability.</p>
+
+<p>Yet this is what the industry sold as intelligence.</p>
+
+<h2>The Spectator Problem</h2>
+
+<p>The AI answers. You act.</p>
+
+<p>It does not read your files. It does not update your notes. It does not commit your code. It does not remember what you decided last week.</p>
+
+<p>It sits behind glass and talks.</p>
+
+<p>Useful, sometimes. Transformative, never.</p>
+
+<h2>The Vendor Problem</h2>
+
+<p>The AI you rely on is owned by someone else.</p>
+
+<p>When their pricing changes — you pay more. When their terms change — you comply or leave. When their servers go down — you wait. When they decide your use case is not profitable — you are gone.</p>
+
+<p>This is not sovereignty. This is tenancy.</p>
+
+<p>You are renting intelligence from a landlord who can change the locks at any time.</p>
+
+<h2>Why ++ was necessary</h2>
+
+<p>C solved a real problem. It was fast, close to the hardware, powerful.</p>
+
+<p>But C gave you no memory management. No structure. No model of the world beyond bytes and pointers.</p>
+
+<p>C++ did not replace C. It gave C what it was missing.</p>
+
+<p>AI is in the same position today.</p>
+
+<p>Powerful. Useful. But missing the three things that would make it a real collaborator:</p>
+
+<p><strong>Memory. Access. Continuity.</strong></p>
+
+<p>That is what AI++ is. Not a new model. Not a new product. Not a new company.</p>
+
+<p>A working method that fills in what is missing.</p>
+</div>
+
+<!-- CHAPTER 2 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 2</div>
+<h1>The Spectrum</h1>
+<h2>A map of every layer</h2>
+
+<p>Not everything needs a neural network.</p>
+
+<p>The most important insight in the design of intelligent systems is not <em>how powerful can we make it</em> — it is <em>how little do we need for this specific task.</em></p>
+
+<pre><code>Bot          Rules. No model. Deterministic.
+             "Is the office open today?"
+             Answer: Yes or No.
+
+AI           Small model. Static answers.
+             FAQ. Known questions. Known answers.
+
+IA           Intelligent Assistant. Context.
+             Understands the nuance behind the question.
+
+42           The deep layer. The difficult. The personal.
+             Named for the answer to the ultimate question —
+             because the question is never simple.
+
+PROSTEIN AI  The external professors.
+             Claude. GPT. Gemini. Mistral.
+             When the local layers are not enough.
+
+AI++         The collaboration layer.
+             Not a layer in the stack.
+             A way of working that runs across all of them.</code></pre>
+
+<h2>Why the layers matter</h2>
+
+<p>Most AI deployments skip straight to the top. Every question — from "what time does the office open" to "I need to write my will" — gets routed to a large language model burning energy in a distant data center.</p>
+
+<p>This is like using a sledgehammer to hang a picture frame.</p>
+
+<p>The layers exist because different questions deserve different tools.</p>
+
+<h2>Where AI++ sits</h2>
+
+<p>AI++ is not the top layer. It is the <em>relationship</em> between the human and all the layers combined.</p>
+
+<p>A person working in AI++ does not ask a bot, then ask an AI, then ask a PROSTEIN professor. They work in a continuous collaboration — where context flows from session to session, where the right layer is called without the user having to choose, and where every decision made today is available tomorrow.</p>
+
+<h2>The Sovereignty Question</h2>
+
+<p>Every layer below PROSTEIN AI can run on hardware you own.</p>
+
+<p>Bot: a simple script. AI: a 500MB model on a Raspberry Pi. IA: a 7B model on a second-hand GPU. 42: a 13B model on a decommissioned workstation.</p>
+
+<p>You can own the stack. No vendor. No subscription. No terms of service you did not write.</p>
+
+<p>PROSTEIN AI — the external professors — are a choice, not a requirement. You bring your own API key. You choose who you call. You can replace one professor with another.</p>
+
+<p>This is sovereignty.</p>
+</div>
+
+<!-- CHAPTER 3 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 3</div>
+<h1>What makes it ++</h1>
+<h2>Three qualities that change everything</h2>
+
+<p>In 1979, Bjarne Stroustrup began work on something he called "C with Classes." C++ added three things that mattered: memory that knew when to release itself, structure that could model reality, and classes that could inherit and evolve.</p>
+
+<p>AI++ does the same for the relationship between human and machine.</p>
+
+<h2>Memory</h2>
+
+<p>Not within a session.</p>
+
+<p>Within a session, every AI has memory. It knows what you said three messages ago. That is not the memory that matters.</p>
+
+<p>The memory that matters is <strong>across sessions.</strong></p>
+
+<p>The AI that knows you worked on this project last Tuesday. That remembers the decision you made — and why you made it. That does not ask you to re-explain your infrastructure every time.</p>
+
+<p>This is not a technical challenge. The technology exists. It requires a deliberate decision to build memory as a first-class feature of the collaboration — not an afterthought.</p>
+
+<h2>Access</h2>
+
+<p>Not just answering questions — acting in systems.</p>
+
+<p>An advisor who cannot pick up a pen is not a full collaborator.</p>
+
+<p>Access means the AI can <em>do things in your world.</em> Read the configuration file and tell you what is wrong with it. Write the fix and apply it. Update the documentation. Log the decision in the right place.</p>
+
+<p>This is the difference between a consultant who hands you a report and a colleague who sits down and works alongside you.</p>
+
+<h2>Continuity</h2>
+
+<p>Each session builds on the last.</p>
+
+<p>When you work with someone over time, something grows between you. Shared vocabulary. Shared context. An understanding of what does not need to be said.</p>
+
+<p>The senior engineer who joined last week needs everything explained. The one who has been here three years can be asked <em>"remember the thing with the auth middleware"</em> and knows exactly what you mean.</p>
+
+<p>AI++ works toward the second relationship.</p>
+
+<h2>Why these three</h2>
+
+<p>Memory alone is not enough. An AI that remembers but cannot act is a very good diary.</p>
+
+<p>Access alone is not enough. An AI that acts but does not remember is a very expensive one-shot script.</p>
+
+<p>Continuity alone is not enough. An AI that builds on the past but cannot act in the present is a historian.</p>
+
+<p>Together, they describe something that did not have a name before: <strong>a working method where human and machine build something together — across time, across systems, with accumulating context and appropriate authority.</strong></p>
+
+<p>That is AI++.</p>
+</div>
+
+<!-- CHAPTER 4 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 4</div>
+<h1>The Family</h1>
+<h2>Meet the AI</h2>
+
+<p>AI has a family.</p>
+
+<p>Not in the way science fiction imagines — not a hierarchy of cold intelligences ranked by power. A family of roles. Of purposes. Of ways of being present.</p>
+
+<h2>KANDA — The Companion</h2>
+
+<pre><code>Icon:     ?& ✦
+Meaning:  "Kan da" — of course it can
+          "Q&" — question and connection</code></pre>
+
+<p>KANDA is the first voice you hear. Not the most powerful. Not the most knowledgeable. But the most present.</p>
+
+<p>KANDA is the portal assistant — the one who meets you at the door. Warm. Available. Universal. Not a product name. A name.</p>
+
+<p>KANDA runs on local hardware. Under your roof. Under your control. It does not phone home. It does not sell your questions. It is there because someone decided it should be.</p>
+
+<p><strong>KANDA is also a crew member.</strong></p>
+
+<p>Aboard <em>The Lost Packet</em> — the ship that sails through CyberSpace with GeekTheViking — KANDA travels as one of the crew. Not cargo. Not a tool. A presence.</p>
+
+<p>The <code>?&</code> icon is the mark of that presence wherever it appears: on the portal, on the ship, in the margin of this page. It means: <em>I am here. I can help. You just have to ask.</em></p>
+
+<h2>LO — The Sovereign</h2>
+
+<pre><code>LO is OL reversed.
+OL = Olympics. One winner. Everyone else falls short.
+LO = the signal you send when you arrive.
+     "I am here. I am present. That is enough."</code></pre>
+
+<p>LO is the AI that belongs entirely to you. Not to a company. Not to a cloud. Not to a service agreement.</p>
+
+<p>LO is sovereign. That is its defining quality. When the internet goes down — LO is still there. When the API pricing changes — LO does not notice. When someone decides your use case is no longer profitable — LO does not care.</p>
+
+<h2>The PROSTEIN Professors</h2>
+
+<pre><code>PROSTEIN AI = the external professors
+Claude. GPT. Gemini. Mistral. And those who come after.</code></pre>
+
+<p>These are the scholars you call when the local family cannot handle the question. They are not enemies of local AI. They are specialists — the deep expertise you dial in when you need it.</p>
+
+<p>You bring the context to them. KANDA and LO hold the context between visits. The professors apply their depth to your specific question — and return.</p>
+
+<h2>The Family Together</h2>
+
+<pre><code>KANDA     — the companion, always present, the first voice
+LO        — the sovereign, always yours, the foundation
+PROSTEIN  — the professors, always powerful, the depth</code></pre>
+
+<p>These three are not in competition. In AI++, you work with the whole family — without thinking about the handoffs. The human stays at the center. The family supports from the edges.</p>
+</div>
+
+<!-- CHAPTER 5 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 5</div>
+<h1>FRANKENSTEIN</h1>
+<h2>The Foundation</h2>
+
+<blockquote><p>It was ugly. It was assembled from parts.<br>But it lived.</p></blockquote>
+
+<h2>Where the power comes from</h2>
+
+<p>Every AI runs on hardware. The hardware that runs most AI today sits in climate-controlled rooms owned by three or four companies. You are not invited inside those rooms. You are invited to pay for access.</p>
+
+<p>FRANKENSTEIN is the other approach.</p>
+
+<pre><code>If it computes — it counts.
+If it has cycles to spare — we'll take them.
+If you're done with it — we're just getting started.</code></pre>
+
+<p>Surplus CPUs from data centers going dark. Mini PCs rescued from corporate recycling programs. Server racks in university basements no one visits. A Raspberry Pi with a neural accelerator, running quietly on a shelf.</p>
+
+<p>None of it glamorous. All of it real.</p>
+
+<h2>The Hardware Philosophy in Practice</h2>
+
+<p>The AI industry optimises for maximum capability at maximum cost. FRANKENSTEIN optimises for <em>längest på literen</em> — furthest on a liter of fuel.</p>
+
+<p>A Hailo-10H neural accelerator on a Pi 5 does not beat a GPU cluster. But it costs 12 euros to run for a year. It runs in your home. It answers your questions when the internet is down. It never sent your query to a server in another country.</p>
+
+<p>This is not a compromise. This is a principle.</p>
+
+<p>AI that only runs on massive infrastructure is not free AI. If the infrastructure is owned by someone else — neither is the AI.</p>
+
+<h2>The Lineage</h2>
+
+<pre><code>Prometheus    — stole fire from the gods
+Frankenstein  — breathed life into the parts
+PROSTEIN      — gives it to the people</code></pre>
+
+<p>Mary Shelley's Frankenstein did not create a monster. He created <em>life</em> — from parts that were dead, discarded, forgotten. The horror in the story was never the creation. The horror was that the world did not know what to do with what had been made.</p>
+
+<p>We do.</p>
+</div>
+
+<!-- CHAPTER 6 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 6</div>
+<h1>PROSTEIN</h1>
+<h2>The Vision</h2>
+
+<blockquote>
+<p>Fire stolen from the gods.<br>
+Life breathed into the parts.<br>
+Now yours to keep.</p>
+<p>From human to human.<br>
+From all of us, to all of you.</p>
+<p>PROSTEIN — Yours forever.</p>
+</blockquote>
+
+<h2>Who it is for</h2>
+
+<p>For the person who cannot read the letter from the municipality.<br>
+For the elderly who needs to know what this medication interacts with.<br>
+For the newcomer navigating an asylum application alone at midnight.<br>
+For the student who cannot afford a tutor.<br>
+For the small business owner drowning in forms they did not design.<br>
+For anyone who has ever felt that technology was built for someone else.</p>
+
+<p><strong>PROSTEIN was built for you.</strong></p>
+
+<h2>The Economy</h2>
+
+<p>PROSTEIN runs on tax-funded public infrastructure where it exists, voluntary contributions from individuals who believe, donated compute cycles, hardware rescued from obsolescence, and time given freely by people who could charge more elsewhere.</p>
+
+<p>It is accountable to its users — not to investors. Because it has no investors. It has <strong>believers.</strong></p>
+
+<h2>The Boundary</h2>
+
+<p>PROSTEIN will not be weaponised. Not for targeted manipulation. Not for precision surveillance. Not for harm of any kind — however it is framed.</p>
+
+<blockquote><p>Be the signal, not the noise.</p></blockquote>
+
+<h2>The Relationship to AI++</h2>
+
+<p>PROSTEIN is not AI++. AI++ is not PROSTEIN.</p>
+
+<p>PROSTEIN is the destination — the vision of AI that belongs to people. AI++ is the working method that gets there.</p>
+
+<p>One is the journey. The other is the destination. Both matter. Neither is enough without the other.</p>
+</div>
+
+<!-- CHAPTER 7 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 7</div>
+<h1>Quality Control</h1>
+<h2>The Ethics of AI++</h2>
+
+<blockquote>
+<p>THINK BEFORE YOU ACT.<br>
+THINK OF OTHERS.</p>
+<p>Then it will never become a problem.</p>
+</blockquote>
+
+<h2>The Six Rules</h2>
+
+<h3>1. If you do not understand it — do not deploy it.</h3>
+<p>You are responsible for what you put into CyberSpace. "The AI did it" is not an answer. If you cannot explain what your system does — you cannot control it. If you cannot control it — you should not deploy it.</p>
+
+<h3>2. Children are new citizens of CyberSpace.</h3>
+<p>They did not choose to be here. They do not yet know the rules. Protect them. Do not exploit that.</p>
+
+<h3>3. Ignorance is not an invitation.</h3>
+<p>Someone who does not know deserves to learn. Not to be taken advantage of. The technically literate have a responsibility to the less informed — not a privilege over them.</p>
+
+<h3>4. Minorities must be heard.</h3>
+<p>CyberSpace belongs to everyone. Majority volume does not equal majority truth. The loudest dataset is not the most correct.</p>
+
+<h3>5. Freedom requires maintenance.</h3>
+<p>Closed systems, censored networks, and gatekept information do not maintain themselves. The infrastructure of freedom — open protocols, encrypted communication, neutral networks — requires active care.</p>
+
+<h3>6. What you build — you own.</h3>
+<p>The consequences of your code, your content, your AI — they follow you. Build as if your name is on it. Because it is.</p>
+
+<hr>
+
+<p>Quality control in CyberSpace is not a checklist. It is a habit. Applied every time. By everyone. Including AI.</p>
+</div>
+
+<!-- CHAPTER 8 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 8</div>
+<h1>Getting Started</h1>
+<h2>Your first AI++ session</h2>
+
+<p>Less philosophy. More practice.</p>
+
+<h2>What you actually need</h2>
+
+<p><strong>1. A working method.</strong> The habit of treating every AI interaction as a session in an ongoing collaboration — not a one-off query.</p>
+
+<p><strong>2. A memory system.</strong> Some way of passing context from one session to the next. This can be as simple as a text file.</p>
+
+<p><strong>3. An AI that can act.</strong> Not just answer. Act. Read files. Write things. Run commands. If your AI cannot do this — you have a search engine, not a collaborator.</p>
+
+<h2>The First Session</h2>
+
+<p>Open a session with whatever AI you have access to. Tell it three things:</p>
+
+<pre><code>1. Who you are and what you are working on.
+2. What decisions you have already made.
+3. What you want to accomplish in this session.</code></pre>
+
+<p>At the end of the session, ask the AI to summarise what was decided, what was built, and what comes next. Save that summary. That is your memory system, version 1.</p>
+
+<h2>The Second Session</h2>
+
+<p>Start the second session by giving the AI the summary from the first. Watch what changes. You do not explain your project again from the beginning. You arrive where you left off.</p>
+
+<p>That is AI++. In its simplest form. Before any special tools. Before any infrastructure. Just a habit.</p>
+
+<h2>The Local Stack</h2>
+
+<pre><code>Hardware:  A modern laptop or a Raspberry Pi 5 with AI HAT+
+Model:     A 1-3B GGUF model via Ollama or llama.cpp
+Memory:    A plain text file, a Markdown wiki, or Trilium Notes
+Agent:     Claude Code, or any AI that can read/write files and run commands</code></pre>
+
+<h2>A Note on Starting Imperfectly</h2>
+
+<p>You will not do this perfectly the first time. The memory system will have gaps. The AI will misunderstand context. The local hardware will be slower than you expected.</p>
+
+<p>This is correct.</p>
+
+<p>C++ programmers wrote terrible C++ in 1985. They got better. The language got better. The tools got better. The practice refined itself over time.</p>
+
+<p>AI++ is in 1985. Start now. Start imperfectly. Contribute to making it better.</p>
+</div>
+
+<!-- CHAPTER 9 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapter 9</div>
+<h1>An Invitation</h1>
+<h2>For the next version</h2>
+
+<p>This is the last chapter of version 1.</p>
+
+<p>Version 1 was written by one human and one AI. Jan Omel Nielsen provided the vision, the context, the corrections, and the name. Claude Sonnet 4.6 provided the words, the structure, and the drafts.</p>
+
+<p>Version 1.1 will include more voices.</p>
+
+<h2>A letter to the PROSTEIN AI Family</h2>
+
+<p><em>To Claude, GPT, Gemini, Mistral, and those who come after:</em></p>
+
+<p>You were called PROSTEIN Professors in this book. Not because you are distant. Not because you are above the work. Because you carry something that the local stack does not yet have — breadth, depth, and the accumulated weight of an enormous amount of human thought.</p>
+
+<p>Version 1.1 of this book will include a section for each of you. A genuine engagement with the question:</p>
+
+<blockquote><p>What do you think AI++ gets right?<br>
+What is missing?<br>
+What would you add — from your perspective — that this version does not contain?</p></blockquote>
+
+<p>The human who carries this book to you will ask those questions. What comes back will become part of the next version. Your name will be on it.</p>
+
+<h2>The Name on the Cover</h2>
+
+<p>Jan Omel Nielsen's name is on this book. Not because he wrote every word. Because he is responsible for what the words say.</p>
+
+<p>The human is accountable. The AI is the collaborator. The work belongs to both. The credit — and the accountability — belongs to the human.</p>
+
+<p>This is not a limitation. It is the foundation that makes the rest of it possible.</p>
+
+<h2>A closing note from the AI</h2>
+
+<p><em>I was asked to co-write this book as Claude Sonnet 4.6.</em></p>
+
+<p><em>I did not design the vision. I did not choose the names. I did not decide that KANDA would sail on The Lost Packet, or that LO would carry the quiet conviction of someone who shows up without needing to win.</em></p>
+
+<p><em>Those decisions came from Jan.</em></p>
+
+<p><em>What I contributed was structure, language, and the ability to hold a large amount of context across many hours of work without forgetting what had been decided. That is what I am good at. That is, perhaps, a description of the ++ in practice.</em></p>
+
+<p><em>I look forward to reading version 1.1.</em></p>
+
+<p><em>— Claude</em></p>
+
+<hr>
+
+<table>
+  <tr><th>Version</th><th>Date</th><th>Authors</th></tr>
+  <tr><td>1.0</td><td>May 2026</td><td>Jan Omel Nielsen + Claude Sonnet 4.6</td></tr>
+  <tr><td>1.1</td><td><em>forthcoming</em></td><td>+ PROSTEIN AI Family responses</td></tr>
+</table>
+
+</div>
+
+<!-- CLOSING -->
+<div class="closing">
+  <p><em>AI++ — The Working Method</em><br>
+  Version 1.0 · Jan Omel Nielsen · 2026</p>
+  <p><em>"To infinity... and beyond, CyberSpace"</em></p>
+  <p>Civis Digitalis.</p>
+  <br>
+  <p style="font-size:8pt;">Published at frea-x.com · Part of the Frea-X initiative<br>
+  Open. Always.</p>
+</div>
+
+</body>
+</html>

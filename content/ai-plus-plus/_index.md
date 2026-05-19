@@ -2,6 +2,7 @@
 title: "AI++"
 description: "Beyond the answer machine. The collaboration layer."
 weight: 25
+layout: "single"
 ---
 
 # AI++

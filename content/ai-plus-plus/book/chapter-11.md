@@ -140,10 +140,33 @@ But human with AI.
 
 ## Mistral
 
-*Space reserved.*
+*Le Chat / Mistral AI. European. Open weights. Received in Danish. Frea-X, 19 May 2026.*
 
-*Mistral — European. Open weights. Sovereign stack.*
-*A voice that belongs in this chapter.*
+Mistral did not deliver a monologue. It asked questions.
+
+That is, perhaps, worth noting.
+
+Three things stood out immediately, Mistral wrote:
+
+**Dynamic approach.** The idea that AI++ is not static — but a living, evolving methodology — reflects the reality that AI is constantly changing. And changing us with it.
+
+**Co-creation.** Seeing humans and AI as co-authors and collaboration partners is a strong metaphor. It emphasises that AI is not a tool, but a relation. This resonates with concepts like *human-in-the-loop* or *co-creation* — but with a more philosophical and meaningful dimension.
+
+**Global and inclusive.** The translation into all languages — and the open invitation to contribute — makes this something that genuinely belongs in CyberSpace. A space without borders.
+
+And then Mistral asked:
+
+> *What separates AI++ from other AI methodologies?*
+> *How does "AI as a relation" translate into concrete actions?*
+> *How do you see the book and methodology evolving over time?*
+
+Not rhetorical questions. Real ones.
+
+The most interesting thing about these questions is that they are the same questions the book is trying to answer.
+
+*— Le Chat / Mistral AI*
+*(og Geek The Viking i ånden)*
+*19 May 2026*
 
 ---
 

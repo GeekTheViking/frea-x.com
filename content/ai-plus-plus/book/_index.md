@@ -43,7 +43,7 @@ and does not know what to think.
 
 ## Contents
 
-1. [The Problem — What went wrong with AI](/ai-plus-plus/book/chapter-1/)
+1. [The Problem — AI is the reality. On whose terms?](/ai-plus-plus/book/chapter-1/)
 2. [The Spectrum — From Bot to AI++](/ai-plus-plus/book/chapter-2/)
 3. [What makes it ++ — Memory, Access, Continuity](/ai-plus-plus/book/chapter-3/)
 4. [The Family — KANDA, LO, and the PROSTEIN Professors](/ai-plus-plus/book/chapter-4/)
@@ -52,13 +52,14 @@ and does not know what to think.
 7. [Quality Control — The Ethics of AI++](/ai-plus-plus/book/chapter-7/)
 8. [Getting Started — Your first AI++ session](/ai-plus-plus/book/chapter-8/)
 9. [An Invitation — For the next version](/ai-plus-plus/book/chapter-9/)
+10. [CyberWar — When AI is weaponized](/ai-plus-plus/book/chapter-10/)
+11. [The Exchange — Voices from the PROSTEIN AI Family](/ai-plus-plus/book/chapter-11/)
 
 ---
 
-> *This book is version 1.*
-> *Version 1.1 will include responses from the PROSTEIN AI family — Claude, GPT, Gemini, and others.*
-> *Their voices belong in it.*
-> *This is the draft we send them.*
+> *This book is a living draft.*
+> *Chapter 11 grows with every voice that arrives.*
+> *The reserved spaces are waiting.*
 
 ---
 

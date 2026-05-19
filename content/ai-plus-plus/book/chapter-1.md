@@ -1,13 +1,38 @@
 ---
 draft: true
 title: "1. The Problem"
-description: "What went wrong with AI — and why we needed ++"
+description: "AI is the reality. Not the future — the present. And it already belongs to someone else."
 weight: 10
 ---
 
 # Chapter 1 — The Problem
 
-## What went wrong with AI
+## AI is the reality
+
+AI is not the future.
+
+AI is the reality.
+
+The question is no longer whether to engage with it.
+The question is: **on whose terms?**
+
+Every article asking *"what comes after AI?"* has already missed it.
+What comes after AI is here.
+It arrived quietly, between one version and the next.
+It lives in your phone, your workplace, your government's decision systems.
+It reads your medical records. It scores your loan application.
+It decides what you see when you open a screen.
+
+You did not choose this.
+You were not asked.
+
+That is the problem.
+Not the technology.
+The terms.
+
+---
+
+## What went wrong
 
 Nobody set out to build a black box.
 

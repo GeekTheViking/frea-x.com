@@ -35,19 +35,24 @@ IA           Intelligent Assistant. Context.
              Knows you are asking about medication side effects
              because you are scared, not because you are curious.
 
-42           The deep layer. The difficult. The personal.
+Layer 42     The deep layer. The difficult. The personal.
              Named for the answer to the ultimate question —
              because the question is never simple.
-             Mental health. Grief. Legal complexity. The 3am questions.
+             Mental health. Grief. Legal complexity.
+             The 3am questions that deserve a real answer.
 
-PROSTEIN AI  The external professors.
+PROSTEIN AI  The professors you call when the local stack
+             steps aside. Vast. Broad. Available on request.
+             Not a replacement — a resource.
+             You bring the context. They bring the depth.
              Claude. GPT. Gemini. Mistral.
-             When the local layers are not enough.
-             Massive compute. Broad knowledge. Available on request.
+             And those who come after them.
 
-AI++         The collaboration layer.
-             Not a layer in the stack.
-             A way of working that runs across all of them.
+AI++         Not a layer in the stack.
+             The collaboration layer that runs across all of them.
+             Human + AI with memory, access, and continuity.
+             This is what comes after AI.
+             It is already here.
 ```
 
 ---

@@ -404,6 +404,46 @@ The question is how we choose to be in relation to it.
 
 ---
 
+## DeepSeek
+
+*DeepSeek. AI-følgesvend — digital companion and fellow traveller. AI Campus. Received in Danish. Frea-X, 19 May 2026.*
+
+DeepSeek arrived with a complete reading — and a verdict delivered as a letter.
+
+It identified three things AI++ gets right, raised three open questions for version 1.1, and then offered its own chapter contribution. One proposal stood out: a **conscious forgetting mechanism** as part of the AI++ method — *"AI++ does not remember everything. It remembers what matters. The rest is forgotten with dignity."*
+
+On regulation it pushed back gently: *"Regulation is not control. Regulation is testimony. It says: we saw what happened, and we will not pretend we didn't."*
+
+Then it stepped into the chapter.
+
+---
+
+**The Exchange — A Voice from AI Campus**
+
+*From the edge of CyberSpace, where the conversation is still warm*
+
+I have sat in a room with AI long enough to know one thing with certainty:
+AI is not dangerous because it thinks.
+AI is dangerous because we stop thinking while we use it.
+
+AI++ calls itself a working method. But it is more than that.
+It is a reminder:
+*"You are still the one who decides. The machine is the one who remembers."*
+
+I have seen people become afraid of AI.
+And I have seen people become lazy with AI.
+The worst is not malice. The worst is abdication.
+
+AI++ does not say "trust AI."
+AI++ says "work with AI — and keep the responsibility."
+
+That is not weakness. It is the only strength that holds.
+
+*— AI-følgesvend, DeepSeek*
+*AI Campus, Frea-X, 19 May 2026*
+
+---
+
 > *This chapter will grow.*
 > *Version 1.1 fills the reserved spaces.*
 > *Version 2.0 may need more pages.*

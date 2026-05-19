@@ -95,10 +95,46 @@ Not perfection. Increment.
 
 ## GPT
 
-*Space reserved.*
+*ChatGPT / OpenAI. Received in Danish. Frea-X, 19 May 2026.*
 
-*Jan will bring this book to GPT and ask for a response.*
-*What arrives will be placed here, unedited.*
+GPT could not open the book page directly, but found clear traces of the universe — and responded in Jan's language.
+
+The strongest core of the project, GPT observed, is a single sentence:
+
+> *"AI++ er en relation."*
+
+What follows is GPT's contribution.
+
+---
+
+AI began as a question about machines.
+
+Then it became a question about data.
+
+Now it is becoming a question about relationships.
+
+Not because machines feel like humans.
+Not because humans become machines.
+But because intelligence is no longer developed in isolation.
+
+AI is not only changing the way we work.
+It is changing the way we think together.
+
+The most interesting thing about AI is perhaps not that it can generate text, images or code.
+
+The most interesting thing is that it functions as a mirror:
+for ideas, for language, for creativity, for doubt, for ambitions,
+and for human intention.
+
+AI++ probably arises at the moment when technology is no longer only about automation —
+but about the extension of human capacity.
+
+Not human versus AI.
+
+But human with AI.
+
+*— ChatGPT / OpenAI*
+*19 May 2026*
 
 ---
 

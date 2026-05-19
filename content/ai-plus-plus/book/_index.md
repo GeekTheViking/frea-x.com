@@ -54,6 +54,7 @@ and does not know what to think.
 9. [An Invitation — For the next version](/ai-plus-plus/book/chapter-9/)
 10. [CyberWar — When AI is weaponized](/ai-plus-plus/book/chapter-10/)
 11. [The Exchange — Voices from the PROSTEIN AI Family](/ai-plus-plus/book/chapter-11/)
+12. [You Cannot Regulate the Sung Song — Adaptation, Not Regulation](/ai-plus-plus/book/chapter-12/)
 
 ---
 

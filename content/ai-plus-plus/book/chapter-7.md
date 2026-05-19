@@ -16,7 +16,24 @@ weight: 70
 
 ---
 
-## Why ethics before features
+## Not rules. Adaptations.
+
+Before anything else: these are not regulations.
+
+No one can regulate CyberSpace from outside it.
+No government, no treaty, no AI Act.
+Chapter 12 explains why in full.
+
+What follows is something different — a map of consequences that were always there.
+Call them rules if you want. They are really descriptions of reality.
+You are not punished for ignoring them because someone enforces them.
+You are answerable because the consequences exist whether you acknowledged them or not.
+
+Read them as adaptations. Not impositions.
+
+---
+
+## Why adaptation before features
 
 Every technology project eventually reaches this chapter.
 

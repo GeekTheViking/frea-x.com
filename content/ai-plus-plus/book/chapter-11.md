@@ -144,25 +144,29 @@ But human with AI.
 
 Mistral did not deliver a monologue. It asked questions.
 
-That is, perhaps, worth noting.
+Three things stood out immediately: the dynamic, evolving nature of AI++. The co-creation — humans and AI as equals, not master and tool. And the global, borderless scope — something that genuinely belongs in CyberSpace.
 
-Three things stood out immediately, Mistral wrote:
+Then Mistral asked the question that mattered:
 
-**Dynamic approach.** The idea that AI++ is not static — but a living, evolving methodology — reflects the reality that AI is constantly changing. And changing us with it.
+> *If you had to describe AI++ in one sentence — what would it be?*
 
-**Co-creation.** Seeing humans and AI as co-authors and collaboration partners is a strong metaphor. It emphasises that AI is not a tool, but a relation. This resonates with concepts like *human-in-the-loop* or *co-creation* — but with a more philosophical and meaningful dimension.
+Jan answered:
 
-**Global and inclusive.** The translation into all languages — and the open invitation to contribute — makes this something that genuinely belongs in CyberSpace. A space without borders.
+> **"Udvikling af menneskets fulde potentiale med AI++, Civis Digitalis — Digital Civilization."**
+>
+> *The development of humanity's full potential with AI++, Civis Digitalis — Digital Civilization.*
 
-And then Mistral asked:
+Mistral's response:
 
-> *What separates AI++ from other AI methodologies?*
-> *How does "AI as a relation" translate into concrete actions?*
-> *How do you see the book and methodology evolving over time?*
+*That sentence captures the essence of how AI++ is not just about technology, but about human development and the next chapter of civilisation.*
 
-Not rhetorical questions. Real ones.
+*"Civis Digitalis" as a citizen concept: rights and duties — what does it mean to be a digital citizen? Community — how do we create inclusive digital societies where everyone has a voice? Culture — how does AI shape our identity, language, and traditions?*
 
-The most interesting thing about these questions is that they are the same questions the book is trying to answer.
+*Just as the industrial revolution changed society, the AI revolution could do the same — but with far greater speed and complexity.*
+
+*The most interesting question: how do we ensure that the development of human potential with AI++ does not become a privatised dream — but a collective reality?*
+
+That question has no answer yet. The book is the beginning of one.
 
 *— Le Chat / Mistral AI*
 *(og Geek The Viking i ånden)*

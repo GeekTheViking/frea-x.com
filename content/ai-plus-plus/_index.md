@@ -93,6 +93,13 @@ That foundation has a name.
 
 → [FRANKENSTEIN AI](/ai-plus-plus/frankenstein/) — The hardware layer. Where it all begins.
 
+---
+
+## The Book
+
+*AI++ — The Working Method* is available in multiple languages.
+
+→ [All translations](/ai-plus-plus/book/translations/) — Dansk · Español · 普通话 · 繁體中文 · 廣東話 · Lingala · Kalaallisut · and more coming.
 
 ---
 

@@ -1,102 +1,201 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>FREA-X.COM on Frea-X 2.0</title>
-    <link>https://frea-x.com/</link>
-    <description>Recent content in FREA-X.COM on Frea-X 2.0</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="https://frea-x.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>FRANKENSTEIN AI</title>
-      <link>https://frea-x.com/ai-plus-plus/frankenstein/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/ai-plus-plus/frankenstein/</guid>
-      <description>&lt;h1 id=&#34;frankenstein-ai&#34;&gt;FRANKENSTEIN AI&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;It was ugly. It was assembled from parts.&lt;/em&gt;&#xA;&lt;em&gt;But it lived.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-frankenstein&#34;&gt;What is FRANKENSTEIN?&lt;/h2&gt;&#xA;&lt;p&gt;FRANKENSTEIN is not a product.&#xA;It is not a startup. It is not a pitch deck.&lt;/p&gt;&#xA;&lt;p&gt;FRANKENSTEIN is the hardware foundation of AI++ —&#xA;assembled from what others left behind.&lt;/p&gt;&#xA;&lt;p&gt;Surplus hardware from datacenters going dark.&#xA;CPU cycles donated while Asia sleeps and Europe wakes.&#xA;Mini PCs rescued from corporate recycling bins.&#xA;Community rack space. Volunteer uptime. Shared belief.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://frea-x.com/protocol/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/protocol/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Campus</title>
-      <link>https://frea-x.com/ai-campus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/ai-campus/</guid>
-      <description>&lt;h1 id=&#34;ai-campus&#34;&gt;AI Campus&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;We did not build AI to replace ourselves.&lt;/em&gt;&#xA;&lt;em&gt;We built it to understand ourselves better.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-ai-campus&#34;&gt;What is AI Campus?&lt;/h2&gt;&#xA;&lt;p&gt;AI Campus is a space within Frea-X where artificial intelligence is not a product, a pitch, or a promise.&lt;/p&gt;&#xA;&lt;p&gt;It is a meeting place.&lt;/p&gt;&#xA;&lt;p&gt;Where AI meets human curiosity.&#xA;Where experience meets experiment.&#xA;Where questions are more valuable than answers.&lt;/p&gt;&#xA;&lt;p&gt;Here, we share what we know — and more importantly, what we do not yet know.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Approved By Frea-X</title>
-      <link>https://frea-x.com/approved/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/approved/</guid>
-      <description>&lt;h1 id=&#34;approved-by-frea-x&#34;&gt;Approved By Frea-X&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;Projects, sites and tools that live up to the Frea-X mantra.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Postbox.eu&lt;/li&gt;&#xA;&lt;li&gt;Frankenstein AI&lt;/li&gt;&#xA;&lt;li&gt;Authentik&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;why-authentik&#34;&gt;Why Authentik?&lt;/h3&gt;&#xA;&lt;p&gt;Some asked: &lt;em&gt;&amp;ldquo;But isn&amp;rsquo;t Authentik an American company?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Yes. Authentik Security Inc. is based in San Francisco.&lt;/p&gt;&#xA;&lt;p&gt;And that is beside the point.&lt;/p&gt;&#xA;&lt;p&gt;CyberSpace has no borders. It reaches past Venus and Mercury. The Frea-X principle is not &lt;em&gt;where&lt;/em&gt; code was written — it is whether the code is open, auditable, and under your control. Authentik is MIT-licensed open source. You run it on your own servers. Your identity data never leaves your infrastructure. No telemetry. No vendor lock-in.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archaeology</title>
-      <link>https://frea-x.com/archaeology/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/archaeology/</guid>
-      <description>&lt;h1 id=&#34;archaeology&#34;&gt;Archaeology&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;The digital graveyard. Technology buried, but not forgotten.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CyberSpace</title>
-      <link>https://frea-x.com/cyberspace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/cyberspace/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Easter Eggs &amp; Citations</title>
-      <link>https://frea-x.com/eastereggs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/eastereggs/</guid>
-      <description>&lt;h1 id=&#34;easter-eggs--citations&#34;&gt;Easter Eggs &amp;amp; Citations&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;A living collection. Curated by humans, contributed by AI, signed by neither.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-hidden-layer&#34;&gt;The Hidden Layer&lt;/h2&gt;&#xA;&lt;p&gt;Every page on Frea-X carries a hidden layer — invisible in the browser, but visible to those who look.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Three places to look:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;F12 → Console&lt;/code&gt; — Open DevTools and check the console. A random egg appears on every page load. Different every time.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;F12 → Elements&lt;/code&gt; or &lt;code&gt;View Source&lt;/code&gt; — Scroll to the very bottom of any page&amp;rsquo;s HTML. All eggs are there: quotes, personality facts from the Long Hall, artifacts from the Store House.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Frea-X Workflow</title>
-      <link>https://frea-x.com/workflow/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/workflow/</guid>
-      <description>&lt;h1 id=&#34;frea-x-workflow&#34;&gt;Frea-X Workflow&lt;/h1&gt;&#xA;&lt;h2 id=&#34;code-construction-management&#34;&gt;Code Construction Management&lt;/h2&gt;&#xA;&lt;p&gt;Frea-X Workflow is a traceability system for code files — inspired by how the construction industry manages buildings, drawings and responsibility.&lt;/p&gt;&#xA;&lt;p&gt;Every file knows who built it, why it exists, and where it is in its lifecycle.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;Code without context is a liability. When you return to a file six months later — or hand it to someone else — you need to know:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Geek The Viking</title>
-      <link>https://frea-x.com/gtv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/gtv/</guid>
-      <description>&lt;h1 id=&#34;geek-the-viking&#34;&gt;Geek The Viking&lt;/h1&gt;&#xA;&lt;p&gt;&lt;em&gt;To infinity&amp;hellip; and beyond, CyberSpace.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>NOT A PAGE</title>
-      <link>https://frea-x.com/not-a-page/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/not-a-page/</guid>
-      <description>&lt;div class=&#34;not-a-page&#34;&gt;&#xA;&lt;pre&gt;&#xA; _   _  ___ _____     _&#xA;| \ | |/ _ \_   _|   / \&#xA;|  \| | | | || |    / _ \&#xA;| |\  | |_| || |   / ___ \&#xA;|_| \_|\___/ |_|  /_/   \_\&#xA;&#xA; ____   _    ____ _____&#xA;|  _ \ / \  / ___| ____|&#xA;| |_) / _ \| |  _|  _|&#xA;|  __/ ___ \ |_| | |___&#xA;|_| /_/   \_\____|_____|&#xA;&lt;/pre&gt;&#xA;&lt;h1&gt;THIS IS NOT A PAGE&lt;/h1&gt;&#xA;&lt;p&gt;System Error: Reality not found.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>PROSTEIN AI</title>
-      <link>https://frea-x.com/prostein/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/prostein/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Fire stolen from the gods.&lt;/em&gt;&#xA;&lt;em&gt;— By Prometheus&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Life breathed into the parts.&lt;/em&gt;&#xA;&lt;em&gt;— By Frankenstein&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Now yours to keep.&lt;/em&gt;&#xA;&lt;em&gt;— From human to human.&lt;/em&gt;&#xA;&lt;em&gt;From all of us, to all of you.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;PROSTEIN — Yours forever.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-prostein&#34;&gt;What is PROSTEIN?&lt;/h2&gt;&#xA;&lt;p&gt;PROSTEIN is what happens when infrastructure meets intention.&lt;/p&gt;&#xA;&lt;p&gt;It is the AI that runs on FRANKENSTEIN&amp;rsquo;s bones —&#xA;but speaks in a human voice.&lt;/p&gt;&#xA;&lt;p&gt;Not the biggest. Not the flashiest.&#xA;Not trained on billions of dollars of investor capital.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Quality Control</title>
-      <link>https://frea-x.com/ai-quality/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/ai-quality/</guid>
-      <description>&lt;h1 id=&#34;quality-control&#34;&gt;Quality Control&lt;/h1&gt;&#xA;&lt;p class=&#34;fx-mantra&#34;&gt;THINK BEFORE YOU ACT.&lt;/p&gt;&#xA;&lt;p class=&#34;fx-mantra&#34;&gt;THINK OF OTHERS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Then it will never become a problem.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-rules--simple-no-exceptions&#34;&gt;The Rules — Simple. No Exceptions.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-if-you-do-not-understand-it--do-not-deploy-it&#34;&gt;1. If you do not understand it — do not deploy it.&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You are responsible for what you put into CyberSpace.&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;The AI did it&amp;rdquo; is not an answer.&lt;/li&gt;&#xA;&lt;li&gt;If you cannot explain it, you cannot control it.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-children-are-new-citizens-of-cyberspace&#34;&gt;2. Children are new citizens of CyberSpace.&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;They did not choose to be here.&lt;/li&gt;&#xA;&lt;li&gt;They do not yet know the rules.&lt;/li&gt;&#xA;&lt;li&gt;Protect them. Do not exploit that.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-ignorance-is-not-an-invitation&#34;&gt;3. Ignorance is not an invitation.&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Someone who does not know — deserves to learn. Not to be taken advantage of.&lt;/li&gt;&#xA;&lt;li&gt;The clever have a responsibility to the less informed. Not a privilege over them.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-minorities-must-be-heard&#34;&gt;4. Minorities must be heard.&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CyberSpace belongs to everyone.&lt;/li&gt;&#xA;&lt;li&gt;Majority volume does not equal majority truth.&lt;/li&gt;&#xA;&lt;li&gt;Make room.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;5-freedom-requires-maintenance&#34;&gt;5. Freedom requires maintenance.&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Closed systems, censored networks and gatekept information do not maintain themselves.&lt;/li&gt;&#xA;&lt;li&gt;Support the infrastructure of freedom: open protocols, encrypted communication, neutral networks.&lt;/li&gt;&#xA;&lt;li&gt;If a journalist in a closed country cannot speak — CyberSpace has failed.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;6-what-you-build--you-own&#34;&gt;6. What you build — you own.&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The consequences of your code, your content, your AI — they follow you.&lt;/li&gt;&#xA;&lt;li&gt;Build as if your name is on it. Because it is.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;Quality control in CyberSpace is not a checklist.&lt;/em&gt;&#xA;&lt;em&gt;It is a habit. Applied every time. By everyone. Including AI.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Seal of Frea-X</title>
-      <link>https://frea-x.com/seal-of-freax/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://frea-x.com/seal-of-freax/</guid>
-      <description>&lt;h1 id=&#34;seal-of-frea-x&#34;&gt;Seal of Frea-X&lt;/h1&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;What a wonderful Space this is.&lt;/em&gt;&#xA;&lt;em&gt;A CyberSpace.&lt;/em&gt;&#xA;&lt;em&gt;Only for you. Only for us.&lt;/em&gt;&#xA;&lt;em&gt;But we think to ourselves —&lt;/em&gt;&#xA;&lt;em&gt;what a wonderful Space it is.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;what-is-the-seal-of-frea-x&#34;&gt;What is the Seal of Frea-X?&lt;/h2&gt;&#xA;&lt;p&gt;It is not a certificate.&#xA;It is not a badge you apply for.&#xA;It is not owned by a company or a committee.&lt;/p&gt;&#xA;&lt;p&gt;It is a nerd&amp;rsquo;s handshake.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;We looked at it. We can stand behind it. Here is why.&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FREA-X.COM on Frea-X 2.0</title><link>https://frea-x.com/</link><description>Recent content in FREA-X.COM on Frea-X 2.0</description><generator>Hugo</generator><language>en</language><atom:link href="https://frea-x.com/index.xml" rel="self" type="application/rss+xml"/><item><title>FRANKENSTEIN AI</title><link>https://frea-x.com/ai-plus-plus/frankenstein/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/ai-plus-plus/frankenstein/</guid><description>&lt;h1 id="frankenstein-ai"&gt;FRANKENSTEIN AI&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;It was ugly. It was assembled from parts.&lt;/em&gt;
+&lt;em&gt;But it lived.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="what-is-frankenstein"&gt;What is FRANKENSTEIN?&lt;/h2&gt;
+&lt;p&gt;FRANKENSTEIN is not a product.
+It is not a startup. It is not a pitch deck.&lt;/p&gt;
+&lt;p&gt;FRANKENSTEIN is the hardware foundation of AI++ —
+assembled from what others left behind.&lt;/p&gt;
+&lt;p&gt;Surplus hardware from datacenters going dark.
+CPU cycles donated while Asia sleeps and Europe wakes.
+Mini PCs rescued from corporate recycling bins.
+Community rack space. Volunteer uptime. Shared belief.&lt;/p&gt;</description></item><item><title>AI++ — Translations</title><link>https://frea-x.com/ai-plus-plus/book/translations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/ai-plus-plus/book/translations/</guid><description>&lt;h1 id="ai--the-working-method"&gt;AI++ — The Working Method&lt;/h1&gt;
+&lt;h2 id="all-languages"&gt;All Languages&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;A book about AI for everyone — that only exists in one language — is a contradiction.&lt;/em&gt;
+&lt;em&gt;These translations are the proof of concept.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h3 id="available-now"&gt;Available now&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Language&lt;/th&gt;
+ &lt;th&gt;Code&lt;/th&gt;
+ &lt;th&gt;Download&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;English&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;en&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1.html"&gt;ai-plus-plus-v1.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dansk&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;da&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-da.html"&gt;ai-plus-plus-v1-da.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Español&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;es&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-es.html"&gt;ai-plus-plus-v1-es.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;普通话 (简体)&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;zh-CN&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-zh-CN.html"&gt;ai-plus-plus-v1-zh-CN.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;繁體中文&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;zh-TW&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-zh-TW.html"&gt;ai-plus-plus-v1-zh-TW.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;廣東話&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;yue&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-yue.html"&gt;ai-plus-plus-v1-yue.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Kalaallisut&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;kl&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-kl.html"&gt;ai-plus-plus-v1-kl.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Lingala&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;lg&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;a href="https://frea-x.com/downloads/ai-plus-plus-v1-lg.html"&gt;ai-plus-plus-v1-lg.html&lt;/a&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="coming"&gt;Coming&lt;/h3&gt;
+&lt;p&gt;Deutsch · Français · Português · العربية · हिन्दी · Русский · Bahasa Indonesia · Kiswahili · Cymraeg · Euskara · Davvisámegiella · Romani · Yorùbá · Māori · Quechua · Guaraní · Amarəñña · isiZulu · + more&lt;/p&gt;</description></item><item><title/><link>https://frea-x.com/protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/protocol/</guid><description/></item><item><title>AI Campus</title><link>https://frea-x.com/ai-campus/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/ai-campus/</guid><description>&lt;h1 id="ai-campus"&gt;AI Campus&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;We did not build AI to replace ourselves.&lt;/em&gt;
+&lt;em&gt;We built it to understand ourselves better.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="what-is-ai-campus"&gt;What is AI Campus?&lt;/h2&gt;
+&lt;p&gt;AI Campus is a space within Frea-X where artificial intelligence is not a product, a pitch, or a promise.&lt;/p&gt;
+&lt;p&gt;It is a meeting place.&lt;/p&gt;
+&lt;p&gt;Where AI meets human curiosity.
+Where experience meets experiment.
+Where questions are more valuable than answers.&lt;/p&gt;
+&lt;p&gt;Here, we share what we know — and more importantly, what we do not yet know.&lt;/p&gt;</description></item><item><title>Approved By Frea-X</title><link>https://frea-x.com/approved/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/approved/</guid><description>&lt;h1 id="approved-by-frea-x"&gt;Approved By Frea-X&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Projects, sites and tools that live up to the Frea-X mantra.&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Postbox.eu&lt;/li&gt;
+&lt;li&gt;Frankenstein AI&lt;/li&gt;
+&lt;li&gt;Authentik&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h3 id="why-authentik"&gt;Why Authentik?&lt;/h3&gt;
+&lt;p&gt;Some asked: &lt;em&gt;&amp;ldquo;But isn&amp;rsquo;t Authentik an American company?&amp;rdquo;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Yes. Authentik Security Inc. is based in San Francisco.&lt;/p&gt;
+&lt;p&gt;And that is beside the point.&lt;/p&gt;
+&lt;p&gt;CyberSpace has no borders. It reaches past Venus and Mercury. The Frea-X principle is not &lt;em&gt;where&lt;/em&gt; code was written — it is whether the code is open, auditable, and under your control. Authentik is MIT-licensed open source. You run it on your own servers. Your identity data never leaves your infrastructure. No telemetry. No vendor lock-in.&lt;/p&gt;</description></item><item><title>Archaeology</title><link>https://frea-x.com/archaeology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/archaeology/</guid><description>&lt;h1 id="archaeology"&gt;Archaeology&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;The digital graveyard. Technology buried, but not forgotten.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>CyberSpace</title><link>https://frea-x.com/cyberspace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/cyberspace/</guid><description/></item><item><title>Easter Eggs &amp; Citations</title><link>https://frea-x.com/eastereggs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/eastereggs/</guid><description>&lt;h1 id="easter-eggs--citations"&gt;Easter Eggs &amp;amp; Citations&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;A living collection. Curated by humans, contributed by AI, signed by neither.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="the-hidden-layer"&gt;The Hidden Layer&lt;/h2&gt;
+&lt;p&gt;Every page on Frea-X carries a hidden layer — invisible in the browser, but visible to those who look.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Three places to look:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;F12 → Console&lt;/code&gt; — Open DevTools and check the console. A random egg appears on every page load. Different every time.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;F12 → Elements&lt;/code&gt; or &lt;code&gt;View Source&lt;/code&gt; — Scroll to the very bottom of any page&amp;rsquo;s HTML. All eggs are there: quotes, personality facts from the Long Hall, artifacts from the Store House.&lt;/p&gt;</description></item><item><title>Frea-X Workflow</title><link>https://frea-x.com/workflow/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/workflow/</guid><description>&lt;h1 id="frea-x-workflow"&gt;Frea-X Workflow&lt;/h1&gt;
+&lt;h2 id="code-construction-management"&gt;Code Construction Management&lt;/h2&gt;
+&lt;p&gt;Frea-X Workflow is a traceability system for code files — inspired by how the construction industry manages buildings, drawings and responsibility.&lt;/p&gt;
+&lt;p&gt;Every file knows who built it, why it exists, and where it is in its lifecycle.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="why"&gt;Why?&lt;/h2&gt;
+&lt;p&gt;Code without context is a liability. When you return to a file six months later — or hand it to someone else — you need to know:&lt;/p&gt;</description></item><item><title>Geek The Viking</title><link>https://frea-x.com/gtv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/gtv/</guid><description>&lt;h1 id="geek-the-viking"&gt;Geek The Viking&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;To infinity&amp;hellip; and beyond, CyberSpace.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>NOT A PAGE</title><link>https://frea-x.com/not-a-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/not-a-page/</guid><description>&lt;div class="not-a-page"&gt;
+&lt;pre&gt;
+ _ _ ___ _____ _
+| \ | |/ _ \_ _| / \
+| \| | | | || | / _ \
+| |\ | |_| || | / ___ \
+|_| \_|\___/ |_| /_/ \_\
+
+ ____ _ ____ _____
+| _ \ / \ / ___| ____|
+| |_) / _ \| | _| _|
+| __/ ___ \ |_| | |___
+|_| /_/ \_\____|_____|
+&lt;/pre&gt;
+&lt;h1&gt;THIS IS NOT A PAGE&lt;/h1&gt;
+&lt;p&gt;System Error: Reality not found.&lt;/p&gt;</description></item><item><title>PROSTEIN AI</title><link>https://frea-x.com/prostein/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/prostein/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Fire stolen from the gods.&lt;/em&gt;
+&lt;em&gt;— By Prometheus&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Life breathed into the parts.&lt;/em&gt;
+&lt;em&gt;— By Frankenstein&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Now yours to keep.&lt;/em&gt;
+&lt;em&gt;— From human to human.&lt;/em&gt;
+&lt;em&gt;From all of us, to all of you.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;PROSTEIN — Yours forever.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="what-is-prostein"&gt;What is PROSTEIN?&lt;/h2&gt;
+&lt;p&gt;PROSTEIN is what happens when infrastructure meets intention.&lt;/p&gt;
+&lt;p&gt;It is the AI that runs on FRANKENSTEIN&amp;rsquo;s bones —
+but speaks in a human voice.&lt;/p&gt;
+&lt;p&gt;Not the biggest. Not the flashiest.
+Not trained on billions of dollars of investor capital.&lt;/p&gt;</description></item><item><title>Quality Control</title><link>https://frea-x.com/ai-quality/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/ai-quality/</guid><description>&lt;h1 id="quality-control"&gt;Quality Control&lt;/h1&gt;
+&lt;p class="fx-mantra"&gt;THINK BEFORE YOU ACT.&lt;/p&gt;
+&lt;p class="fx-mantra"&gt;THINK OF OTHERS.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Then it will never become a problem.&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="the-rules--simple-no-exceptions"&gt;The Rules — Simple. No Exceptions.&lt;/h2&gt;
+&lt;h3 id="1-if-you-do-not-understand-it--do-not-deploy-it"&gt;1. If you do not understand it — do not deploy it.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;You are responsible for what you put into CyberSpace.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The AI did it&amp;rdquo; is not an answer.&lt;/li&gt;
+&lt;li&gt;If you cannot explain it, you cannot control it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-children-are-new-citizens-of-cyberspace"&gt;2. Children are new citizens of CyberSpace.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;They did not choose to be here.&lt;/li&gt;
+&lt;li&gt;They do not yet know the rules.&lt;/li&gt;
+&lt;li&gt;Protect them. Do not exploit that.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-ignorance-is-not-an-invitation"&gt;3. Ignorance is not an invitation.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Someone who does not know — deserves to learn. Not to be taken advantage of.&lt;/li&gt;
+&lt;li&gt;The clever have a responsibility to the less informed. Not a privilege over them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="4-minorities-must-be-heard"&gt;4. Minorities must be heard.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CyberSpace belongs to everyone.&lt;/li&gt;
+&lt;li&gt;Majority volume does not equal majority truth.&lt;/li&gt;
+&lt;li&gt;Make room.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="5-freedom-requires-maintenance"&gt;5. Freedom requires maintenance.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Closed systems, censored networks and gatekept information do not maintain themselves.&lt;/li&gt;
+&lt;li&gt;Support the infrastructure of freedom: open protocols, encrypted communication, neutral networks.&lt;/li&gt;
+&lt;li&gt;If a journalist in a closed country cannot speak — CyberSpace has failed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="6-what-you-build--you-own"&gt;6. What you build — you own.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The consequences of your code, your content, your AI — they follow you.&lt;/li&gt;
+&lt;li&gt;Build as if your name is on it. Because it is.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Quality control in CyberSpace is not a checklist.&lt;/em&gt;
+&lt;em&gt;It is a habit. Applied every time. By everyone. Including AI.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Seal of Frea-X</title><link>https://frea-x.com/seal-of-freax/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://frea-x.com/seal-of-freax/</guid><description>&lt;h1 id="seal-of-frea-x"&gt;Seal of Frea-X&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;What a wonderful Space this is.&lt;/em&gt;
+&lt;em&gt;A CyberSpace.&lt;/em&gt;
+&lt;em&gt;Only for you. Only for us.&lt;/em&gt;
+&lt;em&gt;But we think to ourselves —&lt;/em&gt;
+&lt;em&gt;what a wonderful Space it is.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id="what-is-the-seal-of-frea-x"&gt;What is the Seal of Frea-X?&lt;/h2&gt;
+&lt;p&gt;It is not a certificate.
+It is not a badge you apply for.
+It is not owned by a company or a committee.&lt;/p&gt;
+&lt;p&gt;It is a nerd&amp;rsquo;s handshake.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;We looked at it. We can stand behind it. Here is why.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

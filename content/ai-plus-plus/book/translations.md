@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "AI++ — Translations"
 description: "The book in every language. Including the ones no one else bothers with."
 weight: 200

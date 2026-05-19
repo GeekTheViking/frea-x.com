@@ -92,20 +92,6 @@ That foundation has a name.
 
 → [FRANKENSTEIN AI](/ai-plus-plus/frankenstein/) — The hardware layer. Where it all begins.
 
----
-
-## The Book
-
-AI++ — The Working Method.
-
-Written by Jan Omel Nielsen, with Claude Sonnet 4.6.
-A description of the method. The family. The philosophy. The practice.
-
-→ [Read the book](/ai-plus-plus/book/) — All nine chapters, online.
-
-→ [Download as PDF](/downloads/ai-plus-plus-v1.html) — Open in browser, print to PDF.
-
-*Version 1.0. Version 1.1 will include responses from the PROSTEIN AI Family.*
 
 ---
 

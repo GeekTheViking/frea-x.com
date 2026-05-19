@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "AI++ — The Working Method"
 description: "The book. Version 1. By Jan Omel Nielsen with the PROSTEIN AI Family."
 weight: 10

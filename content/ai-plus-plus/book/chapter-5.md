@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "5. FRANKENSTEIN — The Foundation"
 description: "The hardware philosophy. Why assembled beats owned."
 weight: 50

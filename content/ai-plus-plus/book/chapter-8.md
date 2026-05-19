@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "8. Getting Started"
 description: "Your first AI++ session — practical first steps"
 weight: 80

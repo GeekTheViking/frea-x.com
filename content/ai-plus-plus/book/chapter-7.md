@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "7. Quality Control"
 description: "The ethics of AI++ — six rules, no exceptions"
 weight: 70

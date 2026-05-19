@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "2. The Spectrum"
 description: "From Bot to AI++ — a map of every layer"
 weight: 20

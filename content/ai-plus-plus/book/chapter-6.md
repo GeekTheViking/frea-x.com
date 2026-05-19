@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "6. PROSTEIN — The Vision"
 description: "From Prometheus to PROSTEIN — AI from human to human"
 weight: 60

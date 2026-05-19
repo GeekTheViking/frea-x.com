@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "9. An Invitation"
 description: "For the next version — a letter to the PROSTEIN AI Family"
 weight: 90

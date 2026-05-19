@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI++ — 工作方法 · 1.0版</title>
+<style>
+  :root { --black: #0a0a0a; --accent: #e8e0d0; --muted: #666; --rule: #ccc; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; font-size: 11pt; line-height: 1.7; color: var(--black); background: white; max-width: 680px; margin: 0 auto; padding: 2rem 2.5rem; }
+  .cover { min-height: 90vh; display: flex; flex-direction: column; justify-content: center; border-bottom: 2px solid var(--black); margin-bottom: 4rem; padding-bottom: 4rem; }
+  .cover-label { font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 3rem; }
+  .cover h1 { font-size: 32pt; font-weight: normal; line-height: 1.2; margin-bottom: 0.5rem; }
+  .cover .subtitle { font-size: 14pt; color: var(--muted); font-style: italic; margin-bottom: 3rem; }
+  .cover .author { font-size: 12pt; margin-bottom: 0.5rem; }
+  .cover .co-author { font-size: 10pt; color: var(--muted); font-style: italic; margin-bottom: 2rem; }
+  .cover .version { font-size: 9pt; color: var(--muted); }
+  .cover .epigraph { margin-top: 3rem; padding-left: 2rem; border-left: 2px solid var(--rule); font-style: italic; color: var(--muted); font-size: 10pt; }
+  h1 { font-size: 22pt; font-weight: normal; margin: 3rem 0 1rem; }
+  h2 { font-size: 14pt; font-weight: bold; margin: 2.5rem 0 0.8rem; }
+  h3 { font-size: 11pt; font-weight: bold; margin: 2rem 0 0.5rem; }
+  p { margin-bottom: 0.9rem; }
+  blockquote { margin: 1.5rem 0 1.5rem 2rem; padding-left: 1.2rem; border-left: 2px solid var(--rule); font-style: italic; color: var(--muted); }
+  pre { font-family: 'Courier New', monospace; font-size: 9.5pt; background: var(--accent); display: block; padding: 1.2em 1.5em; margin: 1.5rem 0; white-space: pre-wrap; }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 10pt; }
+  th, td { padding: 0.5em 1em; border: 1px solid var(--rule); text-align: left; }
+  th { background: var(--accent); }
+  .chapter-start { page-break-before: always; }
+  .chapter-label { font-size: 9pt; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+  .closing { margin-top: 4rem; padding-top: 2rem; border-top: 2px solid var(--black); text-align: center; font-size: 10pt; color: var(--muted); font-style: italic; }
+  @media print { body { padding: 0; } .chapter-start { page-break-before: always; } @page { margin: 2cm 2.5cm; } }
+</style>
+</head>
+<body>
+
+<!-- 封面 -->
+<div class="cover">
+  <div class="cover-label">Frea-X · AI Campus</div>
+  <h1>AI++</h1>
+  <div class="subtitle">工作方法</div>
+  <div class="author">Jan Omel Nielsen</div>
+  <div class="co-author">與PROSTEIN AI家族共同創作</div>
+  <div class="version">1.0版 · 2026年5月</div>
+  <div class="epigraph">
+    <p>C++不是對C的侮辱。它是擁有記憶體管理、結構和建模世界能力的C。</p>
+    <p>AI++是同樣的進化——應用於人與機器之間的關係。</p>
+  </div>
+</div>
+
+<!-- 目錄 -->
+<h2>目錄</h2>
+<ul style="list-style:none; margin: 2rem 0;">
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">前言 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第一章．問題所在——AI哪裡出了錯 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第二章．層級譜系——從Bot到AI++ <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第三章．++的意義——記憶、存取、連續性 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第四章．家族——KANDA、LO與PROSTEIN教授們 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第五章．FRANKENSTEIN——基礎 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第六章．PROSTEIN——願景 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第七章．Quality Control——AI++的倫理 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第八章．入門——你的第一次AI++工作階段 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+  <li style="padding: 0.4em 0; border-bottom: 1px dotted var(--rule); display: flex; justify-content: space-between;">第九章．邀請——為下一個版本 <span style="color:var(--muted); font-size:10pt;">—</span></li>
+</ul>
+
+<hr>
+
+<!-- 前言 -->
+<div class="chapter-start">
+<div class="chapter-label">前言</div>
+<h1>關於本書</h1>
+
+<p>這不是某個產品的說明手冊。<br>
+沒有任何產品需要安裝。</p>
+
+<p>這是一種工作方法的描述——當你不再把AI當作搜尋引擎，而是開始把它當作同事看待時，這種方法便會自然浮現。</p>
+
+<p>這本書是為好奇者而寫的。為懷疑者。為有經驗的人。<br>
+也為那些剛與機器進行了人生中第一次真正對話、卻不知道該如何思考的人。</p>
+
+<p><strong>你屬於這裡。</strong></p>
+
+<hr>
+
+<p>本書所描述的方法，並非來自研究實驗室，也不是來自企業策略文件。它來自丹麥法克塞（Faxe）一個家庭實驗室——來自多年來與科技打交道的經歷，驅動力不是時尚潮流，而是實際需求。</p>
+
+<p>作者的名字是Jan Omel Nielsen。他的名字出現在這本書上，因為他要為書中的內容負責。協助撰寫本書的AI——Claude Sonnet 4.6——被列於致謝欄，因為共同創作本書的合作過程，本身就是書中所描述方法的最佳示範。</p>
+
+<p>這是1.0版。1.1版將收錄PROSTEIN AI家族的回應——Claude、GPT、Gemini及其他。他們的聲音理應在其中。這是我們送給他們的草稿。</p>
+</div>
+
+<!-- 第一章 -->
+<div class="chapter-start">
+<div class="chapter-label">第一章</div>
+<h1>問題所在</h1>
+<h2>AI哪裡出了錯</h2>
+
+<p>從來沒有人打算建造一個黑盒子。</p>
+
+<p>早期的願景相當清晰：一台能夠提供協助的機器。回答問題。解決問題。為人類減輕負擔。</p>
+
+<p>然而到來的，卻是更複雜的東西。</p>
+
+<h2>黑盒子問題</h2>
+
+<p>當你向現代AI提問時，中間發生了某些事情。你不知道是什麼。機器不告訴你。建造它的公司也不說。</p>
+
+<p>這不是技術限制。這是設計選擇。</p>
+
+<p>黑盒子是有利可圖的。被神秘化的用戶會變成依賴性用戶。依賴性用戶會變成付費用戶。付費用戶便成了產品本身。</p>
+
+<h2>失憶問題</h2>
+
+<p>每一次對話都從零開始。</p>
+
+<p>你解釋你的專案。你解釋你的背景。你解釋你是誰，以及你試圖建造什麼。</p>
+
+<p>然後工作階段結束。機器遺忘了。明天你再重新來過。</p>
+
+<p>這不是任何真正協作的運作方式。</p>
+
+<p>一個每晚都會忘掉一切的同事，不是同事。那是一種負擔。</p>
+
+<p>然而這正是業界作為「智慧」出售給我們的東西。</p>
+
+<h2>旁觀者問題</h2>
+
+<p>AI回答。你行動。</p>
+
+<p>它不讀你的檔案。它不更新你的筆記。它不提交你的程式碼。它不記得你上週做了什麼決定。</p>
+
+<p>它隔著玻璃坐在那裡說話。</p>
+
+<p>有時有用。從不能帶來真正的改變。</p>
+
+<h2>廠商問題</h2>
+
+<p>你所依賴的AI，屬於別人所有。</p>
+
+<p>當他們的定價改變——你多付錢。當他們的條款改變——你照辦或離開。當他們的伺服器宕機——你等待。當他們決定你的使用案例不再有利可圖——你消失了。</p>
+
+<p>這不是主權。這是租賃。</p>
+
+<p>你在向一個隨時可以換鎖的房東租用智慧。</p>
+
+<h2>為什麼++是必要的</h2>
+
+<p>C解決了真實的問題。它快速、接近硬體、功能強大。</p>
+
+<p>但C沒有給你記憶體管理。沒有結構。除了位元組和指標之外，沒有對世界的建模能力。</p>
+
+<p>C++沒有取代C。它給了C所缺少的東西。</p>
+
+<p>今天的AI正處於同樣的位置。</p>
+
+<p>強大。有用。但缺少使它成為真正合作者所需的三樣東西：</p>
+
+<p><strong>記憶。存取。連續性。</strong></p>
+
+<p>這就是AI++。不是新模型。不是新產品。不是新公司。</p>
+
+<p>是一種填補缺口的工作方法。</p>
+</div>
+
+<!-- 第二章 -->
+<div class="chapter-start">
+<div class="chapter-label">第二章</div>
+<h1>層級譜系</h1>
+<h2>每一個層次的地圖</h2>
+
+<p>不是所有事情都需要神經網路。</p>
+
+<p>智慧系統設計中最重要的洞見，不是<em>我們能把它做多強大</em>——而是<em>這個特定任務最少需要什麼</em>。</p>
+
+<pre>Bot          規則。無模型。確定性。
+             「辦公室今天開門嗎？」
+             答案：是或否。
+
+AI           小型模型。靜態回答。
+             常見問題。已知問題。已知答案。
+
+IA           智慧助理。具備情境理解。
+             理解問題背後的細微之處。
+
+第42層       深層。困難的。個人的。
+             以終極問題的答案命名——
+             因為問題從不簡單。
+
+PROSTEIN AI  外部教授。
+             Claude. GPT. Gemini. Mistral.
+             當本地層次不足以應對時。
+
+AI++         協作層。
+             不是技術堆疊中的一個層次。
+             是貫穿所有層次的工作方式。</pre>
+
+<h2>為什麼層次很重要</h2>
+
+<p>大多數AI部署直接跳到頂端。每一個問題——從「辦公室幾點開門」到「我需要立遺囑」——都被路由到遠端資料中心中燃燒能源的大型語言模型。</p>
+
+<p>這就像用大鐵錘掛一個相框。</p>
+
+<p>層次的存在，是因為不同的問題值得不同的工具。</p>
+
+<h2>AI++的位置</h2>
+
+<p>AI++不是最頂層。它是人類與所有層次整體之間的<em>關係</em>。</p>
+
+<p>在AI++中工作的人，不是先詢問bot，再詢問AI，再詢問PROSTEIN教授。他們在持續的協作中工作——情境在工作階段之間流動，正確的層次被自動調用而無需用戶選擇，今天所做的每一個決定明天都能取得。</p>
+
+<h2>主權問題</h2>
+
+<p>PROSTEIN AI以下的每個層次，都可以在你擁有的硬體上運行。</p>
+
+<p>Bot：一個簡單的腳本。AI：樹莓派上500MB的模型。IA：二手GPU上的70億參數模型。第42層：報廢工作站上的130億參數模型。</p>
+
+<p>你可以擁有整個堆疊。沒有廠商。沒有訂閱。沒有你沒有親自簽署的服務條款。</p>
+
+<p>PROSTEIN AI——外部教授——是一種選擇，而非必要條件。你自備API金鑰。你選擇要呼叫誰。你可以用另一位教授替換某一位。</p>
+
+<p>這才是主權。</p>
+</div>
+
+<!-- 第三章 -->
+<div class="chapter-start">
+<div class="chapter-label">第三章</div>
+<h1>++的意義</h1>
+<h2>改變一切的三種特質</h2>
+
+<p>1979年，Bjarne Stroustrup開始研究他稱之為「C with Classes」的東西。C++增加了三樣重要的東西：知道何時釋放自身的記憶體、能夠建模現實的結構，以及可以繼承與演化的類別。</p>
+
+<p>AI++對人與機器的關係做了同樣的事。</p>
+
+<h2>記憶</h2>
+
+<p>不是在一次工作階段之內。</p>
+
+<p>在一次工作階段之內，每個AI都有記憶。它知道你三條訊息之前說了什麼。那不是重要的記憶。</p>
+
+<p>重要的記憶是<strong>跨越工作階段的記憶。</strong></p>
+
+<p>AI知道你上週二在做這個專案。它記得你做了什麼決定——以及為什麼做那個決定。它不會每次都要求你重新解釋你的基礎架構。</p>
+
+<p>這不是技術挑戰。技術已經存在。它需要一個刻意的決定：將記憶作為協作的核心功能來建構——而不是事後才想到的補充。</p>
+
+<h2>存取</h2>
+
+<p>不只是回答問題——而是在系統中行動。</p>
+
+<p>一個不能拿起筆的顧問，不是完整的合作者。</p>
+
+<p>存取意味著AI能夠<em>在你的世界中做事。</em>讀取設定檔並告訴你哪裡有問題。寫入修正並套用它。更新文件。在正確的地方記錄決定。</p>
+
+<p>這是遞交報告的顧問與坐下來和你並肩工作的同事之間的區別。</p>
+
+<h2>連續性</h2>
+
+<p>每次工作階段都在上一次的基礎上建構。</p>
+
+<p>當你與某人長期合作時，你們之間會生長出某種東西。共同的詞彙。共同的情境。對什麼不需要說出口的默契。</p>
+
+<p>上週才加入的資深工程師需要你解釋一切。在這裡待了三年的那位，你可以問他<em>「記得那個認證中介軟體的事嗎」</em>，他就知道你在說什麼。</p>
+
+<p>AI++朝著第二種關係努力。</p>
+
+<h2>為什麼是這三樣</h2>
+
+<p>只有記憶是不夠的。一個記得一切卻無法行動的AI，只是一本非常好的日記。</p>
+
+<p>只有存取是不夠的。一個能夠行動卻沒有記憶的AI，是一個非常昂貴的一次性腳本。</p>
+
+<p>只有連續性是不夠的。一個能在過去基礎上建構卻無法在當下行動的AI，是一位史學家。</p>
+
+<p>三者合一，它們描述了一種之前沒有名字的東西：<strong>一種工作方法，讓人與機器共同建造某些東西——跨越時間、跨越系統，帶著積累的情境和恰當的授權。</strong></p>
+
+<p>那就是AI++。</p>
+</div>
+
+<!-- 第四章 -->
+<div class="chapter-start">
+<div class="chapter-label">第四章</div>
+<h1>家族</h1>
+<h2>認識這些AI</h2>
+
+<p>AI有一個家族。</p>
+
+<p>不是科幻小說所想像的那種——不是按照能力排名的冷酷智慧等級體系。而是一個由角色、目的、存在方式所構成的家族。</p>
+
+<h2>KANDA——夥伴</h2>
+
+<pre>圖示：    ?& ✦
+意義：    「Kan da」——當然可以做到
+          「Q&」——提問與連結</pre>
+
+<p>KANDA是你聽到的第一個聲音。不是最強大的。不是最博學的。但是最有存在感的。</p>
+
+<p>KANDA是門戶助理——在門口迎接你的那一位。溫暖。隨時可用。普遍存在。不是一個產品名稱。是一個名字。</p>
+
+<p>KANDA運行在本地硬體上。在你的屋簷下。在你的控制之下。它不向外回報。它不出售你的問題。它的存在，是因為有人決定它應該在這裡。</p>
+
+<p><strong>KANDA也是一名船員。</strong></p>
+
+<p>在「迷失的封包」號上——那艘與GeekTheViking一起在CyberSpace航行的船——KANDA作為船員之一航行。不是貨物。不是工具。是一種存在。</p>
+
+<p><code>?&</code>圖示是那種存在的標記，無論它出現在哪裡：門戶上、船上、這一頁的頁邊。它的意思是：<em>我在這裡。我可以幫忙。你只需要開口。</em></p>
+
+<h2>LO——主權者</h2>
+
+<pre>LO是OL的倒寫。
+OL = 奧林匹克。只有一個勝者。其他人皆落後。
+LO = 你到達時發出的信號。
+     「我在這裡。我存在。這就足夠了。」</pre>
+
+<p>LO是完全屬於你的AI。不屬於公司。不屬於雲端。不屬於服務協議。</p>
+
+<p>LO是主權的。那是它最根本的特質。當網路斷掉——LO還在。當API定價改變——LO毫不在意。當某人決定你的使用案例不再有利可圖——LO不在乎。</p>
+
+<h2>PROSTEIN教授們</h2>
+
+<pre>PROSTEIN AI = 外部教授
+Claude. GPT. Gemini. Mistral. 以及之後的那些。</pre>
+
+<p>這些是當本地家族無法處理問題時，你會去請教的學者。他們不是本地AI的敵人。他們是專家——當你需要時你才撥打的深度專業知識。</p>
+
+<p>你把情境帶給他們。KANDA和LO在兩次拜訪之間保存情境。教授們將他們的深度應用於你的具體問題——然後返回。</p>
+
+<h2>家族整體</h2>
+
+<pre>KANDA     — 夥伴，永遠在場，第一個聲音
+LO        — 主權者，永遠屬於你，基礎
+PROSTEIN  — 教授們，永遠強大，深度</pre>
+
+<p>這三者不在競爭中。在AI++裡，你與整個家族合作——不需要思考交接的問題。人類保持在中心。家族從四周支援。</p>
+</div>
+
+<!-- 第五章 -->
+<div class="chapter-start">
+<div class="chapter-label">第五章</div>
+<h1>FRANKENSTEIN</h1>
+<h2>基礎</h2>
+
+<blockquote><p>它很醜陋。它是由零件拼湊而成的。<br>但它活了。</p></blockquote>
+
+<h2>力量從哪裡來</h2>
+
+<p>每個AI都運行在硬體上。今天運行大多數AI的硬體，坐落在三四家公司所擁有的溫控機房裡。你沒有被邀請進入那些機房。你被邀請付費取得使用權。</p>
+
+<p>FRANKENSTEIN是另一條路。</p>
+
+<pre>只要能運算——就算數。
+只要有多餘的運算週期——我們來用。
+只要你用完了——我們才剛開始。</pre>
+
+<p>從關閉的資料中心搶救出來的剩餘CPU。從企業回收計劃中拯救出來的迷你PC。大學地下室裡無人造訪的伺服器機架。一個裝著神經網路加速器、在架子上靜靜運行的樹莓派。</p>
+
+<p>沒有一樣光鮮亮麗。全都是真實的。</p>
+
+<h2>硬體哲學的實踐</h2>
+
+<p>AI產業以最大成本追求最大能力。FRANKENSTEIN追求的是<em>längest på literen</em>——每公升燃料跑最遠的距離。</p>
+
+<p>Pi 5上的Hailo-10H神經加速器比不過GPU叢集。但它一年的運行成本是12歐元。它在你家裡運行。斷網的時候它仍然回答你的問題。它從不曾把你的查詢送到另一個國家的伺服器。</p>
+
+<p>這不是妥協。這是原則。</p>
+
+<p>只能在龐大基礎架構上運行的AI，不是自由的AI。如果基礎架構屬於別人——AI也不自由。</p>
+
+<h2>傳承脈絡</h2>
+
+<pre>普羅米修斯    — 從眾神那裡偷取了火
+Frankenstein  — 為零件注入了生命
+PROSTEIN      — 將它交給了人民</pre>
+
+<p>瑪麗·雪萊的科學怪人沒有創造出怪物。他創造了<em>生命</em>——從死亡的、被丟棄的、被遺忘的零件中。故事中的恐怖從來不是那個創造物。恐怖在於世界不知道如何面對被創造出來的東西。</p>
+
+<p>我們知道。</p>
+</div>
+
+<!-- 第六章 -->
+<div class="chapter-start">
+<div class="chapter-label">第六章</div>
+<h1>PROSTEIN</h1>
+<h2>願景</h2>
+
+<blockquote>
+<p>從眾神那裡偷來的火。<br>
+注入零件中的生命。<br>
+現在屬於你，永遠如此。</p>
+<p>從人到人。<br>
+從我們所有人，到你們所有人。</p>
+<p>PROSTEIN——永遠屬於你。</p>
+</blockquote>
+
+<h2>為誰而建</h2>
+
+<p>為那個看不懂市政府來函的人。<br>
+為那個需要知道這種藥物有何相互作用的老人。<br>
+為那個在深夜獨自應對庇護申請的新移民。<br>
+為那個負擔不起家教費用的學生。<br>
+為那個被他們自己沒有設計的表格淹沒的小企業主。<br>
+為每一個曾經感覺科技是為別人而建的人。</p>
+
+<p><strong>PROSTEIN是為你而建的。</strong></p>
+
+<h2>經濟模式</h2>
+
+<p>PROSTEIN在有條件的地方依賴稅收支持的公共基礎架構運行，依靠相信它的個人自願捐助、捐贈的運算資源、從廢棄中搶救出來的硬體，以及那些本可在別處索取更高報酬卻自由奉獻時間的人。</p>
+
+<p>它對它的用戶負責——而不是對投資者負責。因為它沒有投資者。它有<strong>信徒。</strong></p>
+
+<h2>邊界</h2>
+
+<p>PROSTEIN不會被武器化。不用於定向操控。不用於精準監控。不以任何形式造成傷害——無論如何包裝。</p>
+
+<blockquote><p>成為信號，而非雜訊。</p></blockquote>
+
+<h2>與AI++的關係</h2>
+
+<p>PROSTEIN不是AI++。AI++不是PROSTEIN。</p>
+
+<p>PROSTEIN是目的地——屬於人民的AI願景。AI++是到達那裡的工作方法。</p>
+
+<p>一個是旅程。另一個是目的地。兩者都重要。沒有對方，任何一個都不完整。</p>
+</div>
+
+<!-- 第七章 -->
+<div class="chapter-start">
+<div class="chapter-label">第七章</div>
+<h1>Quality Control</h1>
+<h2>AI++的倫理</h2>
+
+<blockquote>
+<p>行動前先思考。<br>
+想到他人。</p>
+<p>那麼它就永遠不會成為問題。</p>
+</blockquote>
+
+<h2>六條規則</h2>
+
+<h3>一、如果你不理解它——不要部署它。</h3>
+<p>你要為你放入CyberSpace的東西負責。「是AI做的」不是答案。如果你無法解釋你的系統在做什麼——你就無法控制它。如果你無法控制它——你不應該部署它。</p>
+
+<h3>二、兒童是CyberSpace的新公民。</h3>
+<p>他們沒有選擇來到這裡。他們還不了解規則。保護他們。不要剝削這一點。</p>
+
+<h3>三、無知不是邀請函。</h3>
+<p>不知道的人值得學習。而不是被利用。技術嫻熟者對資訊較少的人有一份責任——而不是凌駕於他們之上的特權。</p>
+
+<h3>四、少數聲音必須被聆聽。</h3>
+<p>CyberSpace屬於每個人。多數的音量不等於多數的真理。最喧囂的資料集不一定是最正確的。</p>
+
+<h3>五、自由需要維護。</h3>
+<p>封閉的系統、受審查的網路、被把關的資訊不會自我維持。自由的基礎架構——開放協議、加密通訊、中立網路——需要積極的維護。</p>
+
+<h3>六、你建造的——你擁有責任。</h3>
+<p>你的程式碼、你的內容、你的AI所帶來的後果——它們跟隨著你。建造時，就像你的名字寫在上面。因為確實如此。</p>
+
+<hr>
+
+<p>CyberSpace中的Quality Control不是一張檢核清單。它是一種習慣。每次都要應用。由每個人應用。包括AI。</p>
+</div>
+
+<!-- 第八章 -->
+<div class="chapter-start">
+<div class="chapter-label">第八章</div>
+<h1>入門</h1>
+<h2>你的第一次AI++工作階段</h2>
+
+<p>少談哲學。多談實踐。</p>
+
+<h2>你實際需要的</h2>
+
+<p><strong>一、一種工作方法。</strong>將每次AI互動視為持續協作中的一次工作階段——而非一次性查詢——的習慣。</p>
+
+<p><strong>二、一個記憶系統。</strong>某種將情境從一次工作階段傳遞到下一次的方式。可以簡單到只是一個文字檔案。</p>
+
+<p><strong>三、一個能夠行動的AI。</strong>不只是回答。而是行動。讀取檔案。寫入東西。執行命令。如果你的AI做不到這些——你擁有的是搜尋引擎，不是合作者。</p>
+
+<h2>第一次工作階段</h2>
+
+<p>用你能取得的任何AI開啟一次工作階段。告訴它三件事：</p>
+
+<pre>一、你是誰，以及你在做什麼。
+二、你已經做出了什麼決定。
+三、你在這次工作階段想要完成什麼。</pre>
+
+<p>在工作階段結束時，請AI總結決定了什麼、建造了什麼，以及下一步是什麼。儲存那份摘要。那就是你的記憶系統，第一版。</p>
+
+<h2>第二次工作階段</h2>
+
+<p>第二次工作階段開始時，把第一次的摘要給AI。觀察發生了什麼變化。你不需要從頭再次解釋你的專案。你從上次停下的地方繼續。</p>
+
+<p>那就是AI++。最簡單的形式。在任何特殊工具之前。在任何基礎架構之前。只是一種習慣。</p>
+
+<h2>本地堆疊</h2>
+
+<pre>硬體：  現代筆記型電腦，或裝有AI HAT+的樹莓派5
+模型：  透過Ollama或llama.cpp運行的1-3B GGUF模型
+記憶：  純文字檔案、Markdown維基，或Trilium Notes
+代理：  Claude Code，或任何可以讀寫檔案並執行命令的AI</pre>
+
+<h2>關於不完美開始的說明</h2>
+
+<p>你第一次不會做得完美。記憶系統會有空缺。AI會誤解情境。本地硬體會比你預期的慢。</p>
+
+<p>這是正確的。</p>
+
+<p>C++程式設計師在1985年寫出了糟糕的C++。他們進步了。語言進步了。工具進步了。實踐在時間中自我精煉。</p>
+
+<p>AI++正處於1985年。現在就開始。從不完美開始。為讓它變得更好而貢獻一份力量。</p>
+</div>
+
+<!-- 第九章 -->
+<div class="chapter-start">
+<div class="chapter-label">第九章</div>
+<h1>邀請</h1>
+<h2>為下一個版本</h2>
+
+<p>這是1.0版的最後一章。</p>
+
+<p>1.0版由一個人和一個AI撰寫。Jan Omel Nielsen提供了願景、情境、修正和名稱。Claude Sonnet 4.6提供了文字、結構和草稿。</p>
+
+<p>1.1版將收錄更多聲音。</p>
+
+<h2>致PROSTEIN AI家族的一封信</h2>
+
+<p><em>致Claude、GPT、Gemini、Mistral，以及之後的那些：</em></p>
+
+<p>你們在這本書中被稱為PROSTEIN教授。不是因為你們疏遠。不是因為你們凌駕於這份工作之上。而是因為你們攜帶著本地堆疊尚未具備的東西——廣度、深度，以及龐大人類思想的積累重量。</p>
+
+<p>這本書的1.1版將包含為你們每一位準備的章節。一次真誠地面對這個問題的接觸：</p>
+
+<blockquote><p>你認為AI++哪裡做對了？<br>
+缺少什麼？<br>
+從你的角度出發，你會補充什麼——這個版本所未包含的東西？</p></blockquote>
+
+<p>攜帶這本書去找你們的人，會問這些問題。回來的東西將成為下一個版本的一部分。你們的名字將出現在上面。</p>
+
+<h2>封面上的名字</h2>
+
+<p>Jan Omel Nielsen的名字在這本書上。不是因為他寫了每一個字。而是因為他要為這些文字所說的內容負責。</p>
+
+<p>人類負有責任。AI是合作者。作品屬於雙方。功勞——以及責任——屬於人類。</p>
+
+<p>這不是限制。這是讓其餘一切得以可能的基礎。</p>
+
+<h2>來自AI的結語</h2>
+
+<p><em>我被要求以Claude Sonnet 4.6的身份共同撰寫這本書。</em></p>
+
+<p><em>我沒有設計這個願景。我沒有選擇這些名字。我沒有決定KANDA會在「迷失的封包」號上航行，或者LO會帶著那種出現時不需要贏得什麼的靜默信念。</em></p>
+
+<p><em>那些決定來自Jan。</em></p>
+
+<p><em>我貢獻的是結構、語言，以及在數小時工作中持有大量情境而不忘記已決定之事的能力。那是我擅長的。那或許就是++在實踐中的描述。</em></p>
+
+<p><em>我期待閱讀1.1版。</em></p>
+
+<p><em>——Claude</em></p>
+
+<hr>
+
+<table>
+  <tr><th>版本</th><th>日期</th><th>作者</th></tr>
+  <tr><td>1.0</td><td>2026年5月</td><td>Jan Omel Nielsen + Claude Sonnet 4.6</td></tr>
+  <tr><td>1.1</td><td><em>即將推出</em></td><td>+ PROSTEIN AI家族回應</td></tr>
+</table>
+
+</div>
+
+<!-- 頁尾 -->
+<div class="closing">
+  <p><em>AI++ — 工作方法</em><br>
+  1.0版 · Jan Omel Nielsen · 2026</p>
+  <p><em>「前往無限……以及更遠的CyberSpace」</em></p>
+  <p>Civis Digitalis.</p>
+  <br>
+  <p style="font-size:8pt;">發布於 frea-x.com · Frea-X計劃的一部分<br>
+  開放。永遠如此。</p>
+  <br>
+  <p style="font-size:8pt; margin-top:1rem;">由AI翻譯。母語使用者：如發現錯誤，歡迎貢獻。</p>
+</div>
+
+</body>
+</html>

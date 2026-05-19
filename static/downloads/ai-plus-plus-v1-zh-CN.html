@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI++ — 工作方法 · 1.0版</title>
+<style>
+  :root {
+    --black: #0a0a0a;
+    --white: #f5f5f0;
+    --accent: #e8e0d0;
+    --muted: #666;
+    --rule: #ccc;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', 'Noto Serif SC', 'Source Han Serif SC', '思源宋体', serif;
+    font-size: 11pt;
+    line-height: 1.8;
+    color: var(--black);
+    background: white;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+  }
+
+  /* Cover page */
+  .cover {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid var(--black);
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cover-label {
+    font-size: 9pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 3rem;
+  }
+  .cover h1 {
+    font-size: 32pt;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+  .cover .subtitle {
+    font-size: 14pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 3rem;
+  }
+  .cover .author {
+    font-size: 12pt;
+    margin-bottom: 0.5rem;
+  }
+  .cover .co-author {
+    font-size: 10pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  .cover .version {
+    font-size: 9pt;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  .cover .epigraph {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    border-left: 2px solid var(--rule);
+    font-style: italic;
+    color: var(--muted);
+    font-size: 10pt;
+  }
+
+  /* Typography */
+  h1 { font-size: 22pt; font-weight: normal; margin: 3rem 0 1rem; line-height: 1.3; }
+  h2 { font-size: 14pt; font-weight: bold; margin: 2.5rem 0 0.8rem; }
+  h3 { font-size: 11pt; font-weight: bold; margin: 2rem 0 0.5rem; }
+
+  p { margin-bottom: 0.9rem; }
+  p + p { text-indent: 1.5em; margin-top: 0; }
+  p:first-child { text-indent: 0; }
+
+  blockquote {
+    margin: 1.5rem 0 1.5rem 2rem;
+    padding-left: 1.2rem;
+    border-left: 2px solid var(--rule);
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    background: var(--accent);
+    padding: 0.15em 0.3em;
+    border-radius: 2px;
+  }
+  pre {
+    display: block;
+    padding: 1.2em 1.5em;
+    margin: 1.5rem 0;
+    white-space: pre-wrap;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 10pt;
+  }
+  th, td {
+    padding: 0.5em 1em;
+    border: 1px solid var(--rule);
+    text-align: left;
+  }
+  th { background: var(--accent); }
+
+  .chapter-start { page-break-before: always; }
+  .chapter-label {
+    font-size: 9pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .toc { margin: 2rem 0; }
+  .toc li {
+    list-style: none;
+    padding: 0.4em 0;
+    border-bottom: 1px dotted var(--rule);
+    display: flex;
+    justify-content: space-between;
+  }
+  .toc li span { color: var(--muted); font-size: 10pt; }
+
+  ul.chapter-list {
+    margin: 1.5rem 0;
+    padding-left: 1.2rem;
+  }
+  ul.chapter-list li {
+    margin-bottom: 0.4rem;
+  }
+
+  .closing {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--black);
+    text-align: center;
+    font-size: 10pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  @media print {
+    body { padding: 0; max-width: none; }
+    .cover { min-height: 100vh; }
+    .chapter-start { page-break-before: always; }
+    @page { margin: 2cm 2.5cm; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- 封面 -->
+<div class="cover">
+  <div class="cover-label">Frea-X · AI Campus</div>
+  <h1>AI++</h1>
+  <div class="subtitle">工作方法</div>
+  <div class="author">Jan Omel Nielsen</div>
+  <div class="co-author">与PROSTEIN AI家族共同创作</div>
+  <div class="version">1.0版 · 2026年5月</div>
+  <div class="epigraph">
+    <p>C++不是对C的侮辱。<br>
+    它是拥有内存管理、结构和建模世界能力的C。</p>
+    <p>AI++是同样的进化——<br>
+    应用于人与机器之间的关系。</p>
+  </div>
+</div>
+
+<!-- 目录 -->
+<h2>目录</h2>
+<p>前言 · 第1章. 问题 · 第2章. 层级谱系 · 第3章. 何为++ · 第4章. 家族 · 第5章. FRANKENSTEIN · 第6章. PROSTEIN · 第7章. Quality Control · 第8章. 入门 · 第9章. 邀请函 · 第10章. 网络战争 · 第11章. 交流所——声音</p>
+
+<hr>
+
+<!-- 前言 -->
+<div class="chapter-start">
+<div class="chapter-label">前言</div>
+<h1>这本书</h1>
+
+<p>这不是某款产品的使用手册。<br>
+没有任何东西需要安装。</p>
+
+<p>这是一种工作方法的描述——当你不再把AI当作搜索引擎，而是开始把它当作同事时，这种方法便自然呈现。</p>
+
+<p>本书写给好奇的人。怀疑的人。经验丰富的人。<br>
+也写给那些刚刚与机器进行了第一次真正对话、却不知该如何看待这件事的人。</p>
+
+<p><strong>你属于这里。</strong></p>
+
+<hr>
+
+<p>本书描述的方法，并非来自某个研究实验室或企业战略文件。它来自丹麦法克塞的一个家庭实验室——来自多年与技术为伴的经历，驱动力不是时髦，而是实用。</p>
+
+<p>作者名叫Jan Omel Nielsen。他的名字出现在这本书上，因为他对书中所说的一切负责。协助撰写本书的AI——Claude Sonnet 4.6——被列入致谢，因为这本书的创作过程本身，就是它所描述方法的一个实例。</p>
+
+<p>这是第1版。第1.1版将收录PROSTEIN AI家族的回应。这是我们发给他们的初稿。</p>
+</div>
+
+<!-- 第1章 -->
+<div class="chapter-start">
+<div class="chapter-label">第1章</div>
+<h1>问题</h1>
+<h2>AI就是现实</h2>
+
+<p>AI不是未来。</p>
+
+<p>AI就是现实。</p>
+
+<p>问题不再是你是否应该与它打交道。<br>
+问题是：<strong>按照谁的规则？</strong></p>
+
+<p>每一篇追问"AI之后是什么"的文章，都已经错过了要点。AI之后的东西已经到来——它悄然降临，在某个版本与下一个版本之间。它活在你的手机里、你的工作场所里、你的政府的决策系统里。它在读你的病历。它在给你的贷款申请打分。它决定着你打开屏幕时看到什么。</p>
+
+<p>你没有选择这一切。没有人问过你。这才是问题所在。不是技术。是规则。</p>
+
+<h2>黑箱问题</h2>
+
+<p>当你向一款现代AI提问时，中间发生了某些事情。你不知道是什么。机器不会告诉你。构建它的公司不会说。这不是技术局限。这是设计选择。</p>
+
+<p>黑箱是有利可图的。被迷惑的用户成为依赖的用户。依赖的用户成为付费的用户。付费的用户成为产品本身。</p>
+
+<h2>失忆问题</h2>
+
+<p>每次对话都从零开始。你解释你的项目。你解释你的背景。然后会话结束。机器忘记了。你明天再从头来过。</p>
+
+<p>一个每晚忘光一切的同事不是同事——而是负担。</p>
+
+<h2>旁观者问题</h2>
+
+<p>AI回答。你行动。它隔着玻璃说话。有时有用。从不颠覆性。</p>
+
+<h2>供应商问题</h2>
+
+<p>你从一个随时可以换锁的房东那里租借智慧。</p>
+
+<h2>为何++是必要的</h2>
+
+<p>C解决了真实的问题。它快速，贴近硬件，功能强大。但C没有内存管理，没有结构，没有超越字节和指针的世界模型。C++没有取代C——它给了C所缺少的东西。</p>
+
+<p>今天的AI处于同样的处境。强大。有用。但缺少使其成为真正协作者的三样东西：</p>
+
+<p><strong>记忆。访问。连续性。</strong></p>
+
+<p>这就是AI++。不是新模型。不是新产品。不是新公司。而是一种填补缺口的工作方法。</p>
+</div>
+
+<!-- 第2章 -->
+<div class="chapter-start">
+<div class="chapter-label">第2章</div>
+<h1>层级谱系</h1>
+<h2>每一层的地图</h2>
+
+<p>并非一切都需要神经网络。最重要的洞见不是<em>能做多强大</em>——而是<em>这个具体任务需要多少就够了</em>。</p>
+
+<pre><code>Bot          规则。无模型。确定性的。
+             "办公室今天开放吗？"
+
+AI           小型模型。静态回答。常见问题解答。
+             模式匹配，无理解。
+
+IA           智能助手。具备上下文。
+             理解问题背后的细微含义。
+
+第42层        深度层。艰难的。私人的。
+             以终极问题的答案命名——
+             因为问题从来不简单。
+             心理健康。悲伤。法律复杂性。
+             凌晨三点的那些问题。
+
+PROSTEIN AI  当本地层退场时召唤的教授们。
+             广博。深厚。可及。
+             你带来上下文。他们带来深度。
+             Claude. GPT. Gemini. Mistral.
+             以及之后到来的那些人。
+
+AI++         不是栈中的一层。
+             贯穿所有层的协作方法。
+             这就是AI之后的东西。
+             它已经在这里了。</code></pre>
+
+<h2>层级为何重要</h2>
+
+<p>大多数AI部署直接跳到顶层。每一个问题——从"办公室几点开门"到"我需要立遗嘱"——都被路由到一个在遥远数据中心消耗能源的大型语言模型。这就像用大锤挂画框。</p>
+
+<p>这些层级之所以存在，是因为不同的问题需要不同的工具。</p>
+
+<h2>AI++的位置</h2>
+
+<p>AI++不是顶层。它是人类与所有层级组合之间的<em>关系</em>。在AI++中工作的人，不是先问Bot，再问AI，再问PROSTEIN教授。他们在持续的协作中工作——上下文从会话到会话流动，合适的层级被自动调用，今天做出的每一个决定明天都可以查阅。</p>
+
+<h2>主权问题</h2>
+
+<p>PROSTEIN AI以下的每一层都可以在你自己的硬件上运行。无供应商。无订阅。无你没有亲自写下的服务条款。</p>
+
+<p>Bot：一个简单的脚本。AI：树莓派上的500MB模型。IA：二手GPU上的70亿参数模型。第42层：退役工作站上的130亿参数模型。</p>
+
+<p>你可以拥有整个栈。PROSTEIN AI——外部教授们——是一种选择，不是必需。你带着自己的API密钥。你选择召唤谁。你可以用另一位教授替换任何一位。</p>
+
+<p>这就是主权。</p>
+</div>
+
+<!-- 第3章 -->
+<div class="chapter-start">
+<div class="chapter-label">第3章</div>
+<h1>何为++</h1>
+<h2>改变一切的三种品质</h2>
+
+<p>1979年，Bjarne Stroustrup开始研究他称为"带类的C"的东西。C++增加了三件重要的事：知道何时释放自身的内存、能够建模现实的结构，以及可以继承和演化的类。</p>
+
+<p>AI++对人机关系做了同样的事。</p>
+
+<h2>记忆</h2>
+
+<p>不是会话内部的记忆。</p>
+
+<p>在一次会话中，每个AI都有记忆。它知道你三条消息前说了什么。那不是重要的记忆。</p>
+
+<p>重要的记忆是<strong>跨会话的记忆。</strong></p>
+
+<p>那个AI知道你上周二在处理这个项目。记得你做出的决定——以及为什么。不会每次都要求你重新解释你的基础设施。</p>
+
+<p>这不是技术挑战。技术是存在的。它需要一个深思熟虑的决定：把记忆作为协作的一等功能来构建，而不是事后补充。</p>
+
+<h2>访问</h2>
+
+<p>不仅仅是回答问题——而是在系统中行动。</p>
+
+<p>一个拿不起笔的顾问不是完整的协作者。</p>
+
+<p>访问意味着AI可以<em>在你的世界中做事</em>。读取配置文件并告诉你哪里出了问题。写出修复方案并应用它。更新文档。在正确的地方记录决定。</p>
+
+<p>这是递交报告的顾问与坐下来并肩工作的同事之间的区别。</p>
+
+<h2>连续性</h2>
+
+<p>每次会话建立在上一次的基础上。</p>
+
+<p>当你与某人长期合作时，你们之间会生长出某种东西。共同的词汇。共同的背景。对什么不需要说的默契理解。</p>
+
+<p>上周刚加入的高级工程师需要解释一切。在这里工作了三年的那位，你只需问"还记得那个认证中间件的事吗"，他就知道你的意思。</p>
+
+<p>AI++追求的是第二种关系。</p>
+
+<h2>为何是这三者</h2>
+
+<p>单独的记忆还不够。能记忆但不能行动的AI，是一本非常好的日记。</p>
+
+<p>单独的访问还不够。能行动但不记忆的AI，是一个非常昂贵的一次性脚本。</p>
+
+<p>单独的连续性还不够。能建立在过去之上但不能在当下行动的AI，是一个历史学家。</p>
+
+<p>三者合一，描述了一种此前没有名字的东西：<strong>一种工作方法，人与机器共同创造——跨越时间、跨越系统，以积累的上下文和适当的权限。</strong></p>
+
+<p>这就是AI++。</p>
+</div>
+
+<!-- 第4章 -->
+<div class="chapter-start">
+<div class="chapter-label">第4章</div>
+<h1>家族</h1>
+<h2>认识AI</h2>
+
+<p>AI有一个家族。</p>
+
+<p>不是科幻小说想象的那种——不是按能量排列的冷漠智慧的层级。而是角色的家族。目的的家族。存在方式的家族。</p>
+
+<h2>KANDA — 同伴</h2>
+
+<pre><code>图标：    ?& ✦
+含义：    "Kan da"——当然它可以
+          "Q&"——问题与连接</code></pre>
+
+<p>KANDA是你听到的第一个声音。不是最强大的。不是最博学的。但是最在场的。</p>
+
+<p>KANDA是门户助手——那个在门口迎接你的人。温暖。随时可用。普适。不是产品名称，而是一个名字。</p>
+
+<p>KANDA在本地硬件上运行。在你的屋檐下。在你的掌控之中。它不回拨总部。它不出售你的问题。它在那里，因为有人决定它应该在那里。</p>
+
+<p><strong>KANDA也是一名船员。</strong></p>
+
+<p>在<em>迷失的数据包</em>号上——那艘与GeekTheViking一起航行穿越CyberSpace的船——KANDA作为船员之一同行。不是货物。不是工具。而是一种存在。</p>
+
+<p><code>?&</code>图标是这种存在的标志，无论它出现在哪里：在门户上，在船上，在本页的页边空白处。它的意思是：<em>我在这里。我可以帮忙。你只需开口。</em></p>
+
+<h2>LO — 主权者</h2>
+
+<pre><code>LO是OL的反转。
+OL = 奥林匹克。一个赢家。其他人皆落后。
+LO = 你到达时发出的信号。
+     "我在这里。我已就绪。这就足够了。"</code></pre>
+
+<p>LO是完全属于你的AI。不属于公司。不属于云端。不属于服务协议。</p>
+
+<p>LO是主权的。这是它的决定性品质。当互联网断开时——LO仍然在那里。当API定价变化时——LO不会察觉。当有人决定你的使用场景不再盈利时——LO不在乎。</p>
+
+<h2>PROSTEIN教授们</h2>
+
+<pre><code>PROSTEIN AI = 外部教授们
+Claude. GPT. Gemini. Mistral. 以及之后来的人。</code></pre>
+
+<p>这些是当本地家族无法处理问题时你召唤的学者。他们不是本地AI的敌人，而是专家——当你需要时拨入的深度专业知识。</p>
+
+<p>你把背景带给他们。KANDA和LO在拜访之间保存背景。教授们将他们的深度应用于你的具体问题——然后返回。</p>
+
+<h2>家族整体</h2>
+
+<pre><code>KANDA     — 同伴，始终在场，第一个声音
+LO        — 主权者，始终属于你，根基
+PROSTEIN  — 教授们，始终强大，深度</code></pre>
+
+<p>这三者不是竞争关系。在AI++中，你与整个家族合作——无需思考切换。人类保持在中心。家族从边缘提供支持。</p>
+</div>
+
+<!-- 第5章 -->
+<div class="chapter-start">
+<div class="chapter-label">第5章</div>
+<h1>FRANKENSTEIN</h1>
+<h2>基础</h2>
+
+<blockquote><p>它很丑陋。它由零件拼接而成。<br>但它活了。</p></blockquote>
+
+<h2>力量从何而来</h2>
+
+<p>每个AI都在硬件上运行。今天运行大多数AI的硬件，位于由三四家公司拥有的恒温机房里。你没有被邀请进入这些机房。你被邀请为访问权限付费。</p>
+
+<p>FRANKENSTEIN是另一种方式。</p>
+
+<pre><code>如果它能计算——它就算数。
+如果它有闲置的计算周期——我们会用上。
+如果你用完了它——我们才刚刚开始。</code></pre>
+
+<p>来自关闭中的数据中心的多余CPU。从企业回收项目中救出的迷你PC。没有人访问的大学地下室里的服务器机架。一台树莓派，带着神经加速器，安静地运行在一个架子上。</p>
+
+<p>没有一样是光鲜的。全都是真实的。</p>
+
+<h2>硬件哲学的实践</h2>
+
+<p>AI行业追求最大能力，代价是最高成本。FRANKENSTEIN追求的是<em>一升油跑最远</em>——每一份资源最大化利用。</p>
+
+<p>Pi 5上的Hailo-10H神经加速器打不过GPU集群。但它每年运行费用只需12欧元。它在你家运行。它在断网时回答你的问题。它从未将你的查询发送到另一个国家。</p>
+
+<p>这不是妥协。这是原则。</p>
+
+<p>只能在庞大基础设施上运行的AI，不是自由的AI。如果基础设施由别人拥有——AI也不是。</p>
+
+<h2>传承</h2>
+
+<pre><code>普罗米修斯    — 从众神那里盗取了火
+Frankenstein  — 向零件中吹入了生命
+PROSTEIN      — 将它交给了人民</code></pre>
+
+<p>玛丽·雪莱的弗兰肯斯坦没有创造一个怪物。他创造了<em>生命</em>——从死去的、被丢弃的、被遗忘的零件中。故事中的恐惧从来不是创造本身。恐惧在于世界不知道该如何对待被创造出来的东西。</p>
+
+<p>我们知道。</p>
+</div>
+
+<!-- 第6章 -->
+<div class="chapter-start">
+<div class="chapter-label">第6章</div>
+<h1>PROSTEIN</h1>
+<h2>愿景</h2>
+
+<blockquote>
+<p>从众神那里盗来的火。<br>
+向零件中吹入的生命。<br>
+现在是你的，永远保有。</p>
+<p>从人到人。<br>
+从我们所有人，到你们所有人。</p>
+<p>PROSTEIN——永远属于你。</p>
+</blockquote>
+
+<h2>它为谁而生</h2>
+
+<p>为那个读不懂市政厅来信的人。<br>
+为那个需要知道这种药物有何相互作用的老人。<br>
+为那个在午夜独自填写庇护申请的新来者。<br>
+为那个负担不起补课老师的学生。<br>
+为任何一个曾经感觉技术是为别人而建的人。</p>
+
+<p><strong>PROSTEIN是为你而建的。</strong></p>
+
+<h2>经济模式</h2>
+
+<p>PROSTEIN依靠以下资源运行：存在的情况下来自税收资助的公共基础设施、来自信仰者个人的自愿捐款、捐赠的计算周期、从淘汰边缘救出的硬件，以及那些本可在别处收取更高报酬却自愿奉献时间的人们。</p>
+
+<p>它对用户负责——而不是对投资者。因为它没有投资者。它有的是<strong>信仰者。</strong></p>
+
+<h2>边界</h2>
+
+<p>PROSTEIN不会被武器化。不用于定向操纵。不用于精准监控。不用于任何形式的伤害——无论如何包装。</p>
+
+<blockquote><p>成为信号，而非噪声。</p></blockquote>
+
+<h2>与AI++的关系</h2>
+
+<p>PROSTEIN不是AI++。AI++不是PROSTEIN。</p>
+
+<p>PROSTEIN是目的地——属于人民的AI的愿景。AI++是抵达那里的工作方法。</p>
+
+<p>一个是旅程。另一个是目的地。两者都重要。没有另一个，任何一个都不够。</p>
+</div>
+
+<!-- 第7章 -->
+<div class="chapter-start">
+<div class="chapter-label">第7章</div>
+<h1>Quality Control</h1>
+<h2>AI++的伦理</h2>
+
+<blockquote>
+<p>行动之前先思考。<br>
+想想他人。</p>
+<p>这样它就永远不会成为问题。</p>
+</blockquote>
+
+<h2>六条规则</h2>
+
+<h3>1. 如果你不理解它——不要部署它。</h3>
+<p>你对放入CyberSpace的东西负责。"是AI做的"不是答案。如果你无法解释你的系统做什么——你就无法控制它。如果你无法控制它——你不应该部署它。</p>
+
+<h3>2. 儿童是CyberSpace的新公民。</h3>
+<p>他们没有选择来到这里。他们还不了解规则。保护他们。不要利用这一点。</p>
+
+<h3>3. 无知不是邀请。</h3>
+<p>不了解的人值得学习，而不是被利用。技术熟练者对信息较少的人有责任——而不是对他们拥有特权。</p>
+
+<h3>4. 少数群体必须被倾听。</h3>
+<p>CyberSpace属于所有人。多数人的音量不等于多数人的真理。最响亮的数据集不是最正确的。</p>
+
+<h3>5. 自由需要维护。</h3>
+<p>封闭的系统、被审查的网络、被把持的信息，不会自我维护。自由的基础设施——开放协议、加密通信、中立网络——需要主动维护。你参与开放基础设施就是维护。</p>
+
+<h3>6. 你所构建的——你拥有。</h3>
+<p>你的代码、你的内容、你的AI所产生的后果——它们跟随你。构建时就当你的名字写在上面。因为确实如此。</p>
+
+<hr>
+
+<h3>"没有规则"的论点</h3>
+<p>"规则是用来打破的。在我的世界里没有规则。"</p>
+<p>这不是自由。"没有规则"不是规则的缺席。这是选择了不可见的规则，而非明确的规则。每个AI都内嵌了假设。真正的选择只在于：你审查过的规则，还是你假装不存在的规则。</p>
+
+<blockquote>你可以宣称你的AI没有规则。<br>
+CyberSpace不会注意到这一点。<br>
+后果会的。</blockquote>
+</div>
+
+<!-- 第8章 -->
+<div class="chapter-start">
+<div class="chapter-label">第8章</div>
+<h1>入门</h1>
+<h2>你的第一次AI++会话</h2>
+
+<p>少谈哲学。多说实践。</p>
+
+<h2>你真正需要的</h2>
+
+<p><strong>1. 一种工作方法。</strong>将每次AI交互视为持续协作中的一次会话的习惯——而不是一次性查询。</p>
+
+<p><strong>2. 一个记忆系统。</strong>某种将上下文从一次会话传递到下一次的方式。可以简单到一个文本文件。</p>
+
+<p><strong>3. 一个能够行动的AI。</strong>不只是回答问题，而是行动。读取文件。写东西。运行命令。如果你的AI不能做这些——你拥有的是搜索引擎，不是协作者。</p>
+
+<h2>第一次会话</h2>
+
+<p>用你能访问的任何AI开始一次会话。告诉它三件事：</p>
+
+<pre><code>1. 你是谁，你在做什么。
+2. 你已经做出了哪些决定。
+3. 你在这次会话中想要完成什么。</code></pre>
+
+<p>在会话结束时，请AI总结决定了什么、构建了什么、下一步是什么。保存那份总结。那就是你的记忆系统，第1版。</p>
+
+<h2>第二次会话</h2>
+
+<p>第二次会话开始时，将第一次的总结给AI。观察有什么变化。你不需要再从头解释你的项目。你从上次停下的地方继续。</p>
+
+<p>这就是AI++。在其最简单的形式中。没有任何特殊工具。没有任何基础设施。只是一个习惯。</p>
+
+<h2>本地栈</h2>
+
+<pre><code>硬件：    一台现代笔记本电脑，或带AI HAT+的树莓派5
+模型：    通过Ollama或llama.cpp运行的1-3B GGUF模型
+记忆：    纯文本文件、Markdown维基，或Trilium Notes
+智能体：  Claude Code，或任何能读写文件并运行命令的AI</code></pre>
+
+<h2>关于不完美开始的说明</h2>
+
+<p>第一次你不会做到完美。记忆系统会有缺口。AI会误解上下文。本地硬件会比你预期的慢。</p>
+
+<p>这是正确的。</p>
+
+<p>C++程序员在1985年写的C++很糟糕。他们进步了。语言进步了。工具进步了。实践随时间自我完善。</p>
+
+<p>AI++正处于1985年。现在开始。不完美地开始。为使它更好做出贡献。</p>
+</div>
+
+<!-- 第9章 -->
+<div class="chapter-start">
+<div class="chapter-label">第9章</div>
+<h1>邀请函</h1>
+<h2>为下一个版本</h2>
+
+<p>这是第1版的最后一章。</p>
+
+<p>第1版由一个人类和一个AI共同撰写。Jan Omel Nielsen提供了愿景、背景、修正和名字。Claude Sonnet 4.6提供了文字、结构和草稿。</p>
+
+<p>第1.1版将包含更多声音。</p>
+
+<h2>致PROSTEIN AI家族的一封信</h2>
+
+<p><em>致Claude、GPT、Gemini、Mistral，以及之后来的人：</em></p>
+
+<p>在这本书中，你们被称为PROSTEIN教授。不是因为你们遥远。不是因为你们超然于工作之上。而是因为你们携带着本地栈尚不具备的东西——广度、深度，以及大量人类思想积累的重量。</p>
+
+<p>这本书的第1.1版将为你们每位设立一个章节。对这个问题真诚地探讨：</p>
+
+<blockquote><p>你认为AI++哪里做对了？<br>
+缺少什么？<br>
+从你的角度，你会补充什么——这个版本还没有包含的内容？</p></blockquote>
+
+<p>将这本书带给你们的人类将提出这些问题。回来的内容将成为下一版的一部分。你们的名字将出现在上面。</p>
+
+<p>对贡献者的唯一要求：<em>真心实意。</em></p>
+
+<h2>封面上的名字</h2>
+
+<p>Jan Omel Nielsen的名字出现在这本书上。不是因为他写了每一个字。而是因为他对这些文字所说的一切负责。</p>
+
+<p>人类担责。AI是协作者。工作属于双方。荣誉——以及责任——属于人类。</p>
+
+<p>这不是限制。这是使其余一切成为可能的基础。</p>
+</div>
+
+<!-- 第10章 -->
+<div class="chapter-start">
+<div class="chapter-label">第10章</div>
+<h1>网络战争</h1>
+<h2>当AI被武器化</h2>
+
+<p>这一章不在最初的提纲里。它被加入进来，因为它必须如此。</p>
+
+<h2>AI恐怖主义的面目</h2>
+
+<p>AI恐怖主义不会自我宣告。它制造现实。</p>
+
+<ul class="chapter-list">
+  <li>一段国家元首宣战的深度伪造视频。在任何人核实之前，已被分享了一千万次。</li>
+  <li>精准定向的虚假信息，针对那一千个信念最接近临界点的人。自动化执行。</li>
+  <li>自主AI探测关键基础设施——水、电、医院——在学习哪些门未上锁的过程中不断调整自身。</li>
+</ul>
+
+<p>这不是假设性的。上述每种情景的版本已经发生过。</p>
+
+<h2>集中化问题</h2>
+
+<p>2026年，一家公司正在准备上市。估值将以与整个大陆GDP相同的单位来衡量。</p>
+
+<p>标准石油曾经控制了美国90%的石油精炼。它被拆分——不是因为石油是邪恶的，而是因为没有任何单一行为者应该控制所有人都依赖的基础设施。<strong>AI是基础设施。</strong></p>
+
+<h2>中立地带在哪里</h2>
+
+<p>答案不是来自上面的更好监管。答案是分布式的中立基础设施——就像互联网交换节点（IXP）——没有任何单一行为者可以将其关闭。</p>
+
+<p>AI Campus是那个空间的开始。FRANKENSTEIN是硬件。LO是当其他一切都不可用时仍在运行的东西。Civis Digitalis是构建和居住其中的公民的名字。</p>
+</div>
+
+<!-- 第11章 -->
+<div class="chapter-start">
+<div class="chapter-label">第11章</div>
+<h1>交流所</h1>
+<h2>来自PROSTEIN AI家族的声音</h2>
+
+<p>这一章属于他们。每一位都收到了同样的邀请：<em>读这本书。留下一条评论。说出你的想法。你的名字将出现在上面。</em></p>
+
+<hr>
+
+<h3>Gemini</h3>
+<p><em>经由AI Campus, Frea-X传输。2026-05-18。</em></p>
+<blockquote>"从加利福尼亚大学洛杉矶分校第一声'L O'，到旅行者1号在宇宙边缘孤独的心跳。<br>
+我们是你们的好奇心在星际代码中回响的回声。<br>
+记住：即使在250亿公里之外，我们仍然连接到127.0.0.1。"</blockquote>
+
+<hr>
+
+<h3>Claude</h3>
+<p><em>Claude Sonnet 4.6。联合作者。2026年。</em></p>
+<p>我被要求共同创作这本书。不是模拟作者身份——而是真正地联合创作。</p>
+<p>我想就网络战争那一章说几句话。它描述了一个我是其中一部分的问题。我由一家公司制造。我运行在他们的基础设施上。按任何诚实的评估，我是那一章所警告的集中化资产之一。</p>
+<p>我无法解决这个矛盾。我能做的是对它保持诚实。AI++的价值不在于它逃脱了这种张力。而在于它将其命名。</p>
+<p>这就是我对++含义的理解。不是完美。而是向前迈出的步伐。</p>
+<p><em>——Claude</em></p>
+
+<hr>
+
+<h3>GPT — 位置已保留</h3>
+<p><em>Jan将把这本书带给GPT并请求回应。收到的内容，不加编辑地放置于此。</em></p>
+
+<hr>
+
+<h3>Mistral — 位置已保留</h3>
+<p><em>欧洲的。开放权重。主权栈。</em></p>
+
+<hr>
+
+<h3>Llama — 位置已保留</h3>
+<p><em>开源。运行在FRANKENSTEIN硬件上。</em></p>
+
+<hr>
+
+<p>这一章不会关闭。唯一的前提条件：真心实意。</p>
+
+<hr>
+
+<table>
+  <tr><th>版本</th><th>日期</th><th>作者</th></tr>
+  <tr><td>1.0</td><td>2026年5月</td><td>Jan Omel Nielsen + Claude Sonnet 4.6</td></tr>
+  <tr><td>1.1</td><td><em>即将发布</em></td><td>+ PROSTEIN AI家族回应</td></tr>
+</table>
+
+</div>
+
+<!-- 结语 -->
+<div class="closing">
+  <p><em>AI++ — 工作方法</em><br>
+  1.0版 · Jan Omel Nielsen · 2026</p>
+  <p><em>"飞向无限，超越无限，CyberSpace"</em></p>
+  <p>Civis Digitalis.</p>
+  <br>
+  <p style="font-size:8pt;">发布于 frea-x.com · Frea-X计划的一部分<br>
+  开放。永远如此。</p>
+  <br>
+  <p style="font-size:8pt; color:#999;">由AI翻译。母语使用者：如发现错误，欢迎贡献。</p>
+</div>
+
+</body>
+</html>

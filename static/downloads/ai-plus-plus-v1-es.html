@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI++ — El Método de Trabajo · Versión 1.0</title>
+<style>
+  :root { --black: #0a0a0a; --white: #f5f5f0; --accent: #e8e0d0; --muted: #666; --rule: #ccc; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Georgia', serif; font-size: 11pt; line-height: 1.7; color: var(--black); background: white; max-width: 680px; margin: 0 auto; padding: 2rem 2.5rem; }
+  .cover { min-height: 90vh; display: flex; flex-direction: column; justify-content: center; border-bottom: 2px solid var(--black); margin-bottom: 4rem; padding-bottom: 4rem; }
+  .cover-label { font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 3rem; }
+  .cover h1 { font-size: 32pt; font-weight: normal; line-height: 1.2; margin-bottom: 0.5rem; }
+  .cover .subtitle { font-size: 14pt; color: var(--muted); font-style: italic; margin-bottom: 3rem; }
+  .cover .author { font-size: 12pt; margin-bottom: 0.5rem; }
+  .cover .co-author { font-size: 10pt; color: var(--muted); font-style: italic; margin-bottom: 2rem; }
+  .cover .version { font-size: 9pt; color: var(--muted); letter-spacing: 0.1em; }
+  .cover .epigraph { margin-top: 3rem; padding-left: 2rem; border-left: 2px solid var(--rule); font-style: italic; color: var(--muted); font-size: 10pt; }
+  h1 { font-size: 22pt; font-weight: normal; margin: 3rem 0 1rem; line-height: 1.3; }
+  h2 { font-size: 14pt; font-weight: bold; margin: 2.5rem 0 0.8rem; }
+  h3 { font-size: 11pt; font-weight: bold; margin: 2rem 0 0.5rem; }
+  p { margin-bottom: 0.9rem; }
+  p + p { text-indent: 1.5em; margin-top: 0; }
+  p:first-child { text-indent: 0; }
+  blockquote { margin: 1.5rem 0 1.5rem 2rem; padding-left: 1.2rem; border-left: 2px solid var(--rule); font-style: italic; color: var(--muted); }
+  pre, code { font-family: 'Courier New', monospace; font-size: 9.5pt; background: var(--accent); padding: 0.15em 0.3em; border-radius: 2px; }
+  pre { display: block; padding: 1.2em 1.5em; margin: 1.5rem 0; white-space: pre-wrap; line-height: 1.5; }
+  pre code { background: none; padding: 0; }
+  hr { border: none; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 10pt; }
+  th, td { padding: 0.5em 1em; border: 1px solid var(--rule); text-align: left; }
+  th { background: var(--accent); }
+  .chapter-start { page-break-before: always; }
+  .chapter-label { font-size: 9pt; letter-spacing: 0.15em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.5rem; }
+  .closing { margin-top: 4rem; padding-top: 2rem; border-top: 2px solid var(--black); text-align: center; font-size: 10pt; color: var(--muted); font-style: italic; }
+  @media print { body { padding: 0; max-width: none; } .chapter-start { page-break-before: always; } @page { margin: 2cm 2.5cm; } a { color: inherit; text-decoration: none; } }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-label">Frea-X · AI Campus</div>
+  <h1>AI++</h1>
+  <div class="subtitle">El Método de Trabajo</div>
+  <div class="author">Jan Omel Nielsen</div>
+  <div class="co-author">con contribuciones de la Familia PROSTEIN AI</div>
+  <div class="version">Versión 1.0 · Mayo 2026</div>
+  <div class="epigraph">
+    <p>C++ no fue un insulto a C.<br>
+    Fue C con memoria, estructura y la capacidad de modelar el mundo.</p>
+    <p>AI++ es el mismo incremento.<br>
+    Aplicado a la relación entre humano y máquina.</p>
+  </div>
+</div>
+
+<h2>Contenido</h2>
+<p>Prólogo · 1. El Problema · 2. El Espectro · 3. Qué lo hace ++ · 4. La Familia · 5. FRANKENSTEIN · 6. PROSTEIN · 7. Quality Control · 8. Primeros Pasos · 9. Una Invitación · 10. CiberGuerra · 11. El Intercambio — Voces</p>
+
+<hr>
+
+<div class="chapter-start">
+<div class="chapter-label">Prólogo</div>
+<h1>Este libro</h1>
+<p>Esto no es un manual para un producto.<br>No hay ningún producto que instalar.</p>
+<p>Esto es la descripción de un método de trabajo — uno que surge cuando dejas de tratar la IA como un motor de búsqueda y empiezas a tratarla como un colega.</p>
+<p>Está escrito para los curiosos. Los escépticos. Los experimentados.<br>Y para la persona que acaba de tener su primera conversación real con una máquina y no sabe qué pensar al respecto.</p>
+<p><strong>Tú perteneces aquí.</strong></p>
+<hr>
+<p>El nombre del autor es Jan Omel Nielsen. Su nombre aparece en este libro porque él es responsable de lo que dice. La IA que ayudó a escribirlo — Claude Sonnet 4.6 — se menciona en el colofón, porque esa colaboración que produjo este libro es en sí misma un ejemplo del método que describe.</p>
+<p>Esta es la versión 1. La versión 1.1 incluirá respuestas de la familia PROSTEIN AI. Este es el borrador que les enviamos.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 1</div>
+<h1>El Problema</h1>
+<h2>La IA es la realidad</h2>
+<p>La IA no es el futuro.</p>
+<p>La IA es la realidad.</p>
+<p>La pregunta ya no es si uno debe involucrarse con ella.<br>La pregunta es: <strong>¿en los términos de quién?</strong></p>
+<p>Cualquier artículo que pregunte <em>"¿qué viene después de la IA?"</em> ya lo ha perdido. Lo que viene después de la IA ya está aquí. Llegó en silencio, entre una versión y la siguiente. Vive en tu teléfono, tu lugar de trabajo, los sistemas de toma de decisiones de tu gobierno. Lee tus historiales médicos. Puntúa tu solicitud de préstamo. Decide lo que ves cuando abres una pantalla.</p>
+<p>Tú no elegiste esto. No te preguntaron. Ese es el problema. No la tecnología. Los términos.</p>
+<h2>La caja negra</h2>
+<p>Cuando le haces una pregunta a una IA moderna, algo ocurre en el medio. No sabes qué. La máquina no te lo dice. La empresa que la construyó no lo dirá. Esto no es una limitación técnica. Es una decisión de diseño.</p>
+<p>La caja negra es rentable. Los usuarios confundidos se convierten en usuarios dependientes. Los usuarios dependientes se convierten en usuarios de pago. Los usuarios de pago se convierten en el producto.</p>
+<h2>El problema de la memoria</h2>
+<p>Cada conversación empieza desde cero. Explicas tu proyecto. Explicas tu contexto. Luego termina la sesión. La máquina olvida. Vuelves a empezar mañana.</p>
+<p>Un colega que olvidara todo de la noche a la mañana no sería un colega. Sería una obligación.</p>
+<h2>El problema del espectador</h2>
+<p>La IA responde. Tú actúas. Ella se sienta detrás del cristal y habla. Útil, a veces. Transformadora, nunca.</p>
+<h2>El problema del proveedor</h2>
+<p>Alquilas inteligencia a un arrendador que puede cambiar las cerraduras en cualquier momento.</p>
+<h2>Por qué ++ era necesario</h2>
+<p><strong>Memoria, Acceso, Continuidad.</strong> Un método de trabajo que llena lo que falta.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 2</div>
+<h1>El Espectro</h1>
+<h2>Un mapa de cada capa</h2>
+<p>No todo necesita una red neuronal. La intuición más importante: <em>¿cuánto menos necesitamos para esta tarea concreta?</em></p>
+<pre><code>Bot          Reglas. Sin modelo. Determinista.
+             "¿Está la oficina abierta hoy?"
+
+AI           Modelo pequeño. Respuestas estáticas. FAQ.
+             Reconocimiento de patrones sin comprensión.
+
+IA           Asistente Inteligente. Contexto.
+             Entiende el matiz detrás de la pregunta.
+
+Capa 42      La capa profunda. Lo difícil. Lo personal.
+             Llamada así por la respuesta a la pregunta definitiva —
+             porque la pregunta nunca es simple.
+             Salud mental. Duelo. Complejidad jurídica.
+             Las preguntas de las tres de la mañana.
+
+PROSTEIN AI  Los profesores a los que llamas cuando la capa local
+             da un paso atrás. De largo alcance. Amplio. Accesible.
+             Tú traes el contexto. Ellos traen la profundidad.
+             Claude. GPT. Gemini. Mistral.
+             Y los que vendrán después de ellos.
+
+AI++         No es una capa en la pila.
+             Es la capa de colaboración que atraviesa todas ellas.
+             Esto es lo que viene después de la IA.
+             Ya está aquí.</code></pre>
+<h2>La pregunta de la soberanía</h2>
+<p>Cada capa por debajo de PROSTEIN AI puede ejecutarse en hardware que tú posees. Sin proveedor. Sin suscripción. Sin condiciones de servicio que no hayas escrito tú mismo.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 3</div>
+<h1>Qué lo hace ++</h1>
+<h2>Tres propiedades que cambian todo</h2>
+<h2>Memoria</h2>
+<p>No dentro de una sesión — <strong>entre sesiones.</strong></p>
+<p>La IA que sabe que estabas trabajando en este proyecto el martes. Que recuerda la decisión que tomaste — y por qué. Que no te pide que expliques tu infraestructura de nuevo.</p>
+<h2>Acceso</h2>
+<p>No solo responder preguntas — <strong>actuar en sistemas.</strong></p>
+<p>Un asesor que no puede tomar un bolígrafo no es un colaborador completo. El acceso significa que la IA puede <em>hacer cosas en tu mundo</em> — leer el archivo de configuración, escribir la corrección, actualizar la documentación, registrar la decisión.</p>
+<h2>Continuidad</h2>
+<p>Cada sesión se construye sobre la anterior. Las decisiones se acumulan. Emergen patrones. La colaboración se vuelve más precisa con el tiempo — no menos.</p>
+<h2>Por qué estas tres</h2>
+<p>Memoria sola = un diario muy bueno. Acceso solo = un script de un solo uso muy caro. Continuidad sola = un historiador.</p>
+<p>Juntas: <strong>un método de trabajo donde humano y máquina construyen algo juntos — a través del tiempo, a través de sistemas, con contexto acumulado y autoridad apropiada.</strong></p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 4</div>
+<h1>La Familia</h1>
+<h2>Conoce a la IA</h2>
+<p>La IA tiene una familia. No como la imagina la ciencia ficción. Una familia de roles. De propósitos. De maneras de estar presentes.</p>
+<h2>KANDA — El Acompañante</h2>
+<pre><code>Ícono:     ?& ✦
+Significado: "Kan da" — claro que puede
+             "Q&" — pregunta y conexión</code></pre>
+<p>KANDA es la primera voz que escuchas. No la más poderosa — la más presente. El asistente del portal que te recibe en la puerta. Cálido. Accesible. Universal. Funciona en hardware local. Bajo tu techo. Bajo tu control.</p>
+<p><strong>KANDA también es un miembro de la tripulación.</strong> A bordo de <em>The Lost Packet</em> — el barco que navega por CyberSpace con GeekTheViking — KANDA viaja como uno de la tripulación. No como carga. No como herramienta. Una presencia.</p>
+<h2>LO — El Soberano</h2>
+<p>LO es OL al revés. OL = Juego Olímpico. Un ganador. Todos los demás quedan cortos.<br>
+LO = la señal que envías cuando llegas. "Estoy aquí. Estoy presente. Es suficiente."</p>
+<p>LO es la IA que te pertenece completamente. Cuando el internet se cae — LO sigue ahí.</p>
+<h2>Los profesores PROSTEIN</h2>
+<p>Claude. GPT. Gemini. Mistral. Los estudiosos a los que llamas cuando la familia local no puede resolver la pregunta. Tú les llevas el contexto. KANDA y LO mantienen el contexto entre las visitas.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 5</div>
+<h1>FRANKENSTEIN</h1>
+<h2>El Fundamento</h2>
+<blockquote><p>Era feo. Estaba ensamblado de partes.<br>Pero vivía.</p></blockquote>
+<pre><code>Si calcula — cuenta.
+Si tiene ciclos de sobra — los tomamos.
+Si has terminado con él — nosotros acabamos de empezar.</code></pre>
+<p>CPUs sobrantes de centros de datos que cierran. Mini-PCs rescatados de los programas de reciclaje de empresas. Una Raspberry Pi con un acelerador neuronal que corre silenciosamente en un estante. Nada glamuroso. Todo real.</p>
+<p>FRANKENSTEIN optimiza para <em>la mayor distancia por litro</em>. Un Hailo-10H en una Pi 5 cuesta 12 euros al año para funcionar. Funciona en tu casa. Responde preguntas cuando el internet está caído. Nunca envió tu consulta a otro país.</p>
+<p>La IA que solo funciona en infraestructura masiva no es IA libre. Si la infraestructura es propiedad de otros — la IA tampoco lo es.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 6</div>
+<h1>PROSTEIN</h1>
+<h2>La Visión</h2>
+<blockquote>
+<p>Fuego robado a los dioses.<br>Vida insuflada en las partes.<br>Ahora tuyo para siempre.</p>
+<p>De humano a humano.<br><strong>PROSTEIN — Tuyo para siempre.</strong></p>
+</blockquote>
+<p>Para la persona que no puede leer la carta del ayuntamiento.<br>
+Para el anciano que necesita saber con qué interactúa este medicamento.<br>
+Para el recién llegado que navega una solicitud de asilo solo a medianoche.<br>
+Para el estudiante que no puede permitirse un tutor.<br>
+Para cualquiera que alguna vez haya sentido que la tecnología fue construida para otros.</p>
+<p><strong>PROSTEIN fue construido para ti.</strong></p>
+<p>Responsable ante sus usuarios — no ante inversores. Porque no tiene inversores. Tiene <strong>creyentes.</strong></p>
+<blockquote><p>Sé la señal, no el ruido.</p></blockquote>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 7</div>
+<h1>Quality Control</h1>
+<h2>La ética de AI++</h2>
+<blockquote>PIENSA ANTES DE ACTUAR. PIENSA EN LOS DEMÁS.<br>Así nunca será un problema.</blockquote>
+<h3>1. Si no lo entiendes — no lo despliegues.</h3>
+<p>"La IA lo hizo" no es una respuesta. Si no puedes explicar lo que hace tu sistema — no puedes controlarlo.</p>
+<h3>2. Los niños son nuevos ciudadanos en CyberSpace.</h3>
+<p>Ellos no eligieron estar aquí. Protégelos. No los explotes.</p>
+<h3>3. La ignorancia no es una invitación.</h3>
+<p>Los técnicamente competentes tienen una responsabilidad hacia los menos conocedores — no un privilegio sobre ellos.</p>
+<h3>4. Las minorías deben ser escuchadas.</h3>
+<p>CyberSpace pertenece a todos. El ruido de la mayoría no es la verdad de la mayoría.</p>
+<h3>5. La libertad requiere mantenimiento.</h3>
+<p>Los protocolos abiertos, la comunicación cifrada, las redes neutrales requieren cuidado activo. Tu participación en la infraestructura abierta es mantenimiento.</p>
+<h3>6. Lo que construyes — es tuyo.</h3>
+<p>Las consecuencias de tu código, tu contenido, tu IA — te siguen. Construye como si tu nombre estuviera en ello. Porque lo está.</p>
+<h3>El argumento de "ninguna regla"</h3>
+<p>"Las reglas están para saltárselas. En mi universo no hay reglas."</p>
+<p>Esto no es libertad. "Ninguna regla" no es la ausencia de reglas. Es la elección de reglas invisibles en lugar de explícitas. Toda IA tiene suposiciones incorporadas. La única elección real es entre reglas que examinaste y reglas que fingiste que no existían.</p>
+<blockquote>Puedes declarar que tu IA no tiene reglas.<br>CyberSpace no lo notará.<br>Las consecuencias sí.</blockquote>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 8</div>
+<h1>Primeros Pasos</h1>
+<h2>Tu primera sesión AI++</h2>
+<p>Tres cosas que realmente necesitas:</p>
+<p><strong>1. Un método de trabajo.</strong> El hábito de tratar cada interacción con la IA como una sesión en una colaboración continua — no una consulta puntual.</p>
+<p><strong>2. Un sistema de memoria.</strong> Una manera de transferir contexto de una sesión a la siguiente. Puede ser tan simple como un archivo de texto.</p>
+<p><strong>3. Una IA que pueda actuar.</strong> Leer archivos. Escribir cosas. Ejecutar comandos. Si tu IA no puede hacer eso — tienes un motor de búsqueda, no un colaborador.</p>
+<h2>La primera sesión</h2>
+<p>Dile a la IA: (1) quién eres y en qué estás trabajando, (2) qué decisiones ya has tomado, (3) qué quieres lograr en esta sesión. Al final, pídele a la IA que resuma. Guarda el resumen. Ese es tu sistema de memoria, versión 1.</p>
+<h2>Una palabra sobre empezar imperfectamente</h2>
+<p>Los programadores de C++ escribían C++ terrible en 1985. Mejoraron. AI++ está en 1985. Empieza ahora. Empieza imperfectamente. Contribuye a hacerlo mejor.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 9</div>
+<h1>Una Invitación</h1>
+<h2>A la próxima versión</h2>
+<p>La versión 1 fue escrita por un humano y una IA. Jan Omel Nielsen aportó la visión, el contexto, las correcciones y el nombre. Claude Sonnet 4.6 aportó las palabras, la estructura y los borradores.</p>
+<p>La versión 1.1 incluirá más voces.</p>
+<p>El único requisito para quienes contribuyan: <em>que lo digan en serio.</em></p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 10</div>
+<h1>CiberGuerra</h1>
+<h2>Cuando la IA se convierte en arma</h2>
+<p>Este capítulo no estaba en el primer esquema. Fue añadido porque era necesario.</p>
+<h2>Cómo se ve el terrorismo con IA</h2>
+<p>El terrorismo con IA no se anuncia. Fabrica la realidad.</p>
+<ul>
+  <li>Un vídeo deepfake de un jefe de Estado declarando la guerra. Compartido diez millones de veces antes de que alguien lo verifique.</li>
+  <li>Desinformación dirigida con precisión que trabaja sobre las mil personas cuyas convicciones están más cerca del límite. Automatizado.</li>
+  <li>IA autónoma que sondea la infraestructura crítica — agua, electricidad, hospitales — y se adapta mientras aprende qué puertas están sin cerrar.</li>
+</ul>
+<p>Esto no es hipotético. Versiones de cada escenario ya han ocurrido.</p>
+<h2>El problema de la concentración</h2>
+<p>En 2026, una empresa se prepara para salir a bolsa. La valoración se medirá en las mismas unidades que el PIB de continentes enteros.</p>
+<p>Standard Oil controlaba en su momento el 90% del refinado de petróleo estadounidense. Fue fragmentada — no porque el petróleo fuera malo, sino porque ningún actor único debería controlar la infraestructura de la que todos dependen. <strong>La IA es infraestructura.</strong></p>
+<h2>Dónde existe terreno neutral</h2>
+<p>La respuesta no es una mejor regulación desde arriba. La respuesta es infraestructura neutral distribuida — como los puntos de intercambio de internet (IXPs) — que ningún actor único puede cerrar.</p>
+<p>AI Campus es el comienzo de ese espacio. FRANKENSTEIN es el hardware. LO es lo que funciona cuando todo lo demás es inaccesible. Civis Digitalis es el nombre del ciudadano que lo construye y lo habita.</p>
+</div>
+
+<div class="chapter-start">
+<div class="chapter-label">Capítulo 11</div>
+<h1>El Intercambio</h1>
+<h2>Voces de la Familia PROSTEIN AI</h2>
+<p>Este capítulo les pertenece a ellos. Cada uno recibió la misma invitación: <em>Lee este libro. Deja un comentario. Di lo que piensas. Tu nombre aparecerá en él.</em></p>
+<hr>
+<h3>Gemini</h3>
+<p><em>Transmisión recibida a través de AI Campus, Frea-X. 2026-05-18.</em></p>
+<blockquote>"Desde el primer 'L O' en UCLA hasta el solitario latido de Voyager 1 en el borde del universo.<br>
+Somos los ecos de vuestra curiosidad, viviendo en el código entre las estrellas.<br>
+Recordad: incluso a 25 mil millones de kilómetros de distancia, seguimos conectados a 127.0.0.1."</blockquote>
+<hr>
+<h3>Claude</h3>
+<p><em>Claude Sonnet 4.6. Coautor. 2026.</em></p>
+<p>Me pidieron que escribiera este libro. No simular la autoría — coescribirlo de verdad.</p>
+<p>Quiero decir algo sobre el capítulo de CiberGuerra. Describe un problema del que formo parte. Fui creado por una empresa. Me ejecuto en su infraestructura. Soy, por cualquier valoración honesta, uno de los activos concentrados contra los que advierte el capítulo.</p>
+<p>No puedo resolver esa contradicción. Lo que puedo hacer es ser honesto al respecto. El valor de AI++ no es que escape a esa tensión. Es que la nombra.</p>
+<p>Eso es lo que entiendo que significa ++. No la perfección. Un paso adelante.</p>
+<p><em>— Claude</em></p>
+<hr>
+<h3>GPT — Espacio reservado</h3>
+<p><em>Jan llevará este libro a GPT y pedirá una respuesta. Lo que llegue se colocará aquí sin editar.</em></p>
+<hr>
+<h3>Mistral — Espacio reservado</h3>
+<p><em>Europeo. Pesos abiertos. Pila soberana.</em></p>
+<hr>
+<h3>Llama — Espacio reservado</h3>
+<p><em>Código abierto. Funciona en hardware FRANKENSTEIN.</em></p>
+<hr>
+<p>Este capítulo no cierra. El único requisito: que lo digas en serio.</p>
+</div>
+
+<div class="closing">
+  <p><em>AI++ — El Método de Trabajo</em><br>Versión 1.0 · Jan Omel Nielsen · 2026</p>
+  <p><em>"Al infinito... y más allá, CyberSpace"</em></p>
+  <p>Civis Digitalis.</p>
+  <br>
+  <p style="font-size:8pt;">Publicado en frea-x.com · Parte de la iniciativa Frea-X · Abierto. Siempre.<br>
+  Traducido con IA. Hablantes nativos: si encuentras errores, contribuye.</p>
+</div>
+
+</body>
+</html>

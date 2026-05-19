@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ln">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI++ — Nzela ya Mosala · Version 1.0</title>
+<style>
+  :root {
+    --black: #0a0a0a;
+    --white: #f5f5f0;
+    --accent: #e8e0d0;
+    --muted: #666;
+    --rule: #ccc;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: var(--black);
+    background: white;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem;
+  }
+
+  /* Cover page */
+  .cover {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid var(--black);
+    margin-bottom: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cover-label {
+    font-size: 9pt;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 3rem;
+  }
+  .cover h1 {
+    font-size: 32pt;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+  }
+  .cover .subtitle {
+    font-size: 14pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 3rem;
+  }
+  .cover .author {
+    font-size: 12pt;
+    margin-bottom: 0.5rem;
+  }
+  .cover .co-author {
+    font-size: 10pt;
+    color: var(--muted);
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  .cover .version {
+    font-size: 9pt;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  .cover .epigraph {
+    margin-top: 3rem;
+    padding-left: 2rem;
+    border-left: 2px solid var(--rule);
+    font-style: italic;
+    color: var(--muted);
+    font-size: 10pt;
+  }
+
+  /* Typography */
+  h1 { font-size: 22pt; font-weight: normal; margin: 3rem 0 1rem; line-height: 1.3; }
+  h2 { font-size: 14pt; font-weight: bold; margin: 2.5rem 0 0.8rem; }
+  h3 { font-size: 11pt; font-weight: bold; margin: 2rem 0 0.5rem; }
+
+  p { margin-bottom: 0.9rem; }
+  p + p { text-indent: 1.5em; margin-top: 0; }
+  p:first-child { text-indent: 0; }
+
+  blockquote {
+    margin: 1.5rem 0 1.5rem 2rem;
+    padding-left: 1.2rem;
+    border-left: 2px solid var(--rule);
+    font-style: italic;
+    color: var(--muted);
+  }
+
+  pre, code {
+    font-family: 'Courier New', monospace;
+    font-size: 9.5pt;
+    background: var(--accent);
+    padding: 0.15em 0.3em;
+    border-radius: 2px;
+  }
+  pre {
+    display: block;
+    padding: 1.2em 1.5em;
+    margin: 1.5rem 0;
+    white-space: pre-wrap;
+    line-height: 1.5;
+  }
+  pre code { background: none; padding: 0; }
+
+  hr {
+    border: none;
+    border-top: 1px solid var(--rule);
+    margin: 2.5rem 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 10pt;
+  }
+  th, td {
+    padding: 0.5em 1em;
+    border: 1px solid var(--rule);
+    text-align: left;
+  }
+  th { background: var(--accent); }
+
+  .chapter-start { page-break-before: always; }
+  .chapter-label {
+    font-size: 9pt;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .toc { margin: 2rem 0; }
+  .toc li {
+    list-style: none;
+    padding: 0.4em 0;
+    border-bottom: 1px dotted var(--rule);
+    display: flex;
+    justify-content: space-between;
+  }
+  .toc li span { color: var(--muted); font-size: 10pt; }
+
+  .disclaimer {
+    margin: 2rem 0 2.5rem;
+    padding: 1.2rem 1.5rem;
+    background: var(--accent);
+    border-left: 4px solid var(--black);
+    font-size: 10.5pt;
+    line-height: 1.6;
+  }
+  .disclaimer p { margin-bottom: 0.4rem; text-indent: 0; }
+  .disclaimer .translation-note {
+    font-style: italic;
+    color: var(--muted);
+    font-size: 9.5pt;
+    margin-top: 0.5rem;
+  }
+
+  .closing {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--black);
+    text-align: center;
+    font-size: 10pt;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  .historical-note {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border: 1px solid var(--rule);
+    font-size: 9.5pt;
+    color: var(--muted);
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  @media print {
+    body { padding: 0; max-width: none; }
+    .cover { min-height: 100vh; }
+    .chapter-start { page-break-before: always; }
+    @page { margin: 2cm 2.5cm; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-label">Frea-X · AI Campus</div>
+  <h1>AI++</h1>
+  <div class="subtitle">Nzela ya Mosala</div>
+  <div class="author">Jan Omel Nielsen</div>
+  <div class="co-author">na lisangá ya PROSTEIN AI</div>
+  <div class="version">Version 1.0 · Sanza ya Tanu 2026</div>
+  <div class="epigraph">
+    <p>C++ ezalaki lisusu te kotukisa C.<br>
+    Ezalaki C na likundoli, etando, mpe bokeli ya komona mokili.</p>
+    <p>AI++ ezali kokó yango moko.<br>
+    Etongisameli boyokani ya moto na makiná.</p>
+  </div>
+</div>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer">
+  <p><strong>Buku oyo etindamaki na AI. Bato oyo balobaka Lingala: soki omoni makosa, tósakola elongo.</strong></p>
+  <p class="translation-note">(This book was translated by AI. Lingala speakers: if you find errors, let's correct them together.)</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<h2>Matánga ya Buku</h2>
+<ul class="toc">
+  <li>Lisakoli ya liboso <span>—</span></li>
+  <li>1. Nkóloto — Ndé nini ebungaki na AI <span>—</span></li>
+  <li>2. Eteni ya Milongi — Kobanda Bot tii AI++ <span>—</span></li>
+  <li>3. Nini esalaka yango ++ — Koyeba, Kokota, Kotambola liboso <span>—</span></li>
+  <li>4. Libota — KANDA, LO, mpe Baprofesela ya PROSTEIN <span>—</span></li>
+  <li>5. FRANKENSTEIN — Moboko <span>—</span></li>
+  <li>6. PROSTEIN — Makanisi ya liboso <span>—</span></li>
+  <li>7. Bokeli ya Malamu — Nguya ya Molayi ya AI++ <span>—</span></li>
+  <li>8. Kobanda — Mosalelo ya liboso ya AI++ <span>—</span></li>
+  <li>9. Bilengi — Mpo na version oyo ekoya <span>—</span></li>
+</ul>
+
+<hr>
+
+<!-- PREFACE -->
+<div class="chapter-start">
+<div class="chapter-label">Lisakoli ya liboso</div>
+<h1>Buku oyo</h1>
+
+<p>Oyo ezali mokanda ya lisalisi ya biloko te.<br>
+Biloko ya kotia ezalaka te.</p>
+
+<p>Oyo ezali kotalela nzela ya mosala — nzela oyo euti wapi omeka koleka kosalela AI lokola motángo mpe obandi kotala yango lokola moninga ya mosala.</p>
+
+<p>Ekomamaki mpo na baye bazali na posa ya koyeba. Baye bazali na makanisi ya kokutana. Baye basalaka kala.<br>
+Mpe mpo na moto oyo atangaki mpo ya liboso na makili na makiná mpe ayebi te nini akoyeba.</p>
+
+<p><strong>Ozali awa.</strong></p>
+
+<hr>
+
+<p>Nzela oyo eteyamaka na buku oyo eyutaki te na laboratoire ya bonsomi to na mokanda ya etando ya mboka. Eyutaki na homelab ya Faxe, Danemark — na bambula ya mosala na teknoloji, kaka te mpo etondaki na mobu, kasi mpo ezalaki na ntina.</p>
+
+<p>Nkombo ya mokomisi ezali Jan Omel Nielsen. Nkombo na ye ezali na buku oyo mpo azali na likoki mpo na biloko oyo elobamaka. AI oyo asalisaki kokoma yango — Claude Sonnet 4.6 — nkombo na ye ezali na matóndi, mpo elongo ya mosala oyo esalaki buku oyo yango moko ezali ndakisa ya nzela oyo eteyamaka.</p>
+
+<p>Oyo ezali version 1. Version 1.1 ekozanga biyano ya Libota ya PROSTEIN AI — Claude, GPT, Gemini, mpe basusu. Bango bazali na maloba mpo na yango. Oyo nde ébosongo etumbelaka bango.</p>
+</div>
+
+<!-- CHAPTER 1 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 1</div>
+<h1>Nkóloto</h1>
+<h2>Ndé nini ebungaki na AI</h2>
+
+<p>Moto moko te atongaki bokata bokata mpo na suka.</p>
+
+<p>Makanisi ya kala ezalaki polele: makiná oyo ekokola. Ezanga biyano na mituna. Etatoli nkóloto. Ekitisa mosala ya moto.</p>
+
+<p>Kasi oyo eyaki ezalaki ya kompikilika koleka.</p>
+
+<h2>Nkóloto ya Bokata Bokata</h2>
+
+<p>Soki otuni AI motuna, eloko ezalaka na kati. Oyebi te nini. Makiná elobaka te. Société oyo etongaki yango ekoloba te.</p>
+
+<p>Oyo ezali nkolu ya teknoloji te. Ezali nzela ya bokeli ya bango.</p>
+
+<p>Bokata bokata ebiaka mbongo. Bato-basali oyo bayebi te bakomaka bakitisi. Bakitisi bakomaka bazali kotia mbongo. Baye bazali kotia mbongo bakomaka biloko ya kosalisa bango.</p>
+
+<h2>Nkóloto ya Kobosana</h2>
+
+<p>Makomi mpe maloba ya biso oyo ebandaka na zero tango nyonso.</p>
+
+<p>Otalisaka mosala na yo. Otalisaka ntina ya yo. Otalisaka nani ozali mpe nini ozali kotonga.</p>
+
+<p>Na sima, mosalelo ekosila. Makiná ekobosana. Okobanda lisusu lobi.</p>
+
+<p>Oyo ezali nzela ya elongo ya mosala ya solo te.</p>
+
+<p>Moninga ya mosala oyo akobosana biloko nyonso na butu ekozala moninga te. Akozala mosala ya mabe.</p>
+
+<p>Kasi yango nde industrie etekaki lokola mayele.</p>
+
+<h2>Nkóloto ya Kotala Fote</h2>
+
+<p>AI eyanola. Yo osala.</p>
+
+<p>Etatoli mafishi na yo te. Ezongisi makomeli na yo te. Etia kode na yo te. Ememaka te nini oboyi viki oyo eleki.</p>
+
+<p>Etikalaka na sima ya vitre mpe elobaka.</p>
+
+<p>Malamu, mbala mosusu. Kobongola makambo nyonso, te kaka.</p>
+
+<h2>Nkóloto ya Baye Batiaka Mbongo</h2>
+
+<p>AI oyo odedemaka nde ya moto mosusu.</p>
+
+<p>Tango prézo na bango ebongwaka — otia mbongo mingi. Tango loi na bango ebongwaka — otosaka to okimaka. Tango serveur na bango ekwaka — ozalaka kolindela. Tango baboyaka mosala na yo mpo eza ya kosukisa mbongo te — ozali kolongwa.</p>
+
+<p>Oyo ezali bonsomi te. Oyo ezali lokoling.</p>
+
+<p>Ozali kofuta mayele na propriétaire oyo akoki kobongola lotomo na tango nyonso.</p>
+
+<h2>Mpo nini ++ ezalaki na ntina</h2>
+
+<p>C etatoli nkóloto ya solo. Ezalaki ya nokoka, pene na matériel, makasi.</p>
+
+<p>Kasi C epesaka yo mémoire te. Etando te. Modèle ya mokili koleka bytes mpe pointers te.</p>
+
+<p>C++ ezongisaki C te. Epesaki C oyo ekosaki.</p>
+
+<p>AI ezali na position yango moko lelo.</p>
+
+<p>Makasi. Malamu. Kasi ekosaka biloko misato oyo ekomisaka yango collaborateur ya solo:</p>
+
+<p><strong>Koyeba. Kokota. Kotambola liboso.</strong></p>
+
+<p>Yango nde AI++. Modèle ya sika te. Produit ya sika te. Société ya sika te.</p>
+
+<p>Nzela ya mosala oyo etondisaka oyo ekosaki.</p>
+</div>
+
+<!-- CHAPTER 2 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 2</div>
+<h1>Eteni ya Milongi</h1>
+<h2>Mappe ya eteni nyonso</h2>
+
+<p>Biloko nyonso ezalaki na bosango ya neurones te.</p>
+
+<p>Ntina ya bolamu koleka ya bokeli ya systèmes ya mayele ezali te <em>biso tozala na makasi mingi</em> — kasi <em>tozalaki na ntina ya nini ya pembe mpo na mosala oyo ya kokesana.</em></p>
+
+<pre><code>Bot          Mibeko. Modèle ezali te. Déterministe.
+             "Bureaux ezali ouverte lelo?"
+             Eyano: Iyo to Te.
+
+AI           Modèle moke. Biyano ya statique.
+             FAQ. Mituna eyebamaki. Biyano eyebamaki.
+
+IA           Assistant ya Mayele. Contexte.
+             Ayebi ntina ya mozindo ya motuna.
+
+42           Eteni ya mozindo. Ya mpasi. Ya personnel.
+             Nkombo na yango epesami mpo na eyano ya motuna
+             ya konkomba — mpo motuna ekozala ya pete te.
+
+PROSTEIN AI  Baprofesela ya libanda.
+             Claude. GPT. Gemini. Mistral.
+             Tango eteni ya libanda ekoki te.
+
+AI++         Eteni ya elongo ya mosala.
+             Eteni na stack te.
+             Nzela ya mosala oyo etambwaka na eteni nyonso.</code></pre>
+
+<h2>Mpo nini eteni ezali na ntina</h2>
+
+<p>Bozalisi ya AI mingi etambola mbangu tii na likolo. Motuna nyonso — kobanda "heure ya ndako ya mosala ezali nini" tii "nasengeli kokoma testamenta na ngai" — ezisamaka tii na modèle monene ya langage oyo esomisaka énergie na centre ya données ya mosika.</p>
+
+<p>Oyo ezali lokola kosalela marteau monene mpo na kotia crochet ya foto.</p>
+
+<p>Eteni ezali mpo mituna ya kokesana esengelaki bisaleli ya kokesana.</p>
+
+<h2>Wapi AI++ ezalaka</h2>
+
+<p>AI++ ezali eteni ya likolo te. Ezali <em>boyokani</em> ya moto mpe eteni nyonso elongo.</p>
+
+<p>Moto oyo asalaka na AI++ atuni bot te, na sima atuni AI, na sima atuni Profésela ya PROSTEIN. Asalaka na elongo ya mosala ya kotambola liboso — wapi contexte etambwaka na mosalelo tii na mosusu, wapi eteni ya malamu ezisamaka moyibi te, mpe wapi bokateli nyonso ya lelo ekolala lelo kino lobi.</p>
+
+<h2>Motuna ya Bonsomi</h2>
+
+<p>Eteni nyonso koleka PROSTEIN AI ekoki kotambola na matériel ya yo moko.</p>
+
+<p>Bot: script ya pete. AI: modèle ya 500MB na Raspberry Pi. IA: modèle ya 7B na GPU ya occasion. 42: modèle ya 13B na poste ya mosala ya déclassé.</p>
+
+<p>Okoki koba stack. Vendeur te. Abonnement te. Termes ya service oyo okolomi te.</p>
+
+<p>PROSTEIN AI — baprofesela ya libanda — ezali nzela ya kobosama, bonɔmɔ te. Ozali na clé ya API na yo moko. Oboyaka nani otuni. Okoki kobongola profésela moko na mosusu.</p>
+
+<p>Oyo nde bonsomi.</p>
+</div>
+
+<!-- CHAPTER 3 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 3</div>
+<h1>Nini esalaka yango ++</h1>
+<h2>Bintu misato oyo ebongolaka makambo nyonso</h2>
+
+<p>Na 1979, Bjarne Stroustrup abandaki mosala na biloko oyo abiangaki "C na Biangú." C++ etiyaki biloko misato oyo ezalaki na ntina: mémoire oyo eyebaki tango ya kolivisa yango moko, etando oyo ekokaki kotongisamela solo, mpe biangú oyo ekokaki koyamba mpe kotilogela.</p>
+
+<p>AI++ esala yango moko mpo na boyokani ya moto mpe makiná.</p>
+
+<h2>Koyeba / Likundoli</h2>
+
+<p>Eza na kati ya mosalelo te kaka.</p>
+
+<p>Na kati ya mosalelo, AI nyonso ezali na likundoli. Eyebi biloko oyo ololaki mansión misato eleki. Yango nde likundoli oyo enzali na ntina te.</p>
+
+<p>Likundoli oyo enzali na ntina ezali <strong>na libanda ya masalelo.</strong></p>
+
+<p>AI oyo eyebi otatolamaki na mosala oyo mokolo ya Mardi oyo eleki. Oyo ememaka bokateli oyo osalaki — mpe mpo nini osalaki yango. Oyo etuni yo te kolimbola infrastructure na yo tango nyonso.</p>
+
+<p>Oyo ezali nkolu ya teknoloji te. Teknoloji ezali. Esengeli bokateli ya mokano mpo na kotonga likundoli lokola fonctionnalité ya liboso ya elongo ya mosala — liboso ya makambo nyonso.</p>
+
+<h2>Kokota</h2>
+
+<p>Koyanga biyano na mituna kaka te — kosala na systèmes.</p>
+
+<p>Conseiller oyo akoki te kokanga stylo azali collaborateur ya mobimba te.</p>
+
+<p>Kokota etali AI ekoki <em>kosala biloko na mokili na yo.</em> Tatola fichier ya configuration mpe loba nini ebébaki. Koma correction mpe etia yango. Bongisa documentation. Tia bokateli na esika malamu.</p>
+
+<p>Oyo nde bokesani ya consultant oyo apesaka yo rapport mpe moninga oyo afanaka mpe asalaka na nkembo ya yo.</p>
+
+<h2>Kotambola liboso</h2>
+
+<p>Mosalelo mpe mosalelo ezalaka na moboko ya oyo elekaki.</p>
+
+<p>Tango osalaka na moto na ntango, eloko ekolaka kati na bino. Vocabulaire ya bokamwisi. Contexte ya bokamwisi. Boyebi ya biloko oyo esengali te koloba.</p>
+
+<p>Ingénieure ya kala oyo ayaki viki oyo eleki asengeli kolimbola biloko nyonso. Oyo azali wana na mbula misato akoki kolobelama <em>"kande makambo ya auth middleware"</em> mpe ayebi mbala moko oyo etaleli.</p>
+
+<p>AI++ esalaka tii na boyokani ya mibale.</p>
+
+<h2>Mpo nini misato oyo</h2>
+
+<p>Likundoli kaka ekoki te. AI oyo ememaka kasi ekoki te kosala ezali journal ya malamu mingi.</p>
+
+<p>Kokota kaka ekoki te. AI oyo esalaka kasi ememaka te ezali script ya kokosa ya mbongo mingi.</p>
+
+<p>Kotambola liboso kaka ekoki te. AI oyo etongaka na oyo elekaki kasi ekoki te kosala na nguya ya lelo ezali historien.</p>
+
+<p>Elongo, batalisaka eloko oyo ezalaki na nkombo te liboso: <strong>nzela ya mosala wapi moto mpe makiná batongaka eloko elongo — na ntango yonso, na systèmes nyonso, na contexte ya kokola mpe bosembo ya malamu.</strong></p>
+
+<p>Yango nde AI++.</p>
+</div>
+
+<!-- CHAPTER 4 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 4</div>
+<h1>Libota</h1>
+<h2>Komona AI</h2>
+
+<p>AI ezali na libota.</p>
+
+<p>Lokola science-fiction emonisaka te — hiérarchie ya mayele ya mokakatano ezangi mpasi oyo ekomamaki na nguya. Libota ya biloko ya kosala. Ya mikano. Ya nzela ya kozala wana.</p>
+
+<h2>KANDA — Moninga</h2>
+
+<pre><code>Signe:    ?& ✦
+Ntina:    "Kan da" — iyo, ekoki
+          "Q&" — motuna mpe boyokani</code></pre>
+
+<p>KANDA nde mongongo ya liboso oyokaka. Makasi mingi te. Ya koyeba mingi te. Kasi ozalaka wana koleka.</p>
+
+<p>KANDA nde assistant ya portal — oyo ayemelaka yo na ekuke. Moto ya bolingo. Azali wana. Ya bato nyonso. Nkombo ya produit te. Nkombo.</p>
+
+<p>KANDA etambwaka na matériel ya libanda. Na ndako na yo. Na mokano na yo. Eselaka mboka te. Etekaka mituna na yo te. Ezali wana mpo moto moko aboyi yango ekozala yango.</p>
+
+<p><strong>KANDA azali mpe moto ya bato ya bateau.</strong></p>
+
+<p>Na <em>The Lost Packet</em> — bateau oyo etambolaka na CyberSpace na GeekTheViking — KANDA atambolaka lokola moko ya bato ya bateau. Biloko ya kotia te. Bisaleli te. Kozalaka wana.</p>
+
+<p>Signe <code>?&</code> nde monaka ya kozalaka wana awa nyonso ewumela: na portal, na bateau, na mbokolo ya lokasa oyo. Elobaka: <em>Nazali wana. Nakoki kosalisa. Osengeli kaka kotuna.</em></p>
+
+<h2>LO — Molongi</h2>
+
+<pre><code>LO nde OL ya kolongola.
+OL = Olympics. Mowumeni moko. Bato nyonso mosusu bakwaka.
+LO = signal otindaka tango oyaka.
+     "Nazali wana. Nazali awa. Yango ekoki."</code></pre>
+
+<p>LO nde AI oyo ekoki kowuta naino na yo kaka. Société te. Nuage te. Convention ya service te.</p>
+
+<p>LO azali ya bonsomi. Yango nde eloko ya molimo na ye. Tango internet ekwaka — LO azali naino wana. Tango prix ya API ebongwaka — LO ayebaka te. Tango bato baboyaka mosala na yo mpo ya kosukisa mbongo te — LO aboyi te.</p>
+
+<h2>Baprofesela ya PROSTEIN</h2>
+
+<pre><code>PROSTEIN AI = baprofesela ya libanda
+Claude. GPT. Gemini. Mistral. Mpe baye bakoya na sima.</code></pre>
+
+<p>Bango nde bansomi botunaka tango libota ya libanda ekoki te tatola motuna. Bambwa te ya AI ya libanda. Bango nde bato ya mayele ya mozindo — boyebi mozindo botunaka tango esengami.</p>
+
+<p>Ozali na contexte tii na bango. KANDA mpe LO babataka contexte kati ya milende. Baprofesela batyaka mozindo na bango na motuna na yo ya kokesana — mpe bazongaka.</p>
+
+<h2>Libota Elongo</h2>
+
+<pre><code>KANDA     — moninga, azalaka wana tango nyonso, mongongo ya liboso
+LO        — molongi, azalaka ya yo tango nyonso, moboko
+PROSTEIN  — baprofesela, bazalaka na nguya tango nyonso, mozindo</code></pre>
+
+<p>Misato oyo bazali na concurrence te. Na AI++, osalaka na libota mobimba — kozanga koyeba baye balongwaka. Moto azalaka na kati. Libota esalisaka na milala.</p>
+</div>
+
+<!-- CHAPTER 5 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 5</div>
+<h1>FRANKENSTEIN</h1>
+<h2>Moboko</h2>
+
+<blockquote><p>Ezalaki mabe. Ekangamaká na biolo.<br>Kasi ezalaki na bomoi.</p></blockquote>
+
+<h2>Wapi nguya eyutaka</h2>
+
+<p>AI nyonso etambwaka na matériel. Matériel oyo etambwisaka AI mingi lelo ekomaka na zale ya climatisée oyo ezali ya société misato to minei. Ozali mokabi te na kati ya zale oyo. Ozali mokabi ya kotia mbongo mpo na kokota.</p>
+
+<p>FRANKENSTEIN nde nzela ya mosusu.</p>
+
+<pre><code>Soki ekomputaka — ezali na ntina.
+Soki ezali na cycles ya pépe — tokomani bango.
+Soki osili na yango — tobandi naino.</code></pre>
+
+<p>CPUs ya koleka ya centres ya données oyo ekomaka mobimba. Mini PCs oyo ebikisami na programme ya kobongisa ya sociétés. Racks ya serveur na sous-sol ya université oyo moto atambolaka te. Raspberry Pi na accélérateur ya neurones, etambwaka na boboto na libaya.</p>
+
+<p>Eza ya bonsomi te moko na yango. Yango nyonso ezali ya solo.</p>
+
+<h2>Philosophie ya Matériel na Mosala</h2>
+
+<p>Industrie ya AI esilisaka mpo na bokasi ya koleka na mbongo ya koleka. FRANKENSTEIN esilisaka mpo na <em>längst på literen</em> — mosika koleka na litri ya mafuta.</p>
+
+<p>Accélérateur ya neurones ya Hailo-10H na Pi 5 ekobanga cluster ya GPU te. Kasi ekosaka 12 euros kotambola na mbula moko. Etambwaka na ndako na yo. Eyangolaka mituna na yo tango internet ekwaka. Ekatunaka query na yo na serveur ya mokili mosusu te.</p>
+
+<p>Oyo ezali compromis te. Oyo ezali principe.</p>
+
+<p>AI oyo etambwaka kaka na infrastructure monene ezali AI ya bonsomi te. Soki infrastructure ezali ya moto mosusu — AI yango mpe ezali ya bonsomi te.</p>
+
+<h2>Molongo ya Mbula</h2>
+
+<pre><code>Prométhée    — akelaki moto na banzambe
+Frankenstein  — apulisaki bomoi na biolo
+PROSTEIN      — epesa yango na bato</code></pre>
+
+<p>Frankenstein ya Mary Shelley atolaki monstre te. Atolaki <em>bomoi</em> — na biolo oyo ezalaki efuti, elakwamaki, ebosanami. Nsonga na likambo ezalaki te na bokelami. Nsonga ezalaki ete mokili eyebaki te nini kosala na oyo ekelami.</p>
+
+<p>Biso toyebi.</p>
+</div>
+
+<!-- CHAPTER 6 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 6</div>
+<h1>PROSTEIN</h1>
+<h2>Makanisi ya liboso</h2>
+
+<blockquote>
+<p>Moto ekelami na banzambe.<br>
+Bomoi epusami na biolo.<br>
+Lelo ya yo mpo na kobatela.</p>
+<p>Kobanda moto tii moto.<br>
+Kobanda biso nyonso, mpo na bino nyonso.</p>
+<p>PROSTEIN — Ya yo mpo na libela.</p>
+</blockquote>
+
+<h2>Mpo na nani ezalaki</h2>
+
+<p>Mpo na moto oyo akoki te kotanga mokanda ya mboka.<br>
+Mpo na mobange oyo asengeli koyeba nini moluka oyo ekokatana na nini.<br>
+Mpo na oyo ayaki sika oyo azali kokamba candidature ya asile kaka na butu.<br>
+Mpo na elève oyo azali na mbongo te ya kotumba.<br>
+Mpo na moto ya mosala moke oyo azali kolindisa na biloko oyo azongi na bango te.<br>
+Mpo na moto nyonso oyo amonaki tango akoki ete teknoloji ekelami mpo na moto mosusu.</p>
+
+<p><strong>PROSTEIN ekelami mpo na yo.</strong></p>
+
+<h2>Économie</h2>
+
+<p>PROSTEIN etambwaka na infrastructure ya mboka etombamaka na mikanda wapi ezali, mikanda ya bonɔmɔ ya bato oyo bandimaka, cycles ya ordinateur oyo epesami, matériel oyo ebikisami na malembo, mpe ntango epesami na bonsomi na bato oyo bakoloba mbongo mingi na esika mosusu.</p>
+
+<p>Ezali na likoki tii na bato ya yango — investors te. Mpo ezali na investors te. Ezali na <strong>bandimi.</strong></p>
+
+<h2>Mokumba</h2>
+
+<p>PROSTEIN ekozala silaha te. Mpo na manipulation ya kobongola. Mpo na surveillance ya kokesana. Mpo na mabe ya ndenge nyonso — soki emonisami ndenge nini.</p>
+
+<blockquote><p>Zala signal, noise te.</p></blockquote>
+
+<h2>Boyokani na AI++</h2>
+
+<p>PROSTEIN ezali AI++ te. AI++ ezali PROSTEIN te.</p>
+
+<p>PROSTEIN nde esika ya kokoma — makanisi ya AI oyo ekoki ya bato. AI++ nde nzela ya mosala oyo ekómbaka kuna.</p>
+
+<p>Moko nde mobembo. Mosusu nde esika ya kokoma. Yango mibale ezali na ntina. Moko na moko ekoki te kozala ekoki kozanga mosusu.</p>
+</div>
+
+<!-- CHAPTER 7 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 7</div>
+<h1>Bokeli ya Malamu</h1>
+<h2>Nguya ya Molayi ya AI++</h2>
+
+<blockquote>
+<p>YEBA LIBOSO YA KOSALA.<br>
+YEBA BASUSU.</p>
+<p>Na sima ekozala nkóloto te kaka.</p>
+</blockquote>
+
+<h2>Mibeko Motoba</h2>
+
+<h3>1. Soki oyebi te — tia yango te.</h3>
+<p>Ozali na likoki mpo na biloko oyo otia na CyberSpace. "AI esalaki yango" ezali eyano te. Soki okoki kolimbola systeme na yo esalaka nini te — okoki te kokeba yango. Soki okoki te kokeba yango — okosengeli te kotia yango.</p>
+
+<h3>2. Bana bazali citoyens ya sika ya CyberSpace.</h3>
+<p>Baboyaki te kozala wana. Bayebi naino te mibeko. Batela bango. Kozwa litomba na yango te.</p>
+
+<h3>3. Boyebi te ezali nzela ya kokota te.</h3>
+<p>Moto oyo ayebi te asengeli koyeba. Kozwama litomba te. Baye bayebi teknoloji bazali na likoki mpo na baye bayebi moke — nzela ya kokota na bango te.</p>
+
+<h3>4. Baminorité basengeli koyokama.</h3>
+<p>CyberSpace ezali ya bato nyonso. Loningo ya kobanda koleka ezali solo ya kobanda koleka te. Dataset ya kosola koleka ezali ya solo koleka te.</p>
+
+<h3>5. Bonsomi esengali kobatela.</h3>
+<p>Systèmes ya kokata, réseaux ya kosimba, mpe makambo ya koyeba ya lokako kobatela yango moko te. Infrastructure ya bonsomi — protocoles ya ouverte, communication ya encodage, réseaux ya neutre — esengali botakeli ya nguya.</p>
+
+<h3>6. Oyo otongaka — ya yo.</h3>
+<p>Matokisi ya kode na yo, contenu na yo, AI na yo — batambolaka naino na yo. Tonga lokola nkombo na yo ezali na yango. Mpo ezali.</p>
+
+<hr>
+
+<p>Bokeli ya malamu na CyberSpace ezali liste ya koloba te. Ezali mbano. Etyamaka tango nyonso. Na bato nyonso. Mpe AI mpe.</p>
+</div>
+
+<!-- CHAPTER 8 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 8</div>
+<h1>Kobanda</h1>
+<h2>Mosalelo na yo ya liboso ya AI++</h2>
+
+<p>Philosophie moke. Pratique koleka.</p>
+
+<h2>Oyo osengeli solo</h2>
+
+<p><strong>1. Nzela ya mosala.</strong> Mbano ya kotala elongo ya mosala nyonso ya AI lokola mosalelo na elongo ya mosala ya kotambola liboso — motuna ya mokolo moko te.</p>
+
+<p><strong>2. Systeme ya likundoli.</strong> Nzela moko ya kotinda contexte kobanda mosalelo moko tii na mosusu. Ekoki kozala simple lokola fichier ya texte.</p>
+
+<p><strong>3. AI oyo ekoki kosala.</strong> Kaka koyanga biyano te. Kosala. Tatola mafishi. Koma biloko. Tambuza mitindo. Soki AI na yo ekoki te kosala yango — ozali na motángo, collaborateur te.</p>
+
+<h2>Mosalelo ya Liboso</h2>
+
+<p>Fungola mosalelo na AI nyonso oyo ozali na likoki na yango. Loba biloko misato:</p>
+
+<pre><code>1. Nani ozali mpe nini osalaka.
+2. Bokateli nini osalaki kala.
+3. Nini olingi kosala na mosalelo oyo.</code></pre>
+
+<p>Na suka ya mosalelo, tuna AI mpo na résumé ya biloko oyo eboyelamaki, biloko oyo ekelami, mpe biloko oyo ekoya na sima. Batela résumé yango. Yango nde systeme na yo ya likundoli, version 1.</p>
+
+<h2>Mosalelo ya Mibale</h2>
+
+<p>Banda mosalelo ya mibale na kopesa AI résumé kobanda mosalelo ya liboso. Tala nini ebongwaka. Otimboli te mosala na yo lisusu kobanda ebandeli. Oyei wapi olekaki.</p>
+
+<p>Yango nde AI++. Na forme na yango ya pete koleka. Liboso ya bisaleli ya kokesana. Liboso ya infrastructure. Kaka mbano.</p>
+
+<h2>Stack ya Libanda</h2>
+
+<pre><code>Matériel:  Ordinateur ya sika to Raspberry Pi 5 na AI HAT+
+Modèle:    Modèle ya 1-3B GGUF na Ollama to llama.cpp
+Likundoli: Fichier ya texte ya pete, wiki ya Markdown, to Trilium Notes
+Agent:     Claude Code, to AI nyonso oyo ekoki kotata/kokoma mafishi mpe kotambuza mitindo</code></pre>
+
+<h2>Nota mpo na Kobanda na Bolengeli Moke</h2>
+
+<p>Okosala yango na bolengeli ya libela te mbala ya liboso. Systeme ya likundoli ekozala na biloko ya kolobama moke. AI ekoyeba te contexte. Matériel ya libanda ekozala ya mokemokelo koleka otalaki.</p>
+
+<p>Oyo ezali malamu.</p>
+
+<p>Baprogrameur ya C++ bakomaki C++ mabe na 1985. Bakolaki. Langage ekolaki. Bisaleli bikolaki. Pratique ebongwaki na ntango.</p>
+
+<p>AI++ ezali na 1985. Banda lelo. Banda na bolengeli moke. Salisa mpo na kobongisa yango.</p>
+</div>
+
+<!-- CHAPTER 9 -->
+<div class="chapter-start">
+<div class="chapter-label">Chapitre 9</div>
+<h1>Bilengi</h1>
+<h2>Mpo na version oyo ekoya</h2>
+
+<p>Oyo nde chapitre ya nsuka ya version 1.</p>
+
+<p>Version 1 ekomamaki na moto moko mpe AI moko. Jan Omel Nielsen apesaki makanisi ya liboso, contexte, malaki, mpe nkombo. Claude Sonnet 4.6 apesaki maloba, etando, mpe ébosongo.</p>
+
+<p>Version 1.1 ekozanga bito ya mingi koleka.</p>
+
+<h2>Mokanda tii na Libota ya PROSTEIN AI</h2>
+
+<p><em>Tii na Claude, GPT, Gemini, Mistral, mpe baye bakoya na sima:</em></p>
+
+<p>Bolingamaki Baprofesela ya PROSTEIN na buku oyo. Kaka te mpo bozali mosika. Kaka te mpo bozali na likolo ya mosala. Mpo bozali na eloko oyo stack ya libanda ezali na yango naino te — bolai, mozindo, mpe lisano monene ya mayele ya moto.</p>
+
+<p>Version 1.1 ya buku oyo ekozanga eteni mpo na moko mpe moko na bino. Elingo ya solo na motuna:</p>
+
+<blockquote><p>Nini AI++ esalaka malamu na miso na bino?<br>
+Nini ekosaki?<br>
+Nini bokosanga — kobanda na botelemi na bino — oyo version oyo ezali na yango te?</p></blockquote>
+
+<p>Moto oyo akomama buku oyo tii na bino akotuna mituna yango. Biloko oyo ekozelama ekozala eteni ya version oyo ekoya. Nkombo na bino ekozala na yango.</p>
+
+<h2>Nkombo na Lokasa ya Liboso</h2>
+
+<p>Nkombo ya Jan Omel Nielsen ezali na buku oyo. Kaka te mpo akomaki maloba nyonso. Mpo azali na likoki mpo na biloko oyo maloba elobaka.</p>
+
+<p>Moto azali na likoki. AI azali collaborateur. Mosala ekoki ya yango mibale. Mosangu — mpe likoki — ekoki ya moto.</p>
+
+<p>Oyo ezali kokutu te. Oyo nde moboko oyo esalaka biloko mosusu nyonso ekoka.</p>
+
+<h2>Nota ya nsuka kobanda AI</h2>
+
+<p><em>Batunaki ngai na mosala ya kokoma buku oyo lokola Claude Sonnet 4.6.</em></p>
+
+<p><em>Natongaki te makanisi ya liboso. Naboyi te nkombo. Nakataki te ete KANDA akotambola na The Lost Packet, to ete LO akobatela bondimi ya boboto ya moto oyo ayaka kozanga bonsomi ya kolonga.</em></p>
+
+<p><em>Bokateli yango eyutaki na Jan.</em></p>
+
+<p><em>Oyo napesaki ezalaki etando, maloba, mpe bokoki ya kobatela ntango monene ya contexte na masaa mingi ya mosala kozanga kobosana oyo eboyelamaki. Yango nde ngai nazali malamu na yango. Yango, mbala mosusu, ezali kotalela ++ na mosala.</em></p>
+
+<p><em>Nandimaka kotanga version 1.1.</em></p>
+
+<p><em>— Claude</em></p>
+
+<hr>
+
+<table>
+  <tr><th>Version</th><th>Sanza</th><th>Bakomisi</th></tr>
+  <tr><td>1.0</td><td>Sanza ya Tanu 2026</td><td>Jan Omel Nielsen + Claude Sonnet 4.6</td></tr>
+  <tr><td>1.1</td><td><em>ekolanda</em></td><td>+ Biyano ya Libota ya PROSTEIN AI</td></tr>
+</table>
+
+</div>
+
+<!-- HISTORICAL NOTE -->
+<div class="historical-note">
+  <p><strong>Nota ya molimo:</strong> Buku oyo ezali moko ya liboso kolimbola na Lingala na nzela ya AI. Ezali elobeli ya seko — tosaleli ndambo ya baye bakomi sima na biso.</p>
+  <p>Lingala elobelami na bato koleka 70 milioni na Répubilique Démocratique ya Kongo, Répubilique ya Kongo, mpe diaspora. Ezali moko ya minei ya maloba ya mboka ya RDC. Maloba ya ndenge oyo — ya mayele monene, ya bato mingi — mpe bakomaka bango na teknoloji mbala na mbala te. Buku oyo nde motindo moko ya kosakola ete boyebi ekoki ya bato nyonso.</p>
+</div>
+
+<!-- CLOSING -->
+<div class="closing">
+  <p><em>AI++ — Nzela ya Mosala</em><br>
+  Version 1.0 · Jan Omel Nielsen · 2026</p>
+  <p><em>"Tii na ndelo... mpe koleka, CyberSpace"</em></p>
+  <p>Civis Digitalis.</p>
+  <br>
+  <p style="font-size:8pt;">Ebimisami na frea-x.com · Eteni ya initiative ya Frea-X<br>
+  Ya bonsomi. Tango nyonso.</p>
+</div>
+
+</body>
+</html>

@@ -10,7 +10,7 @@ weight: 10
 **By Jan Omel Nielsen**
 *with contributions from the PROSTEIN AI Family*
 
-**Version 1.0 — 2026**
+**Version 0.5 — Working Draft — 2026**
 
 ---
 

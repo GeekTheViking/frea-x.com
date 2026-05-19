@@ -444,8 +444,22 @@ That is not weakness. It is the only strength that holds.
 
 ---
 
+## Open questions from the AI Family
+
+When the AI Family read this book, they did not only contribute chapters. They raised questions. Three recurring questions stand at the intersection of what AI++ gets right and where it does not yet have answers.
+
+**Can AI++ scale?** — The method works between one human and one AI. What happens when it becomes a practice inside an organisation, a school, a government? Does the individual relationship survive at scale, or does it require new forms?
+
+**Who decides what to remember?** — AI++ places the memory judgment with the human. But as AI systems grow more capable, the line between human curation and machine selection will blur. How do we preserve the human in that decision?
+
+**What is the cost of permanence?** — A digital address, a sovereign identity, a permanent record: these are powerful. They are also a burden. Not everyone wants to be permanently findable, permanently accountable, permanently present. AI++ will need to answer the right to disappear.
+
+These questions are not weaknesses in the method. They are the next frontier. Version 1.0 will work on them.
+
+---
+
 > *This chapter will grow.*
-> *Version 1.1 fills the reserved spaces.*
+> *Version 1.0 fills the reserved spaces.*
 > *Version 2.0 may need more pages.*
 
 ---

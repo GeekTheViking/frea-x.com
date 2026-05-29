@@ -199,6 +199,49 @@
             color: var(--fx-cyan);
             text-shadow: 0 0 8px var(--fx-cyan);
         }
+
+        /* CALL TO ACTION */
+        .fx-cta {
+            max-width: 760px;
+            margin: 50px auto 10px;
+            padding: 28px 30px;
+            text-align: center;
+            border: 1px solid var(--fx-cyan);
+            border-radius: 10px;
+            background: var(--fx-white-faint);
+        }
+        .fx-cta-head { color: var(--fx-cyan); font-size: 1.15em; letter-spacing: 1px; margin-bottom: 8px; }
+        .fx-cta p { color: var(--fx-white-dim); margin: 6px 0 16px; }
+        .fx-cta-btn {
+            display: inline-block;
+            background: var(--fx-cyan);
+            color: var(--fx-purple) !important;
+            text-decoration: none !important;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding: 12px 26px;
+            border-radius: 6px;
+        }
+        .fx-cta-btn:hover { background: var(--fx-cyan-dim); text-shadow: none !important; }
+
+        /* PRINT BUTTON + PRINT STYLESHEET (checklist handout) */
+        .fx-print-btn {
+            display: block; margin: 0 0 20px; cursor: pointer;
+            background: var(--fx-cyan); color: var(--fx-purple);
+            border: none; font-weight: bold; letter-spacing: 1px;
+            padding: 10px 22px; border-radius: 6px; font-size: 0.95em;
+        }
+        .fx-print-btn:hover { background: var(--fx-cyan-dim); }
+        @media print {
+            .fx-nav, .fx-subnav, .fx-cta, .fx-footer, .fx-print-btn, .fx-back { display: none !important; }
+            body, #R-body { background: #fff !important; }
+            .fx-content { color: #000 !important; }
+            .fx-content h1 { color: #000 !important; border-color: #999 !important; }
+            .fx-content h2 { color: #146b5a !important; border-color: #ccc !important; }
+            .fx-content h3, .fx-content p, .fx-content li, .fx-content td,
+            .fx-content strong, .fx-content em, .fx-content th { color: #000 !important; }
+            .fx-content a { color: #146b5a !important; }
+        }
     </style>
 </head>
 <body>
@@ -232,13 +275,23 @@
         <a href="{{ "datacenter/manifesto/" | relURL }}">Manifesto</a>
         <a href="{{ "datacenter/certification/" | relURL }}">Certification</a>
         <a href="{{ "datacenter/whitepaper/" | relURL }}">Whitepaper</a>
+        <a href="{{ "datacenter/scorecard/" | relURL }}">Scorecard</a>
+        <a href="{{ "datacenter/checklist/" | relURL }}">Checklist</a>
     </nav>
     {{ end }}
 
     <div class="fx-subpage-content">
         <main class="fx-content">
+            {{ if .Params.printable }}<button onclick="window.print()" class="fx-print-btn">🖨️ Print / Save as PDF</button>{{ end }}
             {{ .Content }}
         </main>
+        {{ if and (eq .Section "datacenter") (not .Params.hide_cta) }}
+        <aside class="fx-cta">
+            <p class="fx-cta-head">Are you a local citizen — in Faxe, or anywhere?</p>
+            <p>The Shield Checklist gives you the exact questions to demand of any datacenter project in your community.</p>
+            <a href="{{ "datacenter/checklist/" | relURL }}" class="fx-cta-btn">📋 Get the Shield Checklist →</a>
+        </aside>
+        {{ end }}
     </div>
 
     <footer class="fx-footer">

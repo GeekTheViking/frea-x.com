@@ -167,6 +167,38 @@
         .fx-breadcrumb a:hover {
             color: var(--fx-cyan);
         }
+
+        /* CONTENT IMAGES (badge, location photos) */
+        .fx-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 25px auto;
+            border-radius: 8px;
+        }
+
+        /* SECTION SUB-NAV (Datacenter) */
+        .fx-subnav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 6px 22px;
+            padding: 14px 20px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(0,255,204,0.2);
+            background: var(--fx-purple-dark);
+        }
+        .fx-subnav a {
+            color: var(--fx-cyan-dim);
+            text-decoration: none;
+            font-size: 0.8em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .fx-subnav a:hover {
+            color: var(--fx-cyan);
+            text-shadow: 0 0 8px var(--fx-cyan);
+        }
     </style>
 </head>
 <body>
@@ -188,9 +220,20 @@
             <li class="fx-nav-sep">|</li>
             <li><a href="{{ "cyberspace/" | relURL }}">CyberSpace</a></li>
             <li class="fx-nav-sep">|</li>
+            <li><a href="{{ "datacenter/" | relURL }}">Datacenter</a></li>
+            <li class="fx-nav-sep">|</li>
             <li><a href="{{ "eastereggs/" | relURL }}">Easter Eggs</a></li>
         </ul>
     </nav>
+
+    {{ if eq .Section "datacenter" }}
+    <nav class="fx-subnav">
+        <a href="{{ "datacenter/" | relURL }}">Overview</a>
+        <a href="{{ "datacenter/manifesto/" | relURL }}">Manifesto</a>
+        <a href="{{ "datacenter/certification/" | relURL }}">Certification</a>
+        <a href="{{ "datacenter/whitepaper/" | relURL }}">Whitepaper</a>
+    </nav>
+    {{ end }}
 
     <div class="fx-subpage-content">
         <main class="fx-content">
